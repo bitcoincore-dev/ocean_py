@@ -12,3 +12,4 @@ pip install requests
 # ./ocean_stats.py
 # ./ocean_health.py
 ./ocean_reward_delta.py
+./ocean_total.py

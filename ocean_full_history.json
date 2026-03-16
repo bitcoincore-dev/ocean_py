@@ -1,0 +1,4994 @@
+[
+    {
+        "height": 940893,
+        "health": 96.13,
+        "loss_sats": 12660675,
+        "loss_usd": 9435.24
+    },
+    {
+        "height": 940870,
+        "health": 98.67,
+        "loss_sats": 4235925,
+        "loss_usd": 3156.78
+    },
+    {
+        "height": 940830,
+        "health": 89.47,
+        "loss_sats": 36964625,
+        "loss_usd": 27547.52
+    },
+    {
+        "height": 940828,
+        "health": 99.12,
+        "loss_sats": 2788095,
+        "loss_usd": 2077.8
+    },
+    {
+        "height": 940726,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 940595,
+        "health": 84.66,
+        "loss_sats": 56841870,
+        "loss_usd": 42360.84
+    },
+    {
+        "height": 940506,
+        "health": 94.39,
+        "loss_sats": 18724652,
+        "loss_usd": 13954.36
+    },
+    {
+        "height": 940403,
+        "health": 99.52,
+        "loss_sats": 1511512,
+        "loss_usd": 1126.44
+    },
+    {
+        "height": 940306,
+        "health": 77.72,
+        "loss_sats": 89946980,
+        "loss_usd": 67032.09
+    },
+    {
+        "height": 940267,
+        "health": 98.68,
+        "loss_sats": 4185085,
+        "loss_usd": 3118.89
+    },
+    {
+        "height": 940192,
+        "health": 99.03,
+        "loss_sats": 3072031,
+        "loss_usd": 2289.4
+    },
+    {
+        "height": 940054,
+        "health": 95.97,
+        "loss_sats": 13189213,
+        "loss_usd": 9829.13
+    },
+    {
+        "height": 940050,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 939994,
+        "health": 99.12,
+        "loss_sats": 2780296,
+        "loss_usd": 2071.99
+    },
+    {
+        "height": 939977,
+        "health": 99.21,
+        "loss_sats": 2490648,
+        "loss_usd": 1856.13
+    },
+    {
+        "height": 939912,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 939894,
+        "health": 98.79,
+        "loss_sats": 3833542,
+        "loss_usd": 2856.91
+    },
+    {
+        "height": 939890,
+        "health": 98.21,
+        "loss_sats": 5779279,
+        "loss_usd": 4306.95
+    },
+    {
+        "height": 939810,
+        "health": 96.48,
+        "loss_sats": 11440697,
+        "loss_usd": 8526.07
+    },
+    {
+        "height": 939657,
+        "health": 93.45,
+        "loss_sats": 22034735,
+        "loss_usd": 16421.17
+    },
+    {
+        "height": 939641,
+        "health": 91.15,
+        "loss_sats": 30377629,
+        "loss_usd": 22638.62
+    },
+    {
+        "height": 939634,
+        "health": 98.74,
+        "loss_sats": 4005926,
+        "loss_usd": 2985.38
+    },
+    {
+        "height": 939528,
+        "health": 99.79,
+        "loss_sats": 662915,
+        "loss_usd": 494.03
+    },
+    {
+        "height": 939497,
+        "health": 98.72,
+        "loss_sats": 4074261,
+        "loss_usd": 3036.3
+    },
+    {
+        "height": 939417,
+        "health": 94.51,
+        "loss_sats": 18254467,
+        "loss_usd": 13603.96
+    },
+    {
+        "height": 939339,
+        "health": 99.56,
+        "loss_sats": 1401984,
+        "loss_usd": 1044.81
+    },
+    {
+        "height": 939319,
+        "health": 97.12,
+        "loss_sats": 9317946,
+        "loss_usd": 6944.11
+    },
+    {
+        "height": 939263,
+        "health": 97.39,
+        "loss_sats": 8420412,
+        "loss_usd": 6275.23
+    },
+    {
+        "height": 939261,
+        "health": 95.7,
+        "loss_sats": 14262697,
+        "loss_usd": 10629.13
+    },
+    {
+        "height": 939239,
+        "health": 86.29,
+        "loss_sats": 49694062,
+        "loss_usd": 37034.0
+    },
+    {
+        "height": 939232,
+        "health": 94.76,
+        "loss_sats": 17421641,
+        "loss_usd": 12983.3
+    },
+    {
+        "height": 939231,
+        "health": 97.13,
+        "loss_sats": 9309402,
+        "loss_usd": 6937.74
+    },
+    {
+        "height": 939206,
+        "health": 96.17,
+        "loss_sats": 12528606,
+        "loss_usd": 9336.82
+    },
+    {
+        "height": 939172,
+        "health": 97.54,
+        "loss_sats": 7926746,
+        "loss_usd": 5907.33
+    },
+    {
+        "height": 939114,
+        "health": 98.09,
+        "loss_sats": 6177366,
+        "loss_usd": 4603.62
+    },
+    {
+        "height": 939042,
+        "health": 97.83,
+        "loss_sats": 6932208,
+        "loss_usd": 5166.16
+    },
+    {
+        "height": 938971,
+        "health": 97.69,
+        "loss_sats": 7427147,
+        "loss_usd": 5535.01
+    },
+    {
+        "height": 938929,
+        "health": 96.84,
+        "loss_sats": 10278547,
+        "loss_usd": 7659.98
+    },
+    {
+        "height": 938903,
+        "health": 96.17,
+        "loss_sats": 12535334,
+        "loss_usd": 9341.83
+    },
+    {
+        "height": 938853,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 938740,
+        "health": 99.75,
+        "loss_sats": 795284,
+        "loss_usd": 592.68
+    },
+    {
+        "height": 938689,
+        "health": 96.55,
+        "loss_sats": 11257772,
+        "loss_usd": 8389.74
+    },
+    {
+        "height": 938657,
+        "health": 97.99,
+        "loss_sats": 6468318,
+        "loss_usd": 4820.45
+    },
+    {
+        "height": 938616,
+        "health": 97.43,
+        "loss_sats": 8295333,
+        "loss_usd": 6182.01
+    },
+    {
+        "height": 938598,
+        "health": 99.71,
+        "loss_sats": 910820,
+        "loss_usd": 678.78
+    },
+    {
+        "height": 938470,
+        "health": 99.44,
+        "loss_sats": 1787794,
+        "loss_usd": 1332.34
+    },
+    {
+        "height": 938418,
+        "health": 53.89,
+        "loss_sats": 269127922,
+        "loss_usd": 200564.89
+    },
+    {
+        "height": 938402,
+        "health": 96.1,
+        "loss_sats": 12790268,
+        "loss_usd": 9531.82
+    },
+    {
+        "height": 938311,
+        "health": 99.54,
+        "loss_sats": 1445924,
+        "loss_usd": 1077.56
+    },
+    {
+        "height": 938293,
+        "health": 99.64,
+        "loss_sats": 1135979,
+        "loss_usd": 846.58
+    },
+    {
+        "height": 938291,
+        "health": 99.66,
+        "loss_sats": 1083006,
+        "loss_usd": 807.1
+    },
+    {
+        "height": 938133,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 938003,
+        "health": 99.7,
+        "loss_sats": 943828,
+        "loss_usd": 703.38
+    },
+    {
+        "height": 937958,
+        "health": 97.6,
+        "loss_sats": 7706187,
+        "loss_usd": 5742.96
+    },
+    {
+        "height": 937907,
+        "health": 74.22,
+        "loss_sats": 109073651,
+        "loss_usd": 81286.05
+    },
+    {
+        "height": 937713,
+        "health": 99.68,
+        "loss_sats": 1017028,
+        "loss_usd": 757.93
+    },
+    {
+        "height": 937624,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 937560,
+        "health": 93.8,
+        "loss_sats": 20722942,
+        "loss_usd": 15443.57
+    },
+    {
+        "height": 937545,
+        "health": 97.44,
+        "loss_sats": 8329864,
+        "loss_usd": 6207.75
+    },
+    {
+        "height": 937541,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 937331,
+        "health": 99.35,
+        "loss_sats": 2049991,
+        "loss_usd": 1527.74
+    },
+    {
+        "height": 937318,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 937030,
+        "health": 98.06,
+        "loss_sats": 6247317,
+        "loss_usd": 4655.75
+    },
+    {
+        "height": 937007,
+        "health": 96.53,
+        "loss_sats": 11257922,
+        "loss_usd": 8389.85
+    },
+    {
+        "height": 936913,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 936626,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 936551,
+        "health": 96.87,
+        "loss_sats": 10124728,
+        "loss_usd": 7545.35
+    },
+    {
+        "height": 936532,
+        "health": 96.32,
+        "loss_sats": 11996671,
+        "loss_usd": 8940.4
+    },
+    {
+        "height": 936517,
+        "health": 95.49,
+        "loss_sats": 14794520,
+        "loss_usd": 11025.47
+    },
+    {
+        "height": 936417,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 936382,
+        "health": 99.44,
+        "loss_sats": 1798547,
+        "loss_usd": 1340.35
+    },
+    {
+        "height": 936370,
+        "health": 97.6,
+        "loss_sats": 7746893,
+        "loss_usd": 5773.29
+    },
+    {
+        "height": 936337,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 936241,
+        "health": 99.94,
+        "loss_sats": 191153,
+        "loss_usd": 142.45
+    },
+    {
+        "height": 936237,
+        "health": 98.25,
+        "loss_sats": 5656109,
+        "loss_usd": 4215.16
+    },
+    {
+        "height": 936227,
+        "health": 96.13,
+        "loss_sats": 12688725,
+        "loss_usd": 9456.15
+    },
+    {
+        "height": 936121,
+        "health": 96.78,
+        "loss_sats": 10457292,
+        "loss_usd": 7793.19
+    },
+    {
+        "height": 936097,
+        "health": 95.45,
+        "loss_sats": 14998164,
+        "loss_usd": 11177.23
+    },
+    {
+        "height": 936046,
+        "health": 95.44,
+        "loss_sats": 15080533,
+        "loss_usd": 11238.62
+    },
+    {
+        "height": 935884,
+        "health": 86.93,
+        "loss_sats": 47106778,
+        "loss_usd": 35105.86
+    },
+    {
+        "height": 935785,
+        "health": 97.7,
+        "loss_sats": 7377875,
+        "loss_usd": 5498.29
+    },
+    {
+        "height": 935662,
+        "health": 96.04,
+        "loss_sats": 13027412,
+        "loss_usd": 9708.55
+    },
+    {
+        "height": 935608,
+        "health": 99.78,
+        "loss_sats": 689604,
+        "loss_usd": 513.92
+    },
+    {
+        "height": 935593,
+        "health": 96.11,
+        "loss_sats": 12722337,
+        "loss_usd": 9481.19
+    },
+    {
+        "height": 935587,
+        "health": 93.9,
+        "loss_sats": 20458356,
+        "loss_usd": 15246.39
+    },
+    {
+        "height": 935488,
+        "health": 97.39,
+        "loss_sats": 8406500,
+        "loss_usd": 6264.86
+    },
+    {
+        "height": 935417,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 935249,
+        "health": 98.32,
+        "loss_sats": 5416252,
+        "loss_usd": 4036.41
+    },
+    {
+        "height": 935205,
+        "health": 95.18,
+        "loss_sats": 15945360,
+        "loss_usd": 11883.12
+    },
+    {
+        "height": 935020,
+        "health": 99.88,
+        "loss_sats": 383498,
+        "loss_usd": 285.8
+    },
+    {
+        "height": 934998,
+        "health": 97.84,
+        "loss_sats": 6965141,
+        "loss_usd": 5190.7
+    },
+    {
+        "height": 934325,
+        "health": 97.24,
+        "loss_sats": 8945718,
+        "loss_usd": 6666.71
+    },
+    {
+        "height": 934320,
+        "health": 97.56,
+        "loss_sats": 7910648,
+        "loss_usd": 5895.33
+    },
+    {
+        "height": 934308,
+        "health": 94.49,
+        "loss_sats": 18354910,
+        "loss_usd": 13678.81
+    },
+    {
+        "height": 934151,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 934118,
+        "health": 97.65,
+        "loss_sats": 7636335,
+        "loss_usd": 5690.9
+    },
+    {
+        "height": 934028,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 933957,
+        "health": 99.81,
+        "loss_sats": 597511,
+        "loss_usd": 445.29
+    },
+    {
+        "height": 933946,
+        "health": 94.12,
+        "loss_sats": 19617666,
+        "loss_usd": 14619.87
+    },
+    {
+        "height": 933942,
+        "health": 97.48,
+        "loss_sats": 8110343,
+        "loss_usd": 6044.15
+    },
+    {
+        "height": 933789,
+        "health": 96.01,
+        "loss_sats": 13214501,
+        "loss_usd": 9847.97
+    },
+    {
+        "height": 933728,
+        "health": 99.24,
+        "loss_sats": 2402545,
+        "loss_usd": 1790.47
+    },
+    {
+        "height": 933720,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 933714,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 933692,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 933534,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 933442,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 933233,
+        "health": 94.7,
+        "loss_sats": 17529926,
+        "loss_usd": 13064.0
+    },
+    {
+        "height": 933196,
+        "health": 96.45,
+        "loss_sats": 11577663,
+        "loss_usd": 8628.14
+    },
+    {
+        "height": 933178,
+        "health": 99.94,
+        "loss_sats": 188715,
+        "loss_usd": 140.64
+    },
+    {
+        "height": 933145,
+        "health": 95.23,
+        "loss_sats": 15939763,
+        "loss_usd": 11878.95
+    },
+    {
+        "height": 933089,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 933056,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 933045,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 932948,
+        "health": 97.55,
+        "loss_sats": 7863513,
+        "loss_usd": 5860.2
+    },
+    {
+        "height": 932919,
+        "health": 97.05,
+        "loss_sats": 9595919,
+        "loss_usd": 7151.26
+    },
+    {
+        "height": 932909,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 932906,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 932833,
+        "health": 98.11,
+        "loss_sats": 6051390,
+        "loss_usd": 4509.74
+    },
+    {
+        "height": 932619,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 932601,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 932472,
+        "health": 97.94,
+        "loss_sats": 6654771,
+        "loss_usd": 4959.4
+    },
+    {
+        "height": 932334,
+        "health": 95.78,
+        "loss_sats": 13867338,
+        "loss_usd": 10334.49
+    },
+    {
+        "height": 932326,
+        "health": 97.07,
+        "loss_sats": 9454260,
+        "loss_usd": 7045.69
+    },
+    {
+        "height": 932287,
+        "health": 97.05,
+        "loss_sats": 9551078,
+        "loss_usd": 7117.85
+    },
+    {
+        "height": 932266,
+        "health": 89.82,
+        "loss_sats": 35631733,
+        "loss_usd": 26554.19
+    },
+    {
+        "height": 932146,
+        "health": 99.93,
+        "loss_sats": 219943,
+        "loss_usd": 163.91
+    },
+    {
+        "height": 932101,
+        "health": 99.31,
+        "loss_sats": 2201423,
+        "loss_usd": 1640.59
+    },
+    {
+        "height": 932070,
+        "health": 92.86,
+        "loss_sats": 24120977,
+        "loss_usd": 17975.92
+    },
+    {
+        "height": 932050,
+        "health": 99.35,
+        "loss_sats": 2060997,
+        "loss_usd": 1535.94
+    },
+    {
+        "height": 932041,
+        "health": 97.48,
+        "loss_sats": 8146923,
+        "loss_usd": 6071.41
+    },
+    {
+        "height": 931903,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 931837,
+        "health": 95.85,
+        "loss_sats": 13558067,
+        "loss_usd": 10104.01
+    },
+    {
+        "height": 931808,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 931661,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 931620,
+        "health": 98.36,
+        "loss_sats": 5237069,
+        "loss_usd": 3902.87
+    },
+    {
+        "height": 931609,
+        "health": 98.63,
+        "loss_sats": 4359589,
+        "loss_usd": 3248.94
+    },
+    {
+        "height": 931542,
+        "health": 91.32,
+        "loss_sats": 29750001,
+        "loss_usd": 22170.89
+    },
+    {
+        "height": 931510,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 931461,
+        "health": 98.18,
+        "loss_sats": 5825029,
+        "loss_usd": 4341.04
+    },
+    {
+        "height": 931402,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 931334,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 931250,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 930969,
+        "health": 96.5,
+        "loss_sats": 11371024,
+        "loss_usd": 8474.14
+    },
+    {
+        "height": 930920,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 930916,
+        "health": 97.81,
+        "loss_sats": 7009177,
+        "loss_usd": 5223.52
+    },
+    {
+        "height": 930806,
+        "health": 97.11,
+        "loss_sats": 9405842,
+        "loss_usd": 7009.61
+    },
+    {
+        "height": 930741,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 930650,
+        "health": 94.64,
+        "loss_sats": 17751094,
+        "loss_usd": 13228.83
+    },
+    {
+        "height": 930620,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 930569,
+        "health": 96.09,
+        "loss_sats": 12820539,
+        "loss_usd": 9554.38
+    },
+    {
+        "height": 930566,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 930534,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 930506,
+        "health": 95.89,
+        "loss_sats": 13507356,
+        "loss_usd": 10066.22
+    },
+    {
+        "height": 930485,
+        "health": 99.98,
+        "loss_sats": 62776,
+        "loss_usd": 46.78
+    },
+    {
+        "height": 930459,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 930445,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 930429,
+        "health": 97.99,
+        "loss_sats": 6498348,
+        "loss_usd": 4842.83
+    },
+    {
+        "height": 930412,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 930366,
+        "health": 96.12,
+        "loss_sats": 12653909,
+        "loss_usd": 9430.2
+    },
+    {
+        "height": 930356,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 930311,
+        "health": 95.02,
+        "loss_sats": 16577368,
+        "loss_usd": 12354.12
+    },
+    {
+        "height": 930310,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 930257,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 930173,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 930171,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 930114,
+        "health": 77.17,
+        "loss_sats": 92571863,
+        "loss_usd": 68988.26
+    },
+    {
+        "height": 930043,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 930022,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 929960,
+        "health": 94.19,
+        "loss_sats": 19350812,
+        "loss_usd": 14421.0
+    },
+    {
+        "height": 929931,
+        "health": 99.94,
+        "loss_sats": 188148,
+        "loss_usd": 140.22
+    },
+    {
+        "height": 929902,
+        "health": 97.45,
+        "loss_sats": 8214109,
+        "loss_usd": 6121.48
+    },
+    {
+        "height": 929829,
+        "health": 99.55,
+        "loss_sats": 1422446,
+        "loss_usd": 1060.06
+    },
+    {
+        "height": 929826,
+        "health": 96.88,
+        "loss_sats": 10076529,
+        "loss_usd": 7509.43
+    },
+    {
+        "height": 929792,
+        "health": 99.94,
+        "loss_sats": 188609,
+        "loss_usd": 140.56
+    },
+    {
+        "height": 929746,
+        "health": 98.46,
+        "loss_sats": 4907395,
+        "loss_usd": 3657.19
+    },
+    {
+        "height": 929735,
+        "health": 97.23,
+        "loss_sats": 8979044,
+        "loss_usd": 6691.54
+    },
+    {
+        "height": 929687,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 929650,
+        "health": 96.27,
+        "loss_sats": 12185869,
+        "loss_usd": 9081.4
+    },
+    {
+        "height": 929646,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 929402,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 929399,
+        "health": 95.97,
+        "loss_sats": 13274950,
+        "loss_usd": 9893.02
+    },
+    {
+        "height": 929358,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 929315,
+        "health": 97.14,
+        "loss_sats": 9268200,
+        "loss_usd": 6907.03
+    },
+    {
+        "height": 929307,
+        "health": 96.11,
+        "loss_sats": 12731737,
+        "loss_usd": 9488.2
+    },
+    {
+        "height": 929209,
+        "health": 90.87,
+        "loss_sats": 31433722,
+        "loss_usd": 23425.67
+    },
+    {
+        "height": 929187,
+        "health": 98.13,
+        "loss_sats": 5966291,
+        "loss_usd": 4446.32
+    },
+    {
+        "height": 929180,
+        "health": 98.43,
+        "loss_sats": 4997644,
+        "loss_usd": 3724.44
+    },
+    {
+        "height": 929176,
+        "health": 96.38,
+        "loss_sats": 11801053,
+        "loss_usd": 8794.62
+    },
+    {
+        "height": 929136,
+        "health": 99.97,
+        "loss_sats": 93869,
+        "loss_usd": 69.95
+    },
+    {
+        "height": 929001,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 928997,
+        "health": 98.71,
+        "loss_sats": 4094676,
+        "loss_usd": 3051.52
+    },
+    {
+        "height": 928928,
+        "health": 93.04,
+        "loss_sats": 23427724,
+        "loss_usd": 17459.28
+    },
+    {
+        "height": 928738,
+        "health": 97.91,
+        "loss_sats": 6718729,
+        "loss_usd": 5007.07
+    },
+    {
+        "height": 928549,
+        "health": 98.47,
+        "loss_sats": 4889341,
+        "loss_usd": 3643.73
+    },
+    {
+        "height": 928539,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 928537,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 928340,
+        "health": 95.89,
+        "loss_sats": 13425210,
+        "loss_usd": 10005.0
+    },
+    {
+        "height": 928248,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 928111,
+        "health": 97.74,
+        "loss_sats": 7287101,
+        "loss_usd": 5430.64
+    },
+    {
+        "height": 928071,
+        "health": 99.76,
+        "loss_sats": 752664,
+        "loss_usd": 560.92
+    },
+    {
+        "height": 927982,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 927968,
+        "health": 96.95,
+        "loss_sats": 9897902,
+        "loss_usd": 7376.31
+    },
+    {
+        "height": 927898,
+        "health": 98.59,
+        "loss_sats": 4490461,
+        "loss_usd": 3346.47
+    },
+    {
+        "height": 927873,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 927845,
+        "health": 96.52,
+        "loss_sats": 11291055,
+        "loss_usd": 8414.55
+    },
+    {
+        "height": 927793,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 927790,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 927604,
+        "health": 94.24,
+        "loss_sats": 19104270,
+        "loss_usd": 14237.27
+    },
+    {
+        "height": 927445,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 927436,
+        "health": 96.56,
+        "loss_sats": 11169734,
+        "loss_usd": 8324.13
+    },
+    {
+        "height": 927369,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 927299,
+        "health": 96.51,
+        "loss_sats": 11347074,
+        "loss_usd": 8456.29
+    },
+    {
+        "height": 927289,
+        "health": 99.97,
+        "loss_sats": 94625,
+        "loss_usd": 70.52
+    },
+    {
+        "height": 927213,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 926860,
+        "health": 97.58,
+        "loss_sats": 7770463,
+        "loss_usd": 5790.86
+    },
+    {
+        "height": 926755,
+        "health": 97.44,
+        "loss_sats": 8221675,
+        "loss_usd": 6127.12
+    },
+    {
+        "height": 926716,
+        "health": 97.31,
+        "loss_sats": 8660505,
+        "loss_usd": 6454.15
+    },
+    {
+        "height": 926699,
+        "health": 95.29,
+        "loss_sats": 15563207,
+        "loss_usd": 11598.32
+    },
+    {
+        "height": 926565,
+        "health": 96.34,
+        "loss_sats": 12062544,
+        "loss_usd": 8989.49
+    },
+    {
+        "height": 926564,
+        "health": 98.01,
+        "loss_sats": 6429690,
+        "loss_usd": 4791.66
+    },
+    {
+        "height": 926551,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 926508,
+        "health": 97.96,
+        "loss_sats": 6565474,
+        "loss_usd": 4892.85
+    },
+    {
+        "height": 926419,
+        "health": 96.85,
+        "loss_sats": 10326047,
+        "loss_usd": 7695.38
+    },
+    {
+        "height": 926358,
+        "health": 95.66,
+        "loss_sats": 14220223,
+        "loss_usd": 10597.48
+    },
+    {
+        "height": 925954,
+        "health": 91.33,
+        "loss_sats": 29736455,
+        "loss_usd": 22160.8
+    },
+    {
+        "height": 925946,
+        "health": 91.84,
+        "loss_sats": 27844833,
+        "loss_usd": 20751.08
+    },
+    {
+        "height": 925884,
+        "health": 94.08,
+        "loss_sats": 19737368,
+        "loss_usd": 14709.08
+    },
+    {
+        "height": 925875,
+        "health": 98.03,
+        "loss_sats": 6344690,
+        "loss_usd": 4728.32
+    },
+    {
+        "height": 925837,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 925828,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 925707,
+        "health": 98.56,
+        "loss_sats": 4572706,
+        "loss_usd": 3407.76
+    },
+    {
+        "height": 925675,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 925468,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 925463,
+        "health": 97.94,
+        "loss_sats": 6609132,
+        "loss_usd": 4925.39
+    },
+    {
+        "height": 925458,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 925450,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 925408,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 925394,
+        "health": 99.92,
+        "loss_sats": 251942,
+        "loss_usd": 187.76
+    },
+    {
+        "height": 925388,
+        "health": 97.71,
+        "loss_sats": 7453022,
+        "loss_usd": 5554.29
+    },
+    {
+        "height": 925353,
+        "health": 99.1,
+        "loss_sats": 2854105,
+        "loss_usd": 2126.99
+    },
+    {
+        "height": 925276,
+        "health": 98.53,
+        "loss_sats": 4690785,
+        "loss_usd": 3495.76
+    },
+    {
+        "height": 925219,
+        "health": 94.44,
+        "loss_sats": 18468975,
+        "loss_usd": 13763.82
+    },
+    {
+        "height": 925196,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 925116,
+        "health": 97.92,
+        "loss_sats": 6714310,
+        "loss_usd": 5003.77
+    },
+    {
+        "height": 925070,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 925059,
+        "health": 98.03,
+        "loss_sats": 6344717,
+        "loss_usd": 4728.34
+    },
+    {
+        "height": 924974,
+        "health": 98.02,
+        "loss_sats": 6360078,
+        "loss_usd": 4739.78
+    },
+    {
+        "height": 924904,
+        "health": 97.83,
+        "loss_sats": 6948506,
+        "loss_usd": 5178.3
+    },
+    {
+        "height": 924885,
+        "health": 86.49,
+        "loss_sats": 49067307,
+        "loss_usd": 36566.92
+    },
+    {
+        "height": 924804,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 924775,
+        "health": 99.01,
+        "loss_sats": 3130951,
+        "loss_usd": 2333.31
+    },
+    {
+        "height": 924733,
+        "health": 98.93,
+        "loss_sats": 3464645,
+        "loss_usd": 2581.99
+    },
+    {
+        "height": 924638,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 924589,
+        "health": 99.31,
+        "loss_sats": 2195854,
+        "loss_usd": 1636.44
+    },
+    {
+        "height": 924585,
+        "health": 98.68,
+        "loss_sats": 4234933,
+        "loss_usd": 3156.04
+    },
+    {
+        "height": 924322,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 924169,
+        "health": 79.44,
+        "loss_sats": 81091844,
+        "loss_usd": 60432.89
+    },
+    {
+        "height": 924062,
+        "health": 99.65,
+        "loss_sats": 1115109,
+        "loss_usd": 831.02
+    },
+    {
+        "height": 923976,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 923843,
+        "health": 99.38,
+        "loss_sats": 1965936,
+        "loss_usd": 1465.09
+    },
+    {
+        "height": 923745,
+        "health": 97.26,
+        "loss_sats": 8869409,
+        "loss_usd": 6609.84
+    },
+    {
+        "height": 923664,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 923626,
+        "health": 98.85,
+        "loss_sats": 3668506,
+        "loss_usd": 2733.92
+    },
+    {
+        "height": 923485,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 923473,
+        "health": 98.8,
+        "loss_sats": 3818190,
+        "loss_usd": 2845.47
+    },
+    {
+        "height": 923384,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 923352,
+        "health": 97.88,
+        "loss_sats": 6812309,
+        "loss_usd": 5076.81
+    },
+    {
+        "height": 923231,
+        "health": 95.3,
+        "loss_sats": 15532006,
+        "loss_usd": 11575.07
+    },
+    {
+        "height": 923166,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 923033,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 923008,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 922977,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 922947,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 922792,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 922778,
+        "health": 97.6,
+        "loss_sats": 7715576,
+        "loss_usd": 5749.96
+    },
+    {
+        "height": 922687,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 922620,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 922519,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 922487,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 922430,
+        "health": 97.7,
+        "loss_sats": 7424255,
+        "loss_usd": 5532.85
+    },
+    {
+        "height": 922385,
+        "health": 98.13,
+        "loss_sats": 5997888,
+        "loss_usd": 4469.87
+    },
+    {
+        "height": 922366,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 922307,
+        "health": 74.68,
+        "loss_sats": 106348167,
+        "loss_usd": 79254.91
+    },
+    {
+        "height": 922159,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 922113,
+        "health": 97.63,
+        "loss_sats": 7689792,
+        "loss_usd": 5730.74
+    },
+    {
+        "height": 922097,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 922074,
+        "health": 98.44,
+        "loss_sats": 4975865,
+        "loss_usd": 3708.21
+    },
+    {
+        "height": 922032,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 921946,
+        "health": 98.22,
+        "loss_sats": 5701700,
+        "loss_usd": 4249.13
+    },
+    {
+        "height": 921820,
+        "health": 93.41,
+        "loss_sats": 22102766,
+        "loss_usd": 16471.87
+    },
+    {
+        "height": 921771,
+        "health": 96.85,
+        "loss_sats": 10307917,
+        "loss_usd": 7681.87
+    },
+    {
+        "height": 921763,
+        "health": 97.46,
+        "loss_sats": 8191007,
+        "loss_usd": 6104.27
+    },
+    {
+        "height": 921741,
+        "health": 95.49,
+        "loss_sats": 14844845,
+        "loss_usd": 11062.97
+    },
+    {
+        "height": 921697,
+        "health": 86.99,
+        "loss_sats": 46816409,
+        "loss_usd": 34889.46
+    },
+    {
+        "height": 921431,
+        "health": 97.93,
+        "loss_sats": 6668607,
+        "loss_usd": 4969.71
+    },
+    {
+        "height": 921424,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 921420,
+        "health": 97.82,
+        "loss_sats": 6978024,
+        "loss_usd": 5200.3
+    },
+    {
+        "height": 921292,
+        "health": 94.9,
+        "loss_sats": 16886452,
+        "loss_usd": 12584.46
+    },
+    {
+        "height": 921248,
+        "health": 97.99,
+        "loss_sats": 6443036,
+        "loss_usd": 4801.61
+    },
+    {
+        "height": 921026,
+        "health": 97.99,
+        "loss_sats": 6442520,
+        "loss_usd": 4801.22
+    },
+    {
+        "height": 920989,
+        "health": 98.78,
+        "loss_sats": 3870008,
+        "loss_usd": 2884.08
+    },
+    {
+        "height": 920780,
+        "health": 99.38,
+        "loss_sats": 1951896,
+        "loss_usd": 1454.63
+    },
+    {
+        "height": 920751,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 920673,
+        "health": 95.05,
+        "loss_sats": 16298565,
+        "loss_usd": 12146.34
+    },
+    {
+        "height": 920609,
+        "health": 96.91,
+        "loss_sats": 10010675,
+        "loss_usd": 7460.36
+    },
+    {
+        "height": 920574,
+        "health": 96.92,
+        "loss_sats": 10037809,
+        "loss_usd": 7480.58
+    },
+    {
+        "height": 920555,
+        "health": 95.92,
+        "loss_sats": 13293401,
+        "loss_usd": 9906.77
+    },
+    {
+        "height": 920498,
+        "health": 94.66,
+        "loss_sats": 17649399,
+        "loss_usd": 13153.04
+    },
+    {
+        "height": 920469,
+        "health": 99.96,
+        "loss_sats": 125542,
+        "loss_usd": 93.56
+    },
+    {
+        "height": 920433,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 920407,
+        "health": 98.28,
+        "loss_sats": 5497547,
+        "loss_usd": 4096.99
+    },
+    {
+        "height": 920334,
+        "health": 90.66,
+        "loss_sats": 32272941,
+        "loss_usd": 24051.09
+    },
+    {
+        "height": 920333,
+        "health": 94.88,
+        "loss_sats": 16902113,
+        "loss_usd": 12596.13
+    },
+    {
+        "height": 920313,
+        "health": 98.38,
+        "loss_sats": 5190551,
+        "loss_usd": 3868.21
+    },
+    {
+        "height": 920240,
+        "health": 98.92,
+        "loss_sats": 3414203,
+        "loss_usd": 2544.4
+    },
+    {
+        "height": 920236,
+        "health": 91.63,
+        "loss_sats": 28690149,
+        "loss_usd": 21381.05
+    },
+    {
+        "height": 920120,
+        "health": 95.68,
+        "loss_sats": 14207440,
+        "loss_usd": 10587.95
+    },
+    {
+        "height": 920108,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 919998,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 919966,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 919905,
+        "health": 96.79,
+        "loss_sats": 10392652,
+        "loss_usd": 7745.02
+    },
+    {
+        "height": 919848,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 919846,
+        "health": 97.67,
+        "loss_sats": 7526748,
+        "loss_usd": 5609.23
+    },
+    {
+        "height": 919576,
+        "health": 98.1,
+        "loss_sats": 6060639,
+        "loss_usd": 4516.63
+    },
+    {
+        "height": 919543,
+        "health": 93.76,
+        "loss_sats": 21053538,
+        "loss_usd": 15689.94
+    },
+    {
+        "height": 919481,
+        "health": 95.81,
+        "loss_sats": 13738718,
+        "loss_usd": 10238.64
+    },
+    {
+        "height": 919422,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 919378,
+        "health": 98.47,
+        "loss_sats": 4893333,
+        "loss_usd": 3646.71
+    },
+    {
+        "height": 919298,
+        "health": 92.3,
+        "loss_sats": 26219857,
+        "loss_usd": 19540.09
+    },
+    {
+        "height": 919292,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 919279,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 919240,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 919183,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 919137,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 919126,
+        "health": 99.69,
+        "loss_sats": 980799,
+        "loss_usd": 730.93
+    },
+    {
+        "height": 918920,
+        "health": 96.96,
+        "loss_sats": 9877883,
+        "loss_usd": 7361.39
+    },
+    {
+        "height": 918915,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 918811,
+        "health": 93.25,
+        "loss_sats": 22754502,
+        "loss_usd": 16957.57
+    },
+    {
+        "height": 918740,
+        "health": 93.94,
+        "loss_sats": 20238696,
+        "loss_usd": 15082.69
+    },
+    {
+        "height": 918616,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 918568,
+        "health": 93.2,
+        "loss_sats": 22906355,
+        "loss_usd": 17070.73
+    },
+    {
+        "height": 918539,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 918387,
+        "health": 94.44,
+        "loss_sats": 18580590,
+        "loss_usd": 13847.0
+    },
+    {
+        "height": 918336,
+        "health": 0,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 918299,
+        "health": 90.66,
+        "loss_sats": 32391077,
+        "loss_usd": 24139.13
+    },
+    {
+        "height": 918260,
+        "health": 78.23,
+        "loss_sats": 87097570,
+        "loss_usd": 64908.59
+    },
+    {
+        "height": 918208,
+        "health": 92.23,
+        "loss_sats": 26358269,
+        "loss_usd": 19643.24
+    },
+    {
+        "height": 918164,
+        "health": 96.03,
+        "loss_sats": 12942259,
+        "loss_usd": 9645.09
+    },
+    {
+        "height": 918153,
+        "health": 92.09,
+        "loss_sats": 27050299,
+        "loss_usd": 20158.96
+    },
+    {
+        "height": 918143,
+        "health": 94.59,
+        "loss_sats": 17902319,
+        "loss_usd": 13341.52
+    },
+    {
+        "height": 918052,
+        "health": 97.54,
+        "loss_sats": 7962869,
+        "loss_usd": 5934.25
+    },
+    {
+        "height": 917905,
+        "health": 94.61,
+        "loss_sats": 17867760,
+        "loss_usd": 13315.77
+    },
+    {
+        "height": 917837,
+        "health": 95.65,
+        "loss_sats": 14314742,
+        "loss_usd": 10667.92
+    },
+    {
+        "height": 917802,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 917691,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 917630,
+        "health": 93.17,
+        "loss_sats": 22958744,
+        "loss_usd": 17109.77
+    },
+    {
+        "height": 917549,
+        "health": 91.91,
+        "loss_sats": 27810266,
+        "loss_usd": 20725.32
+    },
+    {
+        "height": 917534,
+        "health": 98.01,
+        "loss_sats": 6479947,
+        "loss_usd": 4829.12
+    },
+    {
+        "height": 917514,
+        "health": 98.15,
+        "loss_sats": 6130053,
+        "loss_usd": 4568.36
+    },
+    {
+        "height": 917403,
+        "health": 98.07,
+        "loss_sats": 6269060,
+        "loss_usd": 4671.95
+    },
+    {
+        "height": 917367,
+        "health": 97.26,
+        "loss_sats": 8847302,
+        "loss_usd": 6593.36
+    },
+    {
+        "height": 917312,
+        "health": 97.71,
+        "loss_sats": 7344482,
+        "loss_usd": 5473.4
+    },
+    {
+        "height": 916978,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 916902,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 916873,
+        "health": 86.67,
+        "loss_sats": 48194426,
+        "loss_usd": 35916.41
+    },
+    {
+        "height": 916844,
+        "health": 99.42,
+        "loss_sats": 1832965,
+        "loss_usd": 1366.0
+    },
+    {
+        "height": 916819,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 916800,
+        "health": 93.16,
+        "loss_sats": 23003083,
+        "loss_usd": 17142.82
+    },
+    {
+        "height": 916749,
+        "health": 97.66,
+        "loss_sats": 7506090,
+        "loss_usd": 5593.84
+    },
+    {
+        "height": 916650,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 916635,
+        "health": 97.2,
+        "loss_sats": 9185359,
+        "loss_usd": 6845.3
+    },
+    {
+        "height": 916519,
+        "health": 97.17,
+        "loss_sats": 9128510,
+        "loss_usd": 6802.93
+    },
+    {
+        "height": 916351,
+        "health": 95.44,
+        "loss_sats": 14997600,
+        "loss_usd": 11176.81
+    },
+    {
+        "height": 916272,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 916158,
+        "health": 89.41,
+        "loss_sats": 37052526,
+        "loss_usd": 27613.02
+    },
+    {
+        "height": 916041,
+        "health": 98.05,
+        "loss_sats": 6264024,
+        "loss_usd": 4668.2
+    },
+    {
+        "height": 916024,
+        "health": 97.72,
+        "loss_sats": 7359980,
+        "loss_usd": 5484.95
+    },
+    {
+        "height": 916003,
+        "health": 95.97,
+        "loss_sats": 13207694,
+        "loss_usd": 9842.9
+    },
+    {
+        "height": 915821,
+        "health": 97.26,
+        "loss_sats": 8824849,
+        "loss_usd": 6576.63
+    },
+    {
+        "height": 915679,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 915523,
+        "health": 94.19,
+        "loss_sats": 19370689,
+        "loss_usd": 14435.81
+    },
+    {
+        "height": 915420,
+        "health": 91.06,
+        "loss_sats": 30970854,
+        "loss_usd": 23080.72
+    },
+    {
+        "height": 915394,
+        "health": 52.7,
+        "loss_sats": 281046255,
+        "loss_usd": 209446.91
+    },
+    {
+        "height": 915364,
+        "health": 86.04,
+        "loss_sats": 51113659,
+        "loss_usd": 38091.94
+    },
+    {
+        "height": 915360,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 915247,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 915192,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 915130,
+        "health": 97.28,
+        "loss_sats": 8874406,
+        "loss_usd": 6613.56
+    },
+    {
+        "height": 915084,
+        "health": 63.8,
+        "loss_sats": 177539967,
+        "loss_usd": 132309.89
+    },
+    {
+        "height": 915083,
+        "health": 96.38,
+        "loss_sats": 11852903,
+        "loss_usd": 8833.26
+    },
+    {
+        "height": 915059,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 914817,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 914710,
+        "health": 99.04,
+        "loss_sats": 3071780,
+        "loss_usd": 2289.21
+    },
+    {
+        "height": 914546,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 914391,
+        "health": 97.06,
+        "loss_sats": 9527761,
+        "loss_usd": 7100.47
+    },
+    {
+        "height": 914322,
+        "health": 93.37,
+        "loss_sats": 22270728,
+        "loss_usd": 16597.04
+    },
+    {
+        "height": 914311,
+        "health": 96.5,
+        "loss_sats": 11548511,
+        "loss_usd": 8606.41
+    },
+    {
+        "height": 914292,
+        "health": 97.74,
+        "loss_sats": 7308490,
+        "loss_usd": 5446.58
+    },
+    {
+        "height": 914274,
+        "health": 95.85,
+        "loss_sats": 13676174,
+        "loss_usd": 10192.03
+    },
+    {
+        "height": 914272,
+        "health": 97.35,
+        "loss_sats": 8596583,
+        "loss_usd": 6406.52
+    },
+    {
+        "height": 914256,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 914183,
+        "health": 92.16,
+        "loss_sats": 26677938,
+        "loss_usd": 19881.47
+    },
+    {
+        "height": 914140,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 914120,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 914082,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 914058,
+        "health": 92.75,
+        "loss_sats": 25049625,
+        "loss_usd": 18667.98
+    },
+    {
+        "height": 913985,
+        "health": 96,
+        "loss_sats": 13078897,
+        "loss_usd": 9746.92
+    },
+    {
+        "height": 913861,
+        "health": 99.05,
+        "loss_sats": 3019546,
+        "loss_usd": 2250.29
+    },
+    {
+        "height": 913835,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 913673,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 913576,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 913350,
+        "health": 97.13,
+        "loss_sats": 9316162,
+        "loss_usd": 6942.78
+    },
+    {
+        "height": 913348,
+        "health": 80.09,
+        "loss_sats": 78069677,
+        "loss_usd": 58180.65
+    },
+    {
+        "height": 913315,
+        "health": 97.33,
+        "loss_sats": 8730268,
+        "loss_usd": 6506.14
+    },
+    {
+        "height": 913272,
+        "health": 70.33,
+        "loss_sats": 132217925,
+        "loss_usd": 98534.09
+    },
+    {
+        "height": 913232,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 913180,
+        "health": 99.96,
+        "loss_sats": 127089,
+        "loss_usd": 94.71
+    },
+    {
+        "height": 913130,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 913100,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 913029,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 912992,
+        "health": 93.35,
+        "loss_sats": 22567742,
+        "loss_usd": 16818.38
+    },
+    {
+        "height": 912916,
+        "health": 93.75,
+        "loss_sats": 20986725,
+        "loss_usd": 15640.15
+    },
+    {
+        "height": 912762,
+        "health": 59.39,
+        "loss_sats": 216330929,
+        "loss_usd": 161218.46
+    },
+    {
+        "height": 912726,
+        "health": 74.09,
+        "loss_sats": 115970379,
+        "loss_usd": 86425.77
+    },
+    {
+        "height": 912692,
+        "health": 76.52,
+        "loss_sats": 96388805,
+        "loss_usd": 71832.79
+    },
+    {
+        "height": 912675,
+        "health": 97.97,
+        "loss_sats": 6489279,
+        "loss_usd": 4836.07
+    },
+    {
+        "height": 912662,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 912617,
+        "health": 94.5,
+        "loss_sats": 18343154,
+        "loss_usd": 13670.05
+    },
+    {
+        "height": 912509,
+        "health": 95.31,
+        "loss_sats": 15509822,
+        "loss_usd": 11558.54
+    },
+    {
+        "height": 912291,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 912235,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 912233,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 912211,
+        "health": 89.71,
+        "loss_sats": 35944890,
+        "loss_usd": 26787.57
+    },
+    {
+        "height": 912199,
+        "health": 97.37,
+        "loss_sats": 8516767,
+        "loss_usd": 6347.04
+    },
+    {
+        "height": 912116,
+        "health": 98.66,
+        "loss_sats": 4286418,
+        "loss_usd": 3194.41
+    },
+    {
+        "height": 912057,
+        "health": 89.29,
+        "loss_sats": 37595279,
+        "loss_usd": 28017.51
+    },
+    {
+        "height": 911974,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 911873,
+        "health": 97.34,
+        "loss_sats": 8552227,
+        "loss_usd": 6373.46
+    },
+    {
+        "height": 911827,
+        "health": 90.89,
+        "loss_sats": 31575800,
+        "loss_usd": 23531.55
+    },
+    {
+        "height": 911742,
+        "health": 95.8,
+        "loss_sats": 13770637,
+        "loss_usd": 10262.43
+    },
+    {
+        "height": 911543,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 911406,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 911332,
+        "health": 96.19,
+        "loss_sats": 12447517,
+        "loss_usd": 9276.39
+    },
+    {
+        "height": 911269,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 911218,
+        "health": 97.95,
+        "loss_sats": 6606679,
+        "loss_usd": 4923.56
+    },
+    {
+        "height": 911164,
+        "health": 82.62,
+        "loss_sats": 66027272,
+        "loss_usd": 49206.16
+    },
+    {
+        "height": 911156,
+        "health": 95.74,
+        "loss_sats": 14013497,
+        "loss_usd": 10443.42
+    },
+    {
+        "height": 911055,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 910941,
+        "health": 98.38,
+        "loss_sats": 5225396,
+        "loss_usd": 3894.17
+    },
+    {
+        "height": 910836,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 910702,
+        "health": 97.07,
+        "loss_sats": 9517151,
+        "loss_usd": 7092.56
+    },
+    {
+        "height": 910626,
+        "health": 96.9,
+        "loss_sats": 10258655,
+        "loss_usd": 7645.16
+    },
+    {
+        "height": 910515,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 910385,
+        "health": 93,
+        "loss_sats": 23541962,
+        "loss_usd": 17544.41
+    },
+    {
+        "height": 910340,
+        "health": 99.24,
+        "loss_sats": 2427295,
+        "loss_usd": 1808.92
+    },
+    {
+        "height": 910289,
+        "health": 97.67,
+        "loss_sats": 7476948,
+        "loss_usd": 5572.12
+    },
+    {
+        "height": 910138,
+        "health": 89.93,
+        "loss_sats": 35230493,
+        "loss_usd": 26255.17
+    },
+    {
+        "height": 910132,
+        "health": 93.61,
+        "loss_sats": 21514465,
+        "loss_usd": 16033.44
+    },
+    {
+        "height": 909981,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 909967,
+        "health": 95.51,
+        "loss_sats": 14789157,
+        "loss_usd": 11021.47
+    },
+    {
+        "height": 909830,
+        "health": 95.67,
+        "loss_sats": 14176444,
+        "loss_usd": 10564.85
+    },
+    {
+        "height": 909741,
+        "health": 97.3,
+        "loss_sats": 8837040,
+        "loss_usd": 6585.72
+    },
+    {
+        "height": 909738,
+        "health": 96.9,
+        "loss_sats": 10035574,
+        "loss_usd": 7478.91
+    },
+    {
+        "height": 909418,
+        "health": 98.22,
+        "loss_sats": 5738770,
+        "loss_usd": 4276.76
+    },
+    {
+        "height": 909285,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 909119,
+        "health": 97.87,
+        "loss_sats": 6875572,
+        "loss_usd": 5123.95
+    },
+    {
+        "height": 908912,
+        "health": 99.3,
+        "loss_sats": 2272864,
+        "loss_usd": 1693.83
+    },
+    {
+        "height": 908709,
+        "health": 99.71,
+        "loss_sats": 910783,
+        "loss_usd": 678.75
+    },
+    {
+        "height": 908623,
+        "health": 97.43,
+        "loss_sats": 8311782,
+        "loss_usd": 6194.27
+    },
+    {
+        "height": 908617,
+        "health": 99.22,
+        "loss_sats": 2461645,
+        "loss_usd": 1834.52
+    },
+    {
+        "height": 908311,
+        "health": 98.24,
+        "loss_sats": 5626066,
+        "loss_usd": 4192.77
+    },
+    {
+        "height": 908287,
+        "health": 95.34,
+        "loss_sats": 15349193,
+        "loss_usd": 11438.83
+    },
+    {
+        "height": 908284,
+        "health": 75.66,
+        "loss_sats": 101002782,
+        "loss_usd": 75271.31
+    },
+    {
+        "height": 908271,
+        "health": 93.33,
+        "loss_sats": 22520477,
+        "loss_usd": 16783.16
+    },
+    {
+        "height": 908246,
+        "health": 96.85,
+        "loss_sats": 10265937,
+        "loss_usd": 7650.59
+    },
+    {
+        "height": 908207,
+        "health": 99.02,
+        "loss_sats": 3107929,
+        "loss_usd": 2316.15
+    },
+    {
+        "height": 908143,
+        "health": 89.96,
+        "loss_sats": 35033229,
+        "loss_usd": 26108.16
+    },
+    {
+        "height": 908065,
+        "health": 92.34,
+        "loss_sats": 26130588,
+        "loss_usd": 19473.56
+    },
+    {
+        "height": 908028,
+        "health": 99.88,
+        "loss_sats": 380761,
+        "loss_usd": 283.76
+    },
+    {
+        "height": 907925,
+        "health": 97.57,
+        "loss_sats": 7855806,
+        "loss_usd": 5854.46
+    },
+    {
+        "height": 907811,
+        "health": 84.25,
+        "loss_sats": 59168326,
+        "loss_usd": 44094.6
+    },
+    {
+        "height": 907676,
+        "health": 96.03,
+        "loss_sats": 13076569,
+        "loss_usd": 9745.18
+    },
+    {
+        "height": 907467,
+        "health": 98.03,
+        "loss_sats": 6363706,
+        "loss_usd": 4742.49
+    },
+    {
+        "height": 907287,
+        "health": 89.34,
+        "loss_sats": 37556052,
+        "loss_usd": 27988.27
+    },
+    {
+        "height": 907186,
+        "health": 97.48,
+        "loss_sats": 8144639,
+        "loss_usd": 6069.71
+    },
+    {
+        "height": 906655,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 906631,
+        "health": 99.8,
+        "loss_sats": 632637,
+        "loss_usd": 471.47
+    },
+    {
+        "height": 906289,
+        "health": 95.44,
+        "loss_sats": 15089890,
+        "loss_usd": 11245.59
+    },
+    {
+        "height": 906190,
+        "health": 93.97,
+        "loss_sats": 20138794,
+        "loss_usd": 15008.23
+    },
+    {
+        "height": 906166,
+        "health": 93.81,
+        "loss_sats": 20972826,
+        "loss_usd": 15629.79
+    },
+    {
+        "height": 906041,
+        "health": 97.64,
+        "loss_sats": 7608413,
+        "loss_usd": 5670.09
+    },
+    {
+        "height": 905975,
+        "health": 98.17,
+        "loss_sats": 5907518,
+        "loss_usd": 4402.52
+    },
+    {
+        "height": 905894,
+        "health": 85.31,
+        "loss_sats": 54888341,
+        "loss_usd": 40904.99
+    },
+    {
+        "height": 905892,
+        "health": 95.61,
+        "loss_sats": 14472124,
+        "loss_usd": 10785.21
+    },
+    {
+        "height": 905850,
+        "health": 85.84,
+        "loss_sats": 51838776,
+        "loss_usd": 38632.33
+    },
+    {
+        "height": 905709,
+        "health": 98.43,
+        "loss_sats": 5032297,
+        "loss_usd": 3750.27
+    },
+    {
+        "height": 905662,
+        "health": 72.33,
+        "loss_sats": 120116904,
+        "loss_usd": 89515.92
+    },
+    {
+        "height": 905465,
+        "health": 28.08,
+        "loss_sats": 803509231,
+        "loss_usd": 598807.22
+    },
+    {
+        "height": 905415,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 905347,
+        "health": 96.44,
+        "loss_sats": 11687130,
+        "loss_usd": 8709.72
+    },
+    {
+        "height": 905299,
+        "health": 92.8,
+        "loss_sats": 24285962,
+        "loss_usd": 18098.87
+    },
+    {
+        "height": 905236,
+        "health": 84.82,
+        "loss_sats": 56356993,
+        "loss_usd": 41999.49
+    },
+    {
+        "height": 905182,
+        "health": 99.6,
+        "loss_sats": 1257044,
+        "loss_usd": 936.8
+    },
+    {
+        "height": 905153,
+        "health": 99.9,
+        "loss_sats": 313964,
+        "loss_usd": 233.98
+    },
+    {
+        "height": 905129,
+        "health": 96.87,
+        "loss_sats": 10186086,
+        "loss_usd": 7591.08
+    },
+    {
+        "height": 905115,
+        "health": 98.8,
+        "loss_sats": 3863789,
+        "loss_usd": 2879.45
+    },
+    {
+        "height": 905090,
+        "health": 98,
+        "loss_sats": 6507467,
+        "loss_usd": 4849.62
+    },
+    {
+        "height": 905078,
+        "health": 57.17,
+        "loss_sats": 235193561,
+        "loss_usd": 175275.65
+    },
+    {
+        "height": 905075,
+        "health": 99.74,
+        "loss_sats": 818399,
+        "loss_usd": 609.9
+    },
+    {
+        "height": 905045,
+        "health": 98.66,
+        "loss_sats": 4318826,
+        "loss_usd": 3218.56
+    },
+    {
+        "height": 905039,
+        "health": 70.49,
+        "loss_sats": 131538201,
+        "loss_usd": 98027.53
+    },
+    {
+        "height": 905035,
+        "health": 96.29,
+        "loss_sats": 12170464,
+        "loss_usd": 9069.92
+    },
+    {
+        "height": 904969,
+        "health": 98.58,
+        "loss_sats": 4557607,
+        "loss_usd": 3396.51
+    },
+    {
+        "height": 904898,
+        "health": 61.18,
+        "loss_sats": 198642107,
+        "loss_usd": 148036.04
+    },
+    {
+        "height": 904872,
+        "health": 82.79,
+        "loss_sats": 65274081,
+        "loss_usd": 48644.86
+    },
+    {
+        "height": 904707,
+        "health": 86.3,
+        "loss_sats": 49836819,
+        "loss_usd": 37140.39
+    },
+    {
+        "height": 904665,
+        "health": 88.13,
+        "loss_sats": 42474678,
+        "loss_usd": 31653.83
+    },
+    {
+        "height": 904655,
+        "health": 82.97,
+        "loss_sats": 64509837,
+        "loss_usd": 48075.31
+    },
+    {
+        "height": 904639,
+        "health": 99.94,
+        "loss_sats": 188359,
+        "loss_usd": 140.37
+    },
+    {
+        "height": 904617,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 904541,
+        "health": 94.44,
+        "loss_sats": 18575303,
+        "loss_usd": 13843.06
+    },
+    {
+        "height": 904514,
+        "health": 99.63,
+        "loss_sats": 1173734,
+        "loss_usd": 874.71
+    },
+    {
+        "height": 904463,
+        "health": 96.18,
+        "loss_sats": 12489939,
+        "loss_usd": 9308.0
+    },
+    {
+        "height": 904302,
+        "health": 99.68,
+        "loss_sats": 1006490,
+        "loss_usd": 750.08
+    },
+    {
+        "height": 904227,
+        "health": 97.75,
+        "loss_sats": 7223565,
+        "loss_usd": 5383.29
+    },
+    {
+        "height": 904174,
+        "health": 91.44,
+        "loss_sats": 29544221,
+        "loss_usd": 22017.54
+    },
+    {
+        "height": 904150,
+        "health": 93.85,
+        "loss_sats": 20629799,
+        "loss_usd": 15374.15
+    },
+    {
+        "height": 904012,
+        "health": 86.47,
+        "loss_sats": 49012768,
+        "loss_usd": 36526.28
+    },
+    {
+        "height": 903501,
+        "health": 99.9,
+        "loss_sats": 314690,
+        "loss_usd": 234.52
+    },
+    {
+        "height": 903496,
+        "health": 97.92,
+        "loss_sats": 6693621,
+        "loss_usd": 4988.35
+    },
+    {
+        "height": 903481,
+        "health": 93.1,
+        "loss_sats": 23165597,
+        "loss_usd": 17263.93
+    },
+    {
+        "height": 903416,
+        "health": 94.94,
+        "loss_sats": 16727604,
+        "loss_usd": 12466.08
+    },
+    {
+        "height": 903254,
+        "health": 99,
+        "loss_sats": 3163002,
+        "loss_usd": 2357.2
+    },
+    {
+        "height": 903083,
+        "health": 99.94,
+        "loss_sats": 188644,
+        "loss_usd": 140.59
+    },
+    {
+        "height": 902951,
+        "health": 99.91,
+        "loss_sats": 284542,
+        "loss_usd": 212.05
+    },
+    {
+        "height": 902772,
+        "health": 97.47,
+        "loss_sats": 8471329,
+        "loss_usd": 6313.17
+    },
+    {
+        "height": 902732,
+        "health": 97.13,
+        "loss_sats": 9307885,
+        "loss_usd": 6936.61
+    },
+    {
+        "height": 902722,
+        "health": 99.2,
+        "loss_sats": 2531801,
+        "loss_usd": 1886.8
+    },
+    {
+        "height": 902713,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 902414,
+        "health": 99.97,
+        "loss_sats": 95469,
+        "loss_usd": 71.15
+    },
+    {
+        "height": 902189,
+        "health": 96.13,
+        "loss_sats": 12675405,
+        "loss_usd": 9446.22
+    },
+    {
+        "height": 902024,
+        "health": 83.54,
+        "loss_sats": 61885455,
+        "loss_usd": 46119.52
+    },
+    {
+        "height": 902010,
+        "health": 97.71,
+        "loss_sats": 7485270,
+        "loss_usd": 5578.32
+    },
+    {
+        "height": 901410,
+        "health": 59.04,
+        "loss_sats": 217753609,
+        "loss_usd": 162278.7
+    },
+    {
+        "height": 901225,
+        "health": 98.31,
+        "loss_sats": 5401638,
+        "loss_usd": 4025.52
+    },
+    {
+        "height": 901051,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 901034,
+        "health": 96.23,
+        "loss_sats": 12244016,
+        "loss_usd": 9124.73
+    },
+    {
+        "height": 900622,
+        "health": 98.9,
+        "loss_sats": 3490602,
+        "loss_usd": 2601.34
+    },
+    {
+        "height": 900510,
+        "health": 99.91,
+        "loss_sats": 288167,
+        "loss_usd": 214.75
+    },
+    {
+        "height": 899990,
+        "health": 99.86,
+        "loss_sats": 440802,
+        "loss_usd": 328.5
+    },
+    {
+        "height": 899952,
+        "health": 98.3,
+        "loss_sats": 5465104,
+        "loss_usd": 4072.81
+    },
+    {
+        "height": 899792,
+        "health": 90.58,
+        "loss_sats": 33064922,
+        "loss_usd": 24641.3
+    },
+    {
+        "height": 899535,
+        "health": 98.36,
+        "loss_sats": 5303736,
+        "loss_usd": 3952.56
+    },
+    {
+        "height": 899524,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 899498,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 899335,
+        "health": 90.72,
+        "loss_sats": 32233605,
+        "loss_usd": 24021.77
+    },
+    {
+        "height": 899253,
+        "health": 99.44,
+        "loss_sats": 1762011,
+        "loss_usd": 1313.12
+    },
+    {
+        "height": 899211,
+        "health": 96.8,
+        "loss_sats": 10433337,
+        "loss_usd": 7775.34
+    },
+    {
+        "height": 898985,
+        "health": 99.38,
+        "loss_sats": 1969644,
+        "loss_usd": 1467.86
+    },
+    {
+        "height": 898873,
+        "health": 77.64,
+        "loss_sats": 90230447,
+        "loss_usd": 67243.34
+    },
+    {
+        "height": 898703,
+        "health": 99.21,
+        "loss_sats": 2498351,
+        "loss_usd": 1861.87
+    },
+    {
+        "height": 898303,
+        "health": 91.67,
+        "loss_sats": 28397700,
+        "loss_usd": 21163.1
+    },
+    {
+        "height": 898229,
+        "health": 99.24,
+        "loss_sats": 2395750,
+        "loss_usd": 1785.41
+    },
+    {
+        "height": 898204,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 898161,
+        "health": 99.97,
+        "loss_sats": 96244,
+        "loss_usd": 71.72
+    },
+    {
+        "height": 897970,
+        "health": 98.7,
+        "loss_sats": 4130105,
+        "loss_usd": 3077.92
+    },
+    {
+        "height": 897866,
+        "health": 97.27,
+        "loss_sats": 8949006,
+        "loss_usd": 6669.16
+    },
+    {
+        "height": 897426,
+        "health": 96.69,
+        "loss_sats": 10798369,
+        "loss_usd": 8047.38
+    },
+    {
+        "height": 897329,
+        "health": 92.5,
+        "loss_sats": 25635609,
+        "loss_usd": 19104.68
+    },
+    {
+        "height": 897315,
+        "health": 99.57,
+        "loss_sats": 1360882,
+        "loss_usd": 1014.18
+    },
+    {
+        "height": 896833,
+        "health": 95.82,
+        "loss_sats": 13819746,
+        "loss_usd": 10299.03
+    },
+    {
+        "height": 896801,
+        "health": 92.98,
+        "loss_sats": 23911377,
+        "loss_usd": 17819.71
+    },
+    {
+        "height": 896743,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 896700,
+        "health": 99.97,
+        "loss_sats": 95342,
+        "loss_usd": 71.05
+    },
+    {
+        "height": 896345,
+        "health": 47.5,
+        "loss_sats": 347382676,
+        "loss_usd": 258883.47
+    },
+    {
+        "height": 896341,
+        "health": 99.9,
+        "loss_sats": 314010,
+        "loss_usd": 234.01
+    },
+    {
+        "height": 896257,
+        "health": 97.62,
+        "loss_sats": 7623414,
+        "loss_usd": 5681.27
+    },
+    {
+        "height": 896072,
+        "health": 90.2,
+        "loss_sats": 34278872,
+        "loss_usd": 25545.99
+    },
+    {
+        "height": 896059,
+        "health": 79.03,
+        "loss_sats": 83357274,
+        "loss_usd": 62121.17
+    },
+    {
+        "height": 896026,
+        "health": 91.31,
+        "loss_sats": 29926493,
+        "loss_usd": 22302.42
+    },
+    {
+        "height": 895807,
+        "health": 88.84,
+        "loss_sats": 39596811,
+        "loss_usd": 29509.13
+    },
+    {
+        "height": 895686,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 895481,
+        "health": 99.93,
+        "loss_sats": 219885,
+        "loss_usd": 163.87
+    },
+    {
+        "height": 895389,
+        "health": 98.66,
+        "loss_sats": 4283296,
+        "loss_usd": 3192.08
+    },
+    {
+        "height": 895331,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 895241,
+        "health": 95.98,
+        "loss_sats": 13202699,
+        "loss_usd": 9839.18
+    },
+    {
+        "height": 895189,
+        "health": 99.89,
+        "loss_sats": 346023,
+        "loss_usd": 257.87
+    },
+    {
+        "height": 895019,
+        "health": 99.89,
+        "loss_sats": 346056,
+        "loss_usd": 257.89
+    },
+    {
+        "height": 894716,
+        "health": 96.32,
+        "loss_sats": 12051833,
+        "loss_usd": 8981.51
+    },
+    {
+        "height": 894683,
+        "health": 99.54,
+        "loss_sats": 1450810,
+        "loss_usd": 1081.2
+    },
+    {
+        "height": 894651,
+        "health": 99.92,
+        "loss_sats": 252099,
+        "loss_usd": 187.87
+    },
+    {
+        "height": 894604,
+        "health": 61.46,
+        "loss_sats": 196933337,
+        "loss_usd": 146762.6
+    },
+    {
+        "height": 894498,
+        "health": 95.61,
+        "loss_sats": 14724431,
+        "loss_usd": 10973.23
+    },
+    {
+        "height": 894492,
+        "health": 99.37,
+        "loss_sats": 1995549,
+        "loss_usd": 1487.16
+    },
+    {
+        "height": 894337,
+        "health": 96.87,
+        "loss_sats": 10249345,
+        "loss_usd": 7638.22
+    },
+    {
+        "height": 894061,
+        "health": 52.23,
+        "loss_sats": 286584645,
+        "loss_usd": 213574.34
+    },
+    {
+        "height": 893976,
+        "health": 96.38,
+        "loss_sats": 11917713,
+        "loss_usd": 8881.56
+    },
+    {
+        "height": 893919,
+        "health": 94.5,
+        "loss_sats": 18598176,
+        "loss_usd": 13860.1
+    },
+    {
+        "height": 893702,
+        "health": 89.71,
+        "loss_sats": 36909214,
+        "loss_usd": 27506.22
+    },
+    {
+        "height": 893612,
+        "health": 99.85,
+        "loss_sats": 472046,
+        "loss_usd": 351.79
+    },
+    {
+        "height": 893594,
+        "health": 98.16,
+        "loss_sats": 5962035,
+        "loss_usd": 4443.15
+    },
+    {
+        "height": 893499,
+        "health": 99.95,
+        "loss_sats": 157471,
+        "loss_usd": 117.35
+    },
+    {
+        "height": 892828,
+        "health": 99.97,
+        "loss_sats": 95538,
+        "loss_usd": 71.2
+    },
+    {
+        "height": 892767,
+        "health": 97.02,
+        "loss_sats": 9679372,
+        "loss_usd": 7213.46
+    },
+    {
+        "height": 892639,
+        "health": 96.18,
+        "loss_sats": 12516989,
+        "loss_usd": 9328.16
+    },
+    {
+        "height": 892626,
+        "health": 99.94,
+        "loss_sats": 188968,
+        "loss_usd": 140.83
+    },
+    {
+        "height": 892445,
+        "health": 93.57,
+        "loss_sats": 21520226,
+        "loss_usd": 16037.73
+    },
+    {
+        "height": 892343,
+        "health": 84.53,
+        "loss_sats": 57537023,
+        "loss_usd": 42878.89
+    },
+    {
+        "height": 892342,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 892001,
+        "health": 84.55,
+        "loss_sats": 57336179,
+        "loss_usd": 42729.21
+    },
+    {
+        "height": 891896,
+        "health": 90.17,
+        "loss_sats": 35899959,
+        "loss_usd": 26754.09
+    },
+    {
+        "height": 891706,
+        "health": 97.85,
+        "loss_sats": 6965690,
+        "loss_usd": 5191.11
+    },
+    {
+        "height": 891667,
+        "health": 98.41,
+        "loss_sats": 5119255,
+        "loss_usd": 3815.07
+    },
+    {
+        "height": 891622,
+        "health": 99.94,
+        "loss_sats": 190277,
+        "loss_usd": 141.8
+    },
+    {
+        "height": 891501,
+        "health": 97.79,
+        "loss_sats": 7288887,
+        "loss_usd": 5431.97
+    },
+    {
+        "height": 891367,
+        "health": 99.93,
+        "loss_sats": 221363,
+        "loss_usd": 164.97
+    },
+    {
+        "height": 891316,
+        "health": 99.89,
+        "loss_sats": 349922,
+        "loss_usd": 260.78
+    },
+    {
+        "height": 891230,
+        "health": 97.37,
+        "loss_sats": 8444564,
+        "loss_usd": 6293.23
+    },
+    {
+        "height": 891043,
+        "health": 95.52,
+        "loss_sats": 14732385,
+        "loss_usd": 10979.16
+    },
+    {
+        "height": 890936,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 890929,
+        "health": 83.74,
+        "loss_sats": 61128591,
+        "loss_usd": 45555.47
+    },
+    {
+        "height": 890813,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 890554,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 890462,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 890429,
+        "health": 99.96,
+        "loss_sats": 126042,
+        "loss_usd": 93.93
+    },
+    {
+        "height": 890362,
+        "health": 97.29,
+        "loss_sats": 8833528,
+        "loss_usd": 6583.1
+    },
+    {
+        "height": 890216,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 890134,
+        "health": 89.35,
+        "loss_sats": 37670001,
+        "loss_usd": 28073.19
+    },
+    {
+        "height": 890133,
+        "health": 94.74,
+        "loss_sats": 17650229,
+        "loss_usd": 13153.66
+    },
+    {
+        "height": 890099,
+        "health": 93.54,
+        "loss_sats": 21759986,
+        "loss_usd": 16216.41
+    },
+    {
+        "height": 890052,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 889686,
+        "health": 29.91,
+        "loss_sats": 735529359,
+        "loss_usd": 548145.9
+    },
+    {
+        "height": 889648,
+        "health": 99.81,
+        "loss_sats": 597942,
+        "loss_usd": 445.61
+    },
+    {
+        "height": 889626,
+        "health": 99.97,
+        "loss_sats": 95173,
+        "loss_usd": 70.93
+    },
+    {
+        "height": 889485,
+        "health": 97.63,
+        "loss_sats": 7694724,
+        "loss_usd": 5734.42
+    },
+    {
+        "height": 889458,
+        "health": 99.92,
+        "loss_sats": 257463,
+        "loss_usd": 191.87
+    },
+    {
+        "height": 889401,
+        "health": 99.91,
+        "loss_sats": 286888,
+        "loss_usd": 213.8
+    },
+    {
+        "height": 888908,
+        "health": 70.17,
+        "loss_sats": 134043907,
+        "loss_usd": 99894.88
+    },
+    {
+        "height": 888418,
+        "health": 97.14,
+        "loss_sats": 9381695,
+        "loss_usd": 6991.61
+    },
+    {
+        "height": 888283,
+        "health": 94.42,
+        "loss_sats": 18690866,
+        "loss_usd": 13929.18
+    },
+    {
+        "height": 888094,
+        "health": 99.92,
+        "loss_sats": 251213,
+        "loss_usd": 187.21
+    },
+    {
+        "height": 887764,
+        "health": 98.37,
+        "loss_sats": 5253079,
+        "loss_usd": 3914.8
+    },
+    {
+        "height": 887746,
+        "health": 99.97,
+        "loss_sats": 95478,
+        "loss_usd": 71.15
+    },
+    {
+        "height": 887602,
+        "health": 96.5,
+        "loss_sats": 11394354,
+        "loss_usd": 8491.53
+    },
+    {
+        "height": 887473,
+        "health": 99.79,
+        "loss_sats": 666707,
+        "loss_usd": 496.86
+    },
+    {
+        "height": 887455,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 886988,
+        "health": 89.84,
+        "loss_sats": 35538667,
+        "loss_usd": 26484.84
+    },
+    {
+        "height": 886384,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 886241,
+        "health": 92.5,
+        "loss_sats": 25487462,
+        "loss_usd": 18994.28
+    },
+    {
+        "height": 886188,
+        "health": 99.37,
+        "loss_sats": 2003149,
+        "loss_usd": 1492.83
+    },
+    {
+        "height": 886164,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 886031,
+        "health": 97.79,
+        "loss_sats": 7261378,
+        "loss_usd": 5411.47
+    },
+    {
+        "height": 885785,
+        "health": 95.13,
+        "loss_sats": 16917781,
+        "loss_usd": 12607.81
+    },
+    {
+        "height": 885766,
+        "health": 99.11,
+        "loss_sats": 2818418,
+        "loss_usd": 2100.4
+    },
+    {
+        "height": 885653,
+        "health": 96.11,
+        "loss_sats": 12875827,
+        "loss_usd": 9595.58
+    },
+    {
+        "height": 885580,
+        "health": 96.66,
+        "loss_sats": 11020432,
+        "loss_usd": 8212.87
+    },
+    {
+        "height": 885528,
+        "health": 94.54,
+        "loss_sats": 18332824,
+        "loss_usd": 13662.35
+    },
+    {
+        "height": 885291,
+        "health": 97.72,
+        "loss_sats": 7501998,
+        "loss_usd": 5590.79
+    },
+    {
+        "height": 885031,
+        "health": 96.15,
+        "loss_sats": 12836849,
+        "loss_usd": 9566.53
+    },
+    {
+        "height": 885021,
+        "health": 73.1,
+        "loss_sats": 119019915,
+        "loss_usd": 88698.4
+    },
+    {
+        "height": 885017,
+        "health": 75.72,
+        "loss_sats": 104195697,
+        "loss_usd": 77650.8
+    },
+    {
+        "height": 884445,
+        "health": 99.91,
+        "loss_sats": 283688,
+        "loss_usd": 211.42
+    },
+    {
+        "height": 884236,
+        "health": 94.97,
+        "loss_sats": 16724060,
+        "loss_usd": 12463.44
+    },
+    {
+        "height": 884176,
+        "health": 53.32,
+        "loss_sats": 275236262,
+        "loss_usd": 205117.07
+    },
+    {
+        "height": 884055,
+        "health": 95.31,
+        "loss_sats": 15725389,
+        "loss_usd": 11719.19
+    },
+    {
+        "height": 883574,
+        "health": 99.43,
+        "loss_sats": 1798381,
+        "loss_usd": 1340.23
+    },
+    {
+        "height": 883150,
+        "health": 92.32,
+        "loss_sats": 26786259,
+        "loss_usd": 19962.19
+    },
+    {
+        "height": 883125,
+        "health": 93.57,
+        "loss_sats": 21700893,
+        "loss_usd": 16172.37
+    },
+    {
+        "height": 883114,
+        "health": 99.95,
+        "loss_sats": 156975,
+        "loss_usd": 116.98
+    },
+    {
+        "height": 883013,
+        "health": 93.65,
+        "loss_sats": 21361730,
+        "loss_usd": 15919.62
+    },
+    {
+        "height": 882339,
+        "health": 68.91,
+        "loss_sats": 142307516,
+        "loss_usd": 106053.25
+    },
+    {
+        "height": 881982,
+        "health": 17.75,
+        "loss_sats": 1449245551,
+        "loss_usd": 1080035.75
+    },
+    {
+        "height": 881808,
+        "health": 95.23,
+        "loss_sats": 15832019,
+        "loss_usd": 11798.65
+    },
+    {
+        "height": 881648,
+        "health": 98.87,
+        "loss_sats": 3589715,
+        "loss_usd": 2675.2
+    },
+    {
+        "height": 881605,
+        "health": 95.29,
+        "loss_sats": 15684290,
+        "loss_usd": 11688.56
+    },
+    {
+        "height": 881216,
+        "health": 97.24,
+        "loss_sats": 9019511,
+        "loss_usd": 6721.7
+    },
+    {
+        "height": 881037,
+        "health": 97.12,
+        "loss_sats": 9438457,
+        "loss_usd": 7033.92
+    },
+    {
+        "height": 880982,
+        "health": 91.04,
+        "loss_sats": 30934054,
+        "loss_usd": 23053.29
+    },
+    {
+        "height": 880945,
+        "health": 92.41,
+        "loss_sats": 25907777,
+        "loss_usd": 19307.51
+    },
+    {
+        "height": 880933,
+        "health": 66.44,
+        "loss_sats": 159110144,
+        "loss_usd": 118575.24
+    },
+    {
+        "height": 880879,
+        "health": 76.67,
+        "loss_sats": 95959243,
+        "loss_usd": 71512.67
+    },
+    {
+        "height": 880730,
+        "health": 98.43,
+        "loss_sats": 5011333,
+        "loss_usd": 3734.65
+    },
+    {
+        "height": 880684,
+        "health": 98.51,
+        "loss_sats": 4800439,
+        "loss_usd": 3577.48
+    },
+    {
+        "height": 880541,
+        "health": 95.23,
+        "loss_sats": 15830075,
+        "loss_usd": 11797.21
+    },
+    {
+        "height": 880274,
+        "health": 99.06,
+        "loss_sats": 3023905,
+        "loss_usd": 2253.53
+    },
+    {
+        "height": 880028,
+        "health": 93.67,
+        "loss_sats": 21297421,
+        "loss_usd": 15871.69
+    },
+    {
+        "height": 879853,
+        "health": 90.94,
+        "loss_sats": 31447175,
+        "loss_usd": 23435.69
+    },
+    {
+        "height": 879595,
+        "health": 51.9,
+        "loss_sats": 291311446,
+        "loss_usd": 217096.94
+    },
+    {
+        "height": 879437,
+        "health": 45.85,
+        "loss_sats": 371237291,
+        "loss_usd": 276660.88
+    },
+    {
+        "height": 879417,
+        "health": 97.86,
+        "loss_sats": 7045182,
+        "loss_usd": 5250.35
+    },
+    {
+        "height": 879242,
+        "health": 99.57,
+        "loss_sats": 1355595,
+        "loss_usd": 1010.24
+    },
+    {
+        "height": 879046,
+        "health": 87.44,
+        "loss_sats": 46410444,
+        "loss_usd": 34586.92
+    },
+    {
+        "height": 878934,
+        "health": 99.04,
+        "loss_sats": 3043985,
+        "loss_usd": 2268.5
+    },
+    {
+        "height": 878926,
+        "health": 97.84,
+        "loss_sats": 6943172,
+        "loss_usd": 5174.33
+    },
+    {
+        "height": 878768,
+        "health": 91.13,
+        "loss_sats": 30879556,
+        "loss_usd": 23012.68
+    },
+    {
+        "height": 877919,
+        "health": 91.87,
+        "loss_sats": 27927372,
+        "loss_usd": 20812.59
+    },
+    {
+        "height": 877729,
+        "health": 98.2,
+        "loss_sats": 5757811,
+        "loss_usd": 4290.95
+    },
+    {
+        "height": 877599,
+        "health": 99.05,
+        "loss_sats": 3033579,
+        "loss_usd": 2260.74
+    },
+    {
+        "height": 877171,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 876825,
+        "health": 99.38,
+        "loss_sats": 1959273,
+        "loss_usd": 1460.13
+    },
+    {
+        "height": 876725,
+        "health": 99.48,
+        "loss_sats": 1643252,
+        "loss_usd": 1224.62
+    },
+    {
+        "height": 876574,
+        "health": 94.17,
+        "loss_sats": 19557058,
+        "loss_usd": 14574.7
+    },
+    {
+        "height": 876332,
+        "health": 99.95,
+        "loss_sats": 158975,
+        "loss_usd": 118.47
+    },
+    {
+        "height": 876181,
+        "health": 81.22,
+        "loss_sats": 73406478,
+        "loss_usd": 54705.44
+    },
+    {
+        "height": 876020,
+        "health": 99.59,
+        "loss_sats": 1379200,
+        "loss_usd": 1027.84
+    },
+    {
+        "height": 875696,
+        "health": 77.64,
+        "loss_sats": 91562559,
+        "loss_usd": 68236.08
+    },
+    {
+        "height": 875281,
+        "health": 90.73,
+        "loss_sats": 33182167,
+        "loss_usd": 24728.68
+    },
+    {
+        "height": 874801,
+        "health": 80.19,
+        "loss_sats": 79067935,
+        "loss_usd": 58924.59
+    },
+    {
+        "height": 874493,
+        "health": 85.61,
+        "loss_sats": 54019154,
+        "loss_usd": 40257.23
+    },
+    {
+        "height": 874275,
+        "health": 99.79,
+        "loss_sats": 684984,
+        "loss_usd": 510.48
+    },
+    {
+        "height": 874168,
+        "health": 85.98,
+        "loss_sats": 52239188,
+        "loss_usd": 38930.73
+    },
+    {
+        "height": 874099,
+        "health": 99.85,
+        "loss_sats": 481526,
+        "loss_usd": 358.85
+    },
+    {
+        "height": 874003,
+        "health": 92.26,
+        "loss_sats": 26910333,
+        "loss_usd": 20054.66
+    },
+    {
+        "height": 873884,
+        "health": 81.2,
+        "loss_sats": 74530385,
+        "loss_usd": 55543.02
+    },
+    {
+        "height": 873305,
+        "health": 90.83,
+        "loss_sats": 32265911,
+        "loss_usd": 24045.85
+    },
+    {
+        "height": 872660,
+        "health": 99.1,
+        "loss_sats": 2860441,
+        "loss_usd": 2131.72
+    },
+    {
+        "height": 872525,
+        "health": 96.85,
+        "loss_sats": 10508085,
+        "loss_usd": 7831.05
+    },
+    {
+        "height": 872095,
+        "health": 91.72,
+        "loss_sats": 29507735,
+        "loss_usd": 21990.34
+    },
+    {
+        "height": 871746,
+        "health": 96.4,
+        "loss_sats": 12100464,
+        "loss_usd": 9017.75
+    },
+    {
+        "height": 871328,
+        "health": 94.05,
+        "loss_sats": 20098028,
+        "loss_usd": 14977.85
+    },
+    {
+        "height": 871301,
+        "health": 97.6,
+        "loss_sats": 7878155,
+        "loss_usd": 5871.12
+    },
+    {
+        "height": 870674,
+        "health": 92.02,
+        "loss_sats": 27682018,
+        "loss_usd": 20629.75
+    },
+    {
+        "height": 869828,
+        "health": 95.34,
+        "loss_sats": 15655218,
+        "loss_usd": 11666.89
+    },
+    {
+        "height": 869666,
+        "health": 94.88,
+        "loss_sats": 17612198,
+        "loss_usd": 13125.31
+    },
+    {
+        "height": 869645,
+        "health": 99.4,
+        "loss_sats": 1995300,
+        "loss_usd": 1486.98
+    },
+    {
+        "height": 869600,
+        "health": 96.99,
+        "loss_sats": 9891492,
+        "loss_usd": 7371.54
+    },
+    {
+        "height": 869576,
+        "health": 94.51,
+        "loss_sats": 18421191,
+        "loss_usd": 13728.21
+    },
+    {
+        "height": 869510,
+        "health": 89.76,
+        "loss_sats": 36113060,
+        "loss_usd": 26912.9
+    },
+    {
+        "height": 869310,
+        "health": 95.52,
+        "loss_sats": 14948540,
+        "loss_usd": 11140.25
+    },
+    {
+        "height": 869132,
+        "health": 89.74,
+        "loss_sats": 36047485,
+        "loss_usd": 26864.03
+    },
+    {
+        "height": 869087,
+        "health": 93.79,
+        "loss_sats": 21307906,
+        "loss_usd": 15879.5
+    },
+    {
+        "height": 869030,
+        "health": 94.83,
+        "loss_sats": 17191264,
+        "loss_usd": 12811.62
+    },
+    {
+        "height": 868960,
+        "health": 94.04,
+        "loss_sats": 20049136,
+        "loss_usd": 14941.42
+    },
+    {
+        "height": 868808,
+        "health": 95.74,
+        "loss_sats": 14094896,
+        "loss_usd": 10504.08
+    },
+    {
+        "height": 868670,
+        "health": 96.33,
+        "loss_sats": 12020847,
+        "loss_usd": 8958.42
+    },
+    {
+        "height": 868653,
+        "health": 97.55,
+        "loss_sats": 7975425,
+        "loss_usd": 5943.61
+    },
+    {
+        "height": 868531,
+        "health": 95.84,
+        "loss_sats": 13885838,
+        "loss_usd": 10348.28
+    },
+    {
+        "height": 868078,
+        "health": 97.16,
+        "loss_sats": 9223848,
+        "loss_usd": 6873.98
+    },
+    {
+        "height": 867737,
+        "health": 97.93,
+        "loss_sats": 6666492,
+        "loss_usd": 4968.14
+    },
+    {
+        "height": 867614,
+        "health": 94.43,
+        "loss_sats": 18688568,
+        "loss_usd": 13927.47
+    },
+    {
+        "height": 867301,
+        "health": 91.94,
+        "loss_sats": 27919689,
+        "loss_usd": 20806.87
+    },
+    {
+        "height": 867250,
+        "health": 98.53,
+        "loss_sats": 5136150,
+        "loss_usd": 3827.66
+    },
+    {
+        "height": 866958,
+        "health": 99.98,
+        "loss_sats": 66338,
+        "loss_usd": 49.44
+    },
+    {
+        "height": 866909,
+        "health": 99.63,
+        "loss_sats": 1219383,
+        "loss_usd": 908.73
+    },
+    {
+        "height": 866854,
+        "health": 99.25,
+        "loss_sats": 2481798,
+        "loss_usd": 1849.54
+    },
+    {
+        "height": 866558,
+        "health": 79.69,
+        "loss_sats": 81562821,
+        "loss_usd": 60783.88
+    },
+    {
+        "height": 866547,
+        "health": 95.45,
+        "loss_sats": 15102691,
+        "loss_usd": 11255.13
+    },
+    {
+        "height": 865820,
+        "health": 98.99,
+        "loss_sats": 3293989,
+        "loss_usd": 2454.81
+    },
+    {
+        "height": 865812,
+        "health": 99.12,
+        "loss_sats": 3034965,
+        "loss_usd": 2261.78
+    },
+    {
+        "height": 865706,
+        "health": 98.92,
+        "loss_sats": 3480356,
+        "loss_usd": 2593.7
+    },
+    {
+        "height": 865331,
+        "health": 99.12,
+        "loss_sats": 3169572,
+        "loss_usd": 2362.09
+    },
+    {
+        "height": 864671,
+        "health": 81.19,
+        "loss_sats": 74217707,
+        "loss_usd": 55310.0
+    },
+    {
+        "height": 864390,
+        "health": 94.31,
+        "loss_sats": 19491426,
+        "loss_usd": 14525.79
+    },
+    {
+        "height": 864221,
+        "health": 99.95,
+        "loss_sats": 157348,
+        "loss_usd": 117.26
+    },
+    {
+        "height": 864146,
+        "health": 96.21,
+        "loss_sats": 12581181,
+        "loss_usd": 9376.0
+    },
+    {
+        "height": 863922,
+        "health": 99.96,
+        "loss_sats": 127067,
+        "loss_usd": 94.7
+    },
+    {
+        "height": 863721,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 863471,
+        "health": 93.13,
+        "loss_sats": 23280859,
+        "loss_usd": 17349.83
+    },
+    {
+        "height": 861606,
+        "health": 93.82,
+        "loss_sats": 20942245,
+        "loss_usd": 15607.0
+    },
+    {
+        "height": 861164,
+        "health": 97.19,
+        "loss_sats": 9153618,
+        "loss_usd": 6821.64
+    },
+    {
+        "height": 860990,
+        "health": 98.1,
+        "loss_sats": 6139200,
+        "loss_usd": 4575.18
+    },
+    {
+        "height": 860062,
+        "health": 98.48,
+        "loss_sats": 4908511,
+        "loss_usd": 3658.02
+    },
+    {
+        "height": 859930,
+        "health": 99.99,
+        "loss_sats": 31587,
+        "loss_usd": 23.54
+    },
+    {
+        "height": 859648,
+        "health": 99.06,
+        "loss_sats": 2995543,
+        "loss_usd": 2232.4
+    },
+    {
+        "height": 859040,
+        "health": 95.87,
+        "loss_sats": 13620990,
+        "loss_usd": 10150.91
+    },
+    {
+        "height": 858001,
+        "health": 96.4,
+        "loss_sats": 12157248,
+        "loss_usd": 9060.07
+    },
+    {
+        "height": 857957,
+        "health": 98.2,
+        "loss_sats": 6270120,
+        "loss_usd": 4672.74
+    },
+    {
+        "height": 857846,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 857812,
+        "health": 98.39,
+        "loss_sats": 5240681,
+        "loss_usd": 3905.57
+    },
+    {
+        "height": 857772,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 857253,
+        "health": 99.98,
+        "loss_sats": 63094,
+        "loss_usd": 47.02
+    },
+    {
+        "height": 856795,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 856119,
+        "health": 87.29,
+        "loss_sats": 46262963,
+        "loss_usd": 34477.01
+    },
+    {
+        "height": 855693,
+        "health": 95.64,
+        "loss_sats": 14421260,
+        "loss_usd": 10747.3
+    },
+    {
+        "height": 855488,
+        "health": 96.17,
+        "loss_sats": 12597844,
+        "loss_usd": 9388.42
+    },
+    {
+        "height": 855112,
+        "health": 98.56,
+        "loss_sats": 4613209,
+        "loss_usd": 3437.95
+    },
+    {
+        "height": 854580,
+        "health": 99.98,
+        "loss_sats": 63251,
+        "loss_usd": 47.14
+    },
+    {
+        "height": 853220,
+        "health": 97.52,
+        "loss_sats": 8058119,
+        "loss_usd": 6005.23
+    },
+    {
+        "height": 852462,
+        "health": 96.42,
+        "loss_sats": 11835009,
+        "loss_usd": 8819.92
+    },
+    {
+        "height": 851687,
+        "health": 99.94,
+        "loss_sats": 190973,
+        "loss_usd": 142.32
+    },
+    {
+        "height": 850857,
+        "health": 87.88,
+        "loss_sats": 44626426,
+        "loss_usd": 33257.4
+    },
+    {
+        "height": 850329,
+        "health": 98.54,
+        "loss_sats": 4829330,
+        "loss_usd": 3599.01
+    },
+    {
+        "height": 849983,
+        "health": 92.13,
+        "loss_sats": 27702994,
+        "loss_usd": 20645.38
+    },
+    {
+        "height": 849481,
+        "health": 98.22,
+        "loss_sats": 5934426,
+        "loss_usd": 4422.57
+    },
+    {
+        "height": 849183,
+        "health": 96.49,
+        "loss_sats": 11758101,
+        "loss_usd": 8762.61
+    },
+    {
+        "height": 849069,
+        "health": 98.42,
+        "loss_sats": 5223363,
+        "loss_usd": 3892.66
+    },
+    {
+        "height": 849019,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 849001,
+        "health": 99.7,
+        "loss_sats": 973992,
+        "loss_usd": 725.86
+    },
+    {
+        "height": 848104,
+        "health": 73.27,
+        "loss_sats": 125928918,
+        "loss_usd": 93847.27
+    },
+    {
+        "height": 845947,
+        "health": 99,
+        "loss_sats": 3720764,
+        "loss_usd": 2772.86
+    },
+    {
+        "height": 845118,
+        "health": 99.53,
+        "loss_sats": 1544611,
+        "loss_usd": 1151.11
+    },
+    {
+        "height": 844990,
+        "health": 97.14,
+        "loss_sats": 9665765,
+        "loss_usd": 7203.31
+    },
+    {
+        "height": 844208,
+        "health": 0,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 843264,
+        "health": 99.78,
+        "loss_sats": 714140,
+        "loss_usd": 532.21
+    },
+    {
+        "height": 842828,
+        "health": 0,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 841949,
+        "health": 99.59,
+        "loss_sats": 1454074,
+        "loss_usd": 1083.63
+    },
+    {
+        "height": 841771,
+        "health": 99.82,
+        "loss_sats": 594771,
+        "loss_usd": 443.25
+    },
+    {
+        "height": 841732,
+        "health": 96.47,
+        "loss_sats": 12768214,
+        "loss_usd": 9515.38
+    },
+    {
+        "height": 840879,
+        "health": 99.43,
+        "loss_sats": 2208303,
+        "loss_usd": 1645.72
+    },
+    {
+        "height": 838886,
+        "health": 89.63,
+        "loss_sats": 88674857,
+        "loss_usd": 66084.05
+    },
+    {
+        "height": 838825,
+        "health": 82.61,
+        "loss_sats": 149205410,
+        "loss_usd": 111193.84
+    },
+    {
+        "height": 838746,
+        "health": 67.77,
+        "loss_sats": 330633080,
+        "loss_usd": 246401.0
+    },
+    {
+        "height": 837874,
+        "health": 89.12,
+        "loss_sats": 79908033,
+        "loss_usd": 59550.66
+    },
+    {
+        "height": 836974,
+        "health": 83.59,
+        "loss_sats": 125927353,
+        "loss_usd": 93846.1
+    },
+    {
+        "height": 836693,
+        "health": 75.74,
+        "loss_sats": 205900511,
+        "loss_usd": 153445.3
+    },
+    {
+        "height": 836552,
+        "health": 93.75,
+        "loss_sats": 42835901,
+        "loss_usd": 31923.03
+    },
+    {
+        "height": 836397,
+        "health": 96.39,
+        "loss_sats": 24187484,
+        "loss_usd": 18025.48
+    },
+    {
+        "height": 835630,
+        "health": 94.36,
+        "loss_sats": 38797259,
+        "loss_usd": 28913.27
+    },
+    {
+        "height": 835512,
+        "health": 92.75,
+        "loss_sats": 50001646,
+        "loss_usd": 37263.23
+    },
+    {
+        "height": 835019,
+        "health": 95.97,
+        "loss_sats": 26657425,
+        "loss_usd": 19866.18
+    },
+    {
+        "height": 833980,
+        "health": 94.44,
+        "loss_sats": 38498652,
+        "loss_usd": 28690.74
+    },
+    {
+        "height": 833911,
+        "health": 94.64,
+        "loss_sats": 36624211,
+        "loss_usd": 27293.83
+    },
+    {
+        "height": 833903,
+        "health": 94.84,
+        "loss_sats": 35435064,
+        "loss_usd": 26407.63
+    },
+    {
+        "height": 832888,
+        "health": 84.18,
+        "loss_sats": 121881157,
+        "loss_usd": 90830.71
+    },
+    {
+        "height": 831628,
+        "health": 89.62,
+        "loss_sats": 74367169,
+        "loss_usd": 55421.39
+    },
+    {
+        "height": 831381,
+        "health": 90.82,
+        "loss_sats": 65670213,
+        "loss_usd": 48940.07
+    },
+    {
+        "height": 831173,
+        "health": 68.68,
+        "loss_sats": 292925562,
+        "loss_usd": 218299.85
+    },
+    {
+        "height": 830875,
+        "health": 94.34,
+        "loss_sats": 38772016,
+        "loss_usd": 28894.46
+    },
+    {
+        "height": 830291,
+        "health": 94.27,
+        "loss_sats": 40732842,
+        "loss_usd": 30355.74
+    },
+    {
+        "height": 829933,
+        "health": 99.77,
+        "loss_sats": 1471688,
+        "loss_usd": 1096.76
+    },
+    {
+        "height": 829513,
+        "health": 95.41,
+        "loss_sats": 32600960,
+        "loss_usd": 24295.54
+    },
+    {
+        "height": 829267,
+        "health": 96.96,
+        "loss_sats": 20946530,
+        "loss_usd": 15610.19
+    },
+    {
+        "height": 828232,
+        "health": 87.97,
+        "loss_sats": 91325138,
+        "loss_usd": 68059.15
+    },
+    {
+        "height": 827750,
+        "health": 99.58,
+        "loss_sats": 2748163,
+        "loss_usd": 2048.04
+    },
+    {
+        "height": 827476,
+        "health": 83.96,
+        "loss_sats": 129202970,
+        "loss_usd": 96287.22
+    },
+    {
+        "height": 827079,
+        "health": 90.67,
+        "loss_sats": 68536376,
+        "loss_usd": 51076.05
+    },
+    {
+        "height": 824915,
+        "health": 95.47,
+        "loss_sats": 34360918,
+        "loss_usd": 25607.13
+    },
+    {
+        "height": 823925,
+        "health": 0,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 823129,
+        "health": 85.34,
+        "loss_sats": 127322500,
+        "loss_usd": 94885.82
+    },
+    {
+        "height": 819489,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0
+    },
+    {
+        "height": 819242,
+        "health": 98.66,
+        "loss_sats": 8895275,
+        "loss_usd": 6629.11
+    }
+]
