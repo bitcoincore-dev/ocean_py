@@ -66,7 +66,7 @@ def fetch_all_ocean_blocks():
             })
 
             # Print a sample of the first few
-            if len(processed_data) <= 10:
+            if len(processed_data) <= 1000:
                 print(f"{b['height']:<10} | {match_rate:>6.2f}% | {loss_sats:>12,} | ${loss_usd:>8.2f}")
 
         # 3. Output Summary
