@@ -100,7 +100,9 @@ def fetch_all_ocean_blocks(depth=1000):
             actual_reward = extras.get("reward", 0)
 
             if match_rate > 0 and match_rate < 100:
-                expected_reward = int(actual_reward / (match_rate / 100))
+                # Calculate expected_reward with more robust precision
+                # Convert to integer after multiplication and division to maintain precision
+                expected_reward = int(round((actual_reward * 100) / match_rate))
                 loss_sats = expected_reward - actual_reward
             else:
                 loss_sats = 0
