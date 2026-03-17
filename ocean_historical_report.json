@@ -1,0 +1,4994 @@
+[
+    {
+        "height": 940893,
+        "match_rate": 96.21,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 940870,
+        "match_rate": 98.67,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 940830,
+        "match_rate": 89.47,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 940828,
+        "match_rate": 99.12,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 940726,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 940595,
+        "match_rate": 84.66,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 940506,
+        "match_rate": 94.39,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 940403,
+        "match_rate": 99.52,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 940306,
+        "match_rate": 77.72,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 940267,
+        "match_rate": 98.68,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 940192,
+        "match_rate": 99.03,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 940054,
+        "match_rate": 95.97,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 940050,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 939994,
+        "match_rate": 99.12,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 939977,
+        "match_rate": 99.21,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 939912,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 939894,
+        "match_rate": 98.79,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 939890,
+        "match_rate": 98.21,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 939810,
+        "match_rate": 96.48,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 939657,
+        "match_rate": 93.45,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 939641,
+        "match_rate": 91.15,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 939634,
+        "match_rate": 98.76,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 939528,
+        "match_rate": 99.79,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 939497,
+        "match_rate": 98.72,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 939417,
+        "match_rate": 94.51,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 939339,
+        "match_rate": 99.56,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 939319,
+        "match_rate": 97.12,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 939263,
+        "match_rate": 97.39,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 939261,
+        "match_rate": 95.7,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 939239,
+        "match_rate": 86.29,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 939232,
+        "match_rate": 94.77,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 939231,
+        "match_rate": 97.13,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 939206,
+        "match_rate": 96.17,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 939172,
+        "match_rate": 97.54,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 939114,
+        "match_rate": 98.09,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 939042,
+        "match_rate": 97.83,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 938971,
+        "match_rate": 97.68,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 938929,
+        "match_rate": 96.84,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 938903,
+        "match_rate": 96.17,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 938853,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 938740,
+        "match_rate": 99.75,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 938689,
+        "match_rate": 96.55,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 938657,
+        "match_rate": 97.99,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 938616,
+        "match_rate": 97.47,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 938598,
+        "match_rate": 99.85,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 938470,
+        "match_rate": 99.43,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 938418,
+        "match_rate": 53.87,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 938402,
+        "match_rate": 96.09,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 938311,
+        "match_rate": 99.54,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 938293,
+        "match_rate": 99.64,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 938291,
+        "match_rate": 99.66,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 938133,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 938003,
+        "match_rate": 99.7,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 937958,
+        "match_rate": 97.6,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 937907,
+        "match_rate": 74.22,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 937713,
+        "match_rate": 99.68,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 937624,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 937560,
+        "match_rate": 93.8,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 937545,
+        "match_rate": 97.44,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 937541,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 937331,
+        "match_rate": 99.35,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 937318,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 937030,
+        "match_rate": 98.06,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 937007,
+        "match_rate": 96.55,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 936913,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 936626,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 936551,
+        "match_rate": 96.87,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 936532,
+        "match_rate": 96.32,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 936517,
+        "match_rate": 95.49,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 936417,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 936382,
+        "match_rate": 99.44,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 936370,
+        "match_rate": 97.6,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 936337,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 936241,
+        "match_rate": 99.94,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 936237,
+        "match_rate": 98.22,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 936227,
+        "match_rate": 96.13,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 936121,
+        "match_rate": 96.78,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 936097,
+        "match_rate": 95.45,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 936046,
+        "match_rate": 95.44,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 935884,
+        "match_rate": 87.33,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 935785,
+        "match_rate": 97.71,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 935662,
+        "match_rate": 96.04,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 935608,
+        "match_rate": 99.78,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 935593,
+        "match_rate": 96.11,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 935587,
+        "match_rate": 93.9,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 935488,
+        "match_rate": 97.39,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 935417,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 935249,
+        "match_rate": 98.32,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 935205,
+        "match_rate": 95.18,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 935020,
+        "match_rate": 99.88,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 934998,
+        "match_rate": 97.85,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 934325,
+        "match_rate": 97.24,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 934320,
+        "match_rate": 97.56,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 934308,
+        "match_rate": 94.49,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 934151,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 934118,
+        "match_rate": 97.65,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 934028,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 933957,
+        "match_rate": 99.81,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 933946,
+        "match_rate": 94.12,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 933942,
+        "match_rate": 97.48,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 933789,
+        "match_rate": 96.07,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 933728,
+        "match_rate": 99.24,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 933720,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 933714,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 933692,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 933534,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 933442,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 933233,
+        "match_rate": 94.7,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 933196,
+        "match_rate": 96.45,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 933178,
+        "match_rate": 99.94,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 933145,
+        "match_rate": 95.39,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 933089,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 933056,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 933045,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 932948,
+        "match_rate": 96.1,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 932919,
+        "match_rate": 97.05,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 932909,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 932906,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 932833,
+        "match_rate": 98.11,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 932619,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 932601,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 932472,
+        "match_rate": 97.96,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 932334,
+        "match_rate": 95.78,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 932326,
+        "match_rate": 97.07,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 932287,
+        "match_rate": 97.05,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 932266,
+        "match_rate": 89.82,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 932146,
+        "match_rate": 99.93,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 932101,
+        "match_rate": 99.31,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 932070,
+        "match_rate": 92.86,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 932050,
+        "match_rate": 99.35,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 932041,
+        "match_rate": 97.48,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 931903,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 931837,
+        "match_rate": 95.85,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 931808,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 931661,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 931620,
+        "match_rate": 98.37,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 931609,
+        "match_rate": 98.63,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 931542,
+        "match_rate": 91.32,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 931510,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 931461,
+        "match_rate": 98.18,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 931402,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 931334,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 931250,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 930969,
+        "match_rate": 96.5,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 930920,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 930916,
+        "match_rate": 97.81,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 930806,
+        "match_rate": 97.11,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 930741,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 930650,
+        "match_rate": 94.64,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 930620,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 930569,
+        "match_rate": 96.09,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 930566,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 930534,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 930506,
+        "match_rate": 95.89,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 930485,
+        "match_rate": 99.97,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 930459,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 930445,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 930429,
+        "match_rate": 97.99,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 930412,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 930366,
+        "match_rate": 96.12,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 930356,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 930311,
+        "match_rate": 95.04,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 930310,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 930257,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 930173,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 930171,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 930114,
+        "match_rate": 77.07,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 930043,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 930022,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 929960,
+        "match_rate": 94.19,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 929931,
+        "match_rate": 99.94,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 929902,
+        "match_rate": 97.45,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 929829,
+        "match_rate": 99.55,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 929826,
+        "match_rate": 96.88,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 929792,
+        "match_rate": 99.94,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 929746,
+        "match_rate": 98.46,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 929735,
+        "match_rate": 97.23,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 929687,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 929650,
+        "match_rate": 96.27,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 929646,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 929402,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 929399,
+        "match_rate": 95.97,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 929358,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 929315,
+        "match_rate": 97.21,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 929307,
+        "match_rate": 96.11,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 929209,
+        "match_rate": 90.87,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 929187,
+        "match_rate": 98.13,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 929180,
+        "match_rate": 98.43,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 929176,
+        "match_rate": 96.38,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 929136,
+        "match_rate": 99.97,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 929001,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 928997,
+        "match_rate": 98.71,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 928928,
+        "match_rate": 92.94,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 928738,
+        "match_rate": 97.91,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 928549,
+        "match_rate": 98.47,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 928539,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 928537,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 928340,
+        "match_rate": 95.89,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 928248,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 928111,
+        "match_rate": 97.74,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 928071,
+        "match_rate": 99.76,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 927982,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 927968,
+        "match_rate": 96.95,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 927898,
+        "match_rate": 98.59,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 927873,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 927845,
+        "match_rate": 96.52,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 927793,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 927790,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 927604,
+        "match_rate": 94.24,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 927445,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 927436,
+        "match_rate": 96.63,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 927369,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 927299,
+        "match_rate": 96.46,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 927289,
+        "match_rate": 99.97,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 927213,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 926860,
+        "match_rate": 97.58,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 926755,
+        "match_rate": 97.44,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 926716,
+        "match_rate": 97.31,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 926699,
+        "match_rate": 95.29,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 926565,
+        "match_rate": 96.34,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 926564,
+        "match_rate": 98.01,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 926551,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 926508,
+        "match_rate": 97.96,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 926419,
+        "match_rate": 96.84,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 926358,
+        "match_rate": 95.49,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 925954,
+        "match_rate": 91.33,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 925946,
+        "match_rate": 91.84,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 925884,
+        "match_rate": 94.15,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 925875,
+        "match_rate": 98.03,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 925837,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 925828,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 925707,
+        "match_rate": 98.56,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 925675,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 925468,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 925463,
+        "match_rate": 97.94,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 925458,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 925450,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 925408,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 925394,
+        "match_rate": 99.92,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 925388,
+        "match_rate": 97.71,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 925353,
+        "match_rate": 99.1,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 925276,
+        "match_rate": 98.44,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 925219,
+        "match_rate": 94.29,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 925196,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 925116,
+        "match_rate": 97.92,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 925070,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 925059,
+        "match_rate": 97.84,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 924974,
+        "match_rate": 98.02,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 924904,
+        "match_rate": 97.83,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 924885,
+        "match_rate": 86.49,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 924804,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 924775,
+        "match_rate": 99.01,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 924733,
+        "match_rate": 98.9,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 924638,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 924589,
+        "match_rate": 99.31,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 924585,
+        "match_rate": 98.68,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 924322,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 924169,
+        "match_rate": 79.45,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 924062,
+        "match_rate": 99.65,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 923976,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 923843,
+        "match_rate": 99.38,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 923745,
+        "match_rate": 97.18,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 923664,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 923626,
+        "match_rate": 98.85,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 923485,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 923473,
+        "match_rate": 98.84,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 923384,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 923352,
+        "match_rate": 97.88,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 923231,
+        "match_rate": 95.3,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 923166,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 923033,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 923008,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 922977,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 922947,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 922792,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 922778,
+        "match_rate": 97.6,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 922687,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 922620,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 922519,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 922487,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 922430,
+        "match_rate": 97.74,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 922385,
+        "match_rate": 98.01,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 922366,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 922307,
+        "match_rate": 74.22,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 922159,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 922113,
+        "match_rate": 97.63,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 922097,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 922074,
+        "match_rate": 98.41,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 922032,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 921946,
+        "match_rate": 98.22,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 921820,
+        "match_rate": 93.41,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 921771,
+        "match_rate": 96.85,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 921763,
+        "match_rate": 97.45,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 921741,
+        "match_rate": 95.49,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 921697,
+        "match_rate": 86.99,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 921431,
+        "match_rate": 97.93,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 921424,
+        "match_rate": 99.75,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 921420,
+        "match_rate": 97.98,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 921292,
+        "match_rate": 94.9,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 921248,
+        "match_rate": 97.99,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 921026,
+        "match_rate": 97.99,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 920989,
+        "match_rate": 98.66,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 920780,
+        "match_rate": 99.38,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 920751,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 920673,
+        "match_rate": 95.05,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 920609,
+        "match_rate": 96.91,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 920574,
+        "match_rate": 96.87,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 920555,
+        "match_rate": 95.92,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 920498,
+        "match_rate": 95.04,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 920469,
+        "match_rate": 99.96,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 920433,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 920407,
+        "match_rate": 98.28,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 920334,
+        "match_rate": 90.66,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 920333,
+        "match_rate": 94.88,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 920313,
+        "match_rate": 98.38,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 920240,
+        "match_rate": 98.92,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 920236,
+        "match_rate": 91.62,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 920120,
+        "match_rate": 95.68,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 920108,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 919998,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 919966,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 919905,
+        "match_rate": 96.79,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 919848,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 919846,
+        "match_rate": 97.67,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 919576,
+        "match_rate": 98.25,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 919543,
+        "match_rate": 93.53,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 919481,
+        "match_rate": 95.81,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 919422,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 919378,
+        "match_rate": 98.47,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 919298,
+        "match_rate": 92.18,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 919292,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 919279,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 919240,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 919183,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 919137,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 919126,
+        "match_rate": 99.69,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 918920,
+        "match_rate": 97,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 918915,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 918811,
+        "match_rate": 93.25,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 918740,
+        "match_rate": 93.94,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 918616,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 918568,
+        "match_rate": 93.2,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 918539,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 918387,
+        "match_rate": 94.48,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 918336,
+        "match_rate": 0,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 918299,
+        "match_rate": 90.66,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 918260,
+        "match_rate": 78.23,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 918208,
+        "match_rate": 92.23,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 918164,
+        "match_rate": 95.88,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 918153,
+        "match_rate": 92.09,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 918143,
+        "match_rate": 94.59,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 918052,
+        "match_rate": 97.93,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 917905,
+        "match_rate": 94.61,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 917837,
+        "match_rate": 95.65,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 917802,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 917691,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 917630,
+        "match_rate": 93.14,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 917549,
+        "match_rate": 91.91,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 917534,
+        "match_rate": 98.01,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 917514,
+        "match_rate": 98.15,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 917403,
+        "match_rate": 98.07,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 917367,
+        "match_rate": 97.11,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 917312,
+        "match_rate": 97.82,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 916978,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 916902,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 916873,
+        "match_rate": 86.67,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 916844,
+        "match_rate": 99.42,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 916819,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 916800,
+        "match_rate": 93.21,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 916749,
+        "match_rate": 97.66,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 916650,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 916635,
+        "match_rate": 97.39,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 916519,
+        "match_rate": 97.17,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 916351,
+        "match_rate": 95.44,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 916272,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 916158,
+        "match_rate": 89.41,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 916041,
+        "match_rate": 98.04,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 916024,
+        "match_rate": 97.72,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 916003,
+        "match_rate": 95.97,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 915821,
+        "match_rate": 97.26,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 915679,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 915523,
+        "match_rate": 94.41,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 915420,
+        "match_rate": 91.11,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 915394,
+        "match_rate": 52.73,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 915364,
+        "match_rate": 86.03,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 915360,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 915247,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 915192,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 915130,
+        "match_rate": 97.28,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 915084,
+        "match_rate": 63.8,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 915083,
+        "match_rate": 96.22,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 915059,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 914817,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 914710,
+        "match_rate": 99.04,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 914546,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 914391,
+        "match_rate": 97.06,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 914322,
+        "match_rate": 93.29,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 914311,
+        "match_rate": 96.5,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 914292,
+        "match_rate": 97.74,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 914274,
+        "match_rate": 95.85,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 914272,
+        "match_rate": 97.35,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 914256,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 914183,
+        "match_rate": 92.23,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 914140,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 914120,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 914082,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 914058,
+        "match_rate": 92.75,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 913985,
+        "match_rate": 96.11,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 913861,
+        "match_rate": 98.96,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 913835,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 913673,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 913576,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 913350,
+        "match_rate": 97.12,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 913348,
+        "match_rate": 80.21,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 913315,
+        "match_rate": 97.34,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 913272,
+        "match_rate": 70.33,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 913232,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 913180,
+        "match_rate": 99.96,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 913130,
+        "match_rate": 99.89,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 913100,
+        "match_rate": 99.77,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 913029,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 912992,
+        "match_rate": 93.36,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 912916,
+        "match_rate": 93.6,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 912762,
+        "match_rate": 59.39,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 912726,
+        "match_rate": 74.07,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 912692,
+        "match_rate": 76.52,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 912675,
+        "match_rate": 98.37,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 912662,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 912617,
+        "match_rate": 94.46,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 912509,
+        "match_rate": 95.31,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 912291,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 912235,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 912233,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 912211,
+        "match_rate": 89.76,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 912199,
+        "match_rate": 97.37,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 912116,
+        "match_rate": 98.66,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 912057,
+        "match_rate": 89.29,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 911974,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 911873,
+        "match_rate": 97.34,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 911827,
+        "match_rate": 90.91,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 911742,
+        "match_rate": 95.8,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 911543,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 911406,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 911332,
+        "match_rate": 96.34,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 911269,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 911218,
+        "match_rate": 97.93,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 911164,
+        "match_rate": 82.59,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 911156,
+        "match_rate": 95.74,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 911055,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 910941,
+        "match_rate": 98.38,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 910836,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 910702,
+        "match_rate": 97.08,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 910626,
+        "match_rate": 96.9,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 910515,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 910385,
+        "match_rate": 93,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 910340,
+        "match_rate": 99.24,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 910289,
+        "match_rate": 97.66,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 910138,
+        "match_rate": 89.93,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 910132,
+        "match_rate": 93.91,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 909981,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 909967,
+        "match_rate": 95.59,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 909830,
+        "match_rate": 95.67,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 909741,
+        "match_rate": 97.3,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 909738,
+        "match_rate": 96.9,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 909418,
+        "match_rate": 98.24,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 909285,
+        "match_rate": 99.88,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 909119,
+        "match_rate": 97.81,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 908912,
+        "match_rate": 99.3,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 908709,
+        "match_rate": 99.43,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 908623,
+        "match_rate": 97.37,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 908617,
+        "match_rate": 98.91,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 908311,
+        "match_rate": 98.09,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 908287,
+        "match_rate": 95.24,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 908284,
+        "match_rate": 76.14,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 908271,
+        "match_rate": 93.27,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 908246,
+        "match_rate": 97.55,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 908207,
+        "match_rate": 98.83,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 908143,
+        "match_rate": 89.89,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 908065,
+        "match_rate": 92.28,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 908028,
+        "match_rate": 99.81,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 907925,
+        "match_rate": 97.51,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 907811,
+        "match_rate": 84.2,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 907676,
+        "match_rate": 96.03,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 907467,
+        "match_rate": 97.97,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 907287,
+        "match_rate": 90.04,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 907186,
+        "match_rate": 97.42,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 906655,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 906631,
+        "match_rate": 99.72,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 906289,
+        "match_rate": 95.36,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 906190,
+        "match_rate": 93.82,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 906166,
+        "match_rate": 93.62,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 906041,
+        "match_rate": 97.64,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 905975,
+        "match_rate": 98.17,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 905894,
+        "match_rate": 85.31,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 905892,
+        "match_rate": 95.61,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 905850,
+        "match_rate": 85.71,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 905709,
+        "match_rate": 98.42,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 905662,
+        "match_rate": 72.26,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 905465,
+        "match_rate": 28.08,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 905415,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 905347,
+        "match_rate": 96.44,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 905299,
+        "match_rate": 92.8,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 905236,
+        "match_rate": 84.83,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 905182,
+        "match_rate": 99.6,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 905153,
+        "match_rate": 99.9,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 905129,
+        "match_rate": 96.98,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 905115,
+        "match_rate": 98.8,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 905090,
+        "match_rate": 98,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 905078,
+        "match_rate": 57.17,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 905075,
+        "match_rate": 99.74,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 905045,
+        "match_rate": 98.66,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 905039,
+        "match_rate": 70.47,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 905035,
+        "match_rate": 96.23,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 904969,
+        "match_rate": 98.58,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 904898,
+        "match_rate": 61.18,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 904872,
+        "match_rate": 82.79,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 904707,
+        "match_rate": 88.24,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 904665,
+        "match_rate": 89.65,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 904655,
+        "match_rate": 82.97,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 904639,
+        "match_rate": 99.94,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 904617,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 904541,
+        "match_rate": 94.43,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 904514,
+        "match_rate": 99.63,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 904463,
+        "match_rate": 96.18,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 904302,
+        "match_rate": 99.68,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 904227,
+        "match_rate": 97.75,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 904174,
+        "match_rate": 91.44,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 904150,
+        "match_rate": 93.82,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 904012,
+        "match_rate": 88.16,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 903501,
+        "match_rate": 99.9,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 903496,
+        "match_rate": 98.03,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 903481,
+        "match_rate": 93.1,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 903416,
+        "match_rate": 94.94,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 903254,
+        "match_rate": 99,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 903083,
+        "match_rate": 99.94,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 902951,
+        "match_rate": 99.91,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 902772,
+        "match_rate": 97.47,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 902732,
+        "match_rate": 97.13,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 902722,
+        "match_rate": 99.2,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 902713,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 902414,
+        "match_rate": 99.97,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 902189,
+        "match_rate": 96.13,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 902024,
+        "match_rate": 83,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 902010,
+        "match_rate": 97.71,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 901410,
+        "match_rate": 59.03,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 901225,
+        "match_rate": 98.31,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 901051,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 901034,
+        "match_rate": 96.23,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 900622,
+        "match_rate": 98.9,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 900510,
+        "match_rate": 99.91,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 899990,
+        "match_rate": 99.86,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 899952,
+        "match_rate": 98.34,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 899792,
+        "match_rate": 90.46,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 899535,
+        "match_rate": 98.51,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 899524,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 899498,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 899335,
+        "match_rate": 90.72,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 899253,
+        "match_rate": 99.44,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 899211,
+        "match_rate": 96.8,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 898985,
+        "match_rate": 99.35,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 898873,
+        "match_rate": 77.64,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 898703,
+        "match_rate": 99.21,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 898303,
+        "match_rate": 91.67,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 898229,
+        "match_rate": 99.24,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 898204,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 898161,
+        "match_rate": 99.97,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 897970,
+        "match_rate": 98.7,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 897866,
+        "match_rate": 97.27,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 897426,
+        "match_rate": 96.69,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 897329,
+        "match_rate": 92.5,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 897315,
+        "match_rate": 99.53,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 896833,
+        "match_rate": 95.82,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 896801,
+        "match_rate": 92.98,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 896743,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 896700,
+        "match_rate": 99.97,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 896345,
+        "match_rate": 47.6,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 896341,
+        "match_rate": 99.9,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 896257,
+        "match_rate": 97.62,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 896072,
+        "match_rate": 90.2,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 896059,
+        "match_rate": 78.98,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 896026,
+        "match_rate": 91.31,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 895807,
+        "match_rate": 88.84,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 895686,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 895481,
+        "match_rate": 99.93,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 895389,
+        "match_rate": 98.66,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 895331,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 895241,
+        "match_rate": 95.98,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 895189,
+        "match_rate": 99.89,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 895019,
+        "match_rate": 99.89,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 894716,
+        "match_rate": 96.32,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 894683,
+        "match_rate": 99.54,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 894651,
+        "match_rate": 99.92,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 894604,
+        "match_rate": 63.05,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 894498,
+        "match_rate": 95.61,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 894492,
+        "match_rate": 99.28,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 894337,
+        "match_rate": 96.87,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 894061,
+        "match_rate": 52.19,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 893976,
+        "match_rate": 96.39,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 893919,
+        "match_rate": 94.5,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 893702,
+        "match_rate": 89.7,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 893612,
+        "match_rate": 99.85,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 893594,
+        "match_rate": 98.16,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 893499,
+        "match_rate": 99.95,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 892828,
+        "match_rate": 99.97,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 892767,
+        "match_rate": 97.03,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 892639,
+        "match_rate": 96.19,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 892626,
+        "match_rate": 99.94,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 892445,
+        "match_rate": 93.57,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 892343,
+        "match_rate": 84.48,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 892342,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 892001,
+        "match_rate": 84.55,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 891896,
+        "match_rate": 90.18,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 891706,
+        "match_rate": 97.85,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 891667,
+        "match_rate": 98.41,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 891622,
+        "match_rate": 99.94,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 891501,
+        "match_rate": 97.79,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 891367,
+        "match_rate": 99.93,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 891316,
+        "match_rate": 99.89,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 891230,
+        "match_rate": 97.37,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 891043,
+        "match_rate": 95.52,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 890936,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 890929,
+        "match_rate": 83.74,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 890813,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 890554,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 890462,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 890429,
+        "match_rate": 99.96,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 890362,
+        "match_rate": 97.22,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 890216,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 890134,
+        "match_rate": 89.29,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 890133,
+        "match_rate": 95.21,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 890099,
+        "match_rate": 93.5,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 890052,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 889686,
+        "match_rate": 30.01,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 889648,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 889626,
+        "match_rate": 99.97,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 889485,
+        "match_rate": 97.63,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 889458,
+        "match_rate": 99.97,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 889401,
+        "match_rate": 99.91,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 888908,
+        "match_rate": 70.24,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 888418,
+        "match_rate": 97.14,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 888283,
+        "match_rate": 94.42,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 888094,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 887764,
+        "match_rate": 98.37,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 887746,
+        "match_rate": 99.97,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 887602,
+        "match_rate": 96.5,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 887473,
+        "match_rate": 99.79,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 887455,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 886988,
+        "match_rate": 89.84,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 886384,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 886241,
+        "match_rate": 92.63,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 886188,
+        "match_rate": 99.37,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 886164,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 886031,
+        "match_rate": 97.77,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 885785,
+        "match_rate": 95.1,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 885766,
+        "match_rate": 99.11,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 885653,
+        "match_rate": 96.11,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 885580,
+        "match_rate": 96.66,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 885528,
+        "match_rate": 94.54,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 885291,
+        "match_rate": 97.72,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 885031,
+        "match_rate": 96.16,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 885021,
+        "match_rate": 73.1,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 885017,
+        "match_rate": 75.73,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 884445,
+        "match_rate": 99.91,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 884236,
+        "match_rate": 94.97,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 884176,
+        "match_rate": 53.32,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 884055,
+        "match_rate": 95.31,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 883574,
+        "match_rate": 99.43,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 883150,
+        "match_rate": 92.34,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 883125,
+        "match_rate": 93.64,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 883114,
+        "match_rate": 99.95,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 883013,
+        "match_rate": 93.65,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 882339,
+        "match_rate": 68.83,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 881982,
+        "match_rate": 17.75,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 881808,
+        "match_rate": 95.23,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 881648,
+        "match_rate": 99.11,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 881605,
+        "match_rate": 95.29,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 881216,
+        "match_rate": 97.21,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 881037,
+        "match_rate": 97.12,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 880982,
+        "match_rate": 90.74,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 880945,
+        "match_rate": 92.4,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 880933,
+        "match_rate": 66.44,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 880879,
+        "match_rate": 76.75,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 880730,
+        "match_rate": 98.43,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 880684,
+        "match_rate": 98.51,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 880541,
+        "match_rate": 95.23,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 880274,
+        "match_rate": 99.05,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 880028,
+        "match_rate": 93.67,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 879853,
+        "match_rate": 90.94,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 879595,
+        "match_rate": 51.82,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 879437,
+        "match_rate": 46.41,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 879417,
+        "match_rate": 97.86,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 879242,
+        "match_rate": 99.57,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 879046,
+        "match_rate": 87.44,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 878934,
+        "match_rate": 98.28,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 878926,
+        "match_rate": 97.84,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 878768,
+        "match_rate": 91.16,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 877919,
+        "match_rate": 91.82,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 877729,
+        "match_rate": 98.2,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 877599,
+        "match_rate": 99.05,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 877171,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 876825,
+        "match_rate": 99.38,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 876725,
+        "match_rate": 99.48,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 876574,
+        "match_rate": 94.17,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 876332,
+        "match_rate": 99.96,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 876181,
+        "match_rate": 81.19,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 876020,
+        "match_rate": 99.59,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 875696,
+        "match_rate": 77.67,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 875281,
+        "match_rate": 90.25,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 874801,
+        "match_rate": 80.19,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 874493,
+        "match_rate": 85.55,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 874275,
+        "match_rate": 99.79,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 874168,
+        "match_rate": 86.06,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 874099,
+        "match_rate": 99.88,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 874003,
+        "match_rate": 92.29,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 873884,
+        "match_rate": 81.26,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 873305,
+        "match_rate": 90.91,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 872660,
+        "match_rate": 99.22,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 872525,
+        "match_rate": 96.81,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 872095,
+        "match_rate": 91.74,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 871746,
+        "match_rate": 96.46,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 871328,
+        "match_rate": 99.83,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 871301,
+        "match_rate": 97.66,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 870674,
+        "match_rate": 92.05,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 869828,
+        "match_rate": 95.37,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 869666,
+        "match_rate": 94.91,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 869645,
+        "match_rate": 99.43,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 869600,
+        "match_rate": 97,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 869576,
+        "match_rate": 94.45,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 869510,
+        "match_rate": 89.82,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 869310,
+        "match_rate": 95.54,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 869132,
+        "match_rate": 89.64,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 869087,
+        "match_rate": 93.83,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 869030,
+        "match_rate": 94.87,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 868960,
+        "match_rate": 94.09,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 868808,
+        "match_rate": 95.77,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 868670,
+        "match_rate": 96.28,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 868653,
+        "match_rate": 97.59,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 868531,
+        "match_rate": 95.87,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 868078,
+        "match_rate": 97.19,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 867737,
+        "match_rate": 97.96,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 867614,
+        "match_rate": 94.57,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 867301,
+        "match_rate": 91.98,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 867250,
+        "match_rate": 98.52,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 866958,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 866909,
+        "match_rate": 99.64,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 866854,
+        "match_rate": 99.29,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 866558,
+        "match_rate": 79.68,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 866547,
+        "match_rate": 95.41,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 865820,
+        "match_rate": 98.94,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 865812,
+        "match_rate": 99.12,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 865706,
+        "match_rate": 98.9,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 865331,
+        "match_rate": 99.12,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 864671,
+        "match_rate": 81.22,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 864390,
+        "match_rate": 94.3,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 864221,
+        "match_rate": 99.95,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 864146,
+        "match_rate": 96.16,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 863922,
+        "match_rate": 99.96,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 863721,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 863471,
+        "match_rate": 92.96,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 861606,
+        "match_rate": 93.84,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 861164,
+        "match_rate": 97.29,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 860990,
+        "match_rate": 98.1,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 860062,
+        "match_rate": 98.5,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 859930,
+        "match_rate": 99.97,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 859648,
+        "match_rate": 99.06,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 859040,
+        "match_rate": 95.88,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 858001,
+        "match_rate": 96.4,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 857957,
+        "match_rate": 98.2,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 857846,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 857812,
+        "match_rate": 98.39,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 857772,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 857253,
+        "match_rate": 99.98,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 856795,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 856119,
+        "match_rate": 87.27,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 855693,
+        "match_rate": 95.74,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 855488,
+        "match_rate": 96.23,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 855112,
+        "match_rate": 98.56,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 854580,
+        "match_rate": 99.98,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 853220,
+        "match_rate": 98.49,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 852462,
+        "match_rate": 96.38,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 851687,
+        "match_rate": 99.94,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 850857,
+        "match_rate": 87.99,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 850329,
+        "match_rate": 98.52,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 849983,
+        "match_rate": 92.13,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 849481,
+        "match_rate": 98.22,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 849183,
+        "match_rate": 96.15,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 849069,
+        "match_rate": 98.42,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 849019,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 849001,
+        "match_rate": 99.71,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 848104,
+        "match_rate": 73.08,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 845947,
+        "match_rate": 99.02,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 845118,
+        "match_rate": 99.53,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 844990,
+        "match_rate": 97.13,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 844208,
+        "match_rate": 0,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 843264,
+        "match_rate": 99.78,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 842828,
+        "match_rate": 0,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 841949,
+        "match_rate": 99.59,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 841771,
+        "match_rate": 99.83,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 841732,
+        "match_rate": 96.49,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 840879,
+        "match_rate": 99.43,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 838886,
+        "match_rate": 89.66,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 838825,
+        "match_rate": 82.52,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 838746,
+        "match_rate": 67.77,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 837874,
+        "match_rate": 89.13,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 836974,
+        "match_rate": 83.59,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 836693,
+        "match_rate": 75.89,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 836552,
+        "match_rate": 93.75,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 836397,
+        "match_rate": 96.4,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 835630,
+        "match_rate": 94.35,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 835512,
+        "match_rate": 92.75,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 835019,
+        "match_rate": 87.55,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 833980,
+        "match_rate": 94.44,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 833911,
+        "match_rate": 94.64,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 833903,
+        "match_rate": 94.84,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 832888,
+        "match_rate": 84.18,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 831628,
+        "match_rate": 89.66,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 831381,
+        "match_rate": 90.82,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 831173,
+        "match_rate": 68.74,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 830875,
+        "match_rate": 94.32,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 830291,
+        "match_rate": 94.27,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 829933,
+        "match_rate": 99.89,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 829513,
+        "match_rate": 95.41,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 829267,
+        "match_rate": 96.95,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 828232,
+        "match_rate": 87.96,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 827750,
+        "match_rate": 99.58,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 827476,
+        "match_rate": 83.77,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 827079,
+        "match_rate": 90.83,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 824915,
+        "match_rate": 95.47,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 823925,
+        "match_rate": 0,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 823129,
+        "match_rate": 87.25,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 819489,
+        "match_rate": 100,
+        "loss_usd": 0.0,
+        "price": 0
+    },
+    {
+        "height": 819242,
+        "match_rate": 98.66,
+        "loss_usd": 0.0,
+        "price": 0
+    }
+]
