@@ -132,6 +132,16 @@ def analyze_pool_loss(pool_slug, depth=None):
         print(f"TOTAL BLOCKS ANALYZED for {pool_slug.upper()}: {len(all_blocks)}")
         print(f"TOTAL CUMULATIVE LOSS for {pool_slug.upper()}: ${total_loss_usd:,.2f}")
 
+        # Save processed data to a file
+        output_filename = f"{pool_slug}"
+        if depth:
+            output_filename += f"-{depth}-blocks"
+        output_filename += ".json"
+
+        with open(output_filename, "w") as f:
+            json.dump(processed_data, f, indent=4)
+        print(f"Analysis data saved to: {output_filename}")
+
     except Exception as e:
         print(f"Error analyzing pool {pool_slug}: {e}")
         sys.exit(1)
