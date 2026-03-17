@@ -5,19 +5,68 @@ import sys
 import time
 import json
 
+def fetch_full_historical_prices():
+    api_url = "https://mempool.space/api/v1/historical-price?currency=USD&timestamp=0"
+    output_file = "prices.json"
+
+    print(f"--- Starting Full Historical BTC Price Fetch from {api_url} ---")
+
+    try:
+        response = requests.get(api_url, timeout=30)
+        response.raise_for_status()  # Raise an exception for HTTP errors (4xx or 5xx)
+
+        historical_data = response.json()
+
+        if not historical_data:
+            print("No historical price data received.")
+            sys.exit(1)
+
+        with open(output_file, "w") as f:
+            json.dump(historical_data, f, indent=4)
+        print(f"Full historical prices saved to: {output_file}")
+
+    except requests.exceptions.Timeout:
+        print("Error: The request timed out.")
+        sys.exit(1)
+    except requests.exceptions.RequestException as e:
+        print(f"Error fetching data: {e}")
+        sys.exit(1)
+    except json.JSONDecodeError:
+        print("Error: Could not decode JSON response from the API.")
+        sys.exit(1)
+    except Exception as e:
+        print(f"An unexpected error occurred: {e}")
+        sys.exit(1)
+
 def fetch_all_ocean_blocks(depth=1000):
     slug = "ocean"
     base_blocks_url = f"https://mempool.space/api/v1/mining/pool/{slug}/blocks"
-    price_url = "https://mempool.space/api/v1/prices"
+    # price_url and direct BTC price fetch removed, using prices.json for historical data
 
     all_blocks = []
     last_height = None
 
     try:
-        # 1. Get current BTC Price
-        btc_usd = requests.get(price_url, timeout=10).json().get("USD", 0)
+        # Load historical prices from prices.json
+        try:
+            with open("prices.json", "r") as f:
+                historical_data = json.load(f)
+            
+            # The historical data is under a 'prices' key, and each item has 'time' and 'USD'
+            price_lookup = {item['time']: item['USD'] for item in historical_data.get('prices', [])}
+            sorted_timestamps = sorted(price_lookup.keys())
+            print(f"Loaded {len(price_lookup)} historical prices from prices.json")
+        except FileNotFoundError:
+            print("prices.json not found. Attempting to fetch full historical prices...")
+            fetch_full_historical_prices() # Call the new function to fetch prices
+            # After fetching, try loading again
+            with open("prices.json", "r") as f:
+                historical_data = json.load(f)
+            price_lookup = {item['time']: item['USD'] for item in historical_data.get('prices', [])}
+            sorted_timestamps = sorted(price_lookup.keys())
+            print(f"Loaded {len(price_lookup)} historical prices from prices.json (after fetch)")
 
-        print(f"--- Starting Full History Crawl for OCEAN (Price: ${btc_usd:,.2f}) ---")
+        print(f"--- Starting Full History Crawl for OCEAN ---")
 
         while True:
             # Construct URL with height offset for pagination
@@ -56,6 +105,23 @@ def fetch_all_ocean_blocks(depth=1000):
             else:
                 loss_sats = 0
 
+            # Get BTC price for this block from the lookup using its timestamp
+            timestamp = b.get('timestamp')
+            btc_usd = 0
+            if timestamp:
+                # Find the closest timestamp in historical_prices_data that is <= block_timestamp
+                closest_timestamp = None
+                for hist_ts in sorted_timestamps:
+                    if hist_ts <= timestamp:
+                        closest_timestamp = hist_ts
+                    else:
+                        break # Timestamps are sorted, so we've passed the block's timestamp
+                if closest_timestamp is not None:
+                    btc_usd = price_lookup.get(closest_timestamp, 0)
+            
+            # Debug print to verify retrieved BTC price
+            # print(f"Block Height: {b.get('height')}, Block Timestamp: {timestamp}, Closest Price Timestamp: {closest_timestamp}, BTC USD: {btc_usd}")
+
             loss_usd = (loss_sats / 100_000_000) * btc_usd
             total_loss_usd += loss_usd
 
@@ -63,7 +129,8 @@ def fetch_all_ocean_blocks(depth=1000):
                 "height": b['height'],
                 "health": match_rate,
                 "loss_sats": loss_sats,
-                "loss_usd": round(loss_usd, 2)
+                "loss_usd": round(loss_usd, 2),
+                "btc_usd": btc_usd # Add btc_usd to the output
             })
 
             # Print a sample of the first few
