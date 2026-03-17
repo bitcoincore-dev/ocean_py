@@ -96,7 +96,7 @@ def fetch_all_ocean_blocks(depth=1000):
 
         for b in all_blocks:
             extras = b.get("extras", {})
-            match_rate = extras.get("matchRate", 0)
+            match_rate = round(extras.get("matchRate", 0), 2) # Explicitly round match_rate
             actual_reward = extras.get("reward", 0)
 
             if match_rate > 0 and match_rate < 100:
