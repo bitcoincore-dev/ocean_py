@@ -9,31 +9,31 @@
         "height": 940967,
         "health": 94.11,
         "loss_sats": 19605265,
-        "loss_usd": 14552.79
+        "loss_usd": 14524.36
     },
     {
         "height": 940893,
         "health": 96.17,
         "loss_sats": 12524604,
-        "loss_usd": 9296.89
+        "loss_usd": 9278.73
     },
     {
         "height": 940870,
         "health": 98.68,
         "loss_sats": 4203650,
-        "loss_usd": 3120.33
+        "loss_usd": 3114.23
     },
     {
         "height": 940830,
         "health": 89.47,
         "loss_sats": 36964625,
-        "loss_usd": 27438.47
+        "loss_usd": 27384.87
     },
     {
         "height": 940828,
         "health": 99.12,
         "loss_sats": 2788095,
-        "loss_usd": 2069.58
+        "loss_usd": 2065.53
     },
     {
         "height": 940726,
@@ -45,43 +45,43 @@
         "height": 940595,
         "health": 84.67,
         "loss_sats": 56798106,
-        "loss_usd": 42160.67
+        "loss_usd": 42078.31
     },
     {
         "height": 940506,
         "health": 94.39,
         "loss_sats": 18724652,
-        "loss_usd": 13899.12
+        "loss_usd": 13871.97
     },
     {
         "height": 940403,
         "health": 99.52,
         "loss_sats": 1511512,
-        "loss_usd": 1121.98
+        "loss_usd": 1119.79
     },
     {
         "height": 940306,
         "health": 77.72,
         "loss_sats": 89946980,
-        "loss_usd": 66766.74
+        "loss_usd": 66636.32
     },
     {
         "height": 940267,
         "health": 98.68,
         "loss_sats": 4185085,
-        "loss_usd": 3106.55
+        "loss_usd": 3100.48
     },
     {
         "height": 940192,
         "health": 99.03,
         "loss_sats": 3072031,
-        "loss_usd": 2280.34
+        "loss_usd": 2275.88
     },
     {
         "height": 940054,
         "health": 95.97,
         "loss_sats": 13189213,
-        "loss_usd": 9790.22
+        "loss_usd": 9771.1
     },
     {
         "height": 940050,
@@ -93,13 +93,13 @@
         "height": 939994,
         "health": 99.12,
         "loss_sats": 2780296,
-        "loss_usd": 2063.79
+        "loss_usd": 2059.75
     },
     {
         "height": 939977,
         "health": 99.21,
         "loss_sats": 2490648,
-        "loss_usd": 1848.78
+        "loss_usd": 1845.17
     },
     {
         "height": 939912,
@@ -111,139 +111,139 @@
         "height": 939894,
         "health": 98.79,
         "loss_sats": 3833542,
-        "loss_usd": 2845.6
+        "loss_usd": 2840.04
     },
     {
         "height": 939890,
         "health": 98.21,
         "loss_sats": 5779279,
-        "loss_usd": 4289.9
+        "loss_usd": 4281.52
     },
     {
         "height": 939810,
         "health": 96.48,
         "loss_sats": 11440697,
-        "loss_usd": 8492.31
+        "loss_usd": 8475.73
     },
     {
         "height": 939657,
         "health": 93.45,
         "loss_sats": 22034735,
-        "loss_usd": 16356.16
+        "loss_usd": 16324.21
     },
     {
         "height": 939641,
         "health": 91.15,
         "loss_sats": 30377629,
-        "loss_usd": 22549.01
+        "loss_usd": 22504.96
     },
     {
         "height": 939634,
         "health": 98.74,
         "loss_sats": 4005926,
-        "loss_usd": 2973.56
+        "loss_usd": 2967.75
     },
     {
         "height": 939528,
         "health": 99.79,
         "loss_sats": 662915,
-        "loss_usd": 492.08
+        "loss_usd": 491.11
     },
     {
         "height": 939497,
         "health": 98.72,
         "loss_sats": 4074261,
-        "loss_usd": 3024.28
+        "loss_usd": 3018.38
     },
     {
         "height": 939417,
         "health": 94.51,
         "loss_sats": 18254467,
-        "loss_usd": 13550.11
+        "loss_usd": 13523.64
     },
     {
         "height": 939339,
         "health": 99.56,
         "loss_sats": 1401984,
-        "loss_usd": 1040.68
+        "loss_usd": 1038.65
     },
     {
         "height": 939319,
         "health": 97.12,
         "loss_sats": 9317946,
-        "loss_usd": 6916.62
+        "loss_usd": 6903.11
     },
     {
         "height": 939263,
         "health": 97.39,
         "loss_sats": 8420412,
-        "loss_usd": 6250.39
+        "loss_usd": 6238.18
     },
     {
         "height": 939261,
         "health": 95.7,
         "loss_sats": 14262697,
-        "loss_usd": 10587.06
+        "loss_usd": 10566.38
     },
     {
         "height": 939239,
         "health": 86.29,
         "loss_sats": 49694062,
-        "loss_usd": 36887.41
+        "loss_usd": 36815.35
     },
     {
         "height": 939232,
         "health": 94.77,
         "loss_sats": 17386559,
-        "loss_usd": 12905.87
+        "loss_usd": 12880.66
     },
     {
         "height": 939231,
         "health": 97.13,
         "loss_sats": 9309402,
-        "loss_usd": 6910.28
+        "loss_usd": 6896.78
     },
     {
         "height": 939206,
         "health": 96.17,
         "loss_sats": 12528606,
-        "loss_usd": 9299.86
+        "loss_usd": 9281.69
     },
     {
         "height": 939172,
         "health": 97.55,
         "loss_sats": 7893714,
-        "loss_usd": 5859.42
+        "loss_usd": 5847.98
     },
     {
         "height": 939114,
         "health": 98.09,
         "loss_sats": 6177366,
-        "loss_usd": 4585.4
+        "loss_usd": 4576.44
     },
     {
         "height": 939042,
         "health": 97.83,
         "loss_sats": 6932208,
-        "loss_usd": 5145.71
+        "loss_usd": 5135.66
     },
     {
         "height": 938971,
         "health": 97.68,
         "loss_sats": 7460062,
-        "loss_usd": 5537.53
+        "loss_usd": 5526.71
     },
     {
         "height": 938929,
         "health": 96.84,
         "loss_sats": 10278547,
-        "loss_usd": 7629.66
+        "loss_usd": 7614.76
     },
     {
         "height": 938903,
         "health": 96.17,
         "loss_sats": 12535334,
-        "loss_usd": 9304.85
+        "loss_usd": 9286.68
     },
     {
         "height": 938853,
@@ -255,67 +255,67 @@
         "height": 938740,
         "health": 99.75,
         "loss_sats": 795284,
-        "loss_usd": 590.33
+        "loss_usd": 589.18
     },
     {
         "height": 938689,
         "health": 96.55,
         "loss_sats": 11257772,
-        "loss_usd": 8356.53
+        "loss_usd": 8340.21
     },
     {
         "height": 938657,
         "health": 97.99,
         "loss_sats": 6468318,
-        "loss_usd": 4801.37
+        "loss_usd": 4791.99
     },
     {
         "height": 938616,
         "health": 97.47,
         "loss_sats": 8162871,
-        "loss_usd": 6059.22
+        "loss_usd": 6047.38
     },
     {
         "height": 938598,
         "health": 99.85,
         "loss_sats": 470453,
-        "loss_usd": 349.21
+        "loss_usd": 348.53
     },
     {
         "height": 938470,
         "health": 99.44,
         "loss_sats": 1787794,
-        "loss_usd": 1327.06
+        "loss_usd": 1324.47
     },
     {
         "height": 938418,
         "health": 53.87,
         "loss_sats": 269344616,
-        "loss_usd": 199931.82
+        "loss_usd": 199541.27
     },
     {
         "height": 938402,
         "health": 96.09,
         "loss_sats": 12824398,
-        "loss_usd": 9519.42
+        "loss_usd": 9500.83
     },
     {
         "height": 938311,
         "health": 99.54,
         "loss_sats": 1445924,
-        "loss_usd": 1073.29
+        "loss_usd": 1071.2
     },
     {
         "height": 938293,
         "health": 99.64,
         "loss_sats": 1135979,
-        "loss_usd": 843.23
+        "loss_usd": 841.58
     },
     {
         "height": 938291,
         "health": 99.66,
         "loss_sats": 1083006,
-        "loss_usd": 803.9
+        "loss_usd": 802.33
     },
     {
         "height": 938133,
@@ -327,25 +327,25 @@
         "height": 938003,
         "health": 99.7,
         "loss_sats": 943828,
-        "loss_usd": 700.59
+        "loss_usd": 699.23
     },
     {
         "height": 937958,
         "health": 97.6,
         "loss_sats": 7706187,
-        "loss_usd": 5720.23
+        "loss_usd": 5709.05
     },
     {
         "height": 937907,
         "health": 74.22,
         "loss_sats": 109073651,
-        "loss_usd": 80964.28
+        "loss_usd": 80806.12
     },
     {
         "height": 937713,
         "health": 99.68,
         "loss_sats": 1017028,
-        "loss_usd": 754.93
+        "loss_usd": 753.46
     },
     {
         "height": 937624,
@@ -357,13 +357,13 @@
         "height": 937560,
         "health": 93.8,
         "loss_sats": 20722942,
-        "loss_usd": 15382.43
+        "loss_usd": 15352.38
     },
     {
         "height": 937545,
         "health": 97.44,
         "loss_sats": 8329864,
-        "loss_usd": 6183.17
+        "loss_usd": 6171.1
     },
     {
         "height": 937541,
@@ -375,7 +375,7 @@
         "height": 937331,
         "health": 99.35,
         "loss_sats": 2049991,
-        "loss_usd": 1521.69
+        "loss_usd": 1518.72
     },
     {
         "height": 937318,
@@ -387,13 +387,13 @@
         "height": 937030,
         "health": 98.06,
         "loss_sats": 6247317,
-        "loss_usd": 4637.32
+        "loss_usd": 4628.26
     },
     {
         "height": 937007,
         "health": 96.55,
         "loss_sats": 11190716,
-        "loss_usd": 8306.76
+        "loss_usd": 8290.53
     },
     {
         "height": 936913,
@@ -411,19 +411,19 @@
         "height": 936551,
         "health": 96.87,
         "loss_sats": 10124728,
-        "loss_usd": 7515.48
+        "loss_usd": 7500.8
     },
     {
         "height": 936532,
         "health": 96.32,
         "loss_sats": 11996671,
-        "loss_usd": 8905.01
+        "loss_usd": 8887.61
     },
     {
         "height": 936517,
         "health": 95.49,
         "loss_sats": 14794520,
-        "loss_usd": 10981.82
+        "loss_usd": 10960.37
     },
     {
         "height": 936417,
@@ -435,13 +435,13 @@
         "height": 936382,
         "health": 99.44,
         "loss_sats": 1798547,
-        "loss_usd": 1335.04
+        "loss_usd": 1332.44
     },
     {
         "height": 936370,
         "health": 97.6,
         "loss_sats": 7746893,
-        "loss_usd": 5750.44
+        "loss_usd": 5739.21
     },
     {
         "height": 936337,
@@ -453,79 +453,79 @@
         "height": 936241,
         "health": 99.92,
         "loss_sats": 254922,
-        "loss_usd": 189.23
+        "loss_usd": 188.86
     },
     {
         "height": 936237,
         "health": 98.25,
         "loss_sats": 5656109,
-        "loss_usd": 4198.47
+        "loss_usd": 4190.27
     },
     {
         "height": 936227,
         "health": 96.13,
         "loss_sats": 12688725,
-        "loss_usd": 9418.71
+        "loss_usd": 9400.32
     },
     {
         "height": 936121,
         "health": 96.78,
         "loss_sats": 10457292,
-        "loss_usd": 7762.34
+        "loss_usd": 7747.18
     },
     {
         "height": 936097,
         "health": 95.45,
         "loss_sats": 14998164,
-        "loss_usd": 11132.99
+        "loss_usd": 11111.24
     },
     {
         "height": 936046,
         "health": 95.44,
         "loss_sats": 15080533,
-        "loss_usd": 11194.13
+        "loss_usd": 11172.26
     },
     {
         "height": 935884,
         "health": 87.23,
         "loss_sats": 45867231,
-        "loss_usd": 34046.79
+        "loss_usd": 33980.28
     },
     {
         "height": 935785,
         "health": 97.71,
         "loss_sats": 7345046,
-        "loss_usd": 5452.15
+        "loss_usd": 5441.5
     },
     {
         "height": 935662,
         "health": 96.04,
         "loss_sats": 13027412,
-        "loss_usd": 9670.12
+        "loss_usd": 9651.23
     },
     {
         "height": 935608,
         "health": 99.78,
         "loss_sats": 689604,
-        "loss_usd": 511.89
+        "loss_usd": 510.89
     },
     {
         "height": 935593,
         "health": 96.11,
         "loss_sats": 12722337,
-        "loss_usd": 9443.66
+        "loss_usd": 9425.22
     },
     {
         "height": 935587,
         "health": 93.9,
         "loss_sats": 20458356,
-        "loss_usd": 15186.03
+        "loss_usd": 15156.37
     },
     {
         "height": 935488,
         "health": 97.39,
         "loss_sats": 8406500,
-        "loss_usd": 6240.06
+        "loss_usd": 6227.87
     },
     {
         "height": 935417,
@@ -537,43 +537,43 @@
         "height": 935249,
         "health": 98.32,
         "loss_sats": 5416252,
-        "loss_usd": 4020.43
+        "loss_usd": 4012.58
     },
     {
         "height": 935205,
         "health": 95.17,
         "loss_sats": 15980120,
-        "loss_usd": 11861.88
+        "loss_usd": 11838.71
     },
     {
         "height": 935020,
         "health": 99.88,
         "loss_sats": 383498,
-        "loss_usd": 284.67
+        "loss_usd": 284.11
     },
     {
         "height": 934998,
         "health": 97.84,
         "loss_sats": 6965141,
-        "loss_usd": 5170.15
+        "loss_usd": 5160.06
     },
     {
         "height": 934325,
         "health": 97.24,
         "loss_sats": 8945718,
-        "loss_usd": 6640.32
+        "loss_usd": 6627.35
     },
     {
         "height": 934320,
         "health": 97.56,
         "loss_sats": 7910648,
-        "loss_usd": 5871.99
+        "loss_usd": 5860.52
     },
     {
         "height": 934308,
         "health": 94.49,
         "loss_sats": 18354910,
-        "loss_usd": 13624.67
+        "loss_usd": 13598.05
     },
     {
         "height": 934151,
@@ -585,7 +585,7 @@
         "height": 934118,
         "health": 97.65,
         "loss_sats": 7636335,
-        "loss_usd": 5668.38
+        "loss_usd": 5657.3
     },
     {
         "height": 934028,
@@ -597,31 +597,31 @@
         "height": 933957,
         "health": 99.81,
         "loss_sats": 597511,
-        "loss_usd": 443.53
+        "loss_usd": 442.66
     },
     {
         "height": 933946,
         "health": 94,
         "loss_sats": 20043581,
-        "loss_usd": 14878.15
+        "loss_usd": 14849.09
     },
     {
         "height": 933942,
         "health": 97.48,
         "loss_sats": 8110343,
-        "loss_usd": 6020.23
+        "loss_usd": 6008.47
     },
     {
         "height": 933789,
         "health": 96.01,
         "loss_sats": 13214501,
-        "loss_usd": 9808.99
+        "loss_usd": 9789.83
     },
     {
         "height": 933728,
         "health": 99.24,
         "loss_sats": 2402545,
-        "loss_usd": 1783.39
+        "loss_usd": 1779.9
     },
     {
         "height": 933720,
@@ -657,25 +657,25 @@
         "height": 933233,
         "health": 94.7,
         "loss_sats": 17529926,
-        "loss_usd": 13012.29
+        "loss_usd": 12986.87
     },
     {
         "height": 933196,
         "health": 96.44,
         "loss_sats": 11611480,
-        "loss_usd": 8619.09
+        "loss_usd": 8602.25
     },
     {
         "height": 933178,
         "health": 99.94,
         "loss_sats": 188715,
-        "loss_usd": 140.08
+        "loss_usd": 139.81
     },
     {
         "height": 933145,
         "health": 95.26,
         "loss_sats": 15834524,
-        "loss_usd": 11753.81
+        "loss_usd": 11730.85
     },
     {
         "height": 933089,
@@ -699,13 +699,13 @@
         "height": 932948,
         "health": 97.55,
         "loss_sats": 7863513,
-        "loss_usd": 5837.01
+        "loss_usd": 5825.6
     },
     {
         "height": 932919,
         "health": 97.05,
         "loss_sats": 9595919,
-        "loss_usd": 7122.95
+        "loss_usd": 7109.04
     },
     {
         "height": 932909,
@@ -723,7 +723,7 @@
         "height": 932833,
         "health": 98.11,
         "loss_sats": 6051390,
-        "loss_usd": 4491.89
+        "loss_usd": 4483.11
     },
     {
         "height": 932619,
@@ -741,61 +741,61 @@
         "height": 932472,
         "health": 97.97,
         "loss_sats": 6555849,
-        "loss_usd": 4866.34
+        "loss_usd": 4856.84
     },
     {
         "height": 932334,
         "health": 95.78,
         "loss_sats": 13867338,
-        "loss_usd": 10293.59
+        "loss_usd": 10273.48
     },
     {
         "height": 932326,
         "health": 97.07,
         "loss_sats": 9454260,
-        "loss_usd": 7017.8
+        "loss_usd": 7004.09
     },
     {
         "height": 932287,
         "health": 97.05,
         "loss_sats": 9551078,
-        "loss_usd": 7089.67
+        "loss_usd": 7075.82
     },
     {
         "height": 932266,
         "health": 89.82,
         "loss_sats": 35631733,
-        "loss_usd": 26449.08
+        "loss_usd": 26397.41
     },
     {
         "height": 932146,
         "health": 99.93,
         "loss_sats": 219943,
-        "loss_usd": 163.26
+        "loss_usd": 162.94
     },
     {
         "height": 932101,
         "health": 99.34,
         "loss_sats": 2105073,
-        "loss_usd": 1562.57
+        "loss_usd": 1559.52
     },
     {
         "height": 932070,
         "health": 92.86,
         "loss_sats": 24120977,
-        "loss_usd": 17904.76
+        "loss_usd": 17869.78
     },
     {
         "height": 932050,
         "health": 99.35,
         "loss_sats": 2060997,
-        "loss_usd": 1529.86
+        "loss_usd": 1526.87
     },
     {
         "height": 932041,
         "health": 97.48,
         "loss_sats": 8146923,
-        "loss_usd": 6047.38
+        "loss_usd": 6035.57
     },
     {
         "height": 931903,
@@ -807,7 +807,7 @@
         "height": 931837,
         "health": 95.85,
         "loss_sats": 13558067,
-        "loss_usd": 10064.02
+        "loss_usd": 10044.36
     },
     {
         "height": 931808,
@@ -825,19 +825,19 @@
         "height": 931620,
         "health": 98.37,
         "loss_sats": 5204607,
-        "loss_usd": 3863.33
+        "loss_usd": 3855.78
     },
     {
         "height": 931609,
         "health": 98.63,
         "loss_sats": 4359589,
-        "loss_usd": 3236.08
+        "loss_usd": 3229.76
     },
     {
         "height": 931542,
         "health": 91.32,
         "loss_sats": 29750001,
-        "loss_usd": 22083.13
+        "loss_usd": 22039.99
     },
     {
         "height": 931510,
@@ -849,7 +849,7 @@
         "height": 931461,
         "health": 98.18,
         "loss_sats": 5825029,
-        "loss_usd": 4323.86
+        "loss_usd": 4315.41
     },
     {
         "height": 931402,
@@ -873,7 +873,7 @@
         "height": 930969,
         "health": 96.5,
         "loss_sats": 11371024,
-        "loss_usd": 8440.6
+        "loss_usd": 8424.11
     },
     {
         "height": 930920,
@@ -885,13 +885,13 @@
         "height": 930916,
         "health": 97.81,
         "loss_sats": 7009177,
-        "loss_usd": 5202.84
+        "loss_usd": 5192.68
     },
     {
         "height": 930806,
         "health": 97.11,
         "loss_sats": 9405842,
-        "loss_usd": 6981.86
+        "loss_usd": 6968.22
     },
     {
         "height": 930741,
@@ -903,7 +903,7 @@
         "height": 930650,
         "health": 94.64,
         "loss_sats": 17751094,
-        "loss_usd": 13176.46
+        "loss_usd": 13150.72
     },
     {
         "height": 930620,
@@ -915,7 +915,7 @@
         "height": 930569,
         "health": 96.11,
         "loss_sats": 12752306,
-        "loss_usd": 9465.91
+        "loss_usd": 9447.42
     },
     {
         "height": 930566,
@@ -933,13 +933,13 @@
         "height": 930506,
         "health": 94.68,
         "loss_sats": 17707418,
-        "loss_usd": 13144.04
+        "loss_usd": 13118.36
     },
     {
         "height": 930485,
         "health": 99.97,
         "loss_sats": 94173,
-        "loss_usd": 69.9
+        "loss_usd": 69.77
     },
     {
         "height": 930459,
@@ -957,7 +957,7 @@
         "height": 930429,
         "health": 97.99,
         "loss_sats": 6498348,
-        "loss_usd": 4823.66
+        "loss_usd": 4814.24
     },
     {
         "height": 930412,
@@ -969,19 +969,19 @@
         "height": 930366,
         "health": 96.12,
         "loss_sats": 12653909,
-        "loss_usd": 9392.87
+        "loss_usd": 9374.52
     },
     {
         "height": 930356,
         "health": 99.97,
         "loss_sats": 94801,
-        "loss_usd": 70.37
+        "loss_usd": 70.23
     },
     {
         "height": 930311,
         "health": 95.04,
         "loss_sats": 16507318,
-        "loss_usd": 12253.22
+        "loss_usd": 12229.28
     },
     {
         "height": 930310,
@@ -1011,7 +1011,7 @@
         "height": 930114,
         "health": 77.17,
         "loss_sats": 92571863,
-        "loss_usd": 68715.17
+        "loss_usd": 68580.94
     },
     {
         "height": 930043,
@@ -1029,49 +1029,49 @@
         "height": 929960,
         "health": 94.19,
         "loss_sats": 19350812,
-        "loss_usd": 14363.91
+        "loss_usd": 14335.86
     },
     {
         "height": 929931,
         "health": 99.94,
         "loss_sats": 188148,
-        "loss_usd": 139.66
+        "loss_usd": 139.39
     },
     {
         "height": 929902,
         "health": 97.45,
         "loss_sats": 8214109,
-        "loss_usd": 6097.25
+        "loss_usd": 6085.34
     },
     {
         "height": 929829,
         "health": 99.55,
         "loss_sats": 1422446,
-        "loss_usd": 1055.87
+        "loss_usd": 1053.8
     },
     {
         "height": 929826,
         "health": 96.88,
         "loss_sats": 10076529,
-        "loss_usd": 7479.71
+        "loss_usd": 7465.1
     },
     {
         "height": 929792,
         "health": 99.94,
         "loss_sats": 188609,
-        "loss_usd": 140.0
+        "loss_usd": 139.73
     },
     {
         "height": 929746,
         "health": 98.46,
         "loss_sats": 4907395,
-        "loss_usd": 3642.71
+        "loss_usd": 3635.59
     },
     {
         "height": 929735,
         "health": 97.23,
         "loss_sats": 8979044,
-        "loss_usd": 6665.05
+        "loss_usd": 6652.03
     },
     {
         "height": 929687,
@@ -1083,7 +1083,7 @@
         "height": 929650,
         "health": 96.27,
         "loss_sats": 12185869,
-        "loss_usd": 9045.45
+        "loss_usd": 9027.78
     },
     {
         "height": 929646,
@@ -1101,7 +1101,7 @@
         "height": 929399,
         "health": 95.97,
         "loss_sats": 13274950,
-        "loss_usd": 9853.86
+        "loss_usd": 9834.61
     },
     {
         "height": 929358,
@@ -1113,43 +1113,43 @@
         "height": 929315,
         "health": 97.14,
         "loss_sats": 9268200,
-        "loss_usd": 6879.69
+        "loss_usd": 6866.25
     },
     {
         "height": 929307,
         "health": 96.11,
         "loss_sats": 12731737,
-        "loss_usd": 9450.64
+        "loss_usd": 9432.18
     },
     {
         "height": 929209,
         "health": 90.87,
         "loss_sats": 31433722,
-        "loss_usd": 23332.94
+        "loss_usd": 23287.36
     },
     {
         "height": 929187,
         "health": 98.13,
         "loss_sats": 5966291,
-        "loss_usd": 4428.72
+        "loss_usd": 4420.07
     },
     {
         "height": 929180,
         "health": 98.43,
         "loss_sats": 4997644,
-        "loss_usd": 3709.7
+        "loss_usd": 3702.45
     },
     {
         "height": 929176,
         "health": 96.43,
         "loss_sats": 11632021,
-        "loss_usd": 8634.33
+        "loss_usd": 8617.47
     },
     {
         "height": 929136,
         "health": 99.97,
         "loss_sats": 93869,
-        "loss_usd": 69.68
+        "loss_usd": 69.54
     },
     {
         "height": 929001,
@@ -1161,25 +1161,25 @@
         "height": 928997,
         "health": 98.71,
         "loss_sats": 4094676,
-        "loss_usd": 3039.44
+        "loss_usd": 3033.5
     },
     {
         "height": 928928,
         "health": 92.94,
         "loss_sats": 23789898,
-        "loss_usd": 17659.0
+        "loss_usd": 17624.51
     },
     {
         "height": 928738,
         "health": 97.91,
         "loss_sats": 6718729,
-        "loss_usd": 4987.25
+        "loss_usd": 4977.5
     },
     {
         "height": 928549,
         "health": 98.47,
         "loss_sats": 4889341,
-        "loss_usd": 3629.31
+        "loss_usd": 3622.22
     },
     {
         "height": 928539,
@@ -1197,7 +1197,7 @@
         "height": 928340,
         "health": 95.89,
         "loss_sats": 13425210,
-        "loss_usd": 9965.4
+        "loss_usd": 9945.93
     },
     {
         "height": 928248,
@@ -1209,13 +1209,13 @@
         "height": 928111,
         "health": 97.74,
         "loss_sats": 7287101,
-        "loss_usd": 5409.14
+        "loss_usd": 5398.58
     },
     {
         "height": 928071,
         "health": 99.76,
         "loss_sats": 752664,
-        "loss_usd": 558.69
+        "loss_usd": 557.6
     },
     {
         "height": 927982,
@@ -1227,13 +1227,13 @@
         "height": 927968,
         "health": 96.95,
         "loss_sats": 9897902,
-        "loss_usd": 7347.11
+        "loss_usd": 7332.76
     },
     {
         "height": 927898,
         "health": 98.68,
         "loss_sats": 4200002,
-        "loss_usd": 3117.62
+        "loss_usd": 3111.53
     },
     {
         "height": 927873,
@@ -1245,7 +1245,7 @@
         "height": 927845,
         "health": 96.52,
         "loss_sats": 11291055,
-        "loss_usd": 8381.24
+        "loss_usd": 8364.87
     },
     {
         "height": 927793,
@@ -1263,7 +1263,7 @@
         "height": 927604,
         "health": 94.24,
         "loss_sats": 19104270,
-        "loss_usd": 14180.91
+        "loss_usd": 14153.21
     },
     {
         "height": 927445,
@@ -1275,7 +1275,7 @@
         "height": 927436,
         "health": 96.63,
         "loss_sats": 10934516,
-        "loss_usd": 8116.58
+        "loss_usd": 8100.73
     },
     {
         "height": 927369,
@@ -1287,13 +1287,13 @@
         "height": 927299,
         "health": 96.44,
         "loss_sats": 11583067,
-        "loss_usd": 8597.99
+        "loss_usd": 8581.2
     },
     {
         "height": 927289,
         "health": 99.97,
         "loss_sats": 94625,
-        "loss_usd": 70.24
+        "loss_usd": 70.1
     },
     {
         "height": 927213,
@@ -1305,37 +1305,37 @@
         "height": 926860,
         "health": 97.58,
         "loss_sats": 7770463,
-        "loss_usd": 5767.94
+        "loss_usd": 5756.67
     },
     {
         "height": 926755,
         "health": 97.44,
         "loss_sats": 8221675,
-        "loss_usd": 6102.87
+        "loss_usd": 6090.95
     },
     {
         "height": 926716,
         "health": 97.31,
         "loss_sats": 8660505,
-        "loss_usd": 6428.61
+        "loss_usd": 6416.05
     },
     {
         "height": 926699,
         "health": 95.29,
         "loss_sats": 15563207,
-        "loss_usd": 11552.41
+        "loss_usd": 11529.85
     },
     {
         "height": 926565,
         "health": 96.34,
         "loss_sats": 12062544,
-        "loss_usd": 8953.91
+        "loss_usd": 8936.42
     },
     {
         "height": 926564,
         "health": 98.01,
         "loss_sats": 6429690,
-        "loss_usd": 4772.69
+        "loss_usd": 4763.37
     },
     {
         "height": 926551,
@@ -1347,43 +1347,43 @@
         "height": 926508,
         "health": 97.95,
         "loss_sats": 6598331,
-        "loss_usd": 4897.88
+        "loss_usd": 4888.31
     },
     {
         "height": 926419,
         "health": 96.84,
         "loss_sats": 10359898,
-        "loss_usd": 7690.05
+        "loss_usd": 7675.03
     },
     {
         "height": 926358,
         "health": 95.66,
         "loss_sats": 14220223,
-        "loss_usd": 10555.53
+        "loss_usd": 10534.91
     },
     {
         "height": 925954,
         "health": 91.33,
         "loss_sats": 29736455,
-        "loss_usd": 22073.07
+        "loss_usd": 22029.96
     },
     {
         "height": 925946,
         "health": 91.88,
         "loss_sats": 27696276,
-        "loss_usd": 20558.67
+        "loss_usd": 20518.51
     },
     {
         "height": 925884,
         "health": 94.08,
         "loss_sats": 19737368,
-        "loss_usd": 14650.85
+        "loss_usd": 14622.23
     },
     {
         "height": 925875,
         "health": 97.97,
         "loss_sats": 6541933,
-        "loss_usd": 4856.01
+        "loss_usd": 4846.53
     },
     {
         "height": 925837,
@@ -1401,7 +1401,7 @@
         "height": 925707,
         "health": 98.43,
         "loss_sats": 4992104,
-        "loss_usd": 3705.59
+        "loss_usd": 3698.35
     },
     {
         "height": 925675,
@@ -1419,7 +1419,7 @@
         "height": 925463,
         "health": 97.94,
         "loss_sats": 6609132,
-        "loss_usd": 4905.89
+        "loss_usd": 4896.31
     },
     {
         "height": 925458,
@@ -1443,31 +1443,31 @@
         "height": 925394,
         "health": 99.92,
         "loss_sats": 251942,
-        "loss_usd": 187.01
+        "loss_usd": 186.65
     },
     {
         "height": 925388,
         "health": 97.71,
         "loss_sats": 7453022,
-        "loss_usd": 5532.3
+        "loss_usd": 5521.5
     },
     {
         "height": 925353,
         "health": 99.1,
         "loss_sats": 2854105,
-        "loss_usd": 2118.57
+        "loss_usd": 2114.44
     },
     {
         "height": 925276,
         "health": 98.44,
         "loss_sats": 4982527,
-        "loss_usd": 3698.48
+        "loss_usd": 3691.26
     },
     {
         "height": 925219,
         "health": 94.36,
         "loss_sats": 18750599,
-        "loss_usd": 13918.38
+        "loss_usd": 13891.19
     },
     {
         "height": 925196,
@@ -1479,7 +1479,7 @@
         "height": 925116,
         "health": 97.91,
         "loss_sats": 6747280,
-        "loss_usd": 5008.44
+        "loss_usd": 4998.65
     },
     {
         "height": 925070,
@@ -1491,25 +1491,25 @@
         "height": 925059,
         "health": 97.83,
         "loss_sats": 7003139,
-        "loss_usd": 5198.36
+        "loss_usd": 5188.21
     },
     {
         "height": 924974,
         "health": 98.02,
         "loss_sats": 6360078,
-        "loss_usd": 4721.02
+        "loss_usd": 4711.8
     },
     {
         "height": 924904,
         "health": 97.83,
         "loss_sats": 6948506,
-        "loss_usd": 5157.81
+        "loss_usd": 5147.73
     },
     {
         "height": 924885,
         "health": 86.49,
         "loss_sats": 49067307,
-        "loss_usd": 36422.17
+        "loss_usd": 36351.02
     },
     {
         "height": 924804,
@@ -1521,13 +1521,13 @@
         "height": 924775,
         "health": 99.01,
         "loss_sats": 3130951,
-        "loss_usd": 2324.07
+        "loss_usd": 2319.53
     },
     {
         "height": 924733,
         "health": 98.9,
         "loss_sats": 3562865,
-        "loss_usd": 2644.68
+        "loss_usd": 2639.51
     },
     {
         "height": 924638,
@@ -1539,13 +1539,13 @@
         "height": 924589,
         "health": 99.31,
         "loss_sats": 2195854,
-        "loss_usd": 1629.96
+        "loss_usd": 1626.78
     },
     {
         "height": 924585,
         "health": 98.68,
         "loss_sats": 4234933,
-        "loss_usd": 3143.55
+        "loss_usd": 3137.41
     },
     {
         "height": 924322,
@@ -1557,13 +1557,13 @@
         "height": 924169,
         "health": 79.73,
         "loss_sats": 79657246,
-        "loss_usd": 59128.78
+        "loss_usd": 59013.27
     },
     {
         "height": 924062,
         "health": 99.66,
         "loss_sats": 1083140,
-        "loss_usd": 804.0
+        "loss_usd": 802.43
     },
     {
         "height": 923976,
@@ -1575,13 +1575,13 @@
         "height": 923843,
         "health": 99.38,
         "loss_sats": 1965936,
-        "loss_usd": 1459.29
+        "loss_usd": 1456.44
     },
     {
         "height": 923745,
         "health": 97.17,
         "loss_sats": 9169224,
-        "loss_usd": 6806.22
+        "loss_usd": 6792.93
     },
     {
         "height": 923664,
@@ -1593,7 +1593,7 @@
         "height": 923626,
         "health": 98.75,
         "loss_sats": 3991544,
-        "loss_usd": 2962.88
+        "loss_usd": 2957.1
     },
     {
         "height": 923485,
@@ -1605,7 +1605,7 @@
         "height": 923473,
         "health": 98.8,
         "loss_sats": 3818190,
-        "loss_usd": 2834.2
+        "loss_usd": 2828.67
     },
     {
         "height": 923384,
@@ -1617,13 +1617,13 @@
         "height": 923352,
         "health": 97.88,
         "loss_sats": 6812309,
-        "loss_usd": 5056.71
+        "loss_usd": 5046.83
     },
     {
         "height": 923231,
         "health": 95.3,
         "loss_sats": 15532006,
-        "loss_usd": 11529.25
+        "loss_usd": 11506.73
     },
     {
         "height": 923166,
@@ -1665,7 +1665,7 @@
         "height": 922778,
         "health": 97.6,
         "loss_sats": 7715576,
-        "loss_usd": 5727.19
+        "loss_usd": 5716.01
     },
     {
         "height": 922687,
@@ -1695,13 +1695,13 @@
         "height": 922430,
         "health": 97.7,
         "loss_sats": 7424255,
-        "loss_usd": 5510.95
+        "loss_usd": 5500.19
     },
     {
         "height": 922385,
         "health": 98.01,
         "loss_sats": 6390595,
-        "loss_usd": 4743.67
+        "loss_usd": 4734.41
     },
     {
         "height": 922366,
@@ -1713,7 +1713,7 @@
         "height": 922307,
         "health": 74.65,
         "loss_sats": 106516961,
-        "loss_usd": 79066.47
+        "loss_usd": 78912.03
     },
     {
         "height": 922159,
@@ -1725,7 +1725,7 @@
         "height": 922113,
         "health": 97.63,
         "loss_sats": 7689792,
-        "loss_usd": 5708.06
+        "loss_usd": 5696.91
     },
     {
         "height": 922097,
@@ -1737,7 +1737,7 @@
         "height": 922074,
         "health": 98.45,
         "loss_sats": 4943466,
-        "loss_usd": 3669.49
+        "loss_usd": 3662.32
     },
     {
         "height": 922032,
@@ -1749,85 +1749,85 @@
         "height": 921946,
         "health": 98.22,
         "loss_sats": 5701700,
-        "loss_usd": 4232.31
+        "loss_usd": 4224.05
     },
     {
         "height": 921820,
         "health": 93.48,
         "loss_sats": 21851611,
-        "loss_usd": 16220.23
+        "loss_usd": 16188.55
     },
     {
         "height": 921771,
         "health": 96.85,
         "loss_sats": 10307917,
-        "loss_usd": 7651.46
+        "loss_usd": 7636.52
     },
     {
         "height": 921763,
         "health": 97.46,
         "loss_sats": 8191007,
-        "loss_usd": 6080.1
+        "loss_usd": 6068.23
     },
     {
         "height": 921741,
         "health": 95.49,
         "loss_sats": 14844845,
-        "loss_usd": 11019.18
+        "loss_usd": 10997.65
     },
     {
         "height": 921697,
         "health": 86.99,
         "loss_sats": 46816409,
-        "loss_usd": 34751.35
+        "loss_usd": 34683.47
     },
     {
         "height": 921431,
         "health": 97.93,
         "loss_sats": 6668607,
-        "loss_usd": 4950.04
+        "loss_usd": 4940.37
     },
     {
         "height": 921424,
         "health": 99.75,
         "loss_sats": 783991,
-        "loss_usd": 581.95
+        "loss_usd": 580.81
     },
     {
         "height": 921420,
         "health": 97.82,
         "loss_sats": 6978024,
-        "loss_usd": 5179.72
+        "loss_usd": 5169.6
     },
     {
         "height": 921292,
         "health": 94.9,
         "loss_sats": 16886452,
-        "loss_usd": 12534.64
+        "loss_usd": 12510.16
     },
     {
         "height": 921248,
         "health": 97.99,
         "loss_sats": 6443036,
-        "loss_usd": 4782.6
+        "loss_usd": 4773.26
     },
     {
         "height": 921026,
         "health": 97.99,
         "loss_sats": 6442520,
-        "loss_usd": 4782.22
+        "loss_usd": 4772.88
     },
     {
         "height": 920989,
         "health": 97.95,
         "loss_sats": 6557986,
-        "loss_usd": 4867.93
+        "loss_usd": 4858.42
     },
     {
         "height": 920780,
         "health": 99.38,
         "loss_sats": 1951896,
-        "loss_usd": 1448.87
+        "loss_usd": 1446.04
     },
     {
         "height": 920751,
@@ -1839,37 +1839,37 @@
         "height": 920673,
         "health": 95.05,
         "loss_sats": 16298565,
-        "loss_usd": 12098.26
+        "loss_usd": 12074.63
     },
     {
         "height": 920609,
         "health": 96.91,
         "loss_sats": 10010675,
-        "loss_usd": 7430.82
+        "loss_usd": 7416.31
     },
     {
         "height": 920574,
         "health": 96.92,
         "loss_sats": 10037809,
-        "loss_usd": 7450.97
+        "loss_usd": 7436.41
     },
     {
         "height": 920555,
         "health": 95.92,
         "loss_sats": 13293401,
-        "loss_usd": 9867.56
+        "loss_usd": 9848.28
     },
     {
         "height": 920498,
         "health": 95.42,
         "loss_sats": 15016932,
-        "loss_usd": 11146.92
+        "loss_usd": 11125.14
     },
     {
         "height": 920469,
         "health": 99.92,
         "loss_sats": 251184,
-        "loss_usd": 186.45
+        "loss_usd": 186.09
     },
     {
         "height": 920433,
@@ -1881,43 +1881,43 @@
         "height": 920407,
         "health": 98.28,
         "loss_sats": 5497547,
-        "loss_usd": 4080.77
+        "loss_usd": 4072.8
     },
     {
         "height": 920334,
         "health": 90.66,
         "loss_sats": 32272941,
-        "loss_usd": 23955.88
+        "loss_usd": 23909.09
     },
     {
         "height": 920333,
         "health": 94.88,
         "loss_sats": 16902113,
-        "loss_usd": 12546.27
+        "loss_usd": 12521.76
     },
     {
         "height": 920313,
         "health": 98.39,
         "loss_sats": 5157986,
-        "loss_usd": 3828.72
+        "loss_usd": 3821.24
     },
     {
         "height": 920240,
         "health": 98.92,
         "loss_sats": 3414203,
-        "loss_usd": 2534.33
+        "loss_usd": 2529.38
     },
     {
         "height": 920236,
         "health": 91.63,
         "loss_sats": 28690149,
-        "loss_usd": 21296.41
+        "loss_usd": 21254.81
     },
     {
         "height": 920120,
         "health": 95.68,
         "loss_sats": 14207440,
-        "loss_usd": 10546.04
+        "loss_usd": 10525.44
     },
     {
         "height": 920108,
@@ -1941,7 +1941,7 @@
         "height": 919905,
         "health": 96.79,
         "loss_sats": 10392652,
-        "loss_usd": 7714.36
+        "loss_usd": 7699.29
     },
     {
         "height": 919848,
@@ -1953,25 +1953,25 @@
         "height": 919846,
         "health": 97.67,
         "loss_sats": 7526748,
-        "loss_usd": 5587.03
+        "loss_usd": 5576.12
     },
     {
         "height": 919576,
         "health": 98.1,
         "loss_sats": 6060639,
-        "loss_usd": 4498.75
+        "loss_usd": 4489.96
     },
     {
         "height": 919543,
         "health": 93.47,
         "loss_sats": 22100345,
-        "loss_usd": 16404.87
+        "loss_usd": 16372.82
     },
     {
         "height": 919481,
         "health": 95.81,
         "loss_sats": 13738718,
-        "loss_usd": 10198.11
+        "loss_usd": 10178.19
     },
     {
         "height": 919422,
@@ -1983,13 +1983,13 @@
         "height": 919378,
         "health": 98.68,
         "loss_sats": 4212715,
-        "loss_usd": 3127.06
+        "loss_usd": 3120.95
     },
     {
         "height": 919298,
         "health": 92.18,
         "loss_sats": 26663143,
-        "loss_usd": 19791.78
+        "loss_usd": 19753.12
     },
     {
         "height": 919292,
@@ -2025,13 +2025,13 @@
         "height": 919126,
         "health": 99.69,
         "loss_sats": 980799,
-        "loss_usd": 728.04
+        "loss_usd": 726.62
     },
     {
         "height": 918920,
         "health": 97,
         "loss_sats": 9743891,
-        "loss_usd": 7232.79
+        "loss_usd": 7218.66
     },
     {
         "height": 918915,
@@ -2043,13 +2043,13 @@
         "height": 918811,
         "health": 93.25,
         "loss_sats": 22754502,
-        "loss_usd": 16890.44
+        "loss_usd": 16857.45
     },
     {
         "height": 918740,
         "health": 93.94,
         "loss_sats": 20238696,
-        "loss_usd": 15022.98
+        "loss_usd": 14993.64
     },
     {
         "height": 918616,
@@ -2061,7 +2061,7 @@
         "height": 918568,
         "health": 93.2,
         "loss_sats": 22906355,
-        "loss_usd": 17003.16
+        "loss_usd": 16969.94
     },
     {
         "height": 918539,
@@ -2073,7 +2073,7 @@
         "height": 918387,
         "health": 94.48,
         "loss_sats": 18439107,
-        "loss_usd": 13687.16
+        "loss_usd": 13660.43
     },
     {
         "height": 918336,
@@ -2085,55 +2085,55 @@
         "height": 918299,
         "health": 90.66,
         "loss_sats": 32391077,
-        "loss_usd": 24043.57
+        "loss_usd": 23996.61
     },
     {
         "height": 918260,
         "health": 78.13,
         "loss_sats": 87609640,
-        "loss_usd": 65031.76
+        "loss_usd": 64904.73
     },
     {
         "height": 918208,
         "health": 92.23,
         "loss_sats": 26358269,
-        "loss_usd": 19565.48
+        "loss_usd": 19527.26
     },
     {
         "height": 918164,
         "health": 94.98,
         "loss_sats": 16546192,
-        "loss_usd": 12282.07
+        "loss_usd": 12258.08
     },
     {
         "height": 918153,
         "health": 92.09,
         "loss_sats": 27050299,
-        "loss_usd": 20079.17
+        "loss_usd": 20039.94
     },
     {
         "height": 918143,
         "health": 94.59,
         "loss_sats": 17902319,
-        "loss_usd": 13288.71
+        "loss_usd": 13262.75
     },
     {
         "height": 918052,
         "health": 97.55,
         "loss_sats": 7929686,
-        "loss_usd": 5886.13
+        "loss_usd": 5874.63
     },
     {
         "height": 917905,
         "health": 94.61,
         "loss_sats": 17867760,
-        "loss_usd": 13263.06
+        "loss_usd": 13237.15
     },
     {
         "height": 917837,
         "health": 95.65,
         "loss_sats": 14314742,
-        "loss_usd": 10625.69
+        "loss_usd": 10604.93
     },
     {
         "height": 917802,
@@ -2151,43 +2151,43 @@
         "height": 917630,
         "health": 93.17,
         "loss_sats": 22958744,
-        "loss_usd": 17042.05
+        "loss_usd": 17008.76
     },
     {
         "height": 917549,
         "health": 91.93,
         "loss_sats": 27735478,
-        "loss_usd": 20587.77
+        "loss_usd": 20547.55
     },
     {
         "height": 917534,
         "health": 97.99,
         "loss_sats": 6546408,
-        "loss_usd": 4859.33
+        "loss_usd": 4849.84
     },
     {
         "height": 917514,
         "health": 98.15,
         "loss_sats": 6130053,
-        "loss_usd": 4550.28
+        "loss_usd": 4541.39
     },
     {
         "height": 917403,
         "health": 98.01,
         "loss_sats": 6467910,
-        "loss_usd": 4801.06
+        "loss_usd": 4791.69
     },
     {
         "height": 917367,
         "health": 97.11,
         "loss_sats": 9346057,
-        "loss_usd": 6937.48
+        "loss_usd": 6923.93
     },
     {
         "height": 917312,
         "health": 97.97,
         "loss_sats": 6493332,
-        "loss_usd": 4819.94
+        "loss_usd": 4810.52
     },
     {
         "height": 916978,
@@ -2205,13 +2205,13 @@
         "height": 916873,
         "health": 86.67,
         "loss_sats": 48194426,
-        "loss_usd": 35774.24
+        "loss_usd": 35704.36
     },
     {
         "height": 916844,
         "health": 99.42,
         "loss_sats": 1832965,
-        "loss_usd": 1360.59
+        "loss_usd": 1357.93
     },
     {
         "height": 916819,
@@ -2223,13 +2223,13 @@
         "height": 916800,
         "health": 93.17,
         "loss_sats": 22966988,
-        "loss_usd": 17048.17
+        "loss_usd": 17014.86
     },
     {
         "height": 916749,
         "health": 97.66,
         "loss_sats": 7506090,
-        "loss_usd": 5571.7
+        "loss_usd": 5560.81
     },
     {
         "height": 916650,
@@ -2241,19 +2241,19 @@
         "height": 916635,
         "health": 97.2,
         "loss_sats": 9185359,
-        "loss_usd": 6818.2
+        "loss_usd": 6804.88
     },
     {
         "height": 916519,
         "health": 97.17,
         "loss_sats": 9128510,
-        "loss_usd": 6776.0
+        "loss_usd": 6762.77
     },
     {
         "height": 916351,
         "health": 95.44,
         "loss_sats": 14997600,
-        "loss_usd": 11132.57
+        "loss_usd": 11110.82
     },
     {
         "height": 916272,
@@ -2265,31 +2265,31 @@
         "height": 916158,
         "health": 89.41,
         "loss_sats": 37052526,
-        "loss_usd": 27503.72
+        "loss_usd": 27449.99
     },
     {
         "height": 916041,
         "health": 98.04,
         "loss_sats": 6296789,
-        "loss_usd": 4674.04
+        "loss_usd": 4664.91
     },
     {
         "height": 916024,
         "health": 97.72,
         "loss_sats": 7359980,
-        "loss_usd": 5463.24
+        "loss_usd": 5452.57
     },
     {
         "height": 916003,
         "health": 95.97,
         "loss_sats": 13207694,
-        "loss_usd": 9803.94
+        "loss_usd": 9784.79
     },
     {
         "height": 915821,
         "health": 97.26,
         "loss_sats": 8824849,
-        "loss_usd": 6550.6
+        "loss_usd": 6537.8
     },
     {
         "height": 915679,
@@ -2301,25 +2301,25 @@
         "height": 915523,
         "health": 94.19,
         "loss_sats": 19370689,
-        "loss_usd": 14378.67
+        "loss_usd": 14350.58
     },
     {
         "height": 915420,
         "health": 91.06,
         "loss_sats": 30970854,
-        "loss_usd": 22989.36
+        "loss_usd": 22944.45
     },
     {
         "height": 915394,
         "health": 52.7,
         "loss_sats": 281046255,
-        "loss_usd": 208617.82
+        "loss_usd": 208210.31
     },
     {
         "height": 915364,
         "health": 86.05,
         "loss_sats": 51071109,
-        "loss_usd": 37909.57
+        "loss_usd": 37835.52
     },
     {
         "height": 915360,
@@ -2343,19 +2343,19 @@
         "height": 915130,
         "health": 97.29,
         "loss_sats": 8840871,
-        "loss_usd": 6562.49
+        "loss_usd": 6549.67
     },
     {
         "height": 915084,
         "health": 63.8,
         "loss_sats": 177539967,
-        "loss_usd": 131786.14
+        "loss_usd": 131528.71
     },
     {
         "height": 915083,
         "health": 96.15,
         "loss_sats": 12636143,
-        "loss_usd": 9379.68
+        "loss_usd": 9361.36
     },
     {
         "height": 915059,
@@ -2373,7 +2373,7 @@
         "height": 914710,
         "health": 99.04,
         "loss_sats": 3071780,
-        "loss_usd": 2280.15
+        "loss_usd": 2275.7
     },
     {
         "height": 914546,
@@ -2385,37 +2385,37 @@
         "height": 914391,
         "health": 97.39,
         "loss_sats": 8429658,
-        "loss_usd": 6257.25
+        "loss_usd": 6245.03
     },
     {
         "height": 914322,
         "health": 93.52,
         "loss_sats": 21731953,
-        "loss_usd": 16131.41
+        "loss_usd": 16099.9
     },
     {
         "height": 914311,
         "health": 96.5,
         "loss_sats": 11548511,
-        "loss_usd": 8572.34
+        "loss_usd": 8555.6
     },
     {
         "height": 914292,
         "health": 97.74,
         "loss_sats": 7308490,
-        "loss_usd": 5425.02
+        "loss_usd": 5414.42
     },
     {
         "height": 914274,
         "health": 95.86,
         "loss_sats": 13641796,
-        "loss_usd": 10126.17
+        "loss_usd": 10106.39
     },
     {
         "height": 914272,
         "health": 97.35,
         "loss_sats": 8596583,
-        "loss_usd": 6381.16
+        "loss_usd": 6368.69
     },
     {
         "height": 914256,
@@ -2427,7 +2427,7 @@
         "height": 914183,
         "health": 92.23,
         "loss_sats": 26419675,
-        "loss_usd": 19611.06
+        "loss_usd": 19572.75
     },
     {
         "height": 914140,
@@ -2451,19 +2451,19 @@
         "height": 914058,
         "health": 92.75,
         "loss_sats": 25049625,
-        "loss_usd": 18594.09
+        "loss_usd": 18557.76
     },
     {
         "height": 913985,
         "health": 96,
         "loss_sats": 13078897,
-        "loss_usd": 9708.33
+        "loss_usd": 9689.37
     },
     {
         "height": 913861,
         "health": 98.96,
         "loss_sats": 3308614,
-        "loss_usd": 2455.95
+        "loss_usd": 2451.15
     },
     {
         "height": 913835,
@@ -2487,25 +2487,25 @@
         "height": 913350,
         "health": 97.13,
         "loss_sats": 9316162,
-        "loss_usd": 6915.29
+        "loss_usd": 6901.79
     },
     {
         "height": 913348,
         "health": 80.15,
         "loss_sats": 77776143,
-        "loss_usd": 57732.45
+        "loss_usd": 57619.68
     },
     {
         "height": 913315,
         "health": 97.34,
         "loss_sats": 8696676,
-        "loss_usd": 6455.46
+        "loss_usd": 6442.85
     },
     {
         "height": 913272,
         "health": 70.33,
         "loss_sats": 132217925,
-        "loss_usd": 98144.04
+        "loss_usd": 97952.33
     },
     {
         "height": 913232,
@@ -2517,7 +2517,7 @@
         "height": 913180,
         "health": 99.96,
         "loss_sats": 127089,
-        "loss_usd": 94.34
+        "loss_usd": 94.15
     },
     {
         "height": 913130,
@@ -2541,37 +2541,37 @@
         "height": 912992,
         "health": 93.34,
         "loss_sats": 22604100,
-        "loss_usd": 16778.8
+        "loss_usd": 16746.02
     },
     {
         "height": 912916,
         "health": 93.64,
         "loss_sats": 21381179,
-        "loss_usd": 15871.04
+        "loss_usd": 15840.03
     },
     {
         "height": 912762,
         "health": 59.43,
         "loss_sats": 215972388,
-        "loss_usd": 160314.14
+        "loss_usd": 160000.98
     },
     {
         "height": 912726,
         "health": 74.08,
         "loss_sats": 116030798,
-        "loss_usd": 86128.5
+        "loss_usd": 85960.26
     },
     {
         "height": 912692,
         "health": 76.52,
         "loss_sats": 96388805,
-        "loss_usd": 71548.45
+        "loss_usd": 71408.68
     },
     {
         "height": 912675,
         "health": 97.97,
         "loss_sats": 6489279,
-        "loss_usd": 4816.93
+        "loss_usd": 4807.52
     },
     {
         "height": 912662,
@@ -2583,13 +2583,13 @@
         "height": 912617,
         "health": 94.46,
         "loss_sats": 18484382,
-        "loss_usd": 13720.77
+        "loss_usd": 13693.97
     },
     {
         "height": 912509,
         "health": 95.31,
         "loss_sats": 15509822,
-        "loss_usd": 11512.79
+        "loss_usd": 11490.3
     },
     {
         "height": 912291,
@@ -2613,25 +2613,25 @@
         "height": 912211,
         "health": 89.76,
         "loss_sats": 35750305,
-        "loss_usd": 26537.09
+        "loss_usd": 26485.26
     },
     {
         "height": 912199,
         "health": 97.37,
         "loss_sats": 8516767,
-        "loss_usd": 6321.91
+        "loss_usd": 6309.56
     },
     {
         "height": 912116,
         "health": 98.67,
         "loss_sats": 4253999,
-        "loss_usd": 3157.7
+        "loss_usd": 3151.53
     },
     {
         "height": 912057,
         "health": 89.29,
         "loss_sats": 37595279,
-        "loss_usd": 27906.6
+        "loss_usd": 27852.09
     },
     {
         "height": 911974,
@@ -2643,19 +2643,19 @@
         "height": 911873,
         "health": 97.34,
         "loss_sats": 8552227,
-        "loss_usd": 6348.23
+        "loss_usd": 6335.83
     },
     {
         "height": 911827,
         "health": 90.89,
         "loss_sats": 31575800,
-        "loss_usd": 23438.4
+        "loss_usd": 23392.62
     },
     {
         "height": 911742,
         "health": 95.8,
         "loss_sats": 13770637,
-        "loss_usd": 10221.81
+        "loss_usd": 10201.84
     },
     {
         "height": 911543,
@@ -2673,7 +2673,7 @@
         "height": 911332,
         "health": 96.19,
         "loss_sats": 12447517,
-        "loss_usd": 9239.67
+        "loss_usd": 9221.62
     },
     {
         "height": 911269,
@@ -2685,19 +2685,19 @@
         "height": 911218,
         "health": 97.95,
         "loss_sats": 6606679,
-        "loss_usd": 4904.07
+        "loss_usd": 4894.49
     },
     {
         "height": 911164,
         "health": 82.59,
         "loss_sats": 66165268,
-        "loss_usd": 49113.82
+        "loss_usd": 49017.88
     },
     {
         "height": 911156,
         "health": 95.74,
         "loss_sats": 14013497,
-        "loss_usd": 10402.08
+        "loss_usd": 10381.76
     },
     {
         "height": 911055,
@@ -2709,7 +2709,7 @@
         "height": 910941,
         "health": 98.38,
         "loss_sats": 5225396,
-        "loss_usd": 3878.76
+        "loss_usd": 3871.18
     },
     {
         "height": 910836,
@@ -2721,13 +2721,13 @@
         "height": 910702,
         "health": 97.08,
         "loss_sats": 9483692,
-        "loss_usd": 7039.65
+        "loss_usd": 7025.9
     },
     {
         "height": 910626,
         "health": 96.9,
         "loss_sats": 10258655,
-        "loss_usd": 7614.9
+        "loss_usd": 7600.02
     },
     {
         "height": 910515,
@@ -2739,31 +2739,31 @@
         "height": 910385,
         "health": 93,
         "loss_sats": 23541962,
-        "loss_usd": 17474.96
+        "loss_usd": 17440.83
     },
     {
         "height": 910340,
         "health": 99.21,
         "loss_sats": 2523872,
-        "loss_usd": 1873.44
+        "loss_usd": 1869.79
     },
     {
         "height": 910289,
         "health": 97.56,
         "loss_sats": 7838766,
-        "loss_usd": 5818.64
+        "loss_usd": 5807.27
     },
     {
         "height": 910138,
         "health": 89.9,
         "loss_sats": 35347241,
-        "loss_usd": 26237.9
+        "loss_usd": 26186.65
     },
     {
         "height": 910132,
         "health": 93.96,
         "loss_sats": 20260300,
-        "loss_usd": 15039.02
+        "loss_usd": 15009.64
     },
     {
         "height": 909981,
@@ -2775,31 +2775,31 @@
         "height": 909967,
         "health": 95.53,
         "loss_sats": 14720199,
-        "loss_usd": 10926.66
+        "loss_usd": 10905.31
     },
     {
         "height": 909830,
         "health": 95.46,
         "loss_sats": 14896684,
-        "loss_usd": 11057.66
+        "loss_usd": 11036.06
     },
     {
         "height": 909741,
         "health": 97.3,
         "loss_sats": 8837040,
-        "loss_usd": 6559.65
+        "loss_usd": 6546.83
     },
     {
         "height": 909738,
         "health": 96.9,
         "loss_sats": 10035574,
-        "loss_usd": 7449.31
+        "loss_usd": 7434.75
     },
     {
         "height": 909418,
         "health": 98.22,
         "loss_sats": 5738770,
-        "loss_usd": 4259.83
+        "loss_usd": 4251.51
     },
     {
         "height": 909285,
@@ -2811,121 +2811,121 @@
         "height": 909119,
         "health": 97.87,
         "loss_sats": 6875572,
-        "loss_usd": 5103.67
+        "loss_usd": 5093.7
     },
     {
         "height": 908912,
         "health": 99.3,
         "loss_sats": 2272864,
-        "loss_usd": 1687.12
+        "loss_usd": 1683.83
     },
     {
         "height": 908709,
         "health": 99.71,
         "loss_sats": 910783,
-        "loss_usd": 676.07
+        "loss_usd": 674.74
     },
     {
         "height": 908623,
         "health": 97.43,
         "loss_sats": 8311782,
-        "loss_usd": 6169.75
+        "loss_usd": 6157.7
     },
     {
         "height": 908617,
         "health": 99.22,
         "loss_sats": 2461645,
-        "loss_usd": 1827.25
+        "loss_usd": 1823.69
     },
     {
         "height": 908311,
         "health": 98.24,
         "loss_sats": 5626066,
-        "loss_usd": 4176.17
+        "loss_usd": 4168.01
     },
     {
         "height": 908287,
         "health": 95.34,
         "loss_sats": 15349193,
-        "loss_usd": 11393.55
+        "loss_usd": 11371.3
     },
     {
         "height": 908284,
         "health": 76.36,
         "loss_sats": 97198743,
-        "loss_usd": 72149.65
+        "loss_usd": 72008.72
     },
     {
         "height": 908271,
         "health": 93.25,
         "loss_sats": 22810140,
-        "loss_usd": 16931.74
+        "loss_usd": 16898.66
     },
     {
         "height": 908246,
         "health": 97.55,
         "loss_sats": 7927322,
-        "loss_usd": 5884.37
+        "loss_usd": 5872.88
     },
     {
         "height": 908207,
         "health": 99.02,
         "loss_sats": 3107929,
-        "loss_usd": 2306.98
+        "loss_usd": 2302.48
     },
     {
         "height": 908143,
         "health": 90.19,
         "loss_sats": 34143381,
-        "loss_usd": 25344.29
+        "loss_usd": 25294.78
     },
     {
         "height": 908065,
         "health": 92.34,
         "loss_sats": 26130588,
-        "loss_usd": 19396.47
+        "loss_usd": 19358.58
     },
     {
         "height": 908028,
         "health": 99.88,
         "loss_sats": 380761,
-        "loss_usd": 282.64
+        "loss_usd": 282.08
     },
     {
         "height": 907925,
         "health": 97.58,
         "loss_sats": 7822676,
-        "loss_usd": 5806.69
+        "loss_usd": 5795.35
     },
     {
         "height": 907811,
         "health": 84.25,
         "loss_sats": 59168326,
-        "loss_usd": 43920.06
+        "loss_usd": 43834.26
     },
     {
         "height": 907676,
         "health": 96.03,
         "loss_sats": 13076569,
-        "loss_usd": 9706.61
+        "loss_usd": 9687.65
     },
     {
         "height": 907467,
         "health": 98.03,
         "loss_sats": 6363706,
-        "loss_usd": 4723.72
+        "loss_usd": 4714.49
     },
     {
         "height": 907287,
         "health": 90.1,
         "loss_sats": 34584307,
-        "loss_usd": 25671.59
+        "loss_usd": 25621.44
     },
     {
         "height": 907186,
         "health": 97.45,
         "loss_sats": 8244136,
-        "loss_usd": 6119.54
+        "loss_usd": 6107.59
     },
     {
         "height": 906655,
@@ -2937,73 +2937,73 @@
         "height": 906631,
         "health": 99.8,
         "loss_sats": 632637,
-        "loss_usd": 469.6
+        "loss_usd": 468.68
     },
     {
         "height": 906289,
         "health": 95.44,
         "loss_sats": 15089890,
-        "loss_usd": 11201.07
+        "loss_usd": 11179.19
     },
     {
         "height": 906190,
         "health": 93.97,
         "loss_sats": 20138794,
-        "loss_usd": 14948.83
+        "loss_usd": 14919.62
     },
     {
         "height": 906166,
         "health": 93.81,
         "loss_sats": 20972826,
-        "loss_usd": 15567.92
+        "loss_usd": 15537.51
     },
     {
         "height": 906041,
         "health": 97.64,
         "loss_sats": 7608413,
-        "loss_usd": 5647.65
+        "loss_usd": 5636.62
     },
     {
         "height": 905975,
         "health": 98.17,
         "loss_sats": 5907518,
-        "loss_usd": 4385.09
+        "loss_usd": 4376.53
     },
     {
         "height": 905894,
         "health": 85.31,
         "loss_sats": 54888341,
-        "loss_usd": 40743.07
+        "loss_usd": 40663.48
     },
     {
         "height": 905892,
         "health": 95.62,
         "loss_sats": 14437648,
-        "loss_usd": 10716.92
+        "loss_usd": 10695.99
     },
     {
         "height": 905850,
         "health": 85.83,
         "loss_sats": 51881429,
-        "loss_usd": 38511.07
+        "loss_usd": 38435.84
     },
     {
         "height": 905709,
         "health": 98.42,
         "loss_sats": 5064864,
-        "loss_usd": 3759.6
+        "loss_usd": 3752.25
     },
     {
         "height": 905662,
         "health": 72.33,
         "loss_sats": 120116904,
-        "loss_usd": 89161.58
+        "loss_usd": 88987.41
     },
     {
         "height": 905465,
         "health": 28.17,
         "loss_sats": 799939818,
-        "loss_usd": 593787.33
+        "loss_usd": 592627.41
     },
     {
         "height": 905415,
@@ -3015,19 +3015,19 @@
         "height": 905347,
         "health": 96.6,
         "loss_sats": 11143378,
-        "loss_usd": 8271.62
+        "loss_usd": 8255.46
     },
     {
         "height": 905299,
         "health": 93.05,
         "loss_sats": 23379715,
-        "loss_usd": 17354.53
+        "loss_usd": 17320.63
     },
     {
         "height": 905236,
         "health": 84.92,
         "loss_sats": 55919807,
-        "loss_usd": 41508.71
+        "loss_usd": 41427.63
     },
     {
         "height": 905182,
@@ -3045,25 +3045,25 @@
         "height": 905129,
         "health": 96.99,
         "loss_sats": 9783445,
-        "loss_usd": 7262.15
+        "loss_usd": 7247.97
     },
     {
         "height": 905115,
         "health": 98.8,
         "loss_sats": 3863789,
-        "loss_usd": 2868.05
+        "loss_usd": 2862.45
     },
     {
         "height": 905090,
         "health": 98,
         "loss_sats": 6507467,
-        "loss_usd": 4830.43
+        "loss_usd": 4820.99
     },
     {
         "height": 905078,
         "health": 57.13,
         "loss_sats": 235578041,
-        "loss_usd": 174867.22
+        "loss_usd": 174525.64
     },
     {
         "height": 905075,
@@ -3075,55 +3075,55 @@
         "height": 905045,
         "health": 98.66,
         "loss_sats": 4318826,
-        "loss_usd": 3205.82
+        "loss_usd": 3199.56
     },
     {
         "height": 905039,
         "health": 70.59,
         "loss_sats": 130906750,
-        "loss_usd": 97170.77
+        "loss_usd": 96980.96
     },
     {
         "height": 905035,
         "health": 96.34,
         "loss_sats": 12000210,
-        "loss_usd": 8907.64
+        "loss_usd": 8890.24
     },
     {
         "height": 904969,
         "health": 98.58,
         "loss_sats": 4557607,
-        "loss_usd": 3383.07
+        "loss_usd": 3376.46
     },
     {
         "height": 904898,
         "health": 61.28,
         "loss_sats": 197807087,
-        "loss_usd": 146830.22
+        "loss_usd": 146543.4
     },
     {
         "height": 904872,
         "health": 82.94,
         "loss_sats": 64588140,
-        "loss_usd": 47943.13
+        "loss_usd": 47849.48
     },
     {
         "height": 904707,
         "health": 86.44,
         "loss_sats": 49247646,
-        "loss_usd": 36556.04
+        "loss_usd": 36484.63
     },
     {
         "height": 904665,
         "health": 89.65,
         "loss_sats": 36407697,
-        "loss_usd": 27025.07
+        "loss_usd": 26972.28
     },
     {
         "height": 904655,
         "health": 83.05,
         "loss_sats": 64144948,
-        "loss_usd": 47614.15
+        "loss_usd": 47521.14
     },
     {
         "height": 904639,
@@ -3141,19 +3141,19 @@
         "height": 904541,
         "health": 94.44,
         "loss_sats": 18575303,
-        "loss_usd": 13788.26
+        "loss_usd": 13761.33
     },
     {
         "height": 904514,
         "health": 99.63,
         "loss_sats": 1173734,
-        "loss_usd": 871.25
+        "loss_usd": 869.55
     },
     {
         "height": 904463,
         "health": 96.28,
         "loss_sats": 12150344,
-        "loss_usd": 9019.08
+        "loss_usd": 9001.46
     },
     {
         "height": 904302,
@@ -3165,25 +3165,25 @@
         "height": 904227,
         "health": 97.76,
         "loss_sats": 7190725,
-        "loss_usd": 5337.6
+        "loss_usd": 5327.18
     },
     {
         "height": 904174,
         "health": 91.51,
         "loss_sats": 29280206,
-        "loss_usd": 21734.4
+        "loss_usd": 21691.95
     },
     {
         "height": 904150,
         "health": 94.03,
         "loss_sats": 19987665,
-        "loss_usd": 14836.64
+        "loss_usd": 14807.66
     },
     {
         "height": 904012,
         "health": 86.6,
         "loss_sats": 48468971,
-        "loss_usd": 35978.03
+        "loss_usd": 35907.75
     },
     {
         "height": 903501,
@@ -3195,7 +3195,7 @@
         "height": 903496,
         "health": 97.92,
         "loss_sats": 6693621,
-        "loss_usd": 4968.61
+        "loss_usd": 4958.9
     },
     {
         "height": 903481,
@@ -3207,13 +3207,13 @@
         "height": 903416,
         "health": 95.1,
         "loss_sats": 16171414,
-        "loss_usd": 12003.88
+        "loss_usd": 11980.43
     },
     {
         "height": 903254,
         "health": 99.4,
         "loss_sats": 1890164,
-        "loss_usd": 1403.05
+        "loss_usd": 1400.31
     },
     {
         "height": 903083,
@@ -3231,19 +3231,19 @@
         "height": 902772,
         "health": 97.47,
         "loss_sats": 8471329,
-        "loss_usd": 6288.18
+        "loss_usd": 6275.9
     },
     {
         "height": 902732,
         "health": 97.13,
         "loss_sats": 9307885,
-        "loss_usd": 6909.15
+        "loss_usd": 6895.65
     },
     {
         "height": 902722,
         "health": 99.6,
         "loss_sats": 1260816,
-        "loss_usd": 935.89
+        "loss_usd": 934.06
     },
     {
         "height": 902713,
@@ -3255,37 +3255,37 @@
         "height": 902414,
         "health": 99.97,
         "loss_sats": 95469,
-        "loss_usd": 70.87
+        "loss_usd": 70.73
     },
     {
         "height": 902189,
         "health": 96.21,
         "loss_sats": 12403059,
-        "loss_usd": 9206.67
+        "loss_usd": 9188.68
     },
     {
         "height": 902024,
         "health": 83.75,
         "loss_sats": 60942713,
-        "loss_usd": 45237.17
+        "loss_usd": 45148.8
     },
     {
         "height": 902010,
         "health": 97.71,
         "loss_sats": 7485270,
-        "loss_usd": 5556.24
+        "loss_usd": 5545.39
     },
     {
         "height": 901410,
         "health": 59.11,
         "loss_sats": 217124041,
-        "loss_usd": 161169.0
+        "loss_usd": 160854.17
     },
     {
         "height": 901225,
         "health": 98.42,
         "loss_sats": 5044407,
-        "loss_usd": 3744.41
+        "loss_usd": 3737.1
     },
     {
         "height": 901051,
@@ -3303,37 +3303,37 @@
         "height": 900622,
         "health": 98.95,
         "loss_sats": 3330255,
-        "loss_usd": 2472.01
+        "loss_usd": 2467.19
     },
     {
         "height": 900510,
         "health": 99.91,
         "loss_sats": 288167,
-        "loss_usd": 213.9
+        "loss_usd": 213.49
     },
     {
         "height": 899990,
         "health": 99.95,
         "loss_sats": 157287,
-        "loss_usd": 116.75
+        "loss_usd": 116.52
     },
     {
         "height": 899952,
         "health": 98.38,
         "loss_sats": 5203688,
-        "loss_usd": 3862.65
+        "loss_usd": 3855.1
     },
     {
         "height": 899792,
         "health": 90.88,
         "loss_sats": 31906226,
-        "loss_usd": 23683.67
+        "loss_usd": 23637.41
     },
     {
         "height": 899535,
         "health": 98.51,
         "loss_sats": 4811301,
-        "loss_usd": 3571.38
+        "loss_usd": 3564.4
     },
     {
         "height": 899524,
@@ -3351,7 +3351,7 @@
         "height": 899335,
         "health": 90.84,
         "loss_sats": 31774761,
-        "loss_usd": 23586.09
+        "loss_usd": 23540.01
     },
     {
         "height": 899253,
@@ -3363,25 +3363,25 @@
         "height": 899211,
         "health": 96.88,
         "loss_sats": 10164103,
-        "loss_usd": 7544.71
+        "loss_usd": 7529.97
     },
     {
         "height": 898985,
         "health": 99.35,
         "loss_sats": 2065573,
-        "loss_usd": 1533.25
+        "loss_usd": 1530.26
     },
     {
         "height": 898873,
         "health": 77.7,
         "loss_sats": 89918837,
-        "loss_usd": 66745.85
+        "loss_usd": 66615.47
     },
     {
         "height": 898703,
         "health": 99.74,
         "loss_sats": 817873,
-        "loss_usd": 607.1
+        "loss_usd": 605.91
     },
     {
         "height": 898303,
@@ -3405,49 +3405,49 @@
         "height": 898161,
         "health": 99.97,
         "loss_sats": 96244,
-        "loss_usd": 71.44
+        "loss_usd": 71.3
     },
     {
         "height": 897970,
         "health": 98.75,
         "loss_sats": 3969244,
-        "loss_usd": 2946.33
+        "loss_usd": 2940.57
     },
     {
         "height": 897866,
         "health": 97.27,
         "loss_sats": 8949006,
-        "loss_usd": 6642.76
+        "loss_usd": 6629.78
     },
     {
         "height": 897426,
         "health": 96.69,
         "loss_sats": 10798369,
-        "loss_usd": 8015.52
+        "loss_usd": 7999.86
     },
     {
         "height": 897329,
         "health": 92.49,
         "loss_sats": 25672565,
-        "loss_usd": 19056.49
+        "loss_usd": 19019.26
     },
     {
         "height": 897315,
         "health": 99.53,
         "loss_sats": 1488073,
-        "loss_usd": 1104.58
+        "loss_usd": 1102.42
     },
     {
         "height": 896833,
         "health": 95.82,
         "loss_sats": 13819746,
-        "loss_usd": 10258.26
+        "loss_usd": 10238.22
     },
     {
         "height": 896801,
         "health": 92.98,
         "loss_sats": 23911377,
-        "loss_usd": 17749.18
+        "loss_usd": 17714.5
     },
     {
         "height": 896743,
@@ -3459,13 +3459,13 @@
         "height": 896700,
         "health": 99.97,
         "loss_sats": 95342,
-        "loss_usd": 70.77
+        "loss_usd": 70.63
     },
     {
         "height": 896345,
         "health": 47.56,
         "loss_sats": 346547922,
-        "loss_usd": 257239.06
+        "loss_usd": 256736.56
     },
     {
         "height": 896341,
@@ -3477,31 +3477,31 @@
         "height": 896257,
         "health": 99.19,
         "loss_sats": 2553456,
-        "loss_usd": 1895.4
+        "loss_usd": 1891.7
     },
     {
         "height": 896072,
         "health": 90.21,
         "loss_sats": 34240098,
-        "loss_usd": 25416.08
+        "loss_usd": 25366.43
     },
     {
         "height": 896059,
         "health": 79.22,
         "loss_sats": 82403899,
-        "loss_usd": 61167.59
+        "loss_usd": 61048.1
     },
     {
         "height": 896026,
         "health": 91.53,
         "loss_sats": 29098750,
-        "loss_usd": 21599.71
+        "loss_usd": 21557.52
     },
     {
         "height": 895807,
         "health": 88.84,
         "loss_sats": 39596811,
-        "loss_usd": 29392.32
+        "loss_usd": 29334.9
     },
     {
         "height": 895686,
@@ -3519,7 +3519,7 @@
         "height": 895389,
         "health": 98.66,
         "loss_sats": 4283296,
-        "loss_usd": 3179.45
+        "loss_usd": 3173.24
     },
     {
         "height": 895331,
@@ -3531,7 +3531,7 @@
         "height": 895241,
         "health": 96.05,
         "loss_sats": 12963347,
-        "loss_usd": 9622.56
+        "loss_usd": 9603.77
     },
     {
         "height": 895189,
@@ -3543,13 +3543,13 @@
         "height": 895019,
         "health": 99.96,
         "loss_sats": 125750,
-        "loss_usd": 93.34
+        "loss_usd": 93.16
     },
     {
         "height": 894716,
         "health": 91.98,
         "loss_sats": 27504436,
-        "loss_usd": 20416.27
+        "loss_usd": 20376.39
     },
     {
         "height": 894683,
@@ -3567,49 +3567,49 @@
         "height": 894604,
         "health": 63.23,
         "loss_sats": 182629333,
-        "loss_usd": 135563.93
+        "loss_usd": 135299.12
     },
     {
         "height": 894498,
         "health": 95.61,
         "loss_sats": 14724431,
-        "loss_usd": 10929.8
+        "loss_usd": 10908.45
     },
     {
         "height": 894492,
         "health": 99.46,
         "loss_sats": 1708923,
-        "loss_usd": 1268.52
+        "loss_usd": 1266.04
     },
     {
         "height": 894337,
         "health": 96.87,
         "loss_sats": 10249345,
-        "loss_usd": 7607.99
+        "loss_usd": 7593.12
     },
     {
         "height": 894061,
         "health": 52.27,
         "loss_sats": 286125548,
-        "loss_usd": 212388.13
+        "loss_usd": 211973.25
     },
     {
         "height": 893976,
         "health": 96.38,
         "loss_sats": 11917713,
-        "loss_usd": 8846.4
+        "loss_usd": 8829.12
     },
     {
         "height": 893919,
         "health": 94.53,
         "loss_sats": 18490862,
-        "loss_usd": 13725.58
+        "loss_usd": 13698.77
     },
     {
         "height": 893702,
         "health": 89.7,
         "loss_sats": 36949202,
-        "loss_usd": 27427.02
+        "loss_usd": 27373.45
     },
     {
         "height": 893612,
@@ -3621,7 +3621,7 @@
         "height": 893594,
         "health": 98.16,
         "loss_sats": 5962035,
-        "loss_usd": 4425.56
+        "loss_usd": 4416.91
     },
     {
         "height": 893499,
@@ -3633,19 +3633,19 @@
         "height": 892828,
         "health": 99.97,
         "loss_sats": 95538,
-        "loss_usd": 70.92
+        "loss_usd": 70.78
     },
     {
         "height": 892767,
         "health": 97.07,
         "loss_sats": 9512065,
-        "loss_usd": 7060.71
+        "loss_usd": 7046.92
     },
     {
         "height": 892639,
         "health": 96.18,
         "loss_sats": 12516989,
-        "loss_usd": 9291.24
+        "loss_usd": 9273.09
     },
     {
         "height": 892626,
@@ -3657,13 +3657,13 @@
         "height": 892445,
         "health": 93.8,
         "loss_sats": 20699571,
-        "loss_usd": 15365.08
+        "loss_usd": 15335.07
     },
     {
         "height": 892343,
         "health": 84.54,
         "loss_sats": 57493028,
-        "loss_usd": 42676.5
+        "loss_usd": 42593.13
     },
     {
         "height": 892342,
@@ -3675,25 +3675,25 @@
         "height": 892001,
         "health": 84.6,
         "loss_sats": 57116849,
-        "loss_usd": 42397.27
+        "loss_usd": 42314.45
     },
     {
         "height": 891896,
         "health": 90.16,
         "loss_sats": 35940465,
-        "loss_usd": 26678.25
+        "loss_usd": 26626.13
     },
     {
         "height": 891706,
         "health": 97.85,
         "loss_sats": 6965690,
-        "loss_usd": 5170.56
+        "loss_usd": 5160.46
     },
     {
         "height": 891667,
         "health": 98.41,
         "loss_sats": 5119255,
-        "loss_usd": 3799.97
+        "loss_usd": 3792.55
     },
     {
         "height": 891622,
@@ -3705,7 +3705,7 @@
         "height": 891501,
         "health": 97.79,
         "loss_sats": 7288887,
-        "loss_usd": 5410.47
+        "loss_usd": 5399.9
     },
     {
         "height": 891367,
@@ -3729,7 +3729,7 @@
         "height": 891043,
         "health": 95.38,
         "loss_sats": 15215072,
-        "loss_usd": 11294.0
+        "loss_usd": 11271.93
     },
     {
         "height": 890936,
@@ -3741,19 +3741,19 @@
         "height": 890929,
         "health": 83.7,
         "loss_sats": 61308254,
-        "loss_usd": 45508.5
+        "loss_usd": 45419.61
     },
     {
         "height": 890813,
         "health": 99.93,
         "loss_sats": 219650,
-        "loss_usd": 163.04
+        "loss_usd": 162.73
     },
     {
         "height": 890554,
         "health": 99.9,
         "loss_sats": 314654,
-        "loss_usd": 233.56
+        "loss_usd": 233.11
     },
     {
         "height": 890462,
@@ -3765,49 +3765,49 @@
         "height": 890429,
         "health": 99.96,
         "loss_sats": 126042,
-        "loss_usd": 93.56
+        "loss_usd": 93.38
     },
     {
         "height": 890362,
         "health": 97.52,
         "loss_sats": 8064753,
-        "loss_usd": 5986.39
+        "loss_usd": 5974.69
     },
     {
         "height": 890216,
         "health": 88.24,
         "loss_sats": 41652914,
-        "loss_usd": 30918.54
+        "loss_usd": 30858.14
     },
     {
         "height": 890134,
         "health": 89.23,
         "loss_sats": 38145683,
-        "loss_usd": 28315.16
+        "loss_usd": 28259.85
     },
     {
         "height": 890133,
         "health": 95.21,
         "loss_sats": 15993773,
-        "loss_usd": 11872.02
+        "loss_usd": 11848.83
     },
     {
         "height": 890099,
         "health": 93.42,
         "loss_sats": 22192666,
-        "loss_usd": 16473.39
+        "loss_usd": 16441.21
     },
     {
         "height": 890052,
         "health": 99.91,
         "loss_sats": 282650,
-        "loss_usd": 209.81
+        "loss_usd": 209.4
     },
     {
         "height": 889686,
         "health": 30.01,
         "loss_sats": 732032502,
-        "loss_usd": 543380.41
+        "loss_usd": 542318.96
     },
     {
         "height": 889648,
@@ -3819,43 +3819,43 @@
         "height": 889626,
         "health": 99.97,
         "loss_sats": 95173,
-        "loss_usd": 70.65
+        "loss_usd": 70.51
     },
     {
         "height": 889485,
         "health": 97.63,
         "loss_sats": 7694724,
-        "loss_usd": 5711.72
+        "loss_usd": 5700.56
     },
     {
         "height": 889458,
         "health": 99.97,
         "loss_sats": 96500,
-        "loss_usd": 71.63
+        "loss_usd": 71.49
     },
     {
         "height": 889401,
         "health": 99.91,
         "loss_sats": 286888,
-        "loss_usd": 212.95
+        "loss_usd": 212.54
     },
     {
         "height": 888908,
         "health": 70.23,
         "loss_sats": 133660003,
-        "loss_usd": 99214.48
+        "loss_usd": 99020.68
     },
     {
         "height": 888418,
         "health": 97.14,
         "loss_sats": 9381695,
-        "loss_usd": 6963.94
+        "loss_usd": 6950.33
     },
     {
         "height": 888283,
         "health": 94.46,
         "loss_sats": 18549023,
-        "loss_usd": 13768.75
+        "loss_usd": 13741.86
     },
     {
         "height": 888094,
@@ -3867,25 +3867,25 @@
         "height": 887764,
         "health": 98.37,
         "loss_sats": 5253079,
-        "loss_usd": 3899.31
+        "loss_usd": 3891.69
     },
     {
         "height": 887746,
         "health": 99.97,
         "loss_sats": 95478,
-        "loss_usd": 70.87
+        "loss_usd": 70.73
     },
     {
         "height": 887602,
         "health": 96.5,
         "loss_sats": 11394354,
-        "loss_usd": 8457.92
+        "loss_usd": 8441.39
     },
     {
         "height": 887473,
         "health": 99.79,
         "loss_sats": 666707,
-        "loss_usd": 494.89
+        "loss_usd": 493.92
     },
     {
         "height": 887455,
@@ -3897,7 +3897,7 @@
         "height": 886988,
         "health": 89.93,
         "loss_sats": 35188605,
-        "loss_usd": 26120.15
+        "loss_usd": 26069.13
     },
     {
         "height": 886384,
@@ -3909,13 +3909,13 @@
         "height": 886241,
         "health": 92.78,
         "loss_sats": 24461883,
-        "loss_usd": 18157.81
+        "loss_usd": 18122.34
     },
     {
         "height": 886188,
         "health": 99.37,
         "loss_sats": 2003149,
-        "loss_usd": 1486.92
+        "loss_usd": 1484.01
     },
     {
         "height": 886164,
@@ -3927,13 +3927,13 @@
         "height": 886031,
         "health": 97.79,
         "loss_sats": 7261378,
-        "loss_usd": 5390.05
+        "loss_usd": 5379.52
     },
     {
         "height": 885785,
         "health": 95.1,
         "loss_sats": 17027367,
-        "loss_usd": 12639.24
+        "loss_usd": 12614.55
     },
     {
         "height": 885766,
@@ -3945,43 +3945,43 @@
         "height": 885653,
         "health": 96.11,
         "loss_sats": 12875827,
-        "loss_usd": 9557.6
+        "loss_usd": 9538.93
     },
     {
         "height": 885580,
         "health": 96.66,
         "loss_sats": 11020432,
-        "loss_usd": 8180.36
+        "loss_usd": 8164.38
     },
     {
         "height": 885528,
         "health": 94.54,
         "loss_sats": 18332824,
-        "loss_usd": 13608.27
+        "loss_usd": 13581.69
     },
     {
         "height": 885291,
         "health": 97.68,
         "loss_sats": 7636738,
-        "loss_usd": 5668.67
+        "loss_usd": 5657.6
     },
     {
         "height": 885031,
         "health": 96.17,
         "loss_sats": 12767509,
-        "loss_usd": 9477.19
+        "loss_usd": 9458.68
     },
     {
         "height": 885021,
         "health": 73.12,
         "loss_sats": 118898894,
-        "loss_usd": 88257.46
+        "loss_usd": 88085.06
     },
     {
         "height": 885017,
         "health": 75.67,
         "loss_sats": 104479258,
-        "loss_usd": 77553.91
+        "loss_usd": 77402.41
     },
     {
         "height": 884445,
@@ -3993,19 +3993,19 @@
         "height": 884236,
         "health": 94.97,
         "loss_sats": 16724060,
-        "loss_usd": 12414.1
+        "loss_usd": 12389.85
     },
     {
         "height": 884176,
         "health": 53.37,
         "loss_sats": 274683870,
-        "loss_usd": 203895.09
+        "loss_usd": 203496.8
     },
     {
         "height": 884055,
         "health": 95.56,
         "loss_sats": 14848202,
-        "loss_usd": 11021.67
+        "loss_usd": 11000.14
     },
     {
         "height": 883574,
@@ -4017,13 +4017,13 @@
         "height": 883150,
         "health": 92.32,
         "loss_sats": 26786259,
-        "loss_usd": 19883.17
+        "loss_usd": 19844.33
     },
     {
         "height": 883125,
         "health": 93.56,
         "loss_sats": 21736965,
-        "loss_usd": 16135.13
+        "loss_usd": 16103.61
     },
     {
         "height": 883114,
@@ -4035,127 +4035,127 @@
         "height": 883013,
         "health": 93.65,
         "loss_sats": 21361730,
-        "loss_usd": 15856.6
+        "loss_usd": 15825.62
     },
     {
         "height": 882339,
         "health": 68.84,
         "loss_sats": 142772956,
-        "loss_usd": 105978.94
+        "loss_usd": 105771.92
     },
     {
         "height": 881982,
         "health": 17.79,
         "loss_sats": 1445283773,
-        "loss_usd": 1072819.69
+        "loss_usd": 1070724.03
     },
     {
         "height": 881808,
         "health": 95.31,
         "loss_sats": 15553427,
-        "loss_usd": 11545.15
+        "loss_usd": 11522.6
     },
     {
         "height": 881648,
         "health": 99.11,
         "loss_sats": 2820451,
-        "loss_usd": 2093.59
+        "loss_usd": 2089.5
     },
     {
         "height": 881605,
         "health": 95.26,
         "loss_sats": 15789161,
-        "loss_usd": 11720.14
+        "loss_usd": 11697.24
     },
     {
         "height": 881216,
         "health": 97.18,
         "loss_sats": 9221277,
-        "loss_usd": 6844.86
+        "loss_usd": 6831.49
     },
     {
         "height": 881037,
         "health": 97.12,
         "loss_sats": 9438457,
-        "loss_usd": 7006.07
+        "loss_usd": 6992.39
     },
     {
         "height": 880982,
         "health": 91.35,
         "loss_sats": 29762447,
-        "loss_usd": 22092.37
+        "loss_usd": 22049.21
     },
     {
         "height": 880945,
         "health": 92.51,
         "loss_sats": 25538800,
-        "loss_usd": 18957.2
+        "loss_usd": 18920.16
     },
     {
         "height": 880933,
         "health": 66.5,
         "loss_sats": 158682379,
-        "loss_usd": 117788.34
+        "loss_usd": 117558.25
     },
     {
         "height": 880879,
         "health": 75.87,
         "loss_sats": 100296269,
-        "loss_usd": 74448.92
+        "loss_usd": 74303.49
     },
     {
         "height": 880730,
         "health": 98.57,
         "loss_sats": 4557980,
-        "loss_usd": 3383.34
+        "loss_usd": 3376.73
     },
     {
         "height": 880684,
         "health": 97.81,
         "loss_sats": 7106174,
-        "loss_usd": 5274.84
+        "loss_usd": 5264.54
     },
     {
         "height": 880541,
         "health": 95.23,
         "loss_sats": 15830075,
-        "loss_usd": 11750.51
+        "loss_usd": 11727.55
     },
     {
         "height": 880274,
         "health": 99.06,
         "loss_sats": 3023905,
-        "loss_usd": 2244.61
+        "loss_usd": 2240.23
     },
     {
         "height": 880028,
         "health": 93.81,
         "loss_sats": 20795307,
-        "loss_usd": 15436.15
+        "loss_usd": 15406.0
     },
     {
         "height": 879853,
         "health": 91.03,
         "loss_sats": 31104004,
-        "loss_usd": 23088.19
+        "loss_usd": 23043.09
     },
     {
         "height": 879595,
         "health": 51.78,
         "loss_sats": 292715008,
-        "loss_usd": 217279.42
+        "loss_usd": 216854.99
     },
     {
         "height": 879437,
         "health": 46.28,
         "loss_sats": 364867455,
-        "loss_usd": 270837.46
+        "loss_usd": 270308.41
     },
     {
         "height": 879417,
         "health": 97.86,
         "loss_sats": 7045182,
-        "loss_usd": 5229.57
+        "loss_usd": 5219.35
     },
     {
         "height": 879242,
@@ -4167,43 +4167,43 @@
         "height": 879046,
         "health": 87.5,
         "loss_sats": 46157065,
-        "loss_usd": 34261.93
+        "loss_usd": 34195.0
     },
     {
         "height": 878934,
         "health": 98.85,
         "loss_sats": 3653449,
-        "loss_usd": 2711.92
+        "loss_usd": 2706.62
     },
     {
         "height": 878926,
         "health": 97.93,
         "loss_sats": 6647758,
-        "loss_usd": 4934.56
+        "loss_usd": 4924.93
     },
     {
         "height": 878768,
         "health": 91.12,
         "loss_sats": 30917762,
-        "loss_usd": 22949.95
+        "loss_usd": 22905.11
     },
     {
         "height": 877919,
         "health": 91.82,
         "loss_sats": 28114428,
-        "loss_usd": 20869.06
+        "loss_usd": 20828.29
     },
     {
         "height": 877729,
         "health": 98.99,
         "loss_sats": 3204988,
-        "loss_usd": 2379.03
+        "loss_usd": 2374.38
     },
     {
         "height": 877599,
         "health": 99.05,
         "loss_sats": 3033579,
-        "loss_usd": 2251.8
+        "loss_usd": 2247.4
     },
     {
         "height": 877171,
@@ -4221,253 +4221,253 @@
         "height": 876725,
         "health": 54.57,
         "loss_sats": 261713085,
-        "loss_usd": 194267.01
+        "loss_usd": 193887.52
     },
     {
         "height": 876574,
         "health": 94.17,
         "loss_sats": 19557058,
-        "loss_usd": 14517.01
+        "loss_usd": 14488.65
     },
     {
         "height": 876332,
         "health": 99.96,
         "loss_sats": 127167,
-        "loss_usd": 94.39
+        "loss_usd": 94.21
     },
     {
         "height": 876181,
         "health": 81.18,
         "loss_sats": 73599075,
-        "loss_usd": 54631.86
+        "loss_usd": 54525.14
     },
     {
         "height": 876020,
         "health": 99.59,
         "loss_sats": 1379200,
-        "loss_usd": 1023.77
+        "loss_usd": 1021.77
     },
     {
         "height": 875696,
         "health": 77.95,
         "loss_sats": 89934044,
-        "loss_usd": 66757.14
+        "loss_usd": 66626.74
     },
     {
         "height": 875281,
         "health": 91.09,
         "loss_sats": 31767492,
-        "loss_usd": 23580.69
+        "loss_usd": 23534.63
     },
     {
         "height": 874801,
         "health": 80.22,
         "loss_sats": 78918672,
-        "loss_usd": 58580.54
+        "loss_usd": 58466.11
     },
     {
         "height": 874493,
         "health": 85.49,
         "loss_sats": 54546084,
-        "loss_usd": 40489.01
+        "loss_usd": 40409.92
     },
     {
         "height": 874275,
         "health": 99.79,
         "loss_sats": 684984,
-        "loss_usd": 508.46
+        "loss_usd": 507.46
     },
     {
         "height": 874168,
         "health": 86.05,
         "loss_sats": 51936081,
-        "loss_usd": 38551.63
+        "loss_usd": 38476.33
     },
     {
         "height": 874099,
         "health": 99.76,
         "loss_sats": 771137,
-        "loss_usd": 572.41
+        "loss_usd": 571.29
     },
     {
         "height": 874003,
         "health": 92.22,
         "loss_sats": 27061137,
-        "loss_usd": 20087.21
+        "loss_usd": 20047.97
     },
     {
         "height": 873884,
         "health": 80.54,
         "loss_sats": 77779072,
-        "loss_usd": 57734.63
+        "loss_usd": 57621.85
     },
     {
         "height": 873305,
         "health": 90.84,
         "loss_sats": 32227176,
-        "loss_usd": 23921.91
+        "loss_usd": 23875.18
     },
     {
         "height": 872660,
         "health": 98.97,
         "loss_sats": 3277916,
-        "loss_usd": 2433.16
+        "loss_usd": 2428.41
     },
     {
         "height": 872525,
         "health": 96.68,
         "loss_sats": 11094662,
-        "loss_usd": 8235.46
+        "loss_usd": 8219.37
     },
     {
         "height": 872095,
         "health": 91.66,
         "loss_sats": 29741015,
-        "loss_usd": 22076.46
+        "loss_usd": 22033.33
     },
     {
         "height": 871746,
         "health": 96.28,
         "loss_sats": 12519397,
-        "loss_usd": 9293.02
+        "loss_usd": 9274.87
     },
     {
         "height": 871328,
         "health": 99.79,
         "loss_sats": 668540,
-        "loss_usd": 496.25
+        "loss_usd": 495.28
     },
     {
         "height": 871301,
         "health": 97.5,
         "loss_sats": 8214828,
-        "loss_usd": 6097.78
+        "loss_usd": 6085.87
     },
     {
         "height": 870674,
         "health": 92.02,
         "loss_sats": 27682018,
-        "loss_usd": 20548.09
+        "loss_usd": 20507.95
     },
     {
         "height": 869828,
         "health": 95.44,
         "loss_sats": 15303218,
-        "loss_usd": 11359.43
+        "loss_usd": 11337.24
     },
     {
         "height": 869666,
         "health": 95,
         "loss_sats": 17177687,
-        "loss_usd": 12750.83
+        "loss_usd": 12725.92
     },
     {
         "height": 869645,
         "health": 99.49,
         "loss_sats": 1694471,
-        "loss_usd": 1257.79
+        "loss_usd": 1255.33
     },
     {
         "height": 869600,
         "health": 97.08,
         "loss_sats": 9586837,
-        "loss_usd": 7116.21
+        "loss_usd": 7102.31
     },
     {
         "height": 869576,
         "health": 94.65,
         "loss_sats": 17924881,
-        "loss_usd": 13305.46
+        "loss_usd": 13279.47
     },
     {
         "height": 869510,
         "health": 89.97,
         "loss_sats": 35289897,
-        "loss_usd": 26195.34
+        "loss_usd": 26144.17
     },
     {
         "height": 869310,
         "health": 95.62,
         "loss_sats": 14599583,
-        "loss_usd": 10837.12
+        "loss_usd": 10815.96
     },
     {
         "height": 869132,
         "health": 90.16,
         "loss_sats": 34410808,
-        "loss_usd": 25542.8
+        "loss_usd": 25492.9
     },
     {
         "height": 869087,
         "health": 93.9,
         "loss_sats": 20905952,
-        "loss_usd": 15518.28
+        "loss_usd": 15487.97
     },
     {
         "height": 869030,
         "health": 95.1,
         "loss_sats": 16247202,
-        "loss_usd": 12060.14
+        "loss_usd": 12036.58
     },
     {
         "height": 868960,
         "health": 94.29,
         "loss_sats": 19157220,
-        "loss_usd": 14220.21
+        "loss_usd": 14192.43
     },
     {
         "height": 868808,
         "health": 95.85,
         "loss_sats": 13715185,
-        "loss_usd": 10180.64
+        "loss_usd": 10160.76
     },
     {
         "height": 868670,
         "health": 96.43,
         "loss_sats": 11681178,
-        "loss_usd": 8670.82
+        "loss_usd": 8653.88
     },
     {
         "height": 868653,
         "health": 97.33,
         "loss_sats": 8711232,
-        "loss_usd": 6466.26
+        "loss_usd": 6453.63
     },
     {
         "height": 868531,
         "health": 95.96,
         "loss_sats": 13468421,
-        "loss_usd": 9997.47
+        "loss_usd": 9977.95
     },
     {
         "height": 868078,
         "health": 97.35,
         "loss_sats": 8589961,
-        "loss_usd": 6376.24
+        "loss_usd": 6363.79
     },
     {
         "height": 867737,
         "health": 98.35,
         "loss_sats": 5291177,
-        "loss_usd": 3927.59
+        "loss_usd": 3919.92
     },
     {
         "height": 867614,
         "health": 94.44,
         "loss_sats": 18653040,
-        "loss_usd": 13845.97
+        "loss_usd": 13818.92
     },
     {
         "height": 867301,
         "health": 92.11,
         "loss_sats": 27280370,
-        "loss_usd": 20249.95
+        "loss_usd": 20210.39
     },
     {
         "height": 867250,
         "health": 98.52,
         "loss_sats": 5171614,
-        "loss_usd": 3838.84
+        "loss_usd": 3831.34
     },
     {
         "height": 866958,
@@ -4479,145 +4479,145 @@
         "height": 866909,
         "health": 99.64,
         "loss_sats": 1186307,
-        "loss_usd": 880.58
+        "loss_usd": 878.86
     },
     {
         "height": 866854,
         "health": 99.29,
         "loss_sats": 2348489,
-        "loss_usd": 1743.26
+        "loss_usd": 1739.85
     },
     {
         "height": 866558,
         "health": 76.12,
         "loss_sats": 100397220,
-        "loss_usd": 74523.85
+        "loss_usd": 74378.28
     },
     {
         "height": 866547,
         "health": 95.34,
         "loss_sats": 15485657,
-        "loss_usd": 11494.85
+        "loss_usd": 11472.39
     },
     {
         "height": 865820,
         "health": 98.93,
         "loss_sats": 3491788,
-        "loss_usd": 2591.92
+        "loss_usd": 2586.86
     },
     {
         "height": 865812,
         "health": 99.12,
         "loss_sats": 3034965,
-        "loss_usd": 2252.82
+        "loss_usd": 2248.42
     },
     {
         "height": 865706,
         "health": 98.84,
         "loss_sats": 3741186,
-        "loss_usd": 2777.04
+        "loss_usd": 2771.62
     },
     {
         "height": 865331,
         "health": 99.12,
         "loss_sats": 3169572,
-        "loss_usd": 2352.74
+        "loss_usd": 2348.15
     },
     {
         "height": 864671,
         "health": 81.17,
         "loss_sats": 74314926,
-        "loss_usd": 55163.23
+        "loss_usd": 55055.47
     },
     {
         "height": 864390,
         "health": 94.26,
         "loss_sats": 19673134,
-        "loss_usd": 14603.17
+        "loss_usd": 14574.64
     },
     {
         "height": 864221,
         "health": 99.95,
         "loss_sats": 157348,
-        "loss_usd": 116.8
+        "loss_usd": 116.57
     },
     {
         "height": 864146,
         "health": 96.09,
         "loss_sats": 12995739,
-        "loss_usd": 9646.61
+        "loss_usd": 9627.76
     },
     {
         "height": 863922,
         "health": 99.88,
         "loss_sats": 381508,
-        "loss_usd": 283.19
+        "loss_usd": 282.64
     },
     {
         "height": 863721,
         "health": 99.92,
         "loss_sats": 254549,
-        "loss_usd": 188.95
+        "loss_usd": 188.58
     },
     {
         "height": 863471,
         "health": 92.91,
         "loss_sats": 24083281,
-        "loss_usd": 17876.78
+        "loss_usd": 17841.86
     },
     {
         "height": 861606,
         "health": 93.79,
         "loss_sats": 21050638,
-        "loss_usd": 15625.68
+        "loss_usd": 15595.15
     },
     {
         "height": 861164,
         "health": 97.16,
         "loss_sats": 9254200,
-        "loss_usd": 6869.3
+        "loss_usd": 6855.88
     },
     {
         "height": 860990,
         "health": 98.1,
         "loss_sats": 6139200,
-        "loss_usd": 4557.07
+        "loss_usd": 4548.16
     },
     {
         "height": 860062,
         "health": 98.54,
         "loss_sats": 4711883,
-        "loss_usd": 3497.58
+        "loss_usd": 3490.75
     },
     {
         "height": 859930,
         "health": 99.99,
         "loss_sats": 31587,
-        "loss_usd": 23.45
+        "loss_usd": 23.4
     },
     {
         "height": 859648,
         "health": 99.04,
         "loss_sats": 3059895,
-        "loss_usd": 2271.33
+        "loss_usd": 2266.89
     },
     {
         "height": 859040,
         "health": 95.87,
         "loss_sats": 13620990,
-        "loss_usd": 10110.72
+        "loss_usd": 10090.97
     },
     {
         "height": 858001,
         "health": 96.41,
         "loss_sats": 12122220,
-        "loss_usd": 8998.2
+        "loss_usd": 8980.63
     },
     {
         "height": 857957,
         "health": 98.18,
         "loss_sats": 6341080,
-        "loss_usd": 4706.92
+        "loss_usd": 4697.73
     },
     {
         "height": 857846,
@@ -4629,7 +4629,7 @@
         "height": 857812,
         "health": 97.26,
         "loss_sats": 9022547,
-        "loss_usd": 6697.35
+        "loss_usd": 6684.26
     },
     {
         "height": 857772,
@@ -4641,7 +4641,7 @@
         "height": 857253,
         "health": 99.98,
         "loss_sats": 63094,
-        "loss_usd": 46.83
+        "loss_usd": 46.74
     },
     {
         "height": 856795,
@@ -4653,85 +4653,85 @@
         "height": 856119,
         "health": 87.24,
         "loss_sats": 46471576,
-        "loss_usd": 34495.39
+        "loss_usd": 34428.0
     },
     {
         "height": 855693,
         "health": 95.41,
         "loss_sats": 15218613,
-        "loss_usd": 11296.62
+        "loss_usd": 11274.56
     },
     {
         "height": 855488,
         "health": 95.64,
         "loss_sats": 14420622,
-        "loss_usd": 10704.28
+        "loss_usd": 10683.37
     },
     {
         "height": 855112,
         "health": 98.44,
         "loss_sats": 5003735,
-        "loss_usd": 3714.22
+        "loss_usd": 3706.97
     },
     {
         "height": 854580,
         "health": 99.98,
         "loss_sats": 63251,
-        "loss_usd": 46.95
+        "loss_usd": 46.86
     },
     {
         "height": 853220,
         "health": 98.42,
         "loss_sats": 5086856,
-        "loss_usd": 3775.92
+        "loss_usd": 3768.55
     },
     {
         "height": 852462,
         "health": 96.38,
         "loss_sats": 11972210,
-        "loss_usd": 8886.85
+        "loss_usd": 8869.49
     },
     {
         "height": 851687,
         "health": 99.94,
         "loss_sats": 190973,
-        "loss_usd": 141.76
+        "loss_usd": 141.48
     },
     {
         "height": 850857,
         "health": 87.91,
         "loss_sats": 44500773,
-        "loss_usd": 33032.48
+        "loss_usd": 32967.95
     },
     {
         "height": 850329,
         "health": 98.54,
         "loss_sats": 4829330,
-        "loss_usd": 3584.76
+        "loss_usd": 3577.76
     },
     {
         "height": 849983,
         "health": 92.12,
         "loss_sats": 27741206,
-        "loss_usd": 20592.02
+        "loss_usd": 20551.8
     },
     {
         "height": 849481,
         "health": 98.22,
         "loss_sats": 5934426,
-        "loss_usd": 4405.07
+        "loss_usd": 4396.46
     },
     {
         "height": 849183,
         "health": 96.15,
         "loss_sats": 12942668,
-        "loss_usd": 9607.21
+        "loss_usd": 9588.45
     },
     {
         "height": 849069,
         "health": 98.46,
         "loss_sats": 5089058,
-        "loss_usd": 3777.56
+        "loss_usd": 3770.18
     },
     {
         "height": 849019,
@@ -4743,31 +4743,31 @@
         "height": 849001,
         "health": 99.71,
         "loss_sats": 941432,
-        "loss_usd": 698.82
+        "loss_usd": 697.45
     },
     {
         "height": 848104,
         "health": 73.03,
         "loss_sats": 127477152,
-        "loss_usd": 94625.02
+        "loss_usd": 94440.17
     },
     {
         "height": 845947,
         "health": 99.02,
         "loss_sats": 3645612,
-        "loss_usd": 2706.1
+        "loss_usd": 2700.82
     },
     {
         "height": 845118,
         "health": 99.54,
         "loss_sats": 1511595,
-        "loss_usd": 1122.04
+        "loss_usd": 1119.85
     },
     {
         "height": 844990,
         "health": 97.15,
         "loss_sats": 9630978,
-        "loss_usd": 7148.98
+        "loss_usd": 7135.01
     },
     {
         "height": 844208,
@@ -4779,7 +4779,7 @@
         "height": 843264,
         "health": 99.78,
         "loss_sats": 714140,
-        "loss_usd": 530.1
+        "loss_usd": 529.06
     },
     {
         "height": 842828,
@@ -4791,193 +4791,193 @@
         "height": 841949,
         "health": 99.59,
         "loss_sats": 1454074,
-        "loss_usd": 1079.34
+        "loss_usd": 1077.24
     },
     {
         "height": 841771,
         "health": 99.82,
         "loss_sats": 594771,
-        "loss_usd": 441.49
+        "loss_usd": 440.63
     },
     {
         "height": 841732,
         "health": 96.49,
         "loss_sats": 12693241,
-        "loss_usd": 9422.07
+        "loss_usd": 9403.66
     },
     {
         "height": 840879,
         "health": 99.41,
         "loss_sats": 2286247,
-        "loss_usd": 1697.06
+        "loss_usd": 1693.74
     },
     {
         "height": 838886,
         "health": 89.62,
         "loss_sats": 88770272,
-        "loss_usd": 65893.29
+        "loss_usd": 65764.57
     },
     {
         "height": 838825,
         "health": 82.58,
         "loss_sats": 149517106,
-        "loss_usd": 110985.05
+        "loss_usd": 110768.25
     },
     {
         "height": 838746,
         "health": 67.75,
         "loss_sats": 330935915,
-        "loss_usd": 245650.42
+        "loss_usd": 245170.56
     },
     {
         "height": 837874,
         "health": 89.11,
         "loss_sats": 79990453,
-        "loss_usd": 59376.11
+        "loss_usd": 59260.13
     },
     {
         "height": 836974,
         "health": 83.56,
         "loss_sats": 126202861,
-        "loss_usd": 93679.12
+        "loss_usd": 93496.13
     },
     {
         "height": 836693,
         "health": 75.7,
         "loss_sats": 206348978,
-        "loss_usd": 153170.78
+        "loss_usd": 152871.58
     },
     {
         "height": 836552,
         "health": 93.75,
         "loss_sats": 42835901,
-        "loss_usd": 31796.66
+        "loss_usd": 31734.55
     },
     {
         "height": 836397,
         "health": 96.39,
         "loss_sats": 24187484,
-        "loss_usd": 17954.13
+        "loss_usd": 17919.06
     },
     {
         "height": 835630,
         "health": 94.35,
         "loss_sats": 38870168,
-        "loss_usd": 28852.94
+        "loss_usd": 28796.58
     },
     {
         "height": 835512,
         "health": 92.75,
         "loss_sats": 50001646,
-        "loss_usd": 37115.72
+        "loss_usd": 37043.22
     },
     {
         "height": 835019,
         "health": 95.99,
         "loss_sats": 26519603,
-        "loss_usd": 19685.24
+        "loss_usd": 19646.78
     },
     {
         "height": 833980,
         "health": 94.44,
         "loss_sats": 38498652,
-        "loss_usd": 28577.16
+        "loss_usd": 28521.34
     },
     {
         "height": 833911,
         "health": 94.64,
         "loss_sats": 36624211,
-        "loss_usd": 27185.79
+        "loss_usd": 27132.68
     },
     {
         "height": 833903,
         "health": 94.86,
         "loss_sats": 35290277,
-        "loss_usd": 26195.62
+        "loss_usd": 26144.45
     },
     {
         "height": 832888,
         "health": 84.3,
         "loss_sats": 120784468,
-        "loss_usd": 89657.1
+        "loss_usd": 89481.97
     },
     {
         "height": 831628,
         "health": 89.6,
         "loss_sats": 74527090,
-        "loss_usd": 55320.71
+        "loss_usd": 55212.65
     },
     {
         "height": 831381,
         "health": 90.82,
         "loss_sats": 65670213,
-        "loss_usd": 48746.34
+        "loss_usd": 48651.12
     },
     {
         "height": 831173,
         "health": 69.63,
         "loss_sats": 280165207,
-        "loss_usd": 207963.83
+        "loss_usd": 207557.59
     },
     {
         "height": 830875,
         "health": 94.28,
         "loss_sats": 39207963,
-        "loss_usd": 29103.68
+        "loss_usd": 29046.83
     },
     {
         "height": 830291,
         "health": 94.04,
         "loss_sats": 42471465,
-        "loss_usd": 31526.14
+        "loss_usd": 31464.56
     },
     {
         "height": 829933,
         "health": 99.55,
         "loss_sats": 2885754,
-        "loss_usd": 2142.07
+        "loss_usd": 2137.88
     },
     {
         "height": 829513,
         "health": 95.41,
         "loss_sats": 32600960,
-        "loss_usd": 24199.37
+        "loss_usd": 24152.1
     },
     {
         "height": 829267,
         "health": 97,
         "loss_sats": 20662393,
-        "loss_usd": 15337.49
+        "loss_usd": 15307.53
     },
     {
         "height": 828232,
         "health": 87.89,
         "loss_sats": 92016134,
-        "loss_usd": 68302.66
+        "loss_usd": 68169.23
     },
     {
         "height": 827750,
         "health": 99.56,
         "loss_sats": 2879607,
-        "loss_usd": 2137.5
+        "loss_usd": 2133.33
     },
     {
         "height": 827476,
         "health": 84.06,
         "loss_sats": 128244720,
-        "loss_usd": 95194.77
+        "loss_usd": 95008.82
     },
     {
         "height": 827079,
         "health": 90.61,
         "loss_sats": 69022800,
-        "loss_usd": 51234.93
+        "loss_usd": 51134.85
     },
     {
         "height": 824915,
         "health": 95.47,
         "loss_sats": 34360918,
-        "loss_usd": 25505.77
+        "loss_usd": 25455.94
     },
     {
         "height": 823925,
@@ -4989,7 +4989,7 @@
         "height": 823129,
         "health": 92.52,
         "loss_sats": 59922482,
-        "loss_usd": 44479.86
+        "loss_usd": 44392.97
     },
     {
         "height": 819489,
@@ -5001,6 +5001,6 @@
         "height": 819242,
         "health": 97.81,
         "loss_sats": 14664139,
-        "loss_usd": 10885.04
+        "loss_usd": 10863.78
     }
 ]
