@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
+import argparse
 import requests
 import sys
 import time
 import json
 
-def fetch_all_ocean_blocks():
+def fetch_all_ocean_blocks(depth=1000):
     slug = "ocean"
     base_blocks_url = f"https://mempool.space/api/v1/mining/pool/{slug}/blocks"
     price_url = "https://mempool.space/api/v1/prices"
@@ -66,7 +67,7 @@ def fetch_all_ocean_blocks():
             })
 
             # Print a sample of the first few
-            if len(processed_data) <= 1000:
+            if len(processed_data) <= depth:
                 print(f"{b['height']:<10} | {match_rate:>6.2f}% | {loss_sats:>12,} | ${loss_usd:>8.2f}")
 
         # 3. Output Summary
@@ -84,4 +85,8 @@ def fetch_all_ocean_blocks():
         sys.exit(1)
 
 if __name__ == "__main__":
-    fetch_all_ocean_blocks()
+    parser = argparse.ArgumentParser(description="Fetch and analyze OCEAN mining pool data.")
+    parser.add_argument("--depth", type=int, default=1000, help="Number of sample blocks to print.")
+    args = parser.parse_args()
+
+    fetch_all_ocean_blocks(depth=args.depth)
