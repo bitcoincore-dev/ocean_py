@@ -4,36 +4,36 @@
             "poolId": 112,
             "name": "Foundry USA",
             "link": "https://foundrydigital.com",
-            "blockCount": 15620,
+            "blockCount": 15613,
             "rank": 1,
             "emptyBlocks": 0,
             "slug": "foundryusa",
             "avgMatchRate": 99.93,
-            "avgFeeDelta": "-0.02612526",
+            "avgFeeDelta": "-0.02453205",
             "poolUniqueId": 111
         },
         {
             "poolId": 45,
             "name": "AntPool",
             "link": "https://www.antpool.com",
-            "blockCount": 9444,
+            "blockCount": 9438,
             "rank": 2,
             "emptyBlocks": 15,
             "slug": "antpool",
-            "avgMatchRate": 99.79,
-            "avgFeeDelta": "-0.05320608",
+            "avgMatchRate": 99.8,
+            "avgFeeDelta": "-0.05202900",
             "poolUniqueId": 44
         },
         {
             "poolId": 74,
             "name": "ViaBTC",
             "link": "https://viabtc.com",
-            "blockCount": 6311,
+            "blockCount": 6307,
             "rank": 3,
             "emptyBlocks": 5,
             "slug": "viabtc",
-            "avgMatchRate": 99.76,
-            "avgFeeDelta": "-0.10404666",
+            "avgMatchRate": 99.74,
+            "avgFeeDelta": "-0.10229312",
             "poolUniqueId": 73
         },
         {
@@ -44,44 +44,44 @@
             "rank": 4,
             "emptyBlocks": 9,
             "slug": "f2pool",
-            "avgMatchRate": 99.78,
-            "avgFeeDelta": "-0.10631555",
+            "avgMatchRate": 99.77,
+            "avgFeeDelta": "-0.10557823",
             "poolUniqueId": 36
         },
         {
             "poolId": 103,
             "name": "SpiderPool",
             "link": "https://www.spiderpool.com",
-            "blockCount": 4039,
+            "blockCount": 4041,
             "rank": 5,
             "emptyBlocks": 44,
             "slug": "spiderpool",
-            "avgMatchRate": 99.06,
-            "avgFeeDelta": "-0.08999901",
+            "avgMatchRate": 99.14,
+            "avgFeeDelta": "-0.08872299",
             "poolUniqueId": 102
         },
         {
             "poolId": 116,
             "name": "MARA Pool",
             "link": "https://marapool.com",
-            "blockCount": 2590,
+            "blockCount": 2593,
             "rank": 6,
             "emptyBlocks": 4,
             "slug": "marapool",
             "avgMatchRate": 99.45,
-            "avgFeeDelta": "0.00699012",
+            "avgFeeDelta": "0.00681334",
             "poolUniqueId": 115
         },
         {
             "poolId": 142,
             "name": "SECPOOL",
             "link": "https://www.secpool.com",
-            "blockCount": 1904,
+            "blockCount": 1907,
             "rank": 7,
             "emptyBlocks": 8,
             "slug": "secpool",
-            "avgMatchRate": 99.58,
-            "avgFeeDelta": "-0.05679186",
+            "avgMatchRate": 99.57,
+            "avgFeeDelta": "-0.04968007",
             "poolUniqueId": 141
         },
         {
@@ -93,67 +93,67 @@
             "emptyBlocks": 6,
             "slug": "luxor",
             "avgMatchRate": 99.67,
-            "avgFeeDelta": "-0.05267493",
+            "avgFeeDelta": "-0.05006968",
             "poolUniqueId": 4
         },
         {
             "poolId": 106,
             "name": "Binance Pool",
             "link": "https://pool.binance.com",
-            "blockCount": 1118,
+            "blockCount": 1117,
             "rank": 9,
             "emptyBlocks": 4,
             "slug": "binancepool",
-            "avgMatchRate": 99.65,
-            "avgFeeDelta": "-0.06133980",
+            "avgMatchRate": 99.66,
+            "avgFeeDelta": "-0.06063671",
             "poolUniqueId": 105
         },
         {
             "poolId": 113,
             "name": "SBI Crypto",
             "link": "https://sbicrypto.com",
-            "blockCount": 846,
+            "blockCount": 847,
             "rank": 10,
             "emptyBlocks": 4,
             "slug": "sbicrypto",
-            "avgMatchRate": 99.47,
-            "avgFeeDelta": "-0.14800248",
+            "avgMatchRate": 99.48,
+            "avgFeeDelta": "-0.14773105",
             "poolUniqueId": 112
         },
         {
             "poolId": 44,
             "name": "Braiins Pool",
             "link": "https://braiins.com/pool",
-            "blockCount": 654,
+            "blockCount": 655,
             "rank": 11,
             "emptyBlocks": 2,
             "slug": "braiinspool",
             "avgMatchRate": 99.52,
-            "avgFeeDelta": "-0.05687110",
+            "avgFeeDelta": "-0.05447832",
             "poolUniqueId": 43
         },
         {
             "poolId": 143,
             "name": "OCEAN",
             "link": "https://ocean.xyz/",
-            "blockCount": 641,
+            "blockCount": 643,
             "rank": 12,
             "emptyBlocks": 1,
             "slug": "ocean",
             "avgMatchRate": 95.76,
-            "avgFeeDelta": "-0.17900686",
+            "avgFeeDelta": "-0.17857465",
             "poolUniqueId": 142
         },
         {
             "poolId": 144,
             "name": "WhitePool",
             "link": "https://whitebit.com/mining-pool",
-            "blockCount": 375,
+            "blockCount": 374,
             "rank": 13,
             "emptyBlocks": 0,
             "slug": "whitepool",
-            "avgMatchRate": 99.92,
-            "avgFeeDelta": "-0.06107040",
+            "avgMatchRate": 99.93,
+            "avgFeeDelta": "-0.06137380",
             "poolUniqueId": 143
         },
         {
@@ -165,19 +165,19 @@
             "emptyBlocks": 0,
             "slug": "miningsquared",
             "avgMatchRate": 99.94,
-            "avgFeeDelta": "-0.04590934",
+            "avgFeeDelta": "-0.04547390",
             "poolUniqueId": 161
         },
         {
             "poolId": 7,
             "name": "BTC.com",
             "link": "https://pool.btc.com",
-            "blockCount": 299,
+            "blockCount": 300,
             "rank": 15,
             "emptyBlocks": 0,
             "slug": "btccom",
             "avgMatchRate": 99.96,
-            "avgFeeDelta": "-0.04976722",
+            "avgFeeDelta": "-0.04789733",
             "poolUniqueId": 6
         },
         {
@@ -188,8 +188,8 @@
             "rank": 16,
             "emptyBlocks": 0,
             "slug": "unknown",
-            "avgMatchRate": 99.82,
-            "avgFeeDelta": "-0.08537828",
+            "avgMatchRate": 99.85,
+            "avgFeeDelta": "-0.08427966",
             "poolUniqueId": 0
         },
         {
@@ -200,8 +200,8 @@
             "rank": 17,
             "emptyBlocks": 1,
             "slug": "ultimuspool",
-            "avgMatchRate": 99.42,
-            "avgFeeDelta": "-0.05403763",
+            "avgMatchRate": 99.43,
+            "avgFeeDelta": "-0.05610876",
             "poolUniqueId": 2
         },
         {
@@ -212,8 +212,8 @@
             "rank": 18,
             "emptyBlocks": 0,
             "slug": "poolin",
-            "avgMatchRate": 99.96,
-            "avgFeeDelta": "-0.05308027",
+            "avgMatchRate": 99.95,
+            "avgFeeDelta": "-0.05027279",
             "poolUniqueId": 94
         },
         {
@@ -225,19 +225,19 @@
             "emptyBlocks": 0,
             "slug": "gdpool",
             "avgMatchRate": 99.86,
-            "avgFeeDelta": "-0.12356486",
+            "avgFeeDelta": "-0.11866036",
             "poolUniqueId": 158
         },
         {
             "poolId": 152,
             "name": "Carbon Negative",
             "link": "https://github.com/bitcoin-data/mining-pools/issues/48",
-            "blockCount": 96,
+            "blockCount": 95,
             "rank": 20,
             "emptyBlocks": 0,
             "slug": "carbonnegative",
-            "avgMatchRate": 99.64,
-            "avgFeeDelta": "-0.05975938",
+            "avgMatchRate": 99.62,
+            "avgFeeDelta": "-0.06001368",
             "poolUniqueId": 151
         },
         {
@@ -249,7 +249,7 @@
             "emptyBlocks": 0,
             "slug": "innopolistech",
             "avgMatchRate": 99.66,
-            "avgFeeDelta": "-0.13907660",
+            "avgFeeDelta": "-0.14073404",
             "poolUniqueId": 162
         },
         {
@@ -261,7 +261,7 @@
             "emptyBlocks": 0,
             "slug": "nicehash",
             "avgMatchRate": 99.92,
-            "avgFeeDelta": "-0.08051486",
+            "avgFeeDelta": "-0.07804054",
             "poolUniqueId": 51
         },
         {
@@ -273,7 +273,7 @@
             "emptyBlocks": 0,
             "slug": "redrockpool",
             "avgMatchRate": 99.96,
-            "avgFeeDelta": "-0.04502545",
+            "avgFeeDelta": "-0.04692727",
             "poolUniqueId": 166
         },
         {
@@ -284,8 +284,8 @@
             "rank": 24,
             "emptyBlocks": 0,
             "slug": "solock",
-            "avgMatchRate": 99.96,
-            "avgFeeDelta": "-0.05041429",
+            "avgMatchRate": 99.97,
+            "avgFeeDelta": "-0.05137143",
             "poolUniqueId": 49
         },
         {
@@ -297,7 +297,7 @@
             "emptyBlocks": 0,
             "slug": "miningdutch",
             "avgMatchRate": 99.95,
-            "avgFeeDelta": "-0.03410000",
+            "avgFeeDelta": "-0.03595000",
             "poolUniqueId": 159
         },
         {
@@ -309,7 +309,7 @@
             "emptyBlocks": 0,
             "slug": "publicpool",
             "avgMatchRate": 100,
-            "avgFeeDelta": "-0.11147500",
+            "avgFeeDelta": "-0.10815000",
             "poolUniqueId": 160
         },
         {
@@ -321,7 +321,7 @@
             "emptyBlocks": 0,
             "slug": "bitfufupool",
             "avgMatchRate": 99.97,
-            "avgFeeDelta": "-0.02322500",
+            "avgFeeDelta": "-0.02317500",
             "poolUniqueId": 157
         },
         {
@@ -333,7 +333,7 @@
             "emptyBlocks": 0,
             "slug": "est3lar",
             "avgMatchRate": 100,
-            "avgFeeDelta": "-0.35922500",
+            "avgFeeDelta": "-0.35825000",
             "poolUniqueId": 167
         },
         {
@@ -344,8 +344,8 @@
             "rank": 29,
             "emptyBlocks": 0,
             "slug": "1thash",
-            "avgMatchRate": 100,
-            "avgFeeDelta": "-0.03313333",
+            "avgMatchRate": 99.98,
+            "avgFeeDelta": "-0.03230000",
             "poolUniqueId": 5
         },
         {
@@ -357,19 +357,31 @@
             "emptyBlocks": 0,
             "slug": "kanopool",
             "avgMatchRate": 99.62,
-            "avgFeeDelta": "-0.04010000",
+            "avgFeeDelta": "-0.04020000",
             "poolUniqueId": 48
+        },
+        {
+            "poolId": 156,
+            "name": "MaxiPool",
+            "link": "https://maxipool.org/",
+            "blockCount": 1,
+            "rank": 31,
+            "emptyBlocks": 0,
+            "slug": "maxipool",
+            "avgMatchRate": 100,
+            "avgFeeDelta": "-0.38130000",
+            "poolUniqueId": 155
         },
         {
             "poolId": 166,
             "name": "Parasite",
             "link": "https://parasite.space",
             "blockCount": 1,
-            "rank": 31,
+            "rank": 32,
             "emptyBlocks": 0,
             "slug": "parasite",
             "avgMatchRate": 100,
-            "avgFeeDelta": "-0.05600000",
+            "avgFeeDelta": "-0.04680000",
             "poolUniqueId": 165
         },
         {
@@ -377,11 +389,11 @@
             "name": "Braiins Solo",
             "link": "https://solo.braiins.com",
             "blockCount": 1,
-            "rank": 32,
+            "rank": 33,
             "emptyBlocks": 0,
             "slug": "braiinssolo",
             "avgMatchRate": 100,
-            "avgFeeDelta": "-0.29060000",
+            "avgFeeDelta": "-0.29190000",
             "poolUniqueId": 168
         },
         {
@@ -389,28 +401,16 @@
             "name": "FutureBit Apollo Solo",
             "link": "https://www.futurebit.io",
             "blockCount": 1,
-            "rank": 33,
+            "rank": 34,
             "emptyBlocks": 0,
             "slug": "futurebitapollosolo",
             "avgMatchRate": 100,
-            "avgFeeDelta": "-0.00900000",
+            "avgFeeDelta": "-0.00890000",
             "poolUniqueId": 148
-        },
-        {
-            "poolId": 156,
-            "name": "MaxiPool",
-            "link": "https://maxipool.org/",
-            "blockCount": 1,
-            "rank": 34,
-            "emptyBlocks": 0,
-            "slug": "maxipool",
-            "avgMatchRate": 99.73,
-            "avgFeeDelta": "-0.38160000",
-            "poolUniqueId": 155
         }
     ],
-    "blockCount": 52827,
-    "lastEstimatedHashrate": 836760514000904400000,
-    "lastEstimatedHashrate3d": 887033349497691000000,
-    "lastEstimatedHashrate1w": 931236169073714100000
+    "blockCount": 52821,
+    "lastEstimatedHashrate": 783801280594529700000,
+    "lastEstimatedHashrate3d": 884487055726960400000,
+    "lastEstimatedHashrate1w": 911751788013035000000
 }
