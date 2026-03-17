@@ -51,7 +51,7 @@ def fetch_all_ocean_blocks(depth=1000):
         try:
             with open("prices.json", "r") as f:
                 historical_data = json.load(f)
-            
+
             # The historical data is under a 'prices' key, and each item has 'time' and 'USD'
             price_lookup = {item['time']: item['USD'] for item in historical_data.get('prices', [])}
             sorted_timestamps = sorted(price_lookup.keys())
@@ -118,9 +118,9 @@ def fetch_all_ocean_blocks(depth=1000):
                         break # Timestamps are sorted, so we've passed the block's timestamp
                 if closest_timestamp is not None:
                     btc_usd = price_lookup.get(closest_timestamp, 0)
-            
+
             # Debug print to verify retrieved BTC price
-            # print(f"Block Height: {b.get('height')}, Block Timestamp: {timestamp}, Closest Price Timestamp: {closest_timestamp}, BTC USD: {btc_usd}")
+            print(f"Block Height: {b.get('height')}, Block Timestamp: {timestamp}, Closest Price Timestamp: {closest_timestamp}, BTC USD: {btc_usd}")
 
             loss_usd = (loss_sats / 100_000_000) * btc_usd
             total_loss_usd += loss_usd
