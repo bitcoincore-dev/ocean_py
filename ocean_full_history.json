@@ -9,15 +9,15 @@
     {
         "height": 940967,
         "health": 94.11,
-        "loss_sats": 19605265,
+        "loss_sats": 19605266,
         "loss_usd": 14604.35,
         "btc_usd": 74492
     },
     {
         "height": 940893,
-        "health": 96.21,
-        "loss_sats": 12388646,
-        "loss_usd": 9112.1,
+        "health": 96.13,
+        "loss_sats": 12660676,
+        "loss_usd": 9312.18,
         "btc_usd": 73552
     },
     {
@@ -30,14 +30,14 @@
     {
         "height": 940830,
         "health": 89.47,
-        "loss_sats": 36964625,
+        "loss_sats": 36964626,
         "loss_usd": 26919.86,
         "btc_usd": 72826
     },
     {
         "height": 940828,
         "health": 99.12,
-        "loss_sats": 2788095,
+        "loss_sats": 2788096,
         "loss_usd": 2030.46,
         "btc_usd": 72826
     },
@@ -79,7 +79,7 @@
     {
         "height": 940267,
         "health": 98.68,
-        "loss_sats": 4185085,
+        "loss_sats": 4185086,
         "loss_usd": 2906.63,
         "btc_usd": 69452
     },
@@ -128,7 +128,7 @@
     {
         "height": 939894,
         "health": 98.79,
-        "loss_sats": 3833542,
+        "loss_sats": 3833543,
         "loss_usd": 2580.78,
         "btc_usd": 67321
     },
@@ -142,7 +142,7 @@
     {
         "height": 939810,
         "health": 96.48,
-        "loss_sats": 11440697,
+        "loss_sats": 11440698,
         "loss_usd": 7681.28,
         "btc_usd": 67140
     },
@@ -162,9 +162,9 @@
     },
     {
         "height": 939634,
-        "health": 98.76,
-        "loss_sats": 3941542,
-        "loss_usd": 2691.05,
+        "health": 98.74,
+        "loss_sats": 4005927,
+        "loss_usd": 2735.01,
         "btc_usd": 68274
     },
     {
@@ -177,7 +177,7 @@
     {
         "height": 939497,
         "health": 98.72,
-        "loss_sats": 4074261,
+        "loss_sats": 4074262,
         "loss_usd": 2888.49,
         "btc_usd": 70896
     },
@@ -198,7 +198,7 @@
     {
         "height": 939319,
         "health": 97.12,
-        "loss_sats": 9317946,
+        "loss_sats": 9317947,
         "loss_usd": 6809.09,
         "btc_usd": 73075
     },
@@ -212,7 +212,7 @@
     {
         "height": 939261,
         "health": 95.7,
-        "loss_sats": 14262697,
+        "loss_sats": 14262698,
         "loss_usd": 10174.87,
         "btc_usd": 71339
     },
@@ -225,9 +225,9 @@
     },
     {
         "height": 939232,
-        "health": 94.77,
-        "loss_sats": 17386559,
-        "loss_usd": 11860.24,
+        "health": 94.76,
+        "loss_sats": 17421642,
+        "loss_usd": 11884.17,
         "btc_usd": 68215
     },
     {
@@ -240,36 +240,36 @@
     {
         "height": 939206,
         "health": 96.17,
-        "loss_sats": 12528606,
+        "loss_sats": 12528607,
         "loss_usd": 8561.55,
         "btc_usd": 68336
     },
     {
         "height": 939172,
         "health": 97.54,
-        "loss_sats": 7926746,
+        "loss_sats": 7926747,
         "loss_usd": 5439.97,
         "btc_usd": 68628
     },
     {
         "height": 939114,
         "health": 98.09,
-        "loss_sats": 6177366,
+        "loss_sats": 6177367,
         "loss_usd": 4116.29,
         "btc_usd": 66635
     },
     {
         "height": 939042,
         "health": 97.83,
-        "loss_sats": 6932208,
+        "loss_sats": 6932209,
         "loss_usd": 4775.46,
         "btc_usd": 68888
     },
     {
         "height": 938971,
-        "health": 97.68,
-        "loss_sats": 7460062,
-        "loss_usd": 4939.9,
+        "health": 97.69,
+        "loss_sats": 7427147,
+        "loss_usd": 4918.11,
         "btc_usd": 66218
     },
     {
@@ -303,7 +303,7 @@
     {
         "height": 938689,
         "health": 96.55,
-        "loss_sats": 11257772,
+        "loss_sats": 11257773,
         "loss_usd": 7186.29,
         "btc_usd": 63834
     },
@@ -316,37 +316,37 @@
     },
     {
         "height": 938616,
-        "health": 97.47,
-        "loss_sats": 8162871,
-        "loss_usd": 5330.93,
+        "health": 97.43,
+        "loss_sats": 8295334,
+        "loss_usd": 5417.43,
         "btc_usd": 65307
     },
     {
         "height": 938598,
-        "health": 99.85,
-        "loss_sats": 470453,
-        "loss_usd": 311.12,
+        "health": 99.71,
+        "loss_sats": 910820,
+        "loss_usd": 602.34,
         "btc_usd": 66132
     },
     {
         "height": 938470,
-        "health": 99.43,
-        "loss_sats": 1819902,
-        "loss_usd": 1224.96,
+        "health": 99.44,
+        "loss_sats": 1787795,
+        "loss_usd": 1203.35,
         "btc_usd": 67309
     },
     {
         "height": 938418,
-        "health": 53.87,
-        "loss_sats": 269344616,
-        "loss_usd": 182884.99,
+        "health": 53.89,
+        "loss_sats": 269127923,
+        "loss_usd": 182737.86,
         "btc_usd": 67900
     },
     {
         "height": 938402,
-        "health": 96.09,
-        "loss_sats": 12824398,
-        "loss_usd": 8796.64,
+        "health": 96.1,
+        "loss_sats": 12790269,
+        "loss_usd": 8773.23,
         "btc_usd": 68593
     },
     {
@@ -380,7 +380,7 @@
     {
         "height": 938003,
         "health": 99.7,
-        "loss_sats": 943828,
+        "loss_sats": 943829,
         "loss_usd": 611.12,
         "btc_usd": 64749
     },
@@ -401,8 +401,8 @@
     {
         "height": 937713,
         "health": 99.68,
-        "loss_sats": 1017028,
-        "loss_usd": 693.7,
+        "loss_sats": 1017029,
+        "loss_usd": 693.71,
         "btc_usd": 68209
     },
     {
@@ -450,15 +450,15 @@
     {
         "height": 937030,
         "health": 98.06,
-        "loss_sats": 6247317,
+        "loss_sats": 6247318,
         "loss_usd": 4261.36,
         "btc_usd": 68211
     },
     {
         "height": 937007,
-        "health": 96.55,
-        "loss_sats": 11190716,
-        "loss_usd": 7707.61,
+        "health": 96.53,
+        "loss_sats": 11257922,
+        "loss_usd": 7753.89,
         "btc_usd": 68875
     },
     {
@@ -485,14 +485,14 @@
     {
         "height": 936532,
         "health": 96.32,
-        "loss_sats": 11996671,
+        "loss_sats": 11996672,
         "loss_usd": 8360.84,
         "btc_usd": 69693
     },
     {
         "height": 936517,
         "health": 95.49,
-        "loss_sats": 14794520,
+        "loss_sats": 14794521,
         "loss_usd": 10192.98,
         "btc_usd": 68897
     },
@@ -513,7 +513,7 @@
     {
         "height": 936370,
         "health": 97.6,
-        "loss_sats": 7746893,
+        "loss_sats": 7746894,
         "loss_usd": 5185.15,
         "btc_usd": 66932
     },
@@ -527,63 +527,63 @@
     {
         "height": 936241,
         "health": 99.94,
-        "loss_sats": 191153,
+        "loss_sats": 191154,
         "loss_usd": 128.23,
         "btc_usd": 67080
     },
     {
         "height": 936237,
-        "health": 98.22,
-        "loss_sats": 5754828,
-        "loss_usd": 3889.23,
+        "health": 98.25,
+        "loss_sats": 5656109,
+        "loss_usd": 3822.51,
         "btc_usd": 67582
     },
     {
         "height": 936227,
         "health": 96.13,
-        "loss_sats": 12688725,
+        "loss_sats": 12688726,
         "loss_usd": 8604.35,
         "btc_usd": 67811
     },
     {
         "height": 936121,
         "health": 96.78,
-        "loss_sats": 10457292,
+        "loss_sats": 10457293,
         "loss_usd": 7086.49,
         "btc_usd": 67766
     },
     {
         "height": 936097,
         "health": 95.45,
-        "loss_sats": 14998164,
+        "loss_sats": 14998165,
         "loss_usd": 10130.66,
         "btc_usd": 67546
     },
     {
         "height": 936046,
         "health": 95.44,
-        "loss_sats": 15080533,
+        "loss_sats": 15080534,
         "loss_usd": 10028.4,
         "btc_usd": 66499
     },
     {
         "height": 935884,
-        "health": 87.33,
-        "loss_sats": 45455941,
-        "loss_usd": 31399.15,
+        "health": 86.93,
+        "loss_sats": 47106779,
+        "loss_usd": 32539.48,
         "btc_usd": 69076
     },
     {
         "height": 935785,
-        "health": 97.71,
-        "loss_sats": 7345046,
-        "loss_usd": 5185.6,
+        "health": 97.7,
+        "loss_sats": 7377876,
+        "loss_usd": 5208.78,
         "btc_usd": 70600
     },
     {
         "height": 935662,
         "health": 96.04,
-        "loss_sats": 13027412,
+        "loss_sats": 13027413,
         "loss_usd": 9158.92,
         "btc_usd": 70305
     },
@@ -597,15 +597,15 @@
     {
         "height": 935593,
         "health": 96.11,
-        "loss_sats": 12722337,
+        "loss_sats": 12722338,
         "loss_usd": 9053.72,
         "btc_usd": 71164
     },
     {
         "height": 935587,
         "health": 93.9,
-        "loss_sats": 20458356,
-        "loss_usd": 14558.98,
+        "loss_sats": 20458357,
+        "loss_usd": 14558.99,
         "btc_usd": 71164
     },
     {
@@ -625,7 +625,7 @@
     {
         "height": 935249,
         "health": 98.32,
-        "loss_sats": 5416252,
+        "loss_sats": 5416253,
         "loss_usd": 3566.71,
         "btc_usd": 65852
     },
@@ -639,15 +639,15 @@
     {
         "height": 935020,
         "health": 99.88,
-        "loss_sats": 383498,
+        "loss_sats": 383499,
         "loss_usd": 282.01,
         "btc_usd": 73536
     },
     {
         "height": 934998,
-        "health": 97.85,
-        "loss_sats": 6932187,
-        "loss_usd": 5183.68,
+        "health": 97.84,
+        "loss_sats": 6965142,
+        "loss_usd": 5208.32,
         "btc_usd": 74777
     },
     {
@@ -660,7 +660,7 @@
     {
         "height": 934320,
         "health": 97.56,
-        "loss_sats": 7910648,
+        "loss_sats": 7910649,
         "loss_usd": 6537.68,
         "btc_usd": 82644
     },
@@ -709,15 +709,15 @@
     {
         "height": 933942,
         "health": 97.48,
-        "loss_sats": 8110343,
+        "loss_sats": 8110344,
         "loss_usd": 7165.57,
         "btc_usd": 88351
     },
     {
         "height": 933789,
-        "health": 96.07,
-        "loss_sats": 13007657,
-        "loss_usd": 11257.22,
+        "health": 96.01,
+        "loss_sats": 13214501,
+        "loss_usd": 11436.23,
         "btc_usd": 86543
     },
     {
@@ -779,15 +779,15 @@
     {
         "height": 933178,
         "health": 99.94,
-        "loss_sats": 188715,
+        "loss_sats": 188716,
         "loss_usd": 168.59,
         "btc_usd": 89337
     },
     {
         "height": 933145,
-        "health": 95.39,
-        "loss_sats": 15379256,
-        "loss_usd": 13581.11,
+        "health": 95.23,
+        "loss_sats": 15939763,
+        "loss_usd": 14076.09,
         "btc_usd": 88308
     },
     {
@@ -813,9 +813,9 @@
     },
     {
         "height": 932948,
-        "health": 96.1,
-        "loss_sats": 12706297,
-        "loss_usd": 11813.17,
+        "health": 97.55,
+        "loss_sats": 7863513,
+        "loss_usd": 7310.79,
         "btc_usd": 92971
     },
     {
@@ -862,9 +862,9 @@
     },
     {
         "height": 932472,
-        "health": 97.96,
-        "loss_sats": 6588816,
-        "loss_usd": 6273.61,
+        "health": 97.94,
+        "loss_sats": 6654772,
+        "loss_usd": 6336.41,
         "btc_usd": 95216
     },
     {
@@ -884,7 +884,7 @@
     {
         "height": 932287,
         "health": 97.05,
-        "loss_sats": 9551078,
+        "loss_sats": 9551079,
         "loss_usd": 9245.92,
         "btc_usd": 96805
     },
@@ -898,14 +898,14 @@
     {
         "height": 932146,
         "health": 99.93,
-        "loss_sats": 219943,
+        "loss_sats": 219944,
         "loss_usd": 205.32,
         "btc_usd": 93353
     },
     {
         "height": 932101,
         "health": 99.31,
-        "loss_sats": 2201423,
+        "loss_sats": 2201424,
         "loss_usd": 2026.98,
         "btc_usd": 92076
     },
@@ -919,14 +919,14 @@
     {
         "height": 932050,
         "health": 99.35,
-        "loss_sats": 2060997,
+        "loss_sats": 2060998,
         "loss_usd": 1879.4,
         "btc_usd": 91189
     },
     {
         "height": 932041,
         "health": 97.48,
-        "loss_sats": 8146923,
+        "loss_sats": 8146924,
         "loss_usd": 7426.08,
         "btc_usd": 91152
     },
@@ -940,7 +940,7 @@
     {
         "height": 931837,
         "health": 95.85,
-        "loss_sats": 13558067,
+        "loss_sats": 13558068,
         "loss_usd": 12284.83,
         "btc_usd": 90609
     },
@@ -960,9 +960,9 @@
     },
     {
         "height": 931620,
-        "health": 98.37,
-        "loss_sats": 5204607,
-        "loss_usd": 4710.85,
+        "health": 98.36,
+        "loss_sats": 5237070,
+        "loss_usd": 4740.23,
         "btc_usd": 90513
     },
     {
@@ -989,7 +989,7 @@
     {
         "height": 931461,
         "health": 98.18,
-        "loss_sats": 5825029,
+        "loss_sats": 5825030,
         "loss_usd": 5291.81,
         "btc_usd": 90846
     },
@@ -1017,7 +1017,7 @@
     {
         "height": 930969,
         "health": 96.5,
-        "loss_sats": 11371024,
+        "loss_sats": 11371025,
         "loss_usd": 10524.91,
         "btc_usd": 92559
     },
@@ -1031,14 +1031,14 @@
     {
         "height": 930916,
         "health": 97.81,
-        "loss_sats": 7009177,
-        "loss_usd": 6396.08,
+        "loss_sats": 7009178,
+        "loss_usd": 6396.09,
         "btc_usd": 91253
     },
     {
         "height": 930806,
         "health": 97.11,
-        "loss_sats": 9405842,
+        "loss_sats": 9405843,
         "loss_usd": 8567.69,
         "btc_usd": 91089
     },
@@ -1087,15 +1087,15 @@
     {
         "height": 930506,
         "health": 95.89,
-        "loss_sats": 13507356,
+        "loss_sats": 13507357,
         "loss_usd": 11959.01,
         "btc_usd": 88537
     },
     {
         "height": 930485,
-        "health": 99.97,
-        "loss_sats": 94173,
-        "loss_usd": 83.13,
+        "health": 99.98,
+        "loss_sats": 62776,
+        "loss_usd": 55.42,
         "btc_usd": 88278
     },
     {
@@ -1115,8 +1115,8 @@
     {
         "height": 930429,
         "health": 97.99,
-        "loss_sats": 6498348,
-        "loss_usd": 5706.78,
+        "loss_sats": 6498349,
+        "loss_usd": 5706.79,
         "btc_usd": 87819
     },
     {
@@ -1142,9 +1142,9 @@
     },
     {
         "height": 930311,
-        "health": 95.04,
-        "loss_sats": 16507318,
-        "loss_usd": 14455.46,
+        "health": 95.02,
+        "loss_sats": 16577369,
+        "loss_usd": 14516.8,
         "btc_usd": 87570
     },
     {
@@ -1177,9 +1177,9 @@
     },
     {
         "height": 930114,
-        "health": 77.07,
-        "loss_sats": 93097987,
-        "loss_usd": 81185.17,
+        "health": 77.17,
+        "loss_sats": 92571864,
+        "loss_usd": 80726.37,
         "btc_usd": 87204
     },
     {
@@ -1199,7 +1199,7 @@
     {
         "height": 929960,
         "health": 94.19,
-        "loss_sats": 19350812,
+        "loss_sats": 19350813,
         "loss_usd": 17236.93,
         "btc_usd": 89076
     },
@@ -1227,7 +1227,7 @@
     {
         "height": 929826,
         "health": 96.88,
-        "loss_sats": 10076529,
+        "loss_sats": 10076530,
         "loss_usd": 8826.03,
         "btc_usd": 87590
     },
@@ -1283,7 +1283,7 @@
     {
         "height": 929399,
         "health": 95.97,
-        "loss_sats": 13274950,
+        "loss_sats": 13274951,
         "loss_usd": 11652.09,
         "btc_usd": 87775
     },
@@ -1296,15 +1296,15 @@
     },
     {
         "height": 929315,
-        "health": 97.21,
-        "loss_sats": 9034846,
-        "loss_usd": 7896.82,
+        "health": 97.14,
+        "loss_sats": 9268201,
+        "loss_usd": 8100.78,
         "btc_usd": 87404
     },
     {
         "height": 929307,
         "health": 96.11,
-        "loss_sats": 12731737,
+        "loss_sats": 12731738,
         "loss_usd": 11105.51,
         "btc_usd": 87227
     },
@@ -1318,7 +1318,7 @@
     {
         "height": 929187,
         "health": 98.13,
-        "loss_sats": 5966291,
+        "loss_sats": 5966292,
         "loss_usd": 5212.39,
         "btc_usd": 87364
     },
@@ -1332,7 +1332,7 @@
     {
         "height": 929176,
         "health": 96.38,
-        "loss_sats": 11801053,
+        "loss_sats": 11801054,
         "loss_usd": 10343.86,
         "btc_usd": 87652
     },
@@ -1359,15 +1359,15 @@
     },
     {
         "height": 928928,
-        "health": 92.94,
-        "loss_sats": 23789898,
-        "loss_usd": 21039.31,
+        "health": 93.04,
+        "loss_sats": 23427724,
+        "loss_usd": 20719.01,
         "btc_usd": 88438
     },
     {
         "height": 928738,
         "health": 97.91,
-        "loss_sats": 6718729,
+        "loss_sats": 6718730,
         "loss_usd": 5922.56,
         "btc_usd": 88150
     },
@@ -1395,7 +1395,7 @@
     {
         "height": 928340,
         "health": 95.89,
-        "loss_sats": 13425210,
+        "loss_sats": 13425211,
         "loss_usd": 11573.07,
         "btc_usd": 86204
     },
@@ -1436,9 +1436,9 @@
     },
     {
         "height": 927898,
-        "health": 97.41,
-        "loss_sats": 8348355,
-        "loss_usd": 7401.48,
+        "health": 98.59,
+        "loss_sats": 4490461,
+        "loss_usd": 3981.15,
         "btc_usd": 88658
     },
     {
@@ -1451,7 +1451,7 @@
     {
         "height": 927845,
         "health": 96.52,
-        "loss_sats": 11291055,
+        "loss_sats": 11291056,
         "loss_usd": 10166.92,
         "btc_usd": 90044
     },
@@ -1471,9 +1471,9 @@
     },
     {
         "height": 927604,
-        "health": 92.17,
-        "loss_sats": 26553112,
-        "loss_usd": 23912.94,
+        "health": 94.24,
+        "loss_sats": 19104271,
+        "loss_usd": 17204.73,
         "btc_usd": 90057
     },
     {
@@ -1485,9 +1485,9 @@
     },
     {
         "height": 927436,
-        "health": 96.7,
-        "loss_sats": 10699639,
-        "loss_usd": 9639.2,
+        "health": 96.56,
+        "loss_sats": 11169735,
+        "loss_usd": 10062.7,
         "btc_usd": 90089
     },
     {
@@ -1499,15 +1499,15 @@
     },
     {
         "height": 927299,
-        "health": 96.89,
-        "loss_sats": 10071919,
-        "loss_usd": 9304.94,
+        "health": 96.51,
+        "loss_sats": 11347075,
+        "loss_usd": 10483.0,
         "btc_usd": 92385
     },
     {
         "height": 927289,
         "health": 99.97,
-        "loss_sats": 94625,
+        "loss_sats": 94626,
         "loss_usd": 87.14,
         "btc_usd": 92086
     },
@@ -1528,22 +1528,22 @@
     {
         "height": 926755,
         "health": 97.44,
-        "loss_sats": 8221675,
+        "loss_sats": 8221676,
         "loss_usd": 7356.67,
         "btc_usd": 89479
     },
     {
         "height": 926716,
         "health": 97.31,
-        "loss_sats": 8660505,
+        "loss_sats": 8660506,
         "loss_usd": 7765.62,
         "btc_usd": 89667
     },
     {
         "height": 926699,
-        "health": 95.19,
-        "loss_sats": 15910332,
-        "loss_usd": 14283.82,
+        "health": 95.29,
+        "loss_sats": 15563207,
+        "loss_usd": 13972.18,
         "btc_usd": 89777
     },
     {
@@ -1569,15 +1569,15 @@
     },
     {
         "height": 926508,
-        "health": 97.91,
-        "loss_sats": 6729827,
-        "loss_usd": 6191.78,
+        "health": 97.96,
+        "loss_sats": 6565474,
+        "loss_usd": 6040.56,
         "btc_usd": 92005
     },
     {
         "height": 926419,
         "health": 96.85,
-        "loss_sats": 10326047,
+        "loss_sats": 10326048,
         "loss_usd": 9604.77,
         "btc_usd": 93015
     },
@@ -1604,15 +1604,15 @@
     },
     {
         "height": 925884,
-        "health": 94.15,
-        "loss_sats": 19489486,
-        "loss_usd": 17828.98,
+        "health": 94.08,
+        "loss_sats": 19737369,
+        "loss_usd": 18055.75,
         "btc_usd": 91480
     },
     {
         "height": 925875,
         "health": 98.03,
-        "loss_sats": 6344690,
+        "loss_sats": 6344691,
         "loss_usd": 5821.19,
         "btc_usd": 91749
     },
@@ -1632,9 +1632,9 @@
     },
     {
         "height": 925707,
-        "health": 98.43,
-        "loss_sats": 4992104,
-        "loss_usd": 4525.14,
+        "health": 98.56,
+        "loss_sats": 4572706,
+        "loss_usd": 4144.98,
         "btc_usd": 90646
     },
     {
@@ -1654,7 +1654,7 @@
     {
         "height": 925463,
         "health": 97.94,
-        "loss_sats": 6609132,
+        "loss_sats": 6609133,
         "loss_usd": 6048.94,
         "btc_usd": 91524
     },
@@ -1682,7 +1682,7 @@
     {
         "height": 925394,
         "health": 99.92,
-        "loss_sats": 251942,
+        "loss_sats": 251943,
         "loss_usd": 230.82,
         "btc_usd": 91615
     },
@@ -1696,22 +1696,22 @@
     {
         "height": 925353,
         "health": 99.1,
-        "loss_sats": 2854105,
+        "loss_sats": 2854106,
         "loss_usd": 2601.12,
         "btc_usd": 91136
     },
     {
         "height": 925276,
-        "health": 98.45,
-        "loss_sats": 4950085,
-        "loss_usd": 4311.23,
+        "health": 98.53,
+        "loss_sats": 4690786,
+        "loss_usd": 4085.39,
         "btc_usd": 87094
     },
     {
         "height": 925219,
-        "health": 94.36,
-        "loss_sats": 18750599,
-        "loss_usd": 16350.71,
+        "health": 94.44,
+        "loss_sats": 18468975,
+        "loss_usd": 16105.13,
         "btc_usd": 87201
     },
     {
@@ -1723,9 +1723,9 @@
     },
     {
         "height": 925116,
-        "health": 97.91,
-        "loss_sats": 6747280,
-        "loss_usd": 5893.95,
+        "health": 97.92,
+        "loss_sats": 6714311,
+        "loss_usd": 5865.15,
         "btc_usd": 87353
     },
     {
@@ -1737,9 +1737,9 @@
     },
     {
         "height": 925059,
-        "health": 97.83,
-        "loss_sats": 7003139,
-        "loss_usd": 6208.0,
+        "health": 98.03,
+        "loss_sats": 6344718,
+        "loss_usd": 5624.34,
         "btc_usd": 88646
     },
     {
@@ -1752,15 +1752,15 @@
     {
         "height": 924904,
         "health": 97.83,
-        "loss_sats": 6948506,
+        "loss_sats": 6948507,
         "loss_usd": 6112.46,
         "btc_usd": 87968
     },
     {
         "height": 924885,
-        "health": 86.52,
-        "loss_sats": 48941374,
-        "loss_usd": 42560.4,
+        "health": 86.49,
+        "loss_sats": 49067308,
+        "loss_usd": 42669.91,
         "btc_usd": 86962
     },
     {
@@ -1779,9 +1779,9 @@
     },
     {
         "height": 924733,
-        "health": 98.9,
-        "loss_sats": 3562865,
-        "loss_usd": 3001.75,
+        "health": 98.93,
+        "loss_sats": 3464646,
+        "loss_usd": 2919.0,
         "btc_usd": 84251
     },
     {
@@ -1794,15 +1794,15 @@
     {
         "height": 924589,
         "health": 99.31,
-        "loss_sats": 2195854,
+        "loss_sats": 2195855,
         "loss_usd": 1862.39,
         "btc_usd": 84814
     },
     {
         "height": 924585,
-        "health": 98.69,
-        "loss_sats": 4202424,
-        "loss_usd": 3481.12,
+        "health": 98.68,
+        "loss_sats": 4234933,
+        "loss_usd": 3508.05,
         "btc_usd": 82836
     },
     {
@@ -1814,16 +1814,16 @@
     },
     {
         "height": 924169,
-        "health": 79.45,
-        "loss_sats": 81042201,
-        "loss_usd": 74013.41,
+        "health": 79.44,
+        "loss_sats": 81091844,
+        "loss_usd": 74058.75,
         "btc_usd": 91327
     },
     {
         "height": 924062,
-        "health": 99.61,
-        "loss_sats": 1243049,
-        "loss_usd": 1138.17,
+        "health": 99.65,
+        "loss_sats": 1115109,
+        "loss_usd": 1021.03,
         "btc_usd": 91563
     },
     {
@@ -1836,15 +1836,15 @@
     {
         "height": 923843,
         "health": 99.38,
-        "loss_sats": 1965936,
-        "loss_usd": 1883.5,
+        "loss_sats": 1965937,
+        "loss_usd": 1883.51,
         "btc_usd": 95807
     },
     {
         "height": 923745,
-        "health": 97.18,
-        "loss_sats": 9135884,
-        "loss_usd": 8795.94,
+        "health": 97.26,
+        "loss_sats": 8869409,
+        "loss_usd": 8539.38,
         "btc_usd": 96279
     },
     {
@@ -1891,9 +1891,9 @@
     },
     {
         "height": 923231,
-        "health": 95.33,
-        "loss_sats": 15428009,
-        "loss_usd": 15922.48,
+        "health": 95.3,
+        "loss_sats": 15532007,
+        "loss_usd": 16029.81,
         "btc_usd": 103205
     },
     {
@@ -1940,9 +1940,9 @@
     },
     {
         "height": 922778,
-        "health": 97.66,
-        "loss_sats": 7518064,
-        "loss_usd": 7665.42,
+        "health": 97.6,
+        "loss_sats": 7715576,
+        "loss_usd": 7866.8,
         "btc_usd": 101960
     },
     {
@@ -1975,16 +1975,16 @@
     },
     {
         "height": 922430,
-        "health": 97.74,
-        "loss_sats": 7292152,
-        "loss_usd": 7518.87,
+        "health": 97.7,
+        "loss_sats": 7424256,
+        "loss_usd": 7655.08,
         "btc_usd": 103109
     },
     {
         "height": 922385,
-        "health": 98.01,
-        "loss_sats": 6390595,
-        "loss_usd": 6627.62,
+        "health": 98.13,
+        "loss_sats": 5997889,
+        "loss_usd": 6220.35,
         "btc_usd": 103709
     },
     {
@@ -2011,7 +2011,7 @@
     {
         "height": 922113,
         "health": 97.63,
-        "loss_sats": 7689792,
+        "loss_sats": 7689793,
         "loss_usd": 8183.63,
         "btc_usd": 106422
     },
@@ -2024,9 +2024,9 @@
     },
     {
         "height": 922074,
-        "health": 98.41,
-        "loss_sats": 5073100,
-        "loss_usd": 5410.46,
+        "health": 98.44,
+        "loss_sats": 4975865,
+        "loss_usd": 5306.76,
         "btc_usd": 106650
     },
     {
@@ -2045,16 +2045,16 @@
     },
     {
         "height": 921820,
-        "health": 93.11,
-        "loss_sats": 23183418,
-        "loss_usd": 25509.41,
+        "health": 93.41,
+        "loss_sats": 22102766,
+        "loss_usd": 24320.34,
         "btc_usd": 110033
     },
     {
         "height": 921771,
-        "health": 96.89,
-        "loss_sats": 10172821,
-        "loss_usd": 11217.67,
+        "health": 96.85,
+        "loss_sats": 10307917,
+        "loss_usd": 11366.64,
         "btc_usd": 110271
     },
     {
@@ -2066,22 +2066,22 @@
     },
     {
         "height": 921741,
-        "health": 95.59,
-        "loss_sats": 14500506,
-        "loss_usd": 15940.55,
+        "health": 95.49,
+        "loss_sats": 14844846,
+        "loss_usd": 16319.09,
         "btc_usd": 109931
     },
     {
         "height": 921697,
-        "health": 86.87,
-        "loss_sats": 47313495,
-        "loss_usd": 51891.55,
+        "health": 86.99,
+        "loss_sats": 46816409,
+        "loss_usd": 51346.36,
         "btc_usd": 109676
     },
     {
         "height": 921431,
         "health": 97.93,
-        "loss_sats": 6668607,
+        "loss_sats": 6668608,
         "loss_usd": 7388.82,
         "btc_usd": 110800
     },
@@ -2094,15 +2094,15 @@
     },
     {
         "height": 921420,
-        "health": 97.67,
-        "loss_sats": 7469618,
-        "loss_usd": 8241.08,
+        "health": 97.82,
+        "loss_sats": 6978025,
+        "loss_usd": 7698.72,
         "btc_usd": 110328
     },
     {
         "height": 921292,
         "health": 94.9,
-        "loss_sats": 16886452,
+        "loss_sats": 16886453,
         "loss_usd": 19093.51,
         "btc_usd": 113070
     },
@@ -2122,15 +2122,15 @@
     },
     {
         "height": 920989,
-        "health": 97.95,
-        "loss_sats": 6557986,
-        "loss_usd": 7604.64,
+        "health": 98.78,
+        "loss_sats": 3870008,
+        "loss_usd": 4487.66,
         "btc_usd": 115960
     },
     {
         "height": 920780,
         "health": 99.38,
-        "loss_sats": 1951896,
+        "loss_sats": 1951897,
         "loss_usd": 2178.51,
         "btc_usd": 111610
     },
@@ -2151,7 +2151,7 @@
     {
         "height": 920609,
         "health": 96.91,
-        "loss_sats": 10010675,
+        "loss_sats": 10010676,
         "loss_usd": 11076.11,
         "btc_usd": 110643
     },
@@ -2165,22 +2165,22 @@
     {
         "height": 920555,
         "health": 95.92,
-        "loss_sats": 13293401,
+        "loss_sats": 13293402,
         "loss_usd": 14764.98,
         "btc_usd": 111070
     },
     {
         "height": 920498,
-        "health": 95.42,
-        "loss_sats": 15016932,
-        "loss_usd": 16615.03,
+        "health": 94.66,
+        "loss_sats": 17649400,
+        "loss_usd": 19527.65,
         "btc_usd": 110642
     },
     {
         "height": 920469,
-        "health": 99.92,
-        "loss_sats": 251184,
-        "loss_usd": 276.53,
+        "health": 99.96,
+        "loss_sats": 125542,
+        "loss_usd": 138.21,
         "btc_usd": 110090
     },
     {
@@ -2193,8 +2193,8 @@
     {
         "height": 920407,
         "health": 98.28,
-        "loss_sats": 5497547,
-        "loss_usd": 6019.81,
+        "loss_sats": 5497548,
+        "loss_usd": 6019.82,
         "btc_usd": 109500
     },
     {
@@ -2207,22 +2207,22 @@
     {
         "height": 920333,
         "health": 94.88,
-        "loss_sats": 16902113,
+        "loss_sats": 16902114,
         "loss_usd": 18232.99,
         "btc_usd": 107874
     },
     {
         "height": 920313,
-        "health": 98.39,
-        "loss_sats": 5157986,
-        "loss_usd": 5527.87,
+        "health": 98.38,
+        "loss_sats": 5190551,
+        "loss_usd": 5562.77,
         "btc_usd": 107171
     },
     {
         "height": 920240,
         "health": 98.92,
-        "loss_sats": 3414203,
-        "loss_usd": 3696.69,
+        "loss_sats": 3414204,
+        "loss_usd": 3696.7,
         "btc_usd": 108274
     },
     {
@@ -2277,7 +2277,7 @@
     {
         "height": 919846,
         "health": 97.67,
-        "loss_sats": 7526748,
+        "loss_sats": 7526749,
         "loss_usd": 8236.6,
         "btc_usd": 109431
     },
@@ -2290,9 +2290,9 @@
     },
     {
         "height": 919543,
-        "health": 93.47,
-        "loss_sats": 22100345,
-        "loss_usd": 23532.45,
+        "health": 93.76,
+        "loss_sats": 21053539,
+        "loss_usd": 22417.81,
         "btc_usd": 106480
     },
     {
@@ -2311,16 +2311,16 @@
     },
     {
         "height": 919378,
-        "health": 98.68,
-        "loss_sats": 4212715,
-        "loss_usd": 4578.72,
+        "health": 98.47,
+        "loss_sats": 4893334,
+        "loss_usd": 5318.47,
         "btc_usd": 108688
     },
     {
         "height": 919298,
-        "health": 92.18,
-        "loss_sats": 26663143,
-        "loss_usd": 29595.29,
+        "health": 92.3,
+        "loss_sats": 26219857,
+        "loss_usd": 29103.25,
         "btc_usd": 110997
     },
     {
@@ -2361,15 +2361,15 @@
     {
         "height": 919126,
         "health": 99.69,
-        "loss_sats": 980799,
+        "loss_sats": 980800,
         "loss_usd": 1107.45,
         "btc_usd": 112913
     },
     {
         "height": 918920,
-        "health": 97,
-        "loss_sats": 9743891,
-        "loss_usd": 11293.36,
+        "health": 96.96,
+        "loss_sats": 9877883,
+        "loss_usd": 11448.66,
         "btc_usd": 115902
     },
     {
@@ -2382,14 +2382,14 @@
     {
         "height": 918811,
         "health": 93.25,
-        "loss_sats": 22754502,
+        "loss_sats": 22754503,
         "loss_usd": 26157.89,
         "btc_usd": 114957
     },
     {
         "height": 918740,
         "health": 93.94,
-        "loss_sats": 20238696,
+        "loss_sats": 20238697,
         "loss_usd": 22525.87,
         "btc_usd": 111301
     },
@@ -2403,7 +2403,7 @@
     {
         "height": 918568,
         "health": 93.2,
-        "loss_sats": 22906355,
+        "loss_sats": 22906356,
         "loss_usd": 25745.6,
         "btc_usd": 112395
     },
@@ -2416,9 +2416,9 @@
     },
     {
         "height": 918387,
-        "health": 94.48,
-        "loss_sats": 18439107,
-        "loss_usd": 22442.79,
+        "health": 94.44,
+        "loss_sats": 18580591,
+        "loss_usd": 22614.99,
         "btc_usd": 121713
     },
     {
@@ -2431,15 +2431,15 @@
     {
         "height": 918299,
         "health": 90.66,
-        "loss_sats": 32391077,
-        "loss_usd": 39582.54,
+        "loss_sats": 32391078,
+        "loss_usd": 39582.55,
         "btc_usd": 122202
     },
     {
         "height": 918260,
-        "health": 78.13,
-        "loss_sats": 87609640,
-        "loss_usd": 106936.33,
+        "health": 78.23,
+        "loss_sats": 87097570,
+        "loss_usd": 106311.29,
         "btc_usd": 122060
     },
     {
@@ -2451,15 +2451,15 @@
     },
     {
         "height": 918164,
-        "health": 94.98,
-        "loss_sats": 16546192,
-        "loss_usd": 20260.81,
+        "health": 96.03,
+        "loss_sats": 12942259,
+        "loss_usd": 15847.8,
         "btc_usd": 122450
     },
     {
         "height": 918153,
         "health": 92.09,
-        "loss_sats": 27050299,
+        "loss_sats": 27050300,
         "loss_usd": 32883.7,
         "btc_usd": 121565
     },
@@ -2472,22 +2472,22 @@
     },
     {
         "height": 918052,
-        "health": 97.55,
-        "loss_sats": 7929686,
-        "loss_usd": 9739.95,
+        "health": 97.54,
+        "loss_sats": 7962869,
+        "loss_usd": 9780.71,
         "btc_usd": 122829
     },
     {
         "height": 917905,
         "health": 94.61,
-        "loss_sats": 17867760,
+        "loss_sats": 17867761,
         "loss_usd": 22205.52,
         "btc_usd": 124277
     },
     {
         "height": 917837,
         "health": 95.65,
-        "loss_sats": 14314742,
+        "loss_sats": 14314743,
         "loss_usd": 17681.57,
         "btc_usd": 123520
     },
@@ -2514,44 +2514,44 @@
     },
     {
         "height": 917549,
-        "health": 91.93,
-        "loss_sats": 27735478,
-        "loss_usd": 33949.06,
+        "health": 91.91,
+        "loss_sats": 27810266,
+        "loss_usd": 34040.6,
         "btc_usd": 122403
     },
     {
         "height": 917534,
-        "health": 97.99,
-        "loss_sats": 6546408,
-        "loss_usd": 8023.8,
+        "health": 98.01,
+        "loss_sats": 6479947,
+        "loss_usd": 7942.34,
         "btc_usd": 122568
     },
     {
         "height": 917514,
         "health": 98.15,
-        "loss_sats": 6130053,
-        "loss_usd": 7386.28,
+        "loss_sats": 6130054,
+        "loss_usd": 7386.29,
         "btc_usd": 120493
     },
     {
         "height": 917403,
-        "health": 98.01,
-        "loss_sats": 6467910,
-        "loss_usd": 7761.43,
+        "health": 98.07,
+        "loss_sats": 6269060,
+        "loss_usd": 7522.81,
         "btc_usd": 119999
     },
     {
         "height": 917367,
-        "health": 97.11,
-        "loss_sats": 9346057,
-        "loss_usd": 11092.84,
+        "health": 97.26,
+        "loss_sats": 8847302,
+        "loss_usd": 10500.86,
         "btc_usd": 118690
     },
     {
         "height": 917312,
-        "health": 97.97,
-        "loss_sats": 6493332,
-        "loss_usd": 7695.05,
+        "health": 97.71,
+        "loss_sats": 7344482,
+        "loss_usd": 8703.73,
         "btc_usd": 118507
     },
     {
@@ -2571,7 +2571,7 @@
     {
         "height": 916873,
         "health": 86.67,
-        "loss_sats": 48194426,
+        "loss_sats": 48194427,
         "loss_usd": 53920.41,
         "btc_usd": 111881
     },
@@ -2591,15 +2591,15 @@
     },
     {
         "height": 916800,
-        "health": 93.17,
-        "loss_sats": 22966988,
-        "loss_usd": 25275.86,
+        "health": 93.16,
+        "loss_sats": 23003084,
+        "loss_usd": 25315.58,
         "btc_usd": 110053
     },
     {
         "height": 916749,
         "health": 97.66,
-        "loss_sats": 7506090,
+        "loss_sats": 7506091,
         "loss_usd": 8223.22,
         "btc_usd": 109554
     },
@@ -2620,7 +2620,7 @@
     {
         "height": 916519,
         "health": 97.17,
-        "loss_sats": 9128510,
+        "loss_sats": 9128511,
         "loss_usd": 9984.22,
         "btc_usd": 109374
     },
@@ -2647,22 +2647,22 @@
     },
     {
         "height": 916041,
-        "health": 98.04,
-        "loss_sats": 6296789,
-        "loss_usd": 7115.37,
+        "health": 98.05,
+        "loss_sats": 6264024,
+        "loss_usd": 7078.35,
         "btc_usd": 113000
     },
     {
         "height": 916024,
         "health": 97.72,
-        "loss_sats": 7359980,
+        "loss_sats": 7359981,
         "loss_usd": 8319.43,
         "btc_usd": 113036
     },
     {
         "height": 916003,
         "health": 95.97,
-        "loss_sats": 13207694,
+        "loss_sats": 13207695,
         "loss_usd": 14930.9,
         "btc_usd": 113047
     },
@@ -2697,15 +2697,15 @@
     {
         "height": 915394,
         "health": 52.7,
-        "loss_sats": 281046255,
+        "loss_sats": 281046256,
         "loss_usd": 327699.93,
         "btc_usd": 116600
     },
     {
         "height": 915364,
-        "health": 86.05,
-        "loss_sats": 51071109,
-        "loss_usd": 59617.86,
+        "health": 86.04,
+        "loss_sats": 51113659,
+        "loss_usd": 59667.53,
         "btc_usd": 116735
     },
     {
@@ -2731,23 +2731,23 @@
     },
     {
         "height": 915130,
-        "health": 97.29,
-        "loss_sats": 8840871,
-        "loss_usd": 10227.56,
+        "health": 97.28,
+        "loss_sats": 8874406,
+        "loss_usd": 10266.36,
         "btc_usd": 115685
     },
     {
         "height": 915084,
         "health": 63.8,
-        "loss_sats": 177539967,
+        "loss_sats": 177539968,
         "loss_usd": 207537.12,
         "btc_usd": 116896
     },
     {
         "height": 915083,
-        "health": 96.15,
-        "loss_sats": 12636143,
-        "loss_usd": 14771.15,
+        "health": 96.38,
+        "loss_sats": 11852904,
+        "loss_usd": 13855.57,
         "btc_usd": 116896
     },
     {
@@ -2767,7 +2767,7 @@
     {
         "height": 914710,
         "health": 99.04,
-        "loss_sats": 3071780,
+        "loss_sats": 3071781,
         "loss_usd": 3566.34,
         "btc_usd": 116100
     },
@@ -2780,16 +2780,16 @@
     },
     {
         "height": 914391,
-        "health": 97.39,
-        "loss_sats": 8429658,
-        "loss_usd": 9707.0,
+        "health": 97.06,
+        "loss_sats": 9527761,
+        "loss_usd": 10971.5,
         "btc_usd": 115153
     },
     {
         "height": 914322,
-        "health": 93.52,
-        "loss_sats": 21731953,
-        "loss_usd": 25078.89,
+        "health": 93.37,
+        "loss_sats": 22270728,
+        "loss_usd": 25700.64,
         "btc_usd": 115401
     },
     {
@@ -2802,7 +2802,7 @@
     {
         "height": 914292,
         "health": 97.74,
-        "loss_sats": 7308490,
+        "loss_sats": 7308491,
         "loss_usd": 8368.22,
         "btc_usd": 114500
     },
@@ -2815,9 +2815,9 @@
     },
     {
         "height": 914272,
-        "health": 97.36,
-        "loss_sats": 8563264,
-        "loss_usd": 9789.95,
+        "health": 97.35,
+        "loss_sats": 8596584,
+        "loss_usd": 9828.04,
         "btc_usd": 114325
     },
     {
@@ -2858,22 +2858,22 @@
     {
         "height": 914058,
         "health": 92.75,
-        "loss_sats": 25049625,
+        "loss_sats": 25049626,
         "loss_usd": 28127.22,
         "btc_usd": 112286
     },
     {
         "height": 913985,
         "health": 96,
-        "loss_sats": 13078897,
+        "loss_sats": 13078898,
         "loss_usd": 14584.93,
         "btc_usd": 111515
     },
     {
         "height": 913861,
-        "health": 98.87,
-        "loss_sats": 3598209,
-        "loss_usd": 4066.95,
+        "health": 99.05,
+        "loss_sats": 3019546,
+        "loss_usd": 3412.9,
         "btc_usd": 113027
     },
     {
@@ -2899,29 +2899,29 @@
     },
     {
         "height": 913350,
-        "health": 97.17,
-        "loss_sats": 9182538,
-        "loss_usd": 10179.76,
+        "health": 97.13,
+        "loss_sats": 9316162,
+        "loss_usd": 10327.9,
         "btc_usd": 110860
     },
     {
         "height": 913348,
-        "health": 80.19,
-        "loss_sats": 77580697,
-        "loss_usd": 85831.4,
+        "health": 80.09,
+        "loss_sats": 78069678,
+        "loss_usd": 86372.39,
         "btc_usd": 110635
     },
     {
         "height": 913315,
-        "health": 97.36,
-        "loss_sats": 8629515,
-        "loss_usd": 9562.37,
+        "health": 97.33,
+        "loss_sats": 8730268,
+        "loss_usd": 9674.01,
         "btc_usd": 110810
     },
     {
         "height": 913272,
         "health": 70.33,
-        "loss_sats": 132217925,
+        "loss_sats": 132217926,
         "loss_usd": 148906.47,
         "btc_usd": 112622
     },
@@ -2969,37 +2969,37 @@
     },
     {
         "height": 912916,
-        "health": 93.43,
-        "loss_sats": 22136806,
-        "loss_usd": 24506.99,
+        "health": 93.75,
+        "loss_sats": 20986726,
+        "loss_usd": 23233.77,
         "btc_usd": 110707
     },
     {
         "height": 912762,
         "health": 59.39,
-        "loss_sats": 216330929,
+        "loss_sats": 216330930,
         "loss_usd": 233174.46,
         "btc_usd": 107786
     },
     {
         "height": 912726,
-        "health": 73.84,
-        "loss_sats": 117485781,
-        "loss_usd": 127806.91,
+        "health": 74.09,
+        "loss_sats": 115970379,
+        "loss_usd": 126158.38,
         "btc_usd": 108785
     },
     {
         "height": 912692,
         "health": 76.52,
-        "loss_sats": 96388805,
+        "loss_sats": 96388806,
         "loss_usd": 104630.05,
         "btc_usd": 108550
     },
     {
         "height": 912675,
-        "health": 97.84,
-        "loss_sats": 6914023,
-        "loss_usd": 7562.42,
+        "health": 97.97,
+        "loss_sats": 6489279,
+        "loss_usd": 7097.84,
         "btc_usd": 109378
     },
     {
@@ -3011,9 +3011,9 @@
     },
     {
         "height": 912617,
-        "health": 94.46,
-        "loss_sats": 18484382,
-        "loss_usd": 20008.79,
+        "health": 94.5,
+        "loss_sats": 18343154,
+        "loss_usd": 19855.91,
         "btc_usd": 108247
     },
     {
@@ -3047,29 +3047,29 @@
     {
         "height": 912211,
         "health": 89.71,
-        "loss_sats": 35944890,
+        "loss_sats": 35944891,
         "loss_usd": 39553.4,
         "btc_usd": 110039
     },
     {
         "height": 912199,
         "health": 97.37,
-        "loss_sats": 8516767,
+        "loss_sats": 8516768,
         "loss_usd": 9480.95,
         "btc_usd": 111321
     },
     {
         "height": 912116,
-        "health": 98.58,
-        "loss_sats": 4546010,
-        "loss_usd": 5121.35,
+        "health": 98.66,
+        "loss_sats": 4286419,
+        "loss_usd": 4828.91,
         "btc_usd": 112656
     },
     {
         "height": 912057,
-        "health": 89.22,
-        "loss_sats": 37870689,
-        "loss_usd": 42849.17,
+        "health": 89.29,
+        "loss_sats": 37595279,
+        "loss_usd": 42537.55,
         "btc_usd": 113146
     },
     {
@@ -3081,9 +3081,9 @@
     },
     {
         "height": 911873,
-        "health": 97.51,
-        "loss_sats": 7991699,
-        "loss_usd": 8900.04,
+        "health": 97.34,
+        "loss_sats": 8552228,
+        "loss_usd": 9524.27,
         "btc_usd": 111366
     },
     {
@@ -3096,7 +3096,7 @@
     {
         "height": 911742,
         "health": 95.8,
-        "loss_sats": 13770637,
+        "loss_sats": 13770638,
         "loss_usd": 15179.1,
         "btc_usd": 110228
     },
@@ -3145,7 +3145,7 @@
     {
         "height": 911156,
         "health": 95.74,
-        "loss_sats": 14013497,
+        "loss_sats": 14013498,
         "loss_usd": 15831.33,
         "btc_usd": 112972
     },
@@ -3159,7 +3159,7 @@
     {
         "height": 910941,
         "health": 98.38,
-        "loss_sats": 5225396,
+        "loss_sats": 5225397,
         "loss_usd": 5976.6,
         "btc_usd": 114376
     },
@@ -3172,15 +3172,15 @@
     },
     {
         "height": 910702,
-        "health": 97.08,
-        "loss_sats": 9483692,
-        "loss_usd": 10940.29,
+        "health": 97.07,
+        "loss_sats": 9517152,
+        "loss_usd": 10978.89,
         "btc_usd": 115359
     },
     {
         "height": 910626,
         "health": 96.9,
-        "loss_sats": 10258655,
+        "loss_sats": 10258656,
         "loss_usd": 11921.28,
         "btc_usd": 116207
     },
@@ -3200,16 +3200,16 @@
     },
     {
         "height": 910340,
-        "health": 99.21,
-        "loss_sats": 2523872,
-        "loss_usd": 2972.36,
+        "health": 99.24,
+        "loss_sats": 2427295,
+        "loss_usd": 2858.63,
         "btc_usd": 117770
     },
     {
         "height": 910289,
-        "health": 97.56,
-        "loss_sats": 7838766,
-        "loss_usd": 9208.83,
+        "health": 97.67,
+        "loss_sats": 7476949,
+        "loss_usd": 8783.77,
         "btc_usd": 117478
     },
     {
@@ -3221,9 +3221,9 @@
     },
     {
         "height": 910132,
-        "health": 93.58,
-        "loss_sats": 21622401,
-        "loss_usd": 25772.82,
+        "health": 93.61,
+        "loss_sats": 21514465,
+        "loss_usd": 25644.17,
         "btc_usd": 119195
     },
     {
@@ -3235,9 +3235,9 @@
     },
     {
         "height": 909967,
-        "health": 95.52,
-        "loss_sats": 14754674,
-        "loss_usd": 18029.77,
+        "health": 95.51,
+        "loss_sats": 14789158,
+        "loss_usd": 18071.91,
         "btc_usd": 122197
     },
     {
@@ -3250,21 +3250,21 @@
     {
         "height": 909741,
         "health": 97.3,
-        "loss_sats": 8837040,
-        "loss_usd": 10575.9,
+        "loss_sats": 8837041,
+        "loss_usd": 10575.91,
         "btc_usd": 119677
     },
     {
         "height": 909738,
         "health": 96.9,
-        "loss_sats": 10035574,
-        "loss_usd": 12010.27,
+        "loss_sats": 10035575,
+        "loss_usd": 12010.28,
         "btc_usd": 119677
     },
     {
         "height": 909418,
         "health": 98.22,
-        "loss_sats": 5738770,
+        "loss_sats": 5738771,
         "loss_usd": 6790.97,
         "btc_usd": 118335
     },
@@ -3292,28 +3292,28 @@
     {
         "height": 908709,
         "health": 99.71,
-        "loss_sats": 910783,
+        "loss_sats": 910784,
         "loss_usd": 1040.72,
         "btc_usd": 114266
     },
     {
         "height": 908623,
         "health": 97.43,
-        "loss_sats": 8311782,
+        "loss_sats": 8311783,
         "loss_usd": 9539.27,
         "btc_usd": 114768
     },
     {
         "height": 908617,
         "health": 99.22,
-        "loss_sats": 2461645,
+        "loss_sats": 2461646,
         "loss_usd": 2829.61,
         "btc_usd": 114948
     },
     {
         "height": 908311,
         "health": 98.24,
-        "loss_sats": 5626066,
+        "loss_sats": 5626067,
         "loss_usd": 6348.9,
         "btc_usd": 112848
     },
@@ -3326,23 +3326,23 @@
     },
     {
         "height": 908284,
-        "health": 76.68,
-        "loss_sats": 95482886,
-        "loss_usd": 108021.7,
+        "health": 75.66,
+        "loss_sats": 101002782,
+        "loss_usd": 114266.47,
         "btc_usd": 113132
     },
     {
         "height": 908271,
         "health": 93.33,
-        "loss_sats": 22520477,
+        "loss_sats": 22520478,
         "loss_usd": 25406.03,
         "btc_usd": 112813
     },
     {
         "height": 908246,
-        "health": 97.55,
-        "loss_sats": 7927322,
-        "loss_usd": 9005.83,
+        "health": 96.85,
+        "loss_sats": 10265938,
+        "loss_usd": 11662.62,
         "btc_usd": 113605
     },
     {
@@ -3354,22 +3354,22 @@
     },
     {
         "height": 908143,
-        "health": 90.22,
-        "loss_sats": 34027648,
-        "loss_usd": 38913.0,
+        "health": 89.96,
+        "loss_sats": 35033229,
+        "loss_usd": 40062.95,
         "btc_usd": 114357
     },
     {
         "height": 908065,
-        "health": 92.31,
-        "loss_sats": 26241453,
-        "loss_usd": 30354.01,
+        "health": 92.34,
+        "loss_sats": 26130589,
+        "loss_usd": 30225.77,
         "btc_usd": 115672
     },
     {
         "height": 908028,
         "health": 99.88,
-        "loss_sats": 380761,
+        "loss_sats": 380762,
         "loss_usd": 441.96,
         "btc_usd": 116072
     },
@@ -3382,37 +3382,37 @@
     },
     {
         "height": 907811,
-        "health": 84.2,
-        "loss_sats": 59391409,
-        "loss_usd": 69828.26,
+        "health": 84.25,
+        "loss_sats": 59168327,
+        "loss_usd": 69565.98,
         "btc_usd": 117573
     },
     {
         "height": 907676,
-        "health": 96.05,
-        "loss_sats": 13007983,
-        "loss_usd": 15427.73,
+        "health": 96.03,
+        "loss_sats": 13076570,
+        "loss_usd": 15509.07,
         "btc_usd": 118602
     },
     {
         "height": 907467,
         "health": 98.03,
-        "loss_sats": 6363706,
+        "loss_sats": 6363707,
         "loss_usd": 7589.61,
         "btc_usd": 119264
     },
     {
         "height": 907287,
         "health": 89.34,
-        "loss_sats": 37556052,
+        "loss_sats": 37556053,
         "loss_usd": 44363.09,
         "btc_usd": 118125
     },
     {
         "height": 907186,
-        "health": 97.46,
-        "loss_sats": 8210963,
-        "loss_usd": 9632.03,
+        "health": 97.48,
+        "loss_sats": 8144639,
+        "loss_usd": 9554.23,
         "btc_usd": 117307
     },
     {
@@ -3425,29 +3425,29 @@
     {
         "height": 906631,
         "health": 99.8,
-        "loss_sats": 632637,
+        "loss_sats": 632638,
         "loss_usd": 737.97,
         "btc_usd": 116650
     },
     {
         "height": 906289,
         "health": 95.44,
-        "loss_sats": 15089890,
-        "loss_usd": 17769.85,
+        "loss_sats": 15089891,
+        "loss_usd": 17769.86,
         "btc_usd": 117760
     },
     {
         "height": 906190,
         "health": 93.97,
-        "loss_sats": 20138794,
-        "loss_usd": 23840.3,
+        "loss_sats": 20138795,
+        "loss_usd": 23840.31,
         "btc_usd": 118380
     },
     {
         "height": 906166,
-        "health": 93.91,
-        "loss_sats": 20612036,
-        "loss_usd": 24289.22,
+        "health": 93.81,
+        "loss_sats": 20972826,
+        "loss_usd": 24714.38,
         "btc_usd": 117840
     },
     {
@@ -3460,50 +3460,50 @@
     {
         "height": 905975,
         "health": 98.17,
-        "loss_sats": 5907518,
+        "loss_sats": 5907519,
         "loss_usd": 7024.39,
         "btc_usd": 118906
     },
     {
         "height": 905894,
         "health": 85.31,
-        "loss_sats": 54888341,
+        "loss_sats": 54888342,
         "loss_usd": 64875.82,
         "btc_usd": 118196
     },
     {
         "height": 905892,
-        "health": 95.62,
-        "loss_sats": 14437648,
-        "loss_usd": 17086.23,
+        "health": 95.61,
+        "loss_sats": 14472124,
+        "loss_usd": 17127.04,
         "btc_usd": 118345
     },
     {
         "height": 905850,
-        "health": 85.81,
-        "loss_sats": 51966766,
-        "loss_usd": 61913.21,
+        "health": 85.84,
+        "loss_sats": 51838776,
+        "loss_usd": 61760.72,
         "btc_usd": 119140
     },
     {
         "height": 905709,
-        "health": 98.42,
-        "loss_sats": 5064864,
-        "loss_usd": 5944.68,
+        "health": 98.43,
+        "loss_sats": 5032297,
+        "loss_usd": 5906.46,
         "btc_usd": 117371
     },
     {
         "height": 905662,
-        "health": 72.42,
-        "loss_sats": 119577420,
-        "loss_usd": 139588.7,
+        "health": 72.33,
+        "loss_sats": 120116905,
+        "loss_usd": 140218.47,
         "btc_usd": 116735
     },
     {
         "height": 905465,
-        "health": 28.17,
-        "loss_sats": 799939818,
-        "loss_usd": 971246.93,
+        "health": 28.08,
+        "loss_sats": 803509232,
+        "loss_usd": 975580.73,
         "btc_usd": 121415
     },
     {
@@ -3515,93 +3515,93 @@
     },
     {
         "height": 905347,
-        "health": 96.16,
-        "loss_sats": 12643050,
-        "loss_usd": 14890.73,
+        "health": 96.44,
+        "loss_sats": 11687131,
+        "loss_usd": 13764.87,
         "btc_usd": 117778
     },
     {
         "height": 905299,
-        "health": 93.05,
-        "loss_sats": 23379715,
-        "loss_usd": 27453.63,
+        "health": 92.8,
+        "loss_sats": 24285962,
+        "loss_usd": 28517.79,
         "btc_usd": 117425
     },
     {
         "height": 905236,
-        "health": 84.89,
-        "loss_sats": 56050854,
-        "loss_usd": 65851.91,
+        "health": 84.82,
+        "loss_sats": 56356993,
+        "loss_usd": 66211.58,
         "btc_usd": 117486
     },
     {
         "height": 905182,
-        "health": 100,
-        "loss_sats": 0,
-        "loss_usd": 0.0,
+        "health": 99.6,
+        "loss_sats": 1257044,
+        "loss_usd": 1479.92,
         "btc_usd": 117730
     },
     {
         "height": 905153,
-        "health": 100,
-        "loss_sats": 0,
-        "loss_usd": 0.0,
+        "health": 99.9,
+        "loss_sats": 313965,
+        "loss_usd": 369.01,
         "btc_usd": 117532
     },
     {
         "height": 905129,
-        "health": 96.95,
-        "loss_sats": 9917548,
-        "loss_usd": 11675.33,
+        "health": 96.87,
+        "loss_sats": 10186086,
+        "loss_usd": 11991.47,
         "btc_usd": 117724
     },
     {
         "height": 905115,
         "health": 98.8,
-        "loss_sats": 3863789,
-        "loss_usd": 4548.95,
+        "loss_sats": 3863790,
+        "loss_usd": 4548.96,
         "btc_usd": 117733
     },
     {
         "height": 905090,
         "health": 98,
-        "loss_sats": 6507467,
+        "loss_sats": 6507468,
         "loss_usd": 7665.8,
         "btc_usd": 117800
     },
     {
         "height": 905078,
-        "health": 57.13,
-        "loss_sats": 235578041,
-        "loss_usd": 277605.16,
+        "health": 57.17,
+        "loss_sats": 235193562,
+        "loss_usd": 277152.09,
         "btc_usd": 117840
     },
     {
         "height": 905075,
-        "health": 100,
-        "loss_sats": 0,
-        "loss_usd": 0.0,
+        "health": 99.74,
+        "loss_sats": 818400,
+        "loss_usd": 964.4,
         "btc_usd": 117840
     },
     {
         "height": 905045,
         "health": 98.66,
-        "loss_sats": 4318826,
+        "loss_sats": 4318827,
         "loss_usd": 5078.21,
         "btc_usd": 117583
     },
     {
         "height": 905039,
-        "health": 70.82,
-        "loss_sats": 129461181,
-        "loss_usd": 152290.37,
+        "health": 70.49,
+        "loss_sats": 131538201,
+        "loss_usd": 154733.65,
         "btc_usd": 117634
     },
     {
         "height": 905035,
-        "health": 96.2,
-        "loss_sats": 12477366,
-        "loss_usd": 14707.07,
+        "health": 96.29,
+        "loss_sats": 12170464,
+        "loss_usd": 14345.33,
         "btc_usd": 117870
     },
     {
@@ -3613,44 +3613,44 @@
     },
     {
         "height": 904898,
-        "health": 61.28,
-        "loss_sats": 197807087,
-        "loss_usd": 219724.11,
+        "health": 61.18,
+        "loss_sats": 198642108,
+        "loss_usd": 220651.65,
         "btc_usd": 111080
     },
     {
         "height": 904872,
-        "health": 82.94,
-        "loss_sats": 64588140,
-        "loss_usd": 71785.2,
+        "health": 82.79,
+        "loss_sats": 65274082,
+        "loss_usd": 72547.57,
         "btc_usd": 111143
     },
     {
         "height": 904707,
-        "health": 88.16,
-        "loss_sats": 42161948,
-        "loss_usd": 45867.98,
+        "health": 86.3,
+        "loss_sats": 49836820,
+        "loss_usd": 54217.48,
         "btc_usd": 108790
     },
     {
         "height": 904665,
-        "health": 89.65,
-        "loss_sats": 36407697,
-        "loss_usd": 39665.82,
+        "health": 88.13,
+        "loss_sats": 42474679,
+        "loss_usd": 46275.74,
         "btc_usd": 108949
     },
     {
         "height": 904655,
-        "health": 83.05,
-        "loss_sats": 64144948,
-        "loss_usd": 69867.96,
+        "health": 82.97,
+        "loss_sats": 64509838,
+        "loss_usd": 70265.41,
         "btc_usd": 108922
     },
     {
         "height": 904639,
-        "health": 100,
-        "loss_sats": 0,
-        "loss_usd": 0.0,
+        "health": 99.94,
+        "loss_sats": 188360,
+        "loss_usd": 205.67,
         "btc_usd": 109189
     },
     {
@@ -3676,51 +3676,51 @@
     },
     {
         "height": 904463,
-        "health": 96.28,
-        "loss_sats": 12150344,
-        "loss_usd": 13186.16,
+        "health": 96.18,
+        "loss_sats": 12489939,
+        "loss_usd": 13554.71,
         "btc_usd": 108525
     },
     {
         "height": 904302,
-        "health": 100,
-        "loss_sats": 0,
-        "loss_usd": 0.0,
+        "health": 99.68,
+        "loss_sats": 1006490,
+        "loss_usd": 1089.84,
         "btc_usd": 108281
     },
     {
         "height": 904227,
-        "health": 97.76,
-        "loss_sats": 7190725,
-        "loss_usd": 7783.82,
+        "health": 97.75,
+        "loss_sats": 7223566,
+        "loss_usd": 7819.37,
         "btc_usd": 108248
     },
     {
         "height": 904174,
-        "health": 91.49,
-        "loss_sats": 29355598,
-        "loss_usd": 31742.21,
+        "health": 91.44,
+        "loss_sats": 29544222,
+        "loss_usd": 31946.17,
         "btc_usd": 108130
     },
     {
         "height": 904150,
-        "health": 94.04,
-        "loss_sats": 19952063,
-        "loss_usd": 21583.74,
+        "health": 93.85,
+        "loss_sats": 20629800,
+        "loss_usd": 22316.91,
         "btc_usd": 108178
     },
     {
         "height": 904012,
-        "health": 86.66,
-        "loss_sats": 48218538,
-        "loss_usd": 52036.48,
+        "health": 86.47,
+        "loss_sats": 49012768,
+        "loss_usd": 52893.6,
         "btc_usd": 107918
     },
     {
         "height": 903501,
-        "health": 100,
-        "loss_sats": 0,
-        "loss_usd": 0.0,
+        "health": 99.9,
+        "loss_sats": 314691,
+        "loss_usd": 337.36,
         "btc_usd": 107205
     },
     {
@@ -3732,37 +3732,37 @@
     },
     {
         "height": 903481,
-        "health": 100,
-        "loss_sats": 0,
-        "loss_usd": 0.0,
+        "health": 93.1,
+        "loss_sats": 23165597,
+        "loss_usd": 24816.15,
         "btc_usd": 107125
     },
     {
         "height": 903416,
-        "health": 95.1,
-        "loss_sats": 16171414,
-        "loss_usd": 17405.29,
+        "health": 94.94,
+        "loss_sats": 16727604,
+        "loss_usd": 18003.92,
         "btc_usd": 107630
     },
     {
         "height": 903254,
-        "health": 99.2,
-        "loss_sats": 2525300,
-        "loss_usd": 2722.27,
+        "health": 99,
+        "loss_sats": 3163003,
+        "loss_usd": 3409.72,
         "btc_usd": 107800
     },
     {
         "height": 903083,
-        "health": 100,
-        "loss_sats": 0,
-        "loss_usd": 0.0,
+        "health": 99.94,
+        "loss_sats": 188645,
+        "loss_usd": 202.64,
         "btc_usd": 107417
     },
     {
         "height": 902951,
-        "health": 100,
-        "loss_sats": 0,
-        "loss_usd": 0.0,
+        "health": 99.91,
+        "loss_sats": 284543,
+        "loss_usd": 304.06,
         "btc_usd": 106858
     },
     {
@@ -3781,9 +3781,9 @@
     },
     {
         "height": 902722,
-        "health": 99.6,
-        "loss_sats": 1260816,
-        "loss_usd": 1353.31,
+        "health": 99.2,
+        "loss_sats": 2531801,
+        "loss_usd": 2717.53,
         "btc_usd": 107336
     },
     {
@@ -3796,43 +3796,43 @@
     {
         "height": 902414,
         "health": 99.97,
-        "loss_sats": 95469,
+        "loss_sats": 95470,
         "loss_usd": 96.9,
         "btc_usd": 101495
     },
     {
         "height": 902189,
-        "health": 96.17,
-        "loss_sats": 12539176,
-        "loss_usd": 13027.83,
+        "health": 96.13,
+        "loss_sats": 12675406,
+        "loss_usd": 13169.37,
         "btc_usd": 103897
     },
     {
         "height": 902024,
-        "health": 83.75,
-        "loss_sats": 60942713,
-        "loss_usd": 64598.67,
+        "health": 83.54,
+        "loss_sats": 61885456,
+        "loss_usd": 65597.96,
         "btc_usd": 105999
     },
     {
         "height": 902010,
         "health": 97.71,
-        "loss_sats": 7485270,
+        "loss_sats": 7485271,
         "loss_usd": 7839.85,
         "btc_usd": 104737
     },
     {
         "height": 901410,
-        "health": 59.14,
-        "loss_sats": 216854683,
-        "loss_usd": 227155.28,
+        "health": 59.04,
+        "loss_sats": 217753610,
+        "loss_usd": 228096.91,
         "btc_usd": 104750
     },
     {
         "height": 901225,
-        "health": 98.43,
-        "loss_sats": 5011972,
-        "loss_usd": 5266.43,
+        "health": 98.31,
+        "loss_sats": 5401638,
+        "loss_usd": 5675.88,
         "btc_usd": 105077
     },
     {
@@ -3844,16 +3844,16 @@
     },
     {
         "height": 901034,
-        "health": 100,
-        "loss_sats": 0,
-        "loss_usd": 0.0,
+        "health": 96.23,
+        "loss_sats": 12244017,
+        "loss_usd": 12745.78,
         "btc_usd": 104098
     },
     {
         "height": 900622,
-        "health": 98.96,
-        "loss_sats": 3298205,
-        "loss_usd": 3613.81,
+        "health": 98.9,
+        "loss_sats": 3490602,
+        "loss_usd": 3824.62,
         "btc_usd": 109569
     },
     {
@@ -3865,30 +3865,30 @@
     },
     {
         "height": 899990,
-        "health": 99.95,
-        "loss_sats": 157287,
-        "loss_usd": 161.31,
+        "health": 99.86,
+        "loss_sats": 440802,
+        "loss_usd": 452.07,
         "btc_usd": 102557
     },
     {
         "height": 899952,
-        "health": 98.39,
-        "loss_sats": 5171041,
-        "loss_usd": 5197.72,
+        "health": 98.3,
+        "loss_sats": 5465105,
+        "loss_usd": 5493.3,
         "btc_usd": 100516
     },
     {
         "height": 899792,
         "health": 90.58,
-        "loss_sats": 33064922,
+        "loss_sats": 33064923,
         "loss_usd": 34830.26,
         "btc_usd": 105339
     },
     {
         "height": 899535,
-        "health": 98.51,
-        "loss_sats": 4811301,
-        "loss_usd": 5025.02,
+        "health": 98.36,
+        "loss_sats": 5303737,
+        "loss_usd": 5539.33,
         "btc_usd": 104442
     },
     {
@@ -3907,58 +3907,58 @@
     },
     {
         "height": 899335,
-        "health": 90.84,
-        "loss_sats": 31774761,
-        "loss_usd": 33146.8,
+        "health": 90.72,
+        "loss_sats": 32233606,
+        "loss_usd": 33625.45,
         "btc_usd": 104318
     },
     {
         "height": 899253,
-        "health": 100,
-        "loss_sats": 0,
-        "loss_usd": 0.0,
+        "health": 99.44,
+        "loss_sats": 1762011,
+        "loss_usd": 1843.05,
         "btc_usd": 104599
     },
     {
         "height": 899211,
-        "health": 96.88,
-        "loss_sats": 10164103,
-        "loss_usd": 10523.3,
+        "health": 96.8,
+        "loss_sats": 10433337,
+        "loss_usd": 10802.05,
         "btc_usd": 103534
     },
     {
         "height": 898985,
-        "health": 99.41,
-        "loss_sats": 1873773,
-        "loss_usd": 1965.61,
+        "health": 99.38,
+        "loss_sats": 1969644,
+        "loss_usd": 2066.18,
         "btc_usd": 104901
     },
     {
         "height": 898873,
-        "health": 77.7,
-        "loss_sats": 89918837,
-        "loss_usd": 96982.86,
+        "health": 77.64,
+        "loss_sats": 90230448,
+        "loss_usd": 97318.95,
         "btc_usd": 107856
     },
     {
         "height": 898703,
-        "health": 99.74,
-        "loss_sats": 817873,
-        "loss_usd": 891.82,
+        "health": 99.21,
+        "loss_sats": 2498352,
+        "loss_usd": 2724.23,
         "btc_usd": 109041
     },
     {
         "height": 898303,
-        "health": 100,
-        "loss_sats": 0,
-        "loss_usd": 0.0,
+        "health": 91.67,
+        "loss_sats": 28397700,
+        "loss_usd": 30467.04,
         "btc_usd": 107287
     },
     {
         "height": 898229,
-        "health": 100,
-        "loss_sats": 0,
-        "loss_usd": 0.0,
+        "health": 99.24,
+        "loss_sats": 2395751,
+        "loss_usd": 2580.03,
         "btc_usd": 107692
     },
     {
@@ -3971,43 +3971,43 @@
     {
         "height": 898161,
         "health": 99.97,
-        "loss_sats": 96244,
+        "loss_sats": 96245,
         "loss_usd": 104.85,
         "btc_usd": 108940
     },
     {
         "height": 897970,
-        "health": 98.76,
-        "loss_sats": 3937091,
-        "loss_usd": 4359.07,
+        "health": 98.7,
+        "loss_sats": 4130105,
+        "loss_usd": 4572.77,
         "btc_usd": 110718
     },
     {
         "height": 897866,
         "health": 97.27,
-        "loss_sats": 8949006,
+        "loss_sats": 8949007,
         "loss_usd": 9958.81,
         "btc_usd": 111284
     },
     {
         "height": 897426,
-        "health": 96.68,
-        "loss_sats": 10832113,
-        "loss_usd": 11295.08,
+        "health": 96.69,
+        "loss_sats": 10798369,
+        "loss_usd": 11259.89,
         "btc_usd": 104274
     },
     {
         "height": 897329,
-        "health": 92.49,
-        "loss_sats": 25672565,
-        "loss_usd": 27203.68,
+        "health": 92.5,
+        "loss_sats": 25635609,
+        "loss_usd": 27164.52,
         "btc_usd": 105964
     },
     {
         "height": 897315,
-        "health": 99.53,
-        "loss_sats": 1488073,
-        "loss_usd": 1549.31,
+        "health": 99.57,
+        "loss_sats": 1360882,
+        "loss_usd": 1416.88,
         "btc_usd": 104115
     },
     {
@@ -4020,8 +4020,8 @@
     {
         "height": 896801,
         "health": 92.98,
-        "loss_sats": 23911377,
-        "loss_usd": 24459.9,
+        "loss_sats": 23911378,
+        "loss_usd": 24459.91,
         "btc_usd": 102294
     },
     {
@@ -4034,50 +4034,50 @@
     {
         "height": 896700,
         "health": 99.97,
-        "loss_sats": 95342,
+        "loss_sats": 95343,
         "loss_usd": 98.56,
         "btc_usd": 103379
     },
     {
         "height": 896345,
-        "health": 47.6,
-        "loss_sats": 345992589,
-        "loss_usd": 359738.87,
+        "health": 47.5,
+        "loss_sats": 347382676,
+        "loss_usd": 361184.19,
         "btc_usd": 103973
     },
     {
         "height": 896341,
-        "health": 100,
-        "loss_sats": 0,
-        "loss_usd": 0.0,
+        "health": 99.9,
+        "loss_sats": 314010,
+        "loss_usd": 328.44,
         "btc_usd": 104595
     },
     {
         "height": 896257,
-        "health": 99.19,
-        "loss_sats": 2553456,
-        "loss_usd": 2671.2,
+        "health": 97.62,
+        "loss_sats": 7623415,
+        "loss_usd": 7974.93,
         "btc_usd": 104611
     },
     {
         "height": 896072,
-        "health": 90.21,
-        "loss_sats": 34240098,
-        "loss_usd": 35575.46,
+        "health": 90.2,
+        "loss_sats": 34278873,
+        "loss_usd": 35615.75,
         "btc_usd": 103900
     },
     {
         "height": 896059,
-        "health": 79.22,
-        "loss_sats": 82403899,
-        "loss_usd": 85040.82,
+        "health": 79.03,
+        "loss_sats": 83357275,
+        "loss_usd": 86024.71,
         "btc_usd": 103200
     },
     {
         "height": 896026,
-        "health": 91.53,
-        "loss_sats": 29098750,
-        "loss_usd": 29910.9,
+        "health": 91.31,
+        "loss_sats": 29926494,
+        "loss_usd": 30761.74,
         "btc_usd": 102791
     },
     {
@@ -4096,9 +4096,9 @@
     },
     {
         "height": 895481,
-        "health": 100,
-        "loss_sats": 0,
-        "loss_usd": 0.0,
+        "health": 99.93,
+        "loss_sats": 219885,
+        "loss_usd": 207.75,
         "btc_usd": 94482
     },
     {
@@ -4117,65 +4117,65 @@
     },
     {
         "height": 895241,
-        "health": 96.05,
-        "loss_sats": 12963347,
-        "loss_usd": 12394.9,
+        "health": 95.98,
+        "loss_sats": 13202700,
+        "loss_usd": 12623.76,
         "btc_usd": 95615
     },
     {
         "height": 895189,
-        "health": 100,
-        "loss_sats": 0,
-        "loss_usd": 0.0,
+        "health": 99.89,
+        "loss_sats": 346024,
+        "loss_usd": 330.28,
         "btc_usd": 95450
     },
     {
         "height": 895019,
-        "health": 99.96,
-        "loss_sats": 125750,
-        "loss_usd": 121.2,
+        "health": 99.89,
+        "loss_sats": 346056,
+        "loss_usd": 333.53,
         "btc_usd": 96381
     },
     {
         "height": 894716,
-        "health": 91.98,
-        "loss_sats": 27504436,
-        "loss_usd": 26106.94,
+        "health": 96.32,
+        "loss_sats": 12051834,
+        "loss_usd": 11439.48,
         "btc_usd": 94919
     },
     {
         "height": 894683,
-        "health": 100,
-        "loss_sats": 0,
-        "loss_usd": 0.0,
+        "health": 99.54,
+        "loss_sats": 1450811,
+        "loss_usd": 1373.09,
         "btc_usd": 94643
     },
     {
         "height": 894651,
-        "health": 100,
-        "loss_sats": 0,
-        "loss_usd": 0.0,
+        "health": 99.92,
+        "loss_sats": 252100,
+        "loss_usd": 237.44,
         "btc_usd": 94183
     },
     {
         "height": 894604,
-        "health": 63.23,
-        "loss_sats": 182629333,
-        "loss_usd": 172831.27,
+        "health": 61.46,
+        "loss_sats": 196933337,
+        "loss_usd": 186367.86,
         "btc_usd": 94635
     },
     {
         "height": 894498,
         "health": 95.61,
-        "loss_sats": 14724431,
-        "loss_usd": 13987.91,
+        "loss_sats": 14724432,
+        "loss_usd": 13987.92,
         "btc_usd": 94998
     },
     {
         "height": 894492,
-        "health": 99.46,
-        "loss_sats": 1708923,
-        "loss_usd": 1621.36,
+        "health": 99.37,
+        "loss_sats": 1995550,
+        "loss_usd": 1893.3,
         "btc_usd": 94876
     },
     {
@@ -4187,9 +4187,9 @@
     },
     {
         "height": 894061,
-        "health": 52.27,
-        "loss_sats": 286125548,
-        "loss_usd": 269467.32,
+        "health": 52.23,
+        "loss_sats": 286584646,
+        "loss_usd": 269899.69,
         "btc_usd": 94178
     },
     {
@@ -4202,71 +4202,71 @@
     {
         "height": 893919,
         "health": 94.5,
-        "loss_sats": 18598176,
+        "loss_sats": 18598177,
         "loss_usd": 17566.54,
         "btc_usd": 94453
     },
     {
         "height": 893702,
-        "health": 89.7,
-        "loss_sats": 36949202,
-        "loss_usd": 34509.08,
+        "health": 89.71,
+        "loss_sats": 36909215,
+        "loss_usd": 34471.73,
         "btc_usd": 93396
     },
     {
         "height": 893612,
-        "health": 100,
-        "loss_sats": 0,
-        "loss_usd": 0.0,
+        "health": 99.85,
+        "loss_sats": 472046,
+        "loss_usd": 441.36,
         "btc_usd": 93500
     },
     {
         "height": 893594,
         "health": 98.16,
-        "loss_sats": 5962035,
+        "loss_sats": 5962036,
         "loss_usd": 5524.72,
         "btc_usd": 92665
     },
     {
         "height": 893499,
-        "health": 100,
-        "loss_sats": 0,
-        "loss_usd": 0.0,
+        "health": 99.95,
+        "loss_sats": 157472,
+        "loss_usd": 139.4,
         "btc_usd": 88522
     },
     {
         "height": 892828,
         "health": 99.97,
-        "loss_sats": 95538,
-        "loss_usd": 80.58,
+        "loss_sats": 95539,
+        "loss_usd": 80.59,
         "btc_usd": 84348
     },
     {
         "height": 892767,
-        "health": 97.03,
-        "loss_sats": 9645897,
-        "loss_usd": 8131.88,
+        "health": 97.02,
+        "loss_sats": 9679373,
+        "loss_usd": 8160.1,
         "btc_usd": 84304
     },
     {
         "height": 892639,
         "health": 96.18,
-        "loss_sats": 12516989,
+        "loss_sats": 12516990,
         "loss_usd": 10436.79,
         "btc_usd": 83381
     },
     {
         "height": 892626,
-        "health": 100,
-        "loss_sats": 0,
-        "loss_usd": 0.0,
+        "health": 99.94,
+        "loss_sats": 188969,
+        "loss_usd": 158.51,
         "btc_usd": 83884
     },
     {
         "height": 892445,
-        "health": 93.8,
-        "loss_sats": 20699571,
-        "loss_usd": 17565.24,
+        "health": 93.57,
+        "loss_sats": 21520227,
+        "loss_usd": 18261.63,
         "btc_usd": 84858
     },
     {
@@ -4285,9 +4285,9 @@
     },
     {
         "height": 892001,
-        "health": 84.6,
-        "loss_sats": 57116849,
-        "loss_usd": 47582.9,
+        "health": 84.55,
+        "loss_sats": 57336180,
+        "loss_usd": 47765.62,
         "btc_usd": 83308
     },
     {
@@ -4307,43 +4307,43 @@
     {
         "height": 891667,
         "health": 98.41,
-        "loss_sats": 5119255,
+        "loss_sats": 5119256,
         "loss_usd": 4208.18,
         "btc_usd": 82203
     },
     {
         "height": 891622,
-        "health": 100,
-        "loss_sats": 0,
-        "loss_usd": 0.0,
+        "health": 99.94,
+        "loss_sats": 190277,
+        "loss_usd": 147.38,
         "btc_usd": 77458
     },
     {
         "height": 891501,
         "health": 97.79,
-        "loss_sats": 7288887,
+        "loss_sats": 7288888,
         "loss_usd": 5817.26,
         "btc_usd": 79810
     },
     {
         "height": 891367,
-        "health": 100,
-        "loss_sats": 0,
-        "loss_usd": 0.0,
+        "health": 99.93,
+        "loss_sats": 221364,
+        "loss_usd": 173.68,
         "btc_usd": 78461
     },
     {
         "height": 891316,
-        "health": 100,
-        "loss_sats": 0,
-        "loss_usd": 0.0,
+        "health": 99.89,
+        "loss_sats": 349923,
+        "loss_usd": 262.65,
         "btc_usd": 75058
     },
     {
         "height": 891230,
-        "health": 100,
-        "loss_sats": 0,
-        "loss_usd": 0.0,
+        "health": 97.37,
+        "loss_sats": 8444564,
+        "loss_usd": 6821.43,
         "btc_usd": 80779
     },
     {
@@ -4391,64 +4391,64 @@
     {
         "height": 890429,
         "health": 99.96,
-        "loss_sats": 126042,
+        "loss_sats": 126043,
         "loss_usd": 107.32,
         "btc_usd": 85149
     },
     {
         "height": 890362,
-        "health": 97.52,
-        "loss_sats": 8064753,
-        "loss_usd": 6731.33,
+        "health": 97.29,
+        "loss_sats": 8833528,
+        "loss_usd": 7372.99,
         "btc_usd": 83466
     },
     {
         "height": 890216,
-        "health": 88.24,
-        "loss_sats": 41652914,
-        "loss_usd": 34214.54,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0,
         "btc_usd": 82142
     },
     {
         "height": 890134,
-        "health": 89.28,
-        "loss_sats": 37947327,
-        "loss_usd": 31271.25,
+        "health": 89.35,
+        "loss_sats": 37670002,
+        "loss_usd": 31042.72,
         "btc_usd": 82407
     },
     {
         "height": 890133,
-        "health": 95.21,
-        "loss_sats": 15993773,
-        "loss_usd": 13159.36,
+        "health": 94.74,
+        "loss_sats": 17650230,
+        "loss_usd": 14522.26,
         "btc_usd": 82278
     },
     {
         "height": 890099,
-        "health": 93.42,
-        "loss_sats": 22192666,
-        "loss_usd": 18525.77,
+        "health": 93.54,
+        "loss_sats": 21759986,
+        "loss_usd": 18164.58,
         "btc_usd": 83477
     },
     {
         "height": 890052,
-        "health": 99.91,
-        "loss_sats": 282650,
-        "loss_usd": 233.96,
+        "health": 100,
+        "loss_sats": 0,
+        "loss_usd": 0.0,
         "btc_usd": 82775
     },
     {
         "height": 889686,
-        "health": 30.21,
-        "loss_sats": 725108237,
-        "loss_usd": 632823.71,
+        "health": 29.91,
+        "loss_sats": 735529360,
+        "loss_usd": 641918.54,
         "btc_usd": 87273
     },
     {
         "height": 889648,
-        "health": 100,
-        "loss_sats": 0,
-        "loss_usd": 0.0,
+        "health": 99.81,
+        "loss_sats": 597943,
+        "loss_usd": 522.84,
         "btc_usd": 87440
     },
     {
@@ -4460,16 +4460,16 @@
     },
     {
         "height": 889485,
-        "health": 97.74,
-        "loss_sats": 7329327,
-        "loss_usd": 6418.0,
+        "health": 97.63,
+        "loss_sats": 7694725,
+        "loss_usd": 6737.96,
         "btc_usd": 87566
     },
     {
         "height": 889458,
-        "health": 99.97,
-        "loss_sats": 96500,
-        "loss_usd": 84.8,
+        "health": 99.92,
+        "loss_sats": 257463,
+        "loss_usd": 226.24,
         "btc_usd": 87871
     },
     {
@@ -4481,9 +4481,9 @@
     },
     {
         "height": 888908,
-        "health": 70.13,
-        "loss_sats": 134300208,
-        "loss_usd": 113107.64,
+        "health": 70.17,
+        "loss_sats": 134043907,
+        "loss_usd": 112891.78,
         "btc_usd": 84220
     },
     {
@@ -4495,36 +4495,36 @@
     },
     {
         "height": 888283,
-        "health": 94.49,
-        "loss_sats": 18442720,
-        "loss_usd": 15331.8,
+        "health": 94.42,
+        "loss_sats": 18690866,
+        "loss_usd": 15538.09,
         "btc_usd": 83132
     },
     {
         "height": 888094,
-        "health": 100,
-        "loss_sats": 0,
-        "loss_usd": 0.0,
+        "health": 99.92,
+        "loss_sats": 251213,
+        "loss_usd": 208.75,
         "btc_usd": 83096
     },
     {
         "height": 887764,
-        "health": 98.43,
-        "loss_sats": 5056629,
-        "loss_usd": 4198.22,
+        "health": 98.37,
+        "loss_sats": 5253079,
+        "loss_usd": 4361.32,
         "btc_usd": 83024
     },
     {
         "height": 887746,
         "health": 99.97,
-        "loss_sats": 95478,
+        "loss_sats": 95479,
         "loss_usd": 78.47,
         "btc_usd": 82189
     },
     {
         "height": 887602,
         "health": 96.5,
-        "loss_sats": 11394354,
+        "loss_sats": 11394355,
         "loss_usd": 9471.9,
         "btc_usd": 83128
     },
@@ -4544,9 +4544,9 @@
     },
     {
         "height": 886988,
-        "health": 90.02,
-        "loss_sats": 34839242,
-        "loss_usd": 29920.99,
+        "health": 89.84,
+        "loss_sats": 35538668,
+        "loss_usd": 30521.67,
         "btc_usd": 85883
     },
     {
@@ -4558,9 +4558,9 @@
     },
     {
         "height": 886241,
-        "health": 92.78,
-        "loss_sats": 24461883,
-        "loss_usd": 20392.89,
+        "health": 92.5,
+        "loss_sats": 25487462,
+        "loss_usd": 21247.88,
         "btc_usd": 83366
     },
     {
@@ -4580,22 +4580,22 @@
     {
         "height": 886031,
         "health": 97.79,
-        "loss_sats": 7261378,
+        "loss_sats": 7261379,
         "loss_usd": 6835.57,
         "btc_usd": 94136
     },
     {
         "height": 885785,
-        "health": 95.11,
-        "loss_sats": 16990831,
-        "loss_usd": 14324.8,
+        "health": 95.13,
+        "loss_sats": 16917782,
+        "loss_usd": 14263.21,
         "btc_usd": 84309
     },
     {
         "height": 885766,
-        "health": 100,
-        "loss_sats": 0,
-        "loss_usd": 0.0,
+        "health": 99.11,
+        "loss_sats": 2818418,
+        "loss_usd": 2379.34,
         "btc_usd": 84421
     },
     {
@@ -4614,30 +4614,30 @@
     },
     {
         "height": 885528,
-        "health": 94.65,
-        "loss_sats": 17942605,
-        "loss_usd": 15462.58,
+        "health": 94.54,
+        "loss_sats": 18332825,
+        "loss_usd": 15798.86,
         "btc_usd": 86178
     },
     {
         "height": 885291,
-        "health": 97.82,
-        "loss_sats": 7165630,
-        "loss_usd": 6231.52,
+        "health": 97.72,
+        "loss_sats": 7501998,
+        "loss_usd": 6524.04,
         "btc_usd": 86964
     },
     {
         "height": 885031,
         "health": 96.15,
-        "loss_sats": 12836849,
+        "loss_sats": 12836850,
         "loss_usd": 12296.55,
         "btc_usd": 95791
     },
     {
         "height": 885021,
-        "health": 73.12,
-        "loss_sats": 118898894,
-        "loss_usd": 113870.66,
+        "health": 73.1,
+        "loss_sats": 119019916,
+        "loss_usd": 113986.56,
         "btc_usd": 95771
     },
     {
@@ -4649,37 +4649,37 @@
     },
     {
         "height": 884445,
-        "health": 100,
-        "loss_sats": 0,
-        "loss_usd": 0.0,
+        "health": 99.91,
+        "loss_sats": 283689,
+        "loss_usd": 272.06,
         "btc_usd": 95901
     },
     {
         "height": 884236,
-        "health": 94.98,
-        "loss_sats": 16689054,
-        "loss_usd": 16091.75,
+        "health": 94.97,
+        "loss_sats": 16724061,
+        "loss_usd": 16125.51,
         "btc_usd": 96421
     },
     {
         "height": 884176,
-        "health": 53.37,
-        "loss_sats": 274683870,
-        "loss_usd": 264056.35,
+        "health": 53.32,
+        "loss_sats": 275236263,
+        "loss_usd": 264587.37,
         "btc_usd": 96131
     },
     {
         "height": 884055,
-        "health": 95.56,
-        "loss_sats": 14848202,
-        "loss_usd": 14423.69,
+        "health": 95.31,
+        "loss_sats": 15725390,
+        "loss_usd": 15275.8,
         "btc_usd": 97141
     },
     {
         "height": 883574,
-        "health": 100,
-        "loss_sats": 0,
-        "loss_usd": 0.0,
+        "health": 99.43,
+        "loss_sats": 1798381,
+        "loss_usd": 1729.68,
         "btc_usd": 96180
     },
     {
@@ -4691,51 +4691,51 @@
     },
     {
         "height": 883125,
-        "health": 93.65,
-        "loss_sats": 21412590,
-        "loss_usd": 20758.65,
+        "health": 93.57,
+        "loss_sats": 21700893,
+        "loss_usd": 21038.15,
         "btc_usd": 96946
     },
     {
         "height": 883114,
-        "health": 100,
-        "loss_sats": 0,
-        "loss_usd": 0.0,
+        "health": 99.95,
+        "loss_sats": 156975,
+        "loss_usd": 150.05,
         "btc_usd": 95590
     },
     {
         "height": 883013,
-        "health": 93.64,
-        "loss_sats": 21397655,
-        "loss_usd": 20714.86,
+        "health": 93.65,
+        "loss_sats": 21361730,
+        "loss_usd": 20680.08,
         "btc_usd": 96809
     },
     {
         "height": 882339,
-        "health": 69.98,
-        "loss_sats": 135308822,
-        "loss_usd": 133072.17,
+        "health": 68.91,
+        "loss_sats": 142307516,
+        "loss_usd": 139955.17,
         "btc_usd": 98347
     },
     {
         "height": 881982,
-        "health": 17.79,
-        "loss_sats": 1445283773,
-        "loss_usd": 1427665.76,
+        "health": 17.75,
+        "loss_sats": 1449245551,
+        "loss_usd": 1431579.25,
         "btc_usd": 98781
     },
     {
         "height": 881808,
-        "health": 95.31,
-        "loss_sats": 15553427,
-        "loss_usd": 15836.97,
+        "health": 95.23,
+        "loss_sats": 15832020,
+        "loss_usd": 16120.64,
         "btc_usd": 101823
     },
     {
         "height": 881648,
-        "health": 99.14,
-        "loss_sats": 2724555,
-        "loss_usd": 2850.84,
+        "health": 98.87,
+        "loss_sats": 3589716,
+        "loss_usd": 3756.1,
         "btc_usd": 104635
     },
     {
@@ -4761,37 +4761,37 @@
     },
     {
         "height": 880982,
-        "health": 91.35,
-        "loss_sats": 29762447,
-        "loss_usd": 30149.36,
+        "health": 91.04,
+        "loss_sats": 30934055,
+        "loss_usd": 31336.2,
         "btc_usd": 101300
     },
     {
         "height": 880945,
-        "health": 92.55,
-        "loss_sats": 25391432,
-        "loss_usd": 26676.24,
+        "health": 92.41,
+        "loss_sats": 25907778,
+        "loss_usd": 27218.71,
         "btc_usd": 105060
     },
     {
         "height": 880933,
-        "health": 66.5,
-        "loss_sats": 158682379,
-        "loss_usd": 166499.07,
+        "health": 66.44,
+        "loss_sats": 159110145,
+        "loss_usd": 166947.91,
         "btc_usd": 104926
     },
     {
         "height": 880879,
-        "health": 76.65,
-        "loss_sats": 96066566,
-        "loss_usd": 100843.96,
+        "health": 76.67,
+        "loss_sats": 95959244,
+        "loss_usd": 100731.3,
         "btc_usd": 104973
     },
     {
         "height": 880730,
-        "health": 98.57,
-        "loss_sats": 4557980,
-        "loss_usd": 4755.11,
+        "health": 98.43,
+        "loss_sats": 5011334,
+        "loss_usd": 5228.07,
         "btc_usd": 104325
     },
     {
@@ -4811,36 +4811,36 @@
     {
         "height": 880274,
         "health": 99.06,
-        "loss_sats": 3023905,
+        "loss_sats": 3023906,
         "loss_usd": 3209.88,
         "btc_usd": 106150
     },
     {
         "height": 880028,
-        "health": 93.83,
-        "loss_sats": 20723698,
-        "loss_usd": 21184.18,
+        "health": 93.67,
+        "loss_sats": 21297421,
+        "loss_usd": 21770.65,
         "btc_usd": 102222
     },
     {
         "height": 879853,
-        "health": 91.06,
-        "loss_sats": 30989764,
-        "loss_usd": 32347.12,
+        "health": 90.94,
+        "loss_sats": 31447176,
+        "loss_usd": 32824.56,
         "btc_usd": 104380
     },
     {
         "height": 879595,
-        "health": 51.98,
-        "loss_sats": 290379338,
-        "loss_usd": 294537.57,
+        "health": 51.9,
+        "loss_sats": 291311446,
+        "loss_usd": 295483.03,
         "btc_usd": 101432
     },
     {
         "height": 879437,
-        "health": 46.28,
-        "loss_sats": 364867455,
-        "loss_usd": 366677.2,
+        "health": 45.85,
+        "loss_sats": 371237291,
+        "loss_usd": 373078.63,
         "btc_usd": 100496
     },
     {
@@ -4852,9 +4852,9 @@
     },
     {
         "height": 879242,
-        "health": 100,
-        "loss_sats": 0,
-        "loss_usd": 0.0,
+        "health": 99.57,
+        "loss_sats": 1355596,
+        "loss_usd": 1307.2,
         "btc_usd": 96430
     },
     {
@@ -4866,23 +4866,23 @@
     },
     {
         "height": 878934,
-        "health": 98.85,
-        "loss_sats": 3653449,
-        "loss_usd": 3444.47,
+        "health": 99.04,
+        "loss_sats": 3043985,
+        "loss_usd": 2869.87,
         "btc_usd": 94280
     },
     {
         "height": 878926,
-        "health": 97.93,
-        "loss_sats": 6647758,
-        "loss_usd": 6263.12,
+        "health": 97.84,
+        "loss_sats": 6943172,
+        "loss_usd": 6541.44,
         "btc_usd": 94214
     },
     {
         "height": 878768,
-        "health": 91.12,
-        "loss_sats": 30917762,
-        "loss_usd": 29204.92,
+        "health": 91.13,
+        "loss_sats": 30879557,
+        "loss_usd": 29168.83,
         "btc_usd": 94460
     },
     {
@@ -4894,9 +4894,9 @@
     },
     {
         "height": 877729,
-        "health": 98.4,
-        "loss_sats": 5107652,
-        "loss_usd": 5018.78,
+        "health": 98.2,
+        "loss_sats": 5757811,
+        "loss_usd": 5657.63,
         "btc_usd": 98260
     },
     {
@@ -4936,51 +4936,51 @@
     },
     {
         "height": 876332,
-        "health": 99.96,
-        "loss_sats": 127167,
-        "loss_usd": 125.4,
+        "health": 99.95,
+        "loss_sats": 158976,
+        "loss_usd": 156.76,
         "btc_usd": 98607
     },
     {
         "height": 876181,
-        "health": 81.18,
-        "loss_sats": 73599075,
-        "loss_usd": 71684.76,
+        "health": 81.22,
+        "loss_sats": 73406478,
+        "loss_usd": 71497.18,
         "btc_usd": 97399
     },
     {
         "height": 876020,
         "health": 99.59,
-        "loss_sats": 1379200,
-        "loss_usd": 1322.91,
+        "loss_sats": 1379201,
+        "loss_usd": 1322.92,
         "btc_usd": 95919
     },
     {
         "height": 875696,
-        "health": 78.26,
-        "loss_sats": 88318431,
-        "loss_usd": 87102.29,
+        "health": 77.64,
+        "loss_sats": 91562560,
+        "loss_usd": 90301.74,
         "btc_usd": 98623
     },
     {
         "height": 875281,
-        "health": 91.01,
-        "loss_sats": 32080897,
-        "loss_usd": 33294.84,
+        "health": 90.73,
+        "loss_sats": 33182168,
+        "loss_usd": 34437.78,
         "btc_usd": 103784
     },
     {
         "height": 874801,
         "health": 80.19,
-        "loss_sats": 79067935,
+        "loss_sats": 79067936,
         "loss_usd": 80174.1,
         "btc_usd": 101399
     },
     {
         "height": 874493,
-        "health": 85.54,
-        "loss_sats": 54326350,
-        "loss_usd": 54041.68,
+        "health": 85.61,
+        "loss_sats": 54019154,
+        "loss_usd": 53736.09,
         "btc_usd": 99476
     },
     {
@@ -4992,72 +4992,72 @@
     },
     {
         "height": 874168,
-        "health": 86.04,
-        "loss_sats": 51979352,
-        "loss_usd": 50357.6,
+        "health": 85.98,
+        "loss_sats": 52239189,
+        "loss_usd": 50609.33,
         "btc_usd": 96880
     },
     {
         "height": 874099,
-        "health": 99.88,
-        "loss_sats": 385105,
-        "loss_usd": 376.22,
+        "health": 99.85,
+        "loss_sats": 481527,
+        "loss_usd": 470.42,
         "btc_usd": 97693
     },
     {
         "height": 874003,
-        "health": 93.53,
-        "loss_sats": 22189367,
-        "loss_usd": 21521.25,
+        "health": 92.26,
+        "loss_sats": 26910334,
+        "loss_usd": 26100.06,
         "btc_usd": 96989
     },
     {
         "height": 873884,
-        "health": 79.56,
-        "loss_sats": 82702315,
-        "loss_usd": 81998.52,
+        "health": 81.2,
+        "loss_sats": 74530386,
+        "loss_usd": 73896.13,
         "btc_usd": 99149
     },
     {
         "height": 873305,
-        "health": 90.87,
-        "loss_sats": 32111024,
-        "loss_usd": 32499.57,
+        "health": 90.83,
+        "loss_sats": 32265911,
+        "loss_usd": 32656.33,
         "btc_usd": 101210
     },
     {
         "height": 872660,
-        "health": 99.22,
-        "loss_sats": 2476051,
-        "loss_usd": 2397.66,
+        "health": 99.1,
+        "loss_sats": 2860442,
+        "loss_usd": 2769.88,
         "btc_usd": 96834
     },
     {
         "height": 872525,
-        "health": 96.76,
-        "loss_sats": 10818369,
-        "loss_usd": 10533.3,
+        "health": 96.85,
+        "loss_sats": 10508085,
+        "loss_usd": 10231.2,
         "btc_usd": 97365
     },
     {
         "height": 872095,
-        "health": 91.77,
-        "loss_sats": 29313568,
-        "loss_usd": 27222.92,
+        "health": 91.72,
+        "loss_sats": 29507735,
+        "loss_usd": 27403.24,
         "btc_usd": 92868
     },
     {
         "height": 871746,
-        "health": 96.43,
-        "loss_sats": 11995893,
-        "loss_usd": 11732.34,
+        "health": 96.4,
+        "loss_sats": 12100464,
+        "loss_usd": 11834.62,
         "btc_usd": 97803
     },
     {
         "height": 871328,
-        "health": 99.83,
-        "loss_sats": 540982,
-        "loss_usd": 528.19,
+        "health": 94.05,
+        "loss_sats": 20098029,
+        "loss_usd": 19622.71,
         "btc_usd": 97635
     },
     {
@@ -5069,190 +5069,190 @@
     },
     {
         "height": 870674,
-        "health": 92.05,
-        "loss_sats": 27568963,
-        "loss_usd": 24923.45,
+        "health": 92.02,
+        "loss_sats": 27682019,
+        "loss_usd": 25025.65,
         "btc_usd": 90404
     },
     {
         "height": 869828,
-        "health": 95.38,
-        "loss_sats": 15514329,
-        "loss_usd": 12596.08,
+        "health": 95.34,
+        "loss_sats": 15655218,
+        "loss_usd": 12710.47,
         "btc_usd": 81190
     },
     {
         "height": 869666,
-        "health": 94.91,
-        "loss_sats": 17503467,
-        "loss_usd": 13843.67,
+        "health": 94.88,
+        "loss_sats": 17612199,
+        "loss_usd": 13929.66,
         "btc_usd": 79091
     },
     {
         "height": 869645,
-        "health": 99.43,
-        "loss_sats": 1894963,
-        "loss_usd": 1454.02,
+        "health": 99.4,
+        "loss_sats": 1995300,
+        "loss_usd": 1531.01,
         "btc_usd": 76731
     },
     {
         "height": 869600,
-        "health": 97.02,
-        "loss_sats": 9789877,
-        "loss_usd": 7464.59,
+        "health": 96.99,
+        "loss_sats": 9891492,
+        "loss_usd": 7542.06,
         "btc_usd": 76248
     },
     {
         "height": 869576,
-        "health": 94.54,
-        "loss_sats": 18314715,
-        "loss_usd": 14004.16,
+        "health": 94.51,
+        "loss_sats": 18421191,
+        "loss_usd": 14085.58,
         "btc_usd": 76464
     },
     {
         "height": 869510,
-        "health": 89.87,
-        "loss_sats": 35681399,
-        "loss_usd": 27236.68,
+        "health": 89.76,
+        "loss_sats": 36113060,
+        "loss_usd": 27566.18,
         "btc_usd": 76333
     },
     {
         "height": 869310,
-        "health": 95.54,
-        "loss_sats": 14878690,
-        "loss_usd": 11303.19,
+        "health": 95.52,
+        "loss_sats": 14948540,
+        "loss_usd": 11356.26,
         "btc_usd": 75969
     },
     {
         "height": 869132,
-        "health": 89.8,
-        "loss_sats": 35812737,
-        "loss_usd": 26511.09,
+        "health": 89.74,
+        "loss_sats": 36047485,
+        "loss_usd": 26684.87,
         "btc_usd": 74027
     },
     {
         "height": 869087,
-        "health": 93.83,
-        "loss_sats": 21161632,
-        "loss_usd": 15524.38,
+        "health": 93.79,
+        "loss_sats": 21307907,
+        "loss_usd": 15631.69,
         "btc_usd": 73361
     },
     {
         "height": 869030,
-        "health": 94.91,
-        "loss_sats": 16910982,
-        "loss_usd": 11747.55,
+        "health": 94.83,
+        "loss_sats": 17191264,
+        "loss_usd": 11942.26,
         "btc_usd": 69467
     },
     {
         "height": 868960,
-        "health": 94.08,
-        "loss_sats": 19906111,
-        "loss_usd": 13733.23,
+        "health": 94.04,
+        "loss_sats": 20049136,
+        "loss_usd": 13831.9,
         "btc_usd": 68990
     },
     {
         "height": 868808,
-        "health": 95.77,
-        "loss_sats": 13991252,
-        "loss_usd": 9602.34,
+        "health": 95.74,
+        "loss_sats": 14094897,
+        "loss_usd": 9673.47,
         "btc_usd": 68631
     },
     {
         "height": 868670,
-        "health": 96.34,
-        "loss_sats": 11986849,
-        "loss_usd": 8196.13,
+        "health": 96.33,
+        "loss_sats": 12020848,
+        "loss_usd": 8219.38,
         "btc_usd": 68376
     },
     {
         "height": 868653,
-        "health": 97.59,
-        "loss_sats": 7841998,
-        "loss_usd": 5366.75,
+        "health": 97.55,
+        "loss_sats": 7975426,
+        "loss_usd": 5458.06,
         "btc_usd": 68436
     },
     {
         "height": 868531,
-        "health": 95.87,
-        "loss_sats": 13781385,
-        "loss_usd": 9595.56,
+        "health": 95.84,
+        "loss_sats": 13885838,
+        "loss_usd": 9668.29,
         "btc_usd": 69627
     },
     {
         "height": 868078,
-        "health": 97.2,
-        "loss_sats": 9090192,
-        "loss_usd": 6594.48,
+        "health": 97.16,
+        "loss_sats": 9223848,
+        "loss_usd": 6691.44,
         "btc_usd": 72545
     },
     {
         "height": 867737,
-        "health": 97.95,
-        "loss_sats": 6600733,
-        "loss_usd": 4510.02,
+        "health": 97.93,
+        "loss_sats": 6666492,
+        "loss_usd": 4554.95,
         "btc_usd": 68326
     },
     {
         "height": 867614,
-        "health": 94.53,
-        "loss_sats": 18333631,
-        "loss_usd": 12412.97,
+        "health": 94.43,
+        "loss_sats": 18688568,
+        "loss_usd": 12653.28,
         "btc_usd": 67706
     },
     {
         "height": 867301,
-        "health": 92.36,
-        "loss_sats": 26344470,
-        "loss_usd": 17921.35,
+        "health": 91.94,
+        "loss_sats": 27919689,
+        "loss_usd": 18992.93,
         "btc_usd": 68027
     },
     {
         "height": 867250,
-        "health": 98.57,
-        "loss_sats": 4994363,
-        "loss_usd": 3381.28,
+        "health": 98.53,
+        "loss_sats": 5136150,
+        "loss_usd": 3477.28,
         "btc_usd": 67702
     },
     {
         "height": 866958,
-        "health": 100,
-        "loss_sats": 0,
-        "loss_usd": 0.0,
+        "health": 99.98,
+        "loss_sats": 66339,
+        "loss_usd": 44.47,
         "btc_usd": 67038
     },
     {
         "height": 866909,
-        "health": 99.64,
-        "loss_sats": 1186307,
-        "loss_usd": 800.63,
+        "health": 99.63,
+        "loss_sats": 1219383,
+        "loss_usd": 822.95,
         "btc_usd": 67489
     },
     {
         "height": 866854,
-        "health": 99.29,
-        "loss_sats": 2348489,
-        "loss_usd": 1572.03,
+        "health": 99.25,
+        "loss_sats": 2481799,
+        "loss_usd": 1661.27,
         "btc_usd": 66938
     },
     {
         "height": 866558,
-        "health": 80.37,
-        "loss_sats": 78165026,
-        "loss_usd": 53528.97,
+        "health": 79.69,
+        "loss_sats": 81562822,
+        "loss_usd": 55855.85,
         "btc_usd": 68482
     },
     {
         "height": 866547,
-        "health": 95.47,
-        "loss_sats": 15033155,
-        "loss_usd": 10313.5,
+        "health": 95.45,
+        "loss_sats": 15102691,
+        "loss_usd": 10361.2,
         "btc_usd": 68605
     },
     {
         "height": 865820,
         "health": 98.99,
-        "loss_sats": 3293989,
+        "loss_sats": 3293990,
         "loss_usd": 2187.87,
         "btc_usd": 66420
     },
@@ -5265,9 +5265,9 @@
     },
     {
         "height": 865706,
-        "health": 98.87,
-        "loss_sats": 3643325,
-        "loss_usd": 2379.78,
+        "health": 98.92,
+        "loss_sats": 3480357,
+        "loss_usd": 2273.33,
         "btc_usd": 65319
     },
     {
@@ -5279,16 +5279,16 @@
     },
     {
         "height": 864671,
-        "health": 81.21,
-        "loss_sats": 74120535,
-        "loss_usd": 46352.76,
+        "health": 81.19,
+        "loss_sats": 74217707,
+        "loss_usd": 46413.53,
         "btc_usd": 62537
     },
     {
         "height": 864390,
-        "health": 94.29,
-        "loss_sats": 19564086,
-        "loss_usd": 12105.08,
+        "health": 94.31,
+        "loss_sats": 19491427,
+        "loss_usd": 12060.13,
         "btc_usd": 61874
     },
     {
@@ -5300,15 +5300,15 @@
     },
     {
         "height": 864146,
-        "health": 96.16,
-        "loss_sats": 12753788,
-        "loss_usd": 7888.22,
+        "health": 96.21,
+        "loss_sats": 12581182,
+        "loss_usd": 7781.46,
         "btc_usd": 61850
     },
     {
         "height": 863922,
         "health": 99.96,
-        "loss_sats": 127067,
+        "loss_sats": 127068,
         "loss_usd": 77.93,
         "btc_usd": 61329
     },
@@ -5321,37 +5321,37 @@
     },
     {
         "height": 863471,
-        "health": 92.98,
-        "loss_sats": 23827553,
-        "loss_usd": 15337.8,
+        "health": 93.13,
+        "loss_sats": 23280860,
+        "loss_usd": 14985.89,
         "btc_usd": 64370
     },
     {
         "height": 861606,
-        "health": 93.85,
-        "loss_sats": 20833922,
-        "loss_usd": 12010.55,
+        "health": 93.82,
+        "loss_sats": 20942246,
+        "loss_usd": 12073.0,
         "btc_usd": 57649
     },
     {
         "height": 861164,
-        "health": 97.51,
-        "loss_sats": 8084594,
-        "loss_usd": 4824.0,
+        "health": 97.19,
+        "loss_sats": 9153618,
+        "loss_usd": 5461.87,
         "btc_usd": 59669
     },
     {
         "height": 860990,
         "health": 98.1,
-        "loss_sats": 6139200,
+        "loss_sats": 6139201,
         "loss_usd": 3563.74,
         "btc_usd": 58049
     },
     {
         "height": 860062,
-        "health": 98.5,
-        "loss_sats": 4842942,
-        "loss_usd": 2717.08,
+        "health": 98.48,
+        "loss_sats": 4908512,
+        "loss_usd": 2753.87,
         "btc_usd": 56104
     },
     {
@@ -5371,22 +5371,22 @@
     {
         "height": 859040,
         "health": 95.87,
-        "loss_sats": 13620990,
-        "loss_usd": 8043.19,
+        "loss_sats": 13620991,
+        "loss_usd": 8043.2,
         "btc_usd": 59050
     },
     {
         "height": 858001,
-        "health": 96.41,
-        "loss_sats": 12122220,
-        "loss_usd": 7370.19,
+        "health": 96.4,
+        "loss_sats": 12157248,
+        "loss_usd": 7391.49,
         "btc_usd": 60799
     },
     {
         "height": 857957,
-        "health": 98.19,
-        "loss_sats": 6305597,
-        "loss_usd": 3794.33,
+        "health": 98.2,
+        "loss_sats": 6270121,
+        "loss_usd": 3772.98,
         "btc_usd": 60174
     },
     {
@@ -5399,8 +5399,8 @@
     {
         "height": 857812,
         "health": 98.39,
-        "loss_sats": 5240681,
-        "loss_usd": 3209.86,
+        "loss_sats": 5240682,
+        "loss_usd": 3209.87,
         "btc_usd": 61249
     },
     {
@@ -5413,7 +5413,7 @@
     {
         "height": 857253,
         "health": 99.98,
-        "loss_sats": 63094,
+        "loss_sats": 63095,
         "loss_usd": 37.54,
         "btc_usd": 59497
     },
@@ -5426,30 +5426,30 @@
     },
     {
         "height": 856119,
-        "health": 87.31,
-        "loss_sats": 46179584,
-        "loss_usd": 27904.48,
+        "health": 87.29,
+        "loss_sats": 46262963,
+        "loss_usd": 27954.86,
         "btc_usd": 60426
     },
     {
         "height": 855693,
         "health": 95.64,
-        "loss_sats": 14421260,
+        "loss_sats": 14421261,
         "loss_usd": 8158.25,
         "btc_usd": 56571
     },
     {
         "height": 855488,
-        "health": 96.23,
-        "loss_sats": 12392757,
-        "loss_usd": 6540.65,
+        "health": 96.17,
+        "loss_sats": 12597845,
+        "loss_usd": 6648.89,
         "btc_usd": 52778
     },
     {
         "height": 855112,
-        "health": 98.54,
-        "loss_sats": 4678231,
-        "loss_usd": 2959.4,
+        "health": 98.56,
+        "loss_sats": 4613210,
+        "loss_usd": 2918.27,
         "btc_usd": 63259
     },
     {
@@ -5461,9 +5461,9 @@
     },
     {
         "height": 853220,
-        "health": 98.49,
-        "loss_sats": 4858033,
-        "loss_usd": 3249.78,
+        "health": 97.52,
+        "loss_sats": 8058120,
+        "loss_usd": 5390.48,
         "btc_usd": 66895
     },
     {
@@ -5482,16 +5482,16 @@
     },
     {
         "height": 850857,
-        "health": 88,
-        "loss_sats": 44124328,
-        "loss_usd": 24992.9,
+        "health": 87.88,
+        "loss_sats": 44626426,
+        "loss_usd": 25277.3,
         "btc_usd": 56642
     },
     {
         "height": 850329,
-        "health": 98.52,
-        "loss_sats": 4896479,
-        "loss_usd": 3082.68,
+        "health": 98.54,
+        "loss_sats": 4829331,
+        "loss_usd": 3040.4,
         "btc_usd": 62957
     },
     {
@@ -5503,23 +5503,23 @@
     },
     {
         "height": 849481,
-        "health": 98.21,
-        "loss_sats": 5968373,
-        "loss_usd": 3700.51,
+        "health": 98.22,
+        "loss_sats": 5934427,
+        "loss_usd": 3679.46,
         "btc_usd": 62002
     },
     {
         "height": 849183,
-        "health": 96.15,
-        "loss_sats": 12942668,
-        "loss_usd": 8292.63,
+        "health": 96.49,
+        "loss_sats": 11758101,
+        "loss_usd": 7533.65,
         "btc_usd": 64072
     },
     {
         "height": 849069,
-        "health": 98.43,
-        "loss_sats": 5189777,
-        "loss_usd": 3336.61,
+        "health": 98.42,
+        "loss_sats": 5223364,
+        "loss_usd": 3358.21,
         "btc_usd": 64292
     },
     {
@@ -5531,36 +5531,36 @@
     },
     {
         "height": 849001,
-        "health": 99.71,
-        "loss_sats": 941432,
-        "loss_usd": 606.22,
+        "health": 99.7,
+        "loss_sats": 973993,
+        "loss_usd": 627.18,
         "btc_usd": 64393
     },
     {
         "height": 848104,
-        "health": 73.3,
-        "loss_sats": 125736102,
-        "loss_usd": 83144.25,
+        "health": 73.27,
+        "loss_sats": 125928919,
+        "loss_usd": 83271.76,
         "btc_usd": 66126
     },
     {
         "height": 845947,
-        "health": 99.02,
-        "loss_sats": 3645612,
-        "loss_usd": 2452.99,
+        "health": 99,
+        "loss_sats": 3720764,
+        "loss_usd": 2503.55,
         "btc_usd": 67286
     },
     {
         "height": 845118,
-        "health": 99.54,
-        "loss_sats": 1511595,
-        "loss_usd": 1042.11,
+        "health": 99.53,
+        "loss_sats": 1544612,
+        "loss_usd": 1064.87,
         "btc_usd": 68941
     },
     {
         "height": 844990,
         "health": 97.14,
-        "loss_sats": 9665765,
+        "loss_sats": 9665766,
         "loss_usd": 6625.01,
         "btc_usd": 68541
     },
@@ -5595,7 +5595,7 @@
     {
         "height": 841771,
         "health": 99.82,
-        "loss_sats": 594771,
+        "loss_sats": 594772,
         "loss_usd": 343.72,
         "btc_usd": 57791
     },
@@ -5609,7 +5609,7 @@
     {
         "height": 840879,
         "health": 99.43,
-        "loss_sats": 2208303,
+        "loss_sats": 2208304,
         "loss_usd": 1431.09,
         "btc_usd": 64805
     },
@@ -5630,7 +5630,7 @@
     {
         "height": 838746,
         "health": 67.77,
-        "loss_sats": 330633080,
+        "loss_sats": 330633081,
         "loss_usd": 232884.72,
         "btc_usd": 70436
     },
@@ -5665,7 +5665,7 @@
     {
         "height": 836397,
         "health": 96.39,
-        "loss_sats": 24187484,
+        "loss_sats": 24187485,
         "loss_usd": 16871.01,
         "btc_usd": 69751
     },
@@ -5679,14 +5679,14 @@
     {
         "height": 835512,
         "health": 92.75,
-        "loss_sats": 50001646,
+        "loss_sats": 50001647,
         "loss_usd": 31346.03,
         "btc_usd": 62690
     },
     {
         "height": 835019,
         "health": 95.97,
-        "loss_sats": 26657425,
+        "loss_sats": 26657426,
         "loss_usd": 17620.56,
         "btc_usd": 66100
     },
@@ -5714,7 +5714,7 @@
     {
         "height": 832888,
         "health": 84.18,
-        "loss_sats": 121881157,
+        "loss_sats": 121881158,
         "loss_usd": 75606.54,
         "btc_usd": 62033
     },
@@ -5742,21 +5742,21 @@
     {
         "height": 830875,
         "health": 94.34,
-        "loss_sats": 38772016,
+        "loss_sats": 38772017,
         "loss_usd": 19719.84,
         "btc_usd": 50861
     },
     {
         "height": 830291,
         "health": 94.27,
-        "loss_sats": 40732842,
+        "loss_sats": 40732843,
         "loss_usd": 20177.83,
         "btc_usd": 49537
     },
     {
         "height": 829933,
         "health": 99.77,
-        "loss_sats": 1471688,
+        "loss_sats": 1471689,
         "loss_usd": 710.1,
         "btc_usd": 48251
     },
@@ -5777,14 +5777,14 @@
     {
         "height": 828232,
         "health": 87.97,
-        "loss_sats": 91325138,
+        "loss_sats": 91325139,
         "loss_usd": 38709.99,
         "btc_usd": 42387
     },
     {
         "height": 827750,
         "health": 99.58,
-        "loss_sats": 2748163,
+        "loss_sats": 2748164,
         "loss_usd": 1160.44,
         "btc_usd": 42226
     },
@@ -5798,7 +5798,7 @@
     {
         "height": 827079,
         "health": 90.67,
-        "loss_sats": 68536376,
+        "loss_sats": 68536377,
         "loss_usd": 27260.34,
         "btc_usd": 39775
     },
@@ -5833,7 +5833,7 @@
     {
         "height": 819242,
         "health": 98.66,
-        "loss_sats": 8895275,
+        "loss_sats": 8895276,
         "loss_usd": 3397.55,
         "btc_usd": 38195
     }
