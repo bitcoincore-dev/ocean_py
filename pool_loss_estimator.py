@@ -202,8 +202,8 @@ def compare_pool_losses(ocean_slug, other_pool_slugs, depth):
             print(f"Failed to retrieve data for {other_pool_slug.upper()}. Skipping.")
             continue
 
-        # Pre-sort other pool data by timestamp for efficient matching
         other_pool_data_by_timestamp = sorted(other_pool_processed_data, key=lambda x: x.get('timestamp', 0))
+        other_pool_blocks_used = [False] * len(other_pool_data_by_timestamp) # Track used blocks
 
         estimated_other_pool_loss_usd = 0
         comparisons_made = 0
@@ -217,29 +217,36 @@ def compare_pool_losses(ocean_slug, other_pool_slugs, depth):
                 ocean_loss_quotient = ocean_block['loss_sats'] / ocean_block['expected_reward']
                 ocean_block_timestamp = ocean_block.get('timestamp', 0)
 
-                # Find the closest block in other_pool_data by timestamp
+                # Find the closest UNUSED block in other_pool_data by timestamp
                 closest_other_block = None
+                closest_other_block_index = -1
                 min_time_diff = float('inf')
 
-                for other_block in other_pool_data_by_timestamp:
+                for other_block_idx, other_block in enumerate(other_pool_data_by_timestamp):
+                    if other_pool_blocks_used[other_block_idx]:
+                        continue # Skip if this block has already been used
+
                     other_block_timestamp = other_block.get('timestamp', 0)
                     time_diff = abs(ocean_block_timestamp - other_block_timestamp)
 
                     if time_diff < min_time_diff:
                         min_time_diff = time_diff
                         closest_other_block = other_block
+                        closest_other_block_index = other_block_idx
                     # Optimization: if current other_block_timestamp is already much larger than
                     # ocean_block_timestamp, and we are iterating in sorted order, we can break.
-                    # if other_block_timestamp > ocean_block_timestamp + 3600: # 1 hour tolerance
-                    #      break
+                    # Re-enabling the optimization with a check to ensure at least one block was found
+                    if other_block_timestamp > ocean_block_timestamp + 3600 and min_time_diff != float('inf'):
+                         break
 
-                if closest_other_block:
+                if closest_other_block and closest_other_block_index != -1:
+                    # Mark the closest block as used
+                    other_pool_blocks_used[closest_other_block_index] = True
                     # Estimate loss for the other pool's block
                     other_pool_estimated_loss_sats = ocean_loss_quotient * closest_other_block['actual_reward']
                     other_pool_estimated_loss_usd = (other_pool_estimated_loss_sats / 100_000_000) * closest_other_block['btc_usd']
                     estimated_other_pool_loss_usd += other_pool_estimated_loss_usd
                     comparisons_made += 1
-
                     print(f"{ocean_block['height']:<12} | {ocean_block_timestamp:<10} | {ocean_block['loss_usd']:<14.2f} | {closest_other_block['height']:<12} | {closest_other_block.get('timestamp', 0):<10} | {other_pool_estimated_loss_usd:<14.2f}")
 
         print("-" * 90)
