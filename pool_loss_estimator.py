@@ -210,7 +210,8 @@ def compare_pool_losses(ocean_slug, other_pool_slugs, depth):
         TIME_DIFFERENCE_THRESHOLD = 3600 # 1 hour in seconds, adjust as needed
 
         print(f"\nEstimating loss for {other_pool_slug.upper()} based on {ocean_slug.upper()} rules...")
-        print(f"\n{'Ocean Height':<12} | {'Ocean TS':<10} | {'Ocean Loss($)':<14} | {'Ocean Actual ($)':<16} | {'Other Height':<12} | {'Other TS':<10} | {'Other Pool Actual ($)':<22} | {'Est. Loss($)':<14}")
+        print(f"{' '*2 + 'OCEAN':<61} | {' '*2 + 'OTHER':<67}") # New header line
+        print(f"{'Ocean Height':<12} | {'Ocean TS':<10} | {'Ocean Loss($)':<14} | {'Ocean Actual ($)':<16} | {'Other Height':<12} | {'Other TS':<10} | {'Other Pool Actual ($)':<22} | {'Est. Loss($)':<14}")
         print("-" * 90)
 
         for ocean_block in ocean_processed_data:
