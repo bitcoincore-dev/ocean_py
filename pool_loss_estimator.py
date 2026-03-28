@@ -261,7 +261,7 @@ def compare_pool_losses(ocean_slug, other_pool_slugs, depth):
                     print(f"{ocean_block['height']:<8} | {ocean_block_timestamp:<10} | {ocean_block['loss_usd']:<10.2f} | {ocean_actual_usd:<12.2f} | {closest_other_block['height']:<8} | {closest_other_block.get('timestamp', 0):<10} | {other_pool_actual_usd:<12.2f} | {other_pool_estimated_loss_usd:<12.2f}")
 
         print("-" * 103)
-        print(f"TOTAL ESTIMATED CUMULATIVE LOSS for {other_pool_slug.upper()} (based on {ocean_slug.upper()} rules): ${estimated_other_pool_loss_usd:,.2f} ({comparisons_made} blocks compared)")
+        print(f"TOTAL ESTIMATED CUMULATIVE LOSS for {other_pool_slug.upper()}: ${estimated_other_pool_loss_usd:,.2f} ({comparisons_made} blocks compared)")
 
     # No return value needed, just prints results
 
