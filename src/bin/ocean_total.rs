@@ -14,7 +14,7 @@ struct Args {
     depth: usize,
 }
 
-use ocean_loss_estimator_rs::models::{Block, HistoricalPriceData, ProcessedBlockData, CoinbaseInfo};
+use ocean_loss_estimator_rs::models::{Block, HistoricalPriceData, ProcessedBlockData};
 use ocean_loss_estimator_rs::utils::{fetch_full_historical_prices_rust, fetch_block_transactions_rust};
 
 
@@ -78,7 +78,7 @@ async fn fetch_all_ocean_blocks_rust(depth_limit: usize) -> Result<()> {
 {:<10} | {:<8} | {:<12} | {:<10}", "Height", "Health", "Loss(丰)", "Loss($)");
     println!("{:->50}", "");
 
-    for (i, b) in all_blocks.iter().enumerate() {
+    for (_i, b) in all_blocks.iter().enumerate() {
         let match_rate = b.extras.as_ref().and_then(|e| e.match_rate).unwrap_or(0.0).round();
         let actual_reward = b.extras.as_ref().and_then(|e| e.reward).unwrap_or(0);
 
