@@ -176,7 +176,7 @@ pub async fn fetch_concurrent_ocean_report_rust() -> Result<()> {
     // Stage 1: Fast Header Crawl (Sequential)
     let pb_fetch = ProgressBar::new(total_expected_blocks);
     pb_fetch.set_style(ProgressStyle::default_bar()
-        .template("{spinner:.green} [{elapsed_precise}] [{bar:40.cyan/blue}] {pos}/{len} ({eta}) {msg}").unwrap()
+        .template("{spinner:.green} [{elapsed_precise}] [{bar:40.cyan/blue}] {pos}/{len} ({eta}) {msg})").unwrap()
         .progress_chars("#>- "));
     pb_fetch.set_message("Fetching Headers");
 
@@ -212,7 +212,7 @@ pub async fn fetch_concurrent_ocean_report_rust() -> Result<()> {
 
     let pb_analyze = ProgressBar::new(all_blocks.len() as u64);
     pb_analyze.set_style(ProgressStyle::default_bar()
-        .template("{spinner:.green} [{elapsed_precise}] [{bar:40.cyan/blue}] {pos}/{len} ({eta}) {msg}").unwrap()
+        .template("{spinner:.green} [{elapsed_precise}] [{bar:40.cyan/blue}] {pos}/{len} ({eta}) {msg})").unwrap()
         .progress_chars("#>- "));
     pb_analyze.set_message("Pricing & Loss");
 
@@ -274,7 +274,7 @@ pub async fn fetch_total_loss_ocean_report_rust() -> Result<()> {
     // Initialize Progress Bar for crawling blocks
     let pb_crawl = ProgressBar::new(total_expected_blocks);
     pb_crawl.set_style(ProgressStyle::default_bar()
-        .template("{spinner:.green} [{elapsed_precise}] [{bar:40.cyan/blue}] {pos}/{len} ({eta}) {msg}").unwrap()
+        .template("{spinner:.green} [{elapsed_precise}] [{bar:40.cyan/blue}] {pos}/{len} ({eta}) {msg})").unwrap()
         .progress_chars("#>- "));
     pb_crawl.set_message("Crawling Blocks");
 
@@ -315,7 +315,7 @@ pub async fn fetch_total_loss_ocean_report_rust() -> Result<()> {
 
     let pb_process = ProgressBar::new(all_blocks.len() as u64);
     pb_process.set_style(ProgressStyle::default_bar()
-        .template("{spinner:.green} [{elapsed_precise}] [{bar:40.cyan/blue}] {pos}/{len} ({eta}) {msg}").unwrap()
+        .template("{spinner:.green} [{elapsed_precise}] [{bar:40.cyan/blue}] {pos}/{len} ({eta}) {msg})").unwrap()
         .progress_chars("#>- "));
     pb_process.set_message("Calculating Loss (USD)");
 
