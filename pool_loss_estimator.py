@@ -207,6 +207,7 @@ def compare_pool_losses(ocean_slug, other_pool_slugs, depth):
 
         estimated_other_pool_loss_usd = 0
         comparisons_made = 0
+        TIME_DIFFERENCE_THRESHOLD = 3600 # 1 hour in seconds, adjust as needed
 
         print(f"\nEstimating loss for {other_pool_slug.upper()} based on {ocean_slug.upper()} rules...")
         print(f"\n{'Ocean Height':<12} | {'Ocean TS':<10} | {'Ocean Loss($)':<14} | {'Other Height':<12} | {'Other TS':<10} | {'Est. Loss($)':<14}")
@@ -236,10 +237,10 @@ def compare_pool_losses(ocean_slug, other_pool_slugs, depth):
                     # Optimization: if current other_block_timestamp is already much larger than
                     # ocean_block_timestamp, and we are iterating in sorted order, we can break.
                     # Re-enabling the optimization with a check to ensure at least one block was found
-                    if other_block_timestamp > ocean_block_timestamp + 3600 and min_time_diff != float('inf'):
+                    if other_block_timestamp > ocean_block_timestamp + TIME_DIFFERENCE_THRESHOLD and min_time_diff != float('inf'):
                          break
 
-                if closest_other_block and closest_other_block_index != -1:
+                if closest_other_block and closest_other_block_index != -1 and min_time_diff <= TIME_DIFFERENCE_THRESHOLD:
                     # Mark the closest block as used
                     other_pool_blocks_used[closest_other_block_index] = True
                     # Estimate loss for the other pool's block
