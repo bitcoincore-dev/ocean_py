@@ -1,6 +1,6 @@
 use reqwest;
 use serde::{Deserialize, Serialize};
-use anyhow::{Result, Context};
+use anyhow::Result;
 use tokio::io::AsyncWriteExt;
 
 #[derive(Debug, Deserialize, Serialize, Clone)]

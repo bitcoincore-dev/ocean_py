@@ -51,7 +51,7 @@ bip64mod=1
 
     // 4. Output Summary
     let build_threads = num_cpus::get(); // Using num_cpus crate
-    println!("-" * 55);
+    println!("{:->55}", "");
     println!("Setup Complete.");
     println!("Pool: {}", env::var("POOL_URL").unwrap_or_else(|_| "N/A".to_string()));
     println!("Username: {}.{}", 
@@ -59,7 +59,7 @@ bip64mod=1
              env::var("WORKER_NAME").unwrap_or_else(|_| "N/A".to_string()));
     println!("Threads: {}", build_threads);
     println!("BIP-64MOD context has been preserved in bip64mod_config.h");
-    println!("-" * 55);
+    println!("{:->55}", "");
 
     Ok(())
 }

@@ -1,6 +1,6 @@
 use reqwest;
 use serde::Deserialize;
-use anyhow::{Result, Context};
+use anyhow::Result;
 
 #[derive(Debug, Deserialize)]
 struct PoolData {
