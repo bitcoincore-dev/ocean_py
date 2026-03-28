@@ -134,7 +134,6 @@ pub mod utils {
     use serde_json::Value;
     use tokio::time::Duration;
     use regex::Regex;
-    use anyhow::Context;
 
     pub async fn fetch_full_historical_prices_rust() -> Result<HashMap<i64, f64>> {
         let api_url = "https://mempool.space/api/v1/historical-price?currency=USD&timestamp=0";
@@ -244,7 +243,7 @@ pub mod utils {
                 // Try to extract miner name from OP_RETURN data
                 let re = match Regex::new(r"OP_PUSHBYTES_\d+ ([0-9a-fA-F]+)") {
                     Ok(r) => r,
-                    Err(_) => return None,
+                    Err(e) => return Err(anyhow!("Failed to create regex for OP_RETURN: {}", e)),
                 };
                 for cap in re.captures_iter(&vout.scriptpubkey_asm) {
                     let hex_data = &cap[1];
