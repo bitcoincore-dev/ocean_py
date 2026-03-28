@@ -230,6 +230,8 @@ def compare_pool_losses(ocean_slug, other_pool_slugs, depth, args):
     if args.verbose:
         print(f"TOTAL CUMULATIVE LOSS for {ocean_slug.upper()}: ${ocean_total_loss_usd:,.2f}")
 
+    summary_results = [] # Initialize list to store summary results
+
     for other_pool_slug in other_pool_slugs:
         if other_pool_slug == ocean_slug:
             print(f"\nSkipping loss estimation for {ocean_slug.upper()} as it is the reference pool.")
@@ -294,9 +296,24 @@ def compare_pool_losses(ocean_slug, other_pool_slugs, depth, args):
                     print(f"{ocean_block['height']:<8} | {ocean_block_timestamp:<10} | {ocean_block['loss_usd']:<10.2f} | {ocean_actual_usd:<12.2f} | {closest_other_block['height']:<8} | {closest_other_block.get('timestamp', 0):<10} | {other_pool_actual_usd:<12.2f} | {other_pool_estimated_loss_usd:<12.2f}")
 
         print("-" * 103)
-        print(f"TOTAL ESTIMATED CUMULATIVE LOSS for {other_pool_slug.upper()}: ${estimated_other_pool_loss_usd:,.2f} ({comparisons_made} blocks compared)")
+        # Append to summary_results instead of printing directly
+        summary_results.append({
+            "pool_slug": other_pool_slug.upper(),
+            "total_estimated_loss_usd": estimated_other_pool_loss_usd,
+            "comparisons_made": comparisons_made
+        })
 
     # No return value needed, just prints results
+    return summary_results
+
+def print_summary_table(summary_results):
+    print("\n--- SUMMARY OF ESTIMATED LOSSES ---")
+    print(f"{'Pool':<15} | {'Est. Loss($)':<15} | {'Blocks Compared':<18}")
+    print("-" * 53) # Adjust length as needed
+
+    for result in summary_results:
+        print(f"{result['pool_slug']:<15} | {result['total_estimated_loss_usd']:<15.2f} | {result['comparisons_made']:<18}")
+    print("-" * 53)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Estimate cumulative loss for mining pools using Ocean's rules.")
@@ -341,4 +358,5 @@ if __name__ == "__main__":
             if args.verbose:
                 print(f"Using fetched pools: {', '.join(other_pool_slugs)}")
 
-    compare_pool_losses(ocean_slug=args.ocean_slug, other_pool_slugs=other_pool_slugs, depth=args.depth, args=args)
+    summary_results = compare_pool_losses(ocean_slug=args.ocean_slug, other_pool_slugs=other_pool_slugs, depth=args.depth, args=args)
+    print_summary_table(summary_results)
