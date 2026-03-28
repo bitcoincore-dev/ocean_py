@@ -96,7 +96,8 @@ def analyze_pool_loss(pool_slug, depth, args):
                     historical_data = json.load(f)
                 price_lookup = {item['time']: item['USD'] for item in historical_data.get('prices', [])}
                 sorted_timestamps = sorted(price_lookup.keys())
-                print(f"Loaded {len(price_lookup)} historical prices from prices.json for {pool_slug}")
+                if args.verbose:
+                    print(f"Loaded {len(price_lookup)} historical prices from prices.json for {pool_slug}")
             except FileNotFoundError:
                 print(f"prices.json not found for {pool_slug}. Attempting to fetch full historical prices...")
                 fetch_full_historical_prices(args) # Call the new function to fetch prices
@@ -105,9 +106,11 @@ def analyze_pool_loss(pool_slug, depth, args):
                     historical_data = json.load(f)
                 price_lookup = {item['time']: item['USD'] for item in historical_data.get('prices', [])}
                 sorted_timestamps = sorted(price_lookup.keys())
-                print(f"Loaded {len(price_lookup)} historical prices from prices.json (after fetch) for {pool_slug}")
+                if args.verbose:
+                    print(f"Loaded {len(price_lookup)} historical prices from prices.json (after fetch) for {pool_slug}")
 
-        print(f"--- Starting Full History Crawl for {pool_slug.upper()} ---")
+        if args.verbose:
+            print(f"--- Starting Full History Crawl for {pool_slug.upper()} ---")
 
         while True:
             url = f"{base_blocks_url}/{last_height}" if last_height else base_blocks_url
@@ -122,7 +125,8 @@ def analyze_pool_loss(pool_slug, depth, args):
             all_blocks.extend(batch)
             last_height = batch[-1]['height']
 
-            print(f"Fetched {len(all_blocks)} blocks... (Current Height: {last_height})")
+            if args.verbose:
+                print(f"Fetched {len(all_blocks)} blocks... (Current Height: {last_height})")
 
             if depth and len(all_blocks) >= depth:
                 all_blocks = all_blocks[:depth] # Trim to exact depth if overshot
