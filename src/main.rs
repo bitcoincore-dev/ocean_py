@@ -30,6 +30,7 @@ struct Args {
 #[derive(Debug, Deserialize, Serialize, Clone)]
 struct PriceData {
     time: i64,
+    #[serde(rename = "USD")]
     usd: f64,
 }
 
@@ -191,7 +192,22 @@ async fn analyze_pool_loss(
         let loss_sats = expected_reward.saturating_sub(actual_reward);
 
         let timestamp = b.timestamp as i64;
-        let btc_usd = price_lookup_map.get(&timestamp).copied().unwrap_or(0.0);
+
+        if args.verbose {
+            println!("DEBUG: Block height: {}, Raw timestamp: {}, Query timestamp: {}", b.height, b.timestamp, timestamp);
+        }
+
+        let btc_usd = {
+            let mut closest_timestamp: Option<i64> = None;
+            for &(_, &hist_ts) in &sorted_timestamps_indexed {
+                if hist_ts <= timestamp {
+                    closest_timestamp = Some(hist_ts);
+                } else {
+                    break;
+                }
+            }
+            closest_timestamp.and_then(|ts| price_lookup_map.get(&ts).copied()).unwrap_or(0.0)
+        };
 
         let loss_usd = (loss_sats as f64 / 100_000_000.0) * btc_usd;
 
