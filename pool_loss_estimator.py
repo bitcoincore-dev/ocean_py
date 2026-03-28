@@ -213,9 +213,8 @@ def compare_pool_losses(ocean_slug, other_pool_slugs, depth, args):
         print(f"Failed to retrieve data for {ocean_slug.upper()}. Exiting.")
         sys.exit(1)
 
-    # Print Ocean's health table if verbose
-    if args.verbose:
-        print_ocean_health_table(ocean_slug, ocean_processed_data)
+    # Print Ocean's health table
+    print_ocean_health_table(ocean_slug, ocean_processed_data)
 
     # Determine the actual number of blocks fetched for Ocean
     actual_ocean_depth = len(ocean_processed_data)
