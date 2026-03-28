@@ -1,30 +1,6 @@
-use reqwest;
-use serde::Deserialize;
 use anyhow::{Result, Context};
 use tokio::time::{sleep, Duration};
-
-#[derive(Debug, Deserialize, Clone)]
-struct BlockExtras {
-    #[serde(rename = "matchRate")]
-    match_rate: Option<f64>,
-    reward: Option<u64>,
-    #[serde(rename = "expectedFees")]
-    expected_fees: Option<u64>,
-}
-
-#[derive(Debug, Deserialize, Clone)]
-struct Block {
-    height: u64,
-    id: String,
-    extras: Option<BlockExtras>,
-}
-
-async fn fetch_blocks_sample(num_blocks: usize) -> Result<Vec<Block>> {
-    let url = "https://mempool.space/api/v1/mining/pool/ocean/blocks";
-    let response = reqwest::get(url).await?.json::<Vec<Block>>().await?;
-    Ok(response.into_iter().take(num_blocks).collect())
-}
-
+use ocean_loss_estimator_rs::{Block, BlockExtras, fetch_blocks_sample};
 #[tokio::main]
 async fn main() -> Result<()> {
     println!("--- Checking API Stability for Ocean Mining Pool Blocks ---");

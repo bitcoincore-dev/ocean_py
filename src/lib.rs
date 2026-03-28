@@ -278,3 +278,30 @@ pub mod utils {
         })
     }
 }
+
+use anyhow::{Result, Context};
+use serde::Deserialize;
+use reqwest;
+use tokio::time::{sleep, Duration};
+
+#[derive(Debug, Deserialize, Clone)]
+pub struct BlockExtras {
+    #[serde(rename = "matchRate")]
+    pub match_rate: Option<f64>,
+    pub reward: Option<u64>,
+    #[serde(rename = "expectedFees")]
+    pub expected_fees: Option<u64>,
+}
+
+#[derive(Debug, Deserialize, Clone)]
+pub struct Block {
+    pub height: u64,
+    pub id: String,
+    pub extras: Option<BlockExtras>,
+}
+
+pub async fn fetch_blocks_sample(num_blocks: usize) -> Result<Vec<Block>> {
+    let url = "https://mempool.space/api/v1/mining/pool/ocean/blocks";
+    let response = reqwest::get(url).await?.json::<Vec<Block>>().await?;
+    Ok(response.into_iter().take(num_blocks).collect())
+}
