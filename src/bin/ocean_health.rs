@@ -17,12 +17,12 @@ async fn get_ocean_health_rust() -> Result<()> {
     let blocks_path = format!("/api/v1/mining/pool/{}/blocks", slug);
 
     // 1. Get Aggregate Pool Health
-    let pool_data: Value = fetch_from_mirror(&pool_path, 0).await?;
+    let pool_data: Value = fetch_from_mirror(&pool_path, 0, 10).await?;
     let pool_res: PoolData = serde_json::from_value(pool_data)?;
     let avg_health = pool_res.avg_block_health.unwrap_or_default();
 
     // 2. Get Individual Block Health (Match Rate)
-    let blocks_data: Value = fetch_from_mirror(&blocks_path, 0).await?;
+    let blocks_data: Value = fetch_from_mirror(&blocks_path, 0, 10).await?;
     let blocks_res: Vec<Block> = serde_json::from_value(blocks_data)?;
 
     println!("--- OCEAN Pool Health Metrics ---");

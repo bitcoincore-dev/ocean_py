@@ -53,13 +53,14 @@ pub mod models {
 }
 
 pub mod utils {
-    use anyhow::Result;
+    use anyhow::{Result, anyhow};
     use std::collections::HashMap;
     use tokio::io::AsyncWriteExt;
     use crate::models::HistoricalPriceData;
     use crate::MIRRORS;
-    use reqwest;
+    use reqwest::Client;
     use serde_json::Value;
+    use tokio::time::Duration;
 
     pub async fn fetch_full_historical_prices_rust() -> Result<HashMap<i64, f64>> {
         let api_url = "https://mempool.space/api/v1/historical-price?currency=USD&timestamp=0";
@@ -67,7 +68,7 @@ pub mod utils {
 
         println!("--- Starting Full Historical BTC Price Fetch from {} ---", api_url);
 
-        let response = reqwest::get(api_url).await?.json::<HistoricalPriceData>().await?;
+        let response = Client::new().get(api_url).send().await?.json::<HistoricalPriceData>().await?;
 
         if response.prices.is_empty() {
             eprintln!("No historical price data received.");
@@ -83,7 +84,9 @@ pub mod utils {
         Ok(price_lookup)
     }
 
-    pub async fn fetch_from_mirror(path: &str, mirror_index: usize) -> Result<serde_json::Value> {
+    pub async fn fetch_from_mirror(path: &str, mirror_index: usize, timeout_secs: u64) -> Result<serde_json::Value> {
+        let client = Client::builder().timeout(Duration::from_secs(timeout_secs)).build()?;
+
         let mirrors_rotated = {
             let len = MIRRORS.len();
             let start = mirror_index % len;
@@ -96,10 +99,13 @@ pub mod utils {
 
         for base_url in mirrors_rotated {
             let url = format!("{}{}", base_url, path);
-            match reqwest::get(&url).await {
+            match client.get(&url).send().await {
                 Ok(response) => {
                     if response.status().is_success() {
                         return Ok(response.json().await?);
+                    }
+                    if response.status().as_u16() == 429 { // Too many requests
+                        continue;
                     }
                 },
                 Err(_) => {},

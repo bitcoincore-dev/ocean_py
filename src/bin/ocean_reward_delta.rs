@@ -17,17 +17,17 @@ async fn get_ocean_reward_delta_rust() -> Result<()> {
     let price_path = "/api/v1/prices";
 
     // 1. Fetch Current BTC Price (USD)
-    let price_data: Value = fetch_from_mirror(&price_path, 0).await?;
+    let price_data: Value = fetch_from_mirror(&price_path, 0, 10).await?;
     let price_res: CurrentPrice = serde_json::from_value(price_data)?;
     let btc_usd = price_res.usd;
 
     // 2. Get Aggregate Pool Health
-    let pool_data: Value = fetch_from_mirror(&pool_path, 0).await?;
+    let pool_data: Value = fetch_from_mirror(&pool_path, 0, 10).await?;
     let pool_res: PoolData = serde_json::from_value(pool_data)?;
     let avg_health = pool_res.avg_block_health.unwrap_or_default();
 
     // 3. Get Individual Block Data
-    let blocks_data: Value = fetch_from_mirror(&blocks_path, 0).await?;
+    let blocks_data: Value = fetch_from_mirror(&blocks_path, 0, 10).await?;
     let block_res: Vec<Block> = serde_json::from_value(blocks_data)?;
 
     println!("--- OCEAN Pool Metrics (BTC Price: ${:.2}) ---", btc_usd);

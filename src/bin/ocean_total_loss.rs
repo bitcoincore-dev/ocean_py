@@ -1,31 +1,16 @@
-use reqwest;
-use serde::{Deserialize, Serialize};
 use anyhow::Result;
+use serde::{Deserialize, Serialize};
 use tokio::time::{sleep, Duration};
 use tokio::io::AsyncWriteExt; // Re-added this import
 use indicatif::{ProgressBar, ProgressStyle};
 use std::sync::Arc;
 use dashmap::DashMap;
 use serde_json::Value;
+use ocean_loss_estimator_rs::models::{Block, BlockExtras};
+use ocean_loss_estimator_rs::utils::fetch_from_mirror;
 
-const MIRRORS: &[&str] = &[
-    "https://mempool.space",
-    "https://mempool.sweetsats.io"
-];
 
-#[derive(Debug, Deserialize, Serialize, Clone)]
-struct BlockExtras {
-    #[serde(rename = "matchRate")]
-    match_rate: Option<f64>,
-    reward: Option<u64>,
-}
 
-#[derive(Debug, Deserialize, Serialize, Clone)]
-struct Block {
-    height: u64,
-    timestamp: u64,
-    extras: Option<BlockExtras>,
-}
 
 #[allow(dead_code)]
 #[derive(Debug, Deserialize, Serialize, Clone)]
@@ -41,30 +26,9 @@ struct ProcessedBlockOutput {
     loss_usd: f64,
 }
 
-async fn fetch_with_failover(path: &str, timeout_secs: u64) -> Result<(Value, String)> {
-    let client = reqwest::Client::builder().timeout(Duration::from_secs(timeout_secs)).build()?;
-
-    for base_url in MIRRORS {
-        let url = format!("{}{}", base_url, path);
-        match client.get(&url).send().await {
-            Ok(response) => {
-                if response.status().is_success() {
-                    let data = response.json().await?;
-                    return Ok((data, base_url.to_string()));
-                }
-                // If status is not 200, but not an error that breaks the chain (e.g., 429), try next mirror
-                if response.status().as_u16() == 429 { // Too many requests
-                    continue;
-                }
-            },
-            Err(_) => {},
-        }
-    }
-    Err(anyhow::anyhow!("Failed to fetch from all mirrors for path: {}", path))
-}
 
 async fn get_pool_stats_rust() -> Result<u64> {
-    let (data, _) = fetch_with_failover("/api/v1/mining/pool/ocean", 10).await?;
+    let data = fetch_from_mirror("/api/v1/mining/pool/ocean", 0, 10).await?;
     let block_count = data.get("pool_stats")
                           .and_then(|ps| ps.get("blockCount"))
                           .and_then(|bc| bc.as_u64())
@@ -95,9 +59,8 @@ async fn fetch_full_ocean_report_rust() -> Result<()> {
             None => format!("/api/v1/mining/pool/{}/blocks", slug),
         };
 
-        let (batch_val, _) = fetch_with_failover(&path, 10).await?;
+        let (batch_val) = fetch_from_mirror(&path, 0, 10).await?;
         let batch: Vec<Block> = serde_json::from_value(batch_val)?;
-
         if batch.is_empty() {
             pb_crawl.set_message("Done: Reached the end of the block chain.");
             break;
@@ -131,7 +94,7 @@ async fn fetch_full_ocean_report_rust() -> Result<()> {
         let cache_clone = price_cache.clone();
         join_set.spawn(async move {
             let timestamp = block.timestamp as i64;
-            let extras = block.extras.unwrap_or(BlockExtras { match_rate: Some(0.0), reward: Some(0) });
+            let extras = block.extras.unwrap_or(BlockExtras { match_rate: Some(0.0), reward: Some(0), expected_fees: Some(0) });
 
             let match_rate = extras.match_rate.unwrap_or(100.0);
             let actual_reward = extras.reward.unwrap_or(0);
@@ -150,7 +113,7 @@ async fn fetch_full_ocean_report_rust() -> Result<()> {
             } else {
                 // Fetch price if not in cache
                 let price_path = format!("/api/v1/historical-price?timestamp={}&currency=USD", timestamp);
-                if let Ok((price_data_val, _)) = fetch_with_failover(&price_path, 5).await {
+                if let Ok(price_data_val) = fetch_from_mirror(&price_path, 0, 5).await {
                     if let Some(usd_price) = price_data_val.get("usd").and_then(|u| u.as_f64()) {
                         hist_price = usd_price;
                         cache_clone.insert(timestamp, usd_price);

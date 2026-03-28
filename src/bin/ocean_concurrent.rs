@@ -28,7 +28,7 @@ struct ProcessedBlockOutput {
 
 
 async fn get_pool_stats_rust() -> Result<u64> {
-    let response = fetch_from_mirror("/api/v1/mining/pool/ocean", 0).await?;
+    let response = fetch_from_mirror("/api/v1/mining/pool/ocean", 0, 10).await?;
     let block_count = response.get("pool_stats")
                               .and_then(|ps| ps.get("blockCount"))
                               .and_then(|bc| bc.as_u64())
@@ -59,7 +59,7 @@ async fn process_single_block(
     } else {
         // Fetch price if not in cache
         let price_path = format!("/api/v1/historical-price?timestamp={}&currency=USD", timestamp);
-        if let Ok(price_data) = fetch_from_mirror(&price_path, index).await {
+        if let Ok(price_data) = fetch_from_mirror(&price_path, index, 10).await {
             if let Some(usd_price) = price_data.get("usd").and_then(|u| u.as_f64()) {
                 hist_price = usd_price;
                 price_cache.insert(timestamp, usd_price);
@@ -97,7 +97,7 @@ async fn fetch_full_ocean_report_rust() -> Result<()> {
             None => "/api/v1/mining/pool/ocean/blocks".to_string(),
         };
 
-        let batch: Vec<Block> = serde_json::from_value(fetch_from_mirror(&path, 0).await?)?;
+        let batch: Vec<Block> = serde_json::from_value(fetch_from_mirror(&path, 0, 10).await?)?;
 
         if batch.is_empty() {
             break;
@@ -154,7 +154,7 @@ async fn fetch_full_ocean_report_rust() -> Result<()> {
     println!("Historical report saved to: {}", output_file);
 
     // Also write pools-3y.json
-    let pools_3y_data = fetch_from_mirror("/api/v1/mining/pools/3y", 0).await?;
+    let pools_3y_data = fetch_from_mirror("/api/v1/mining/pools/3y", 0, 10).await?;
     let pools_3y_output_file = "pools-3y.json";
     let mut file = tokio::fs::File::create(pools_3y_output_file).await?;
     file.write_all(serde_json::to_string_pretty(&pools_3y_data)?.as_bytes()).await?;

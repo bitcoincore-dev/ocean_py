@@ -32,7 +32,7 @@ async fn fetch_ocean_data_rust() -> Result<()> {
     println!("--- Querying mempool.space for Pool: {} ---", slug.to_uppercase());
 
     for (title, path) in endpoints.into_iter() {
-        match fetch_from_mirror(&path, 0).await {
+        match fetch_from_mirror(&path, 0, 10).await {
             Ok(data) => {
                 println!("
 [+] {}:", title);
