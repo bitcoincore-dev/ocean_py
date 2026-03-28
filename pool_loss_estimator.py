@@ -55,6 +55,10 @@ def fetch_full_historical_prices(args):
         if not historical_data:
             print("No historical price data received.")
             sys.exit(1)
+        
+        # Sort the prices by timestamp before saving to ensure consistent order
+        if 'prices' in historical_data and isinstance(historical_data['prices'], list):
+            historical_data['prices'].sort(key=lambda x: x['time'])
 
         with open(output_file, "w") as f:
             json.dump(historical_data, f, indent=4)

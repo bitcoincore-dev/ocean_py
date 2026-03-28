@@ -384,7 +384,8 @@ async fn main() -> Result<()> {
             println!("DEBUG: --update flag is set. Forcing price data fetch.");
         }
         price_lookup_map = fetch_full_historical_prices(&args).await?;
-        let historical_data = HistoricalPriceData { prices: price_lookup_map.iter().map(|(&time, &usd)| PriceData { time, usd }).collect() };
+        let mut historical_data = HistoricalPriceData { prices: price_lookup_map.iter().map(|(&time, &usd)| PriceData { time, usd }).collect() };
+        historical_data.prices.sort_by_key(|p| p.time); // Sort by timestamp
         let mut file = std::fs::File::create(output_file)?;
         serde_json::to_writer_pretty(&mut file, &historical_data)?;
         if args.verbose {
@@ -406,7 +407,8 @@ async fn main() -> Result<()> {
                 }
                 println!("prices.json not found. Attempting to fetch full historical prices...");
                 price_lookup_map = fetch_full_historical_prices(&args).await?;
-                let historical_data = HistoricalPriceData { prices: price_lookup_map.iter().map(|(&time, &usd)| PriceData { time, usd }).collect() };
+                let mut historical_data = HistoricalPriceData { prices: price_lookup_map.iter().map(|(&time, &usd)| PriceData { time, usd }).collect() };
+                historical_data.prices.sort_by_key(|p| p.time); // Sort by timestamp
                 let mut file = std::fs::File::create(output_file)?;
                 serde_json::to_writer_pretty(&mut file, &historical_data)?;
                 if args.verbose {
