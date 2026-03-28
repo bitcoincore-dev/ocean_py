@@ -7,13 +7,15 @@ import json
 
 def fetch_mempool_pools(time_period='1y', limit=None):
     api_url = f"https://mempool.space/api/v1/mining/pools/{time_period}"
-    print(f"--- Fetching active pools from {api_url} ---")
+    if args.verbose:
+        print(f"--- Fetching active pools from {api_url} ---")
     try:
         response = requests.get(api_url, timeout=15)
         response.raise_for_status()
         pools_data = response.json()
-        print(f"DEBUG: Type of pools_data: {type(pools_data)}")
-        print(f"DEBUG: Content of pools_data (first 200 chars): {str(pools_data)[:200]}")
+        if args.verbose:
+            print(f"DEBUG: Type of pools_data: {type(pools_data)}")
+            print(f"DEBUG: Content of pools_data (first 200 chars): {str(pools_data)[:200]}")
 
         if not isinstance(pools_data, dict) or 'pools' not in pools_data:
             print("Error: Expected a dictionary with a 'pools' key from mempool.space API, but received a different structure.")
@@ -27,9 +29,11 @@ def fetch_mempool_pools(time_period='1y', limit=None):
 
         pool_slugs = [pool.get('slug') for pool in pools_list if pool.get('slug')]
         if limit and len(pool_slugs) > limit:
-            print(f"Limiting fetched pools to {limit}.")
+            if args.verbose:
+                print(f"Limiting fetched pools to {limit}.")
             pool_slugs = pool_slugs[:limit]
-        print(f"Fetched {len(pool_slugs)} pools from mempool.space.")
+        if args.verbose:
+            print(f"Fetched {len(pool_slugs)} pools from mempool.space.")
         return pool_slugs
     except requests.exceptions.RequestException as e:
         print(f"Error fetching pools from mempool.space: {e}")
@@ -277,17 +281,24 @@ if __name__ == "__main__":
         type=int,
         help="Number of historical blocks to fetch and analyze for each pool. Analyzes all if not specified."
     )
+    parser.add_argument(
+        "--verbose",
+        action="store_true",
+        help="Enable verbose output for debugging and detailed progress."
+    )
     args = parser.parse_args()
 
     if args.other_pools:
         other_pool_slugs = [slug.strip() for slug in args.other_pools.split(',') if slug.strip()]
     else:
-        print("No --other-pools specified. Attempting to fetch active pools from mempool.space...")
+        if args.verbose:
+            print("No --other-pools specified. Attempting to fetch active pools from mempool.space...")
         other_pool_slugs = fetch_mempool_pools(limit=args.depth)
         if not other_pool_slugs:
             print("Error: Could not fetch any pools from mempool.space. Please specify --other-pools manually.")
             sys.exit(1)
         else:
-            print(f"Using fetched pools: {', '.join(other_pool_slugs)}")
+            if args.verbose:
+                print(f"Using fetched pools: {', '.join(other_pool_slugs)}")
 
     compare_pool_losses(ocean_slug=args.ocean_slug, other_pool_slugs=other_pool_slugs, depth=args.depth)
