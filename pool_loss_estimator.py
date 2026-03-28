@@ -121,9 +121,20 @@ def analyze_pool_loss(pool_slug, depth=None):
         # Removed direct print of header and dashes
 
         for b in all_blocks:
+            # print(f"DEBUG: Processing block: {b}") # Uncomment for verbose block debugging
             extras = b.get("extras", {})
-            match_rate = round(extras.get("matchRate", 0), 2) # Explicitly round match_rate
-            actual_reward = extras.get("reward", 0)
+            
+            raw_match_rate = extras.get("matchRate")
+            if raw_match_rate is None:
+                match_rate = 0
+            else:
+                match_rate = round(raw_match_rate, 2)
+
+            raw_actual_reward = extras.get("reward")
+            if raw_actual_reward is None:
+                actual_reward = 0
+            else:
+                actual_reward = raw_actual_reward
 
             expected_reward = actual_reward # Default if match_rate is 0 or 100
             if match_rate > 0 and match_rate < 100:
