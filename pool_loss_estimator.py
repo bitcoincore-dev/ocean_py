@@ -194,11 +194,11 @@ def analyze_pool_loss(pool_slug, depth, args):
 
 def print_ocean_health_table(ocean_slug, ocean_processed_data):
     print(f"\n--- OCEAN Health Report for {ocean_slug.upper()} ---")
-    print(f"{'Height':<8} | {'Time(UTC)':<10} | {'Exp. Reward':<11} | {'Reward($)':<11} | {'Health(%)':<10} | {'Loss (Sats)':<11} | {'Loss($)':<12} | {'BTC/USD':<10}")
+    print(f"{'Height':<8} | {'Time(UTC)':<10} | {'Exp. Reward':<11} | {'Reward($)':<11} | {'Health(%)':<10} | {'Loss(丰)':<11} | {'Loss($)':<12} | {'BTC/USD':<10}")
     print("-" * 104)
 
     for block in ocean_processed_data:
-        print(f"{block['height']:<8} | {block.get('timestamp', 0):<10} | {block['expected_reward']:<11} | {block['actual_reward']:<11} | {block['health']:<10.2f} | {block['loss_sats']:<11} | {block['loss_usd']:<12.2f} | {block['btc_usd']:<10.2f}")
+        print(f"{block['height']:<8} | {block.get('timestamp', 0):<10} | {block['expected_reward']:<11} | {block['actual_reward']:<11} | {block['health']:<10.2f} | {block['loss_sats']:<10} | {block['loss_usd']:<12.2f} | {block['btc_usd']:<10.2f}")
     print("-" * 104)
 
 def compare_pool_losses(ocean_slug, other_pool_slugs, depth, args):
