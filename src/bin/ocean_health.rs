@@ -9,17 +9,9 @@ struct PoolData {
     // Add other fields from pool API if needed
 }
 
-#[derive(Debug, Deserialize)]
-struct BlockExtras {
-    #[serde(rename = "matchRate")]
-    match_rate: Option<f64>,
-}
+use ocean_loss_estimator_rs::models::{Block, BlockExtras};
 
-#[derive(Debug, Deserialize)]
-struct Block {
-    height: u64,
-    extras: Option<BlockExtras>,
-}
+
 
 async fn get_ocean_health_rust() -> Result<()> {
     let slug = "ocean";
