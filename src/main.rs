@@ -199,7 +199,7 @@ async fn analyze_pool_loss(
 
         let btc_usd = {
             let mut closest_timestamp: Option<i64> = None;
-            for &(_, &hist_ts) in &sorted_timestamps_indexed {
+            for &(_, hist_ts) in &sorted_timestamps_indexed {
                 if hist_ts <= timestamp {
                     closest_timestamp = Some(hist_ts);
                 } else {
