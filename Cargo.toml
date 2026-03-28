@@ -37,3 +37,7 @@ path = "src/bin/ocean_health.rs"
 [[bin]]
 name = "ocean_reward_delta"
 path = "src/bin/ocean_reward_delta.rs"
+
+[[bin]]
+name = "ocean_stats"
+path = "src/bin/ocean_stats.rs"
