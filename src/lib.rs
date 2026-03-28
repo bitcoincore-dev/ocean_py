@@ -4,7 +4,7 @@ extern crate hex;
 
 use std::sync::Arc;
 use dashmap::DashMap;
-use indicatif::{ProgressBar, ProgressStyle};
+
 use tokio::io::AsyncWriteExt;
 use tokio::time::{Duration, sleep};
 use serde::{Deserialize, Serialize};
@@ -155,6 +155,7 @@ pub struct ProcessedBlockOutputTotalLoss {
     pub height: u64,
     pub match_rate: f64,
     pub loss_usd: f64,
+    pub timestamp: u64,
 }
 
 pub async fn get_pool_stats_rust_total_loss() -> Result<u64> {
@@ -170,18 +171,11 @@ pub async fn get_pool_stats_rust_total_loss() -> Result<u64> {
 pub async fn fetch_concurrent_ocean_report_rust() -> Result<()> {
     println!("--- Parallel OCEAN Audit ---");
 
-    let total_expected_blocks = utils::get_pool_stats_rust().await?;
+    let _total_expected_blocks = utils::get_pool_stats_rust().await?;
     let mut all_blocks: Vec<models::Block> = Vec::new();
     let mut last_height: Option<u64> = None;
 
-    // Stage 1: Fast Header Crawl (Sequential)
-    let pb_fetch = ProgressBar::new(total_expected_blocks);
-    pb_fetch.set_style(ProgressStyle::default_bar()
-        .template("{spinner:.green} [{elapsed_precise}] [{bar:40.cyan/blue}] {pos}/{len} ({eta}) {msg})").unwrap()
-        .progress_chars("#>- "));
-    pb_fetch.set_message("Fetching Headers");
-
-    while pb_fetch.position() < total_expected_blocks {
+    while last_height.map_or(true, |h| h > 0) {
         let path = match last_height {
             Some(h) => format!("/api/v1/mining/pool/ocean/blocks/{}", h),
             None => "/api/v1/mining/pool/ocean/blocks".to_string(),
@@ -194,10 +188,8 @@ pub async fn fetch_concurrent_ocean_report_rust() -> Result<()> {
         }
         all_blocks.extend(batch.into_iter());
         last_height = Some(all_blocks.last().unwrap().height);
-        pb_fetch.set_position(all_blocks.len() as u64);
         sleep(Duration::from_millis(100)).await;
     }
-    pb_fetch.finish_with_message("Headers fetched.");
 
     // Stage 2: Parallel Analysis
     let price_cache: Arc<DashMap<i64, f64>> = Arc::new(DashMap::new());
@@ -210,12 +202,6 @@ pub async fn fetch_concurrent_ocean_report_rust() -> Result<()> {
         all_blocks.len(),
         MIRRORS.len()
     );
-
-    let pb_analyze = ProgressBar::new(all_blocks.len() as u64);
-    pb_analyze.set_style(ProgressStyle::default_bar()
-        .template("{spinner:.green} [{elapsed_precise}] [{bar:40.cyan/blue}] {pos}/{len} ({eta}) {msg})").unwrap()
-        .progress_chars("#>- "));
-    pb_analyze.set_message("Pricing & Loss");
 
     for (i, block) in all_blocks.into_iter().enumerate() {
         let cache_clone = price_cache.clone();
@@ -230,12 +216,10 @@ pub async fn fetch_concurrent_ocean_report_rust() -> Result<()> {
             }
             Err(e) => eprintln!("Error processing block: {}", e),
         }
-        pb_analyze.inc(1);
     }
-    pb_analyze.finish_with_message("Analysis complete.");
 
     // Final Output
-    processed_data.sort_by_key(|b| std::cmp::Reverse(b.height)); // Sort descending by height
+    processed_data.sort_by_key(|b| b.height); // Sort ascending by height to align with Python
     println!("{:->40}", "");
     println!("TOTAL BLOCKS: {}", processed_data.len());
     println!(
@@ -272,14 +256,7 @@ pub async fn fetch_total_loss_ocean_report_rust() -> Result<()> {
     println!("--- OCEAN History Audit ---");
     println!("Total Blocks Expected: {}", total_expected_blocks);
 
-    // Initialize Progress Bar for crawling blocks
-    let pb_crawl = ProgressBar::new(total_expected_blocks);
-    pb_crawl.set_style(ProgressStyle::default_bar()
-        .template("{spinner:.green} [{elapsed_precise}] [{bar:40.cyan/blue}] {pos}/{len} ({eta}) {msg})").unwrap()
-        .progress_chars("#>- "));
-    pb_crawl.set_message("Crawling Blocks");
-
-    while pb_crawl.position() < total_expected_blocks {
+    while last_height.map_or(true, |h| h > 0) {
         let path = match last_height {
             Some(h) => format!("/api/v1/mining/pool/{}/blocks/{}", slug, h),
             None => format!("/api/v1/mining/pool/{}/blocks", slug),
@@ -288,38 +265,25 @@ pub async fn fetch_total_loss_ocean_report_rust() -> Result<()> {
         let batch_val = utils::fetch_from_mirror(&path, 0, 10).await?;
         let batch: Vec<models::Block> = serde_json::from_value(batch_val)?;
         if batch.is_empty() {
-            pb_crawl.set_message("Done: Reached the end of the block chain.");
+            println!("Done: Reached the end of the block chain.");
             break;
         }
 
         all_blocks.extend(batch.into_iter());
         last_height = Some(all_blocks.last().unwrap().height);
 
-        pb_crawl.set_position(all_blocks.len() as u64);
         sleep(Duration::from_millis(300)).await; // Python uses 0.3s sleep
     }
-    pb_crawl.finish_with_message("Block crawling complete.");
+    println!("Block crawling complete.");
 
     // Processing with Historical Prices
     let price_cache: Arc<DashMap<i64, f64>> = Arc::new(DashMap::new());
     let mut join_set: tokio::task::JoinSet<Result<ProcessedBlockOutputTotalLoss, anyhow::Error>> =
         tokio::task::JoinSet::new();
-    let processed_data: Vec<ProcessedBlockOutputTotalLoss> = Vec::new();
+    let mut processed_data: Vec<ProcessedBlockOutputTotalLoss> = Vec::new(); // Changed to mutable
     let mut total_loss_usd = 0.0;
 
-    println!(
-        "
-{:<10} | {:<10} | {:<10}",
-        "Height", "Match Rate", "Loss (USD)"
-    );
-    println!("{:->40}", "");
-
-    let pb_process = ProgressBar::new(all_blocks.len() as u64);
-    pb_process.set_style(ProgressStyle::default_bar()
-        .template("{spinner:.green} [{elapsed_precise}] [{bar:40.cyan/blue}] {pos}/{len} ({eta}) {msg})").unwrap()
-        .progress_chars("#>- "));
-    pb_process.set_message("Calculating Loss (USD)");
-
+    // Spawn tasks for processing blocks
     for (_i, block) in all_blocks.into_iter().enumerate() {
         let cache_clone = price_cache.clone();
         join_set.spawn(async move {
@@ -354,10 +318,6 @@ pub async fn fetch_total_loss_ocean_report_rust() -> Result<()> {
                     if let Some(usd_price) = price_data_val.get("usd").and_then(|u| u.as_f64()) {
                         hist_price = usd_price;
                         cache_clone.insert(timestamp, usd_price);
-                    } else {
-                        // Python uses a default of 74000.0 if price_data is None/empty, so we do
-                        // too
-                        hist_price = 74000.0;
                     }
                 } else {
                     // Handle fetch_with_failover error for price
@@ -366,30 +326,46 @@ pub async fn fetch_total_loss_ocean_report_rust() -> Result<()> {
             }
 
             let loss_usd = (loss_sats as f64 / 100_000_000.0) * hist_price;
-
-            Ok(ProcessedBlockOutputTotalLoss {
-                height: block.height,
-                match_rate: (match_rate * 100.0).round() / 100.0, /* Python rounds to 2 decimal
-                                                                   * places */
-                loss_usd: (loss_usd * 100.0).round() / 100.0,
+Ok(ProcessedBlockOutputTotalLoss {
+    height: block.height,
+    match_rate: (match_rate * 100.0).round() / 100.0, /* Python rounds to 2 decimal
+                                                       * places */
+    loss_usd: (loss_usd * 100.0).round() / 100.0,
+    timestamp: block.timestamp, // Fixed: Added missing timestamp field
+})
+                timestamp: block.timestamp, // Fixed: Added missing timestamp field
             })
         });
     }
 
+    // Collect all results from the join_set before sorting
     while let Some(res) = join_set.join_next().await {
         match res? {
             Ok(output) => {
-                println!(
-                    "{:<10} | {:<10.2} | {:<10.2}",
-                    output.height, output.match_rate, output.loss_usd
-                );
-                total_loss_usd += output.loss_usd;
+                processed_data.push(output.clone());
             }
             Err(e) => eprintln!("Error processing block: {}", e),
         }
-        pb_process.inc(1);
     }
-    pb_process.finish_with_message("Loss calculation complete.");
+
+    // Sort processed_data by timestamp ascending to align with Python
+    processed_data.sort_by_key(|b| b.timestamp);
+
+    // Print output and calculate total loss after sorting
+    println!(
+        "
+{:<10} | {:<10} | {:<10}",
+        "Height", "Match Rate", "Loss (USD)"
+    );
+    println!("{:->40}", "");
+
+    for output in &processed_data {
+        println!(
+            "{:<10} | {:<10.2} | {:<10.2}",
+            output.height, output.match_rate, output.loss_usd
+        );
+        total_loss_usd += output.loss_usd;
+    }
 
     println!("{:->40}", "");
     println!("TOTAL BLOCKS: {}", processed_data.len());
