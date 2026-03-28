@@ -251,10 +251,10 @@ pub async fn fetch_total_loss_ocean_report_rust() -> Result<()> {
     let mut all_blocks: Vec<models::Block> = Vec::new();
     let mut last_height: Option<u64> = None;
 
-    let total_expected_blocks = get_pool_stats_rust_total_loss().await?;
+    let _total_expected_blocks = get_pool_stats_rust_total_loss().await?;
 
     println!("--- OCEAN History Audit ---");
-    println!("Total Blocks Expected: {}", total_expected_blocks);
+    println!("Total Blocks Expected: {}", _total_expected_blocks);
 
     while last_height.map_or(true, |h| h > 0) {
         let path = match last_height {
@@ -280,7 +280,7 @@ pub async fn fetch_total_loss_ocean_report_rust() -> Result<()> {
     let price_cache: Arc<DashMap<i64, f64>> = Arc::new(DashMap::new());
     let mut join_set: tokio::task::JoinSet<Result<ProcessedBlockOutputTotalLoss, anyhow::Error>> =
         tokio::task::JoinSet::new();
-    let mut processed_data: Vec<ProcessedBlockOutputTotalLoss> = Vec::new(); // Changed to mutable
+    let mut processed_data: Vec<ProcessedBlockOutputTotalLoss> = Vec::new();
     let mut total_loss_usd = 0.0;
 
     // Spawn tasks for processing blocks
@@ -326,13 +326,12 @@ pub async fn fetch_total_loss_ocean_report_rust() -> Result<()> {
             }
 
             let loss_usd = (loss_sats as f64 / 100_000_000.0) * hist_price;
-Ok(ProcessedBlockOutputTotalLoss {
-    height: block.height,
-    match_rate: (match_rate * 100.0).round() / 100.0, /* Python rounds to 2 decimal
-                                                       * places */
-    loss_usd: (loss_usd * 100.0).round() / 100.0,
-    timestamp: block.timestamp, // Fixed: Added missing timestamp field
-})
+
+            Ok(ProcessedBlockOutputTotalLoss {
+                height: block.height,
+                match_rate: (match_rate * 100.0).round() / 100.0, /* Python rounds to 2 decimal
+                                                                   * places */
+                loss_usd: (loss_usd * 100.0).round() / 100.0,
                 timestamp: block.timestamp, // Fixed: Added missing timestamp field
             })
         });
