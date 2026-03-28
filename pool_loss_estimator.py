@@ -190,7 +190,7 @@ def analyze_pool_loss(pool_slug, depth, args):
 
 def print_ocean_health_table(ocean_slug, ocean_processed_data):
     print(f"\n--- OCEAN Health Report for {ocean_slug.upper()} ---")
-    print(f"{'Height':<8} | {'TS':<10} | {'Exp. Reward (Sats)':<18} | {'Act. Reward (Sats)':<18} | {'Match Rate (%)':<15} | {'Loss (Sats)':<12} | {'Loss (USD)':<12} | {'BTC/USD':<10}")
+    print(f"{'Height':<8} | {'TS':<10} | {'Exp. Reward (Sats)':<18} | {'Act. Reward (Sats)':<18} | {'Health (%)':<15} | {'Loss (Sats)':<12} | {'Loss (USD)':<12} | {'BTC/USD':<10}")
     print("-" * 125) # Adjust length as needed
 
     for block in ocean_processed_data:
