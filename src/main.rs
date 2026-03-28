@@ -22,7 +22,7 @@ struct Args {
     #[clap(long)]
     verbose: bool,
 
-    /// Force an update of prices.json from mempool.space, regardless of whether it exists.
+    /// Force an update of prices.rs.json from mempool.space, regardless of whether it exists.
     #[clap(long)]
     update: bool,
 }
