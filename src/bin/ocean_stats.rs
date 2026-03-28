@@ -1,8 +1,8 @@
-use reqwest;
-use serde::Deserialize;
-use anyhow::{Result, Context};
+use anyhow::Result;
+use serde::Deserialize; // Retain for PoolDetails and Block
 use serde_json::Value;
 use std::env;
+use ocean_loss_estimator_rs::utils::fetch_from_mirror;
 
 #[allow(dead_code)]
 #[derive(Debug, Deserialize)]
@@ -20,22 +20,20 @@ struct Block {
 }
 
 async fn fetch_ocean_data_rust() -> Result<()> {
-    let base_url = "https://mempool.space/api/v1/mining";
+    let base_path = "/api/v1/mining";
     let slug = "ocean";
 
     let endpoints = [
-        ("Pool Details", format!("{}/pool/{}", base_url, slug)),
-        ("Hashrate History", format!("{}/pool/{}/hashrate", base_url, slug)),
-        ("Recent Blocks", format!("{}/pool/{}/blocks", base_url, slug)),
+        ("Pool Details", format!("{}/pool/{}", base_path, slug)),
+        ("Hashrate History", format!("{}/pool/{}/hashrate", base_path, slug)),
+        ("Recent Blocks", format!("{}/pool/{}/blocks", base_path, slug)),
     ];
 
     println!("--- Querying mempool.space for Pool: {} ---", slug.to_uppercase());
 
-    for (title, url) in endpoints.into_iter() {
-        match reqwest::get(&url).await {
-            Ok(response) => {
-                let data: Value = response.error_for_status().context(format!("HTTP error for {}", title))?.json().await?;
-
+    for (title, path) in endpoints.into_iter() {
+        match fetch_from_mirror(&path, 0).await {
+            Ok(data) => {
                 println!("
 [+] {}:", title);
                 if data.is_array() {
