@@ -19,6 +19,8 @@ anyhow = "1.0.82"
 dashmap = "5.5.0"
 indicatif = "0.17.8"
 num_cpus = "1.16.0"
+hex = "0.4.3"
+regex = "1.10.4"
 
 [[bin]]
 name = "check_api_stability"
