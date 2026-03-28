@@ -131,8 +131,10 @@ pub mod models {
 
 pub mod utils {
     use std::collections::HashMap;
+    use std::sync::Arc;
 
     use anyhow::{Result, anyhow};
+    use dashmap::DashMap;
     use regex::Regex;
     use reqwest::Client;
     use tokio::{io::AsyncWriteExt, time::Duration};
@@ -141,7 +143,6 @@ pub mod utils {
         MIRRORS,
         models::{CoinbaseInfo, HistoricalPriceData, PriceData, Transaction},
     };
-
     pub async fn fetch_full_historical_prices_rust() -> Result<HashMap<i64, f64>> {
         let api_url = "https://mempool.space/api/v1/historical-price?currency=USD&timestamp=0";
         let output_file = "prices.json";
@@ -343,6 +344,54 @@ pub mod utils {
         println!("Full historical prices saved to: {}", output_file);
 
         Ok(())
+    }
+
+    pub async fn process_single_block(
+        block: crate::models::Block,
+        index: usize,
+        price_cache: Arc<DashMap<i64, f64>>,
+    ) -> Result<crate::models::ProcessedBlockOutput> {
+        let timestamp = block.timestamp as i64;
+        let extras = block.extras.unwrap_or(crate::models::BlockExtras {
+            match_rate: Some(0.0),
+            reward: Some(0),
+            expected_fees: Some(0),
+        });
+        let match_rate = extras.match_rate.unwrap_or(100.0);
+        let actual_reward = extras.reward.unwrap_or(0);
+
+        let expected_reward = if match_rate > 0.0 && match_rate < 100.0 {
+            ((actual_reward as f64 * 100.0) / match_rate) as u64
+        } else {
+            actual_reward
+        };
+        let loss_sats = expected_reward.saturating_sub(actual_reward);
+
+        let mut hist_price = 0.0;
+        if let Some(price) = price_cache.get(&timestamp) {
+            hist_price = *price;
+        } else {
+            // Fetch price if not in cache
+            let price_path = format!(
+                "/api/v1/historical-price?timestamp={}&currency=USD",
+                timestamp
+            );
+            if let Ok(price_data) = crate::utils::fetch_from_mirror(&price_path, index, 10).await {
+                if let Some(usd_price) = price_data.get("usd").and_then(|u| u.as_f64()) {
+                    hist_price = usd_price;
+                    price_cache.insert(timestamp, usd_price);
+                }
+            }
+        }
+
+        let loss_usd = (loss_sats as f64 / 100_000_000.0) * hist_price;
+
+        Ok(crate::models::ProcessedBlockOutput {
+            height: block.height,
+            match_rate: (match_rate * 100.0).round() / 100.0, // Python rounds to 2 decimal places
+            loss_usd: (loss_usd * 100.0).round() / 100.0,
+            price: (hist_price * 100.0).round() / 100.0,
+        })
     }
 
     pub async fn get_pool_stats_rust() -> Result<u64> {

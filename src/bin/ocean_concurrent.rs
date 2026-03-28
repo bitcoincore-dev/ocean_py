@@ -10,59 +10,13 @@ use tokio::time::{Duration, sleep};
 const MIRRORS: &[&str] = &["https://mempool.space", "https://mempool.sweetsats.io"];
 
 use ocean_loss_estimator_rs::{
-    models::{Block, BlockExtras, ProcessedBlockOutput},
+    models::{Block, ProcessedBlockOutput},
     utils::fetch_from_mirror,
 };
 
 use ocean_loss_estimator_rs::utils::get_pool_stats_rust;
 
-async fn process_single_block(
-    block: Block,
-    index: usize,
-    price_cache: Arc<DashMap<i64, f64>>,
-) -> Result<ProcessedBlockOutput> {
-    let timestamp = block.timestamp as i64;
-    let extras = block.extras.unwrap_or(BlockExtras {
-        match_rate: Some(0.0),
-        reward: Some(0),
-        expected_fees: Some(0),
-    });
-    let match_rate = extras.match_rate.unwrap_or(100.0);
-    let actual_reward = extras.reward.unwrap_or(0);
-
-    let expected_reward = if match_rate > 0.0 && match_rate < 100.0 {
-        ((actual_reward as f64 * 100.0) / match_rate) as u64
-    } else {
-        actual_reward
-    };
-    let loss_sats = expected_reward.saturating_sub(actual_reward);
-
-    let mut hist_price = 0.0;
-    if let Some(price) = price_cache.get(&timestamp) {
-        hist_price = *price;
-    } else {
-        // Fetch price if not in cache
-        let price_path = format!(
-            "/api/v1/historical-price?timestamp={}&currency=USD",
-            timestamp
-        );
-        if let Ok(price_data) = fetch_from_mirror(&price_path, index, 10).await {
-            if let Some(usd_price) = price_data.get("usd").and_then(|u| u.as_f64()) {
-                hist_price = usd_price;
-                price_cache.insert(timestamp, usd_price);
-            }
-        }
-    }
-
-    let loss_usd = (loss_sats as f64 / 100_000_000.0) * hist_price;
-
-    Ok(ProcessedBlockOutput {
-        height: block.height,
-        match_rate: (match_rate * 100.0).round() / 100.0, // Python rounds to 2 decimal places
-        loss_usd: (loss_usd * 100.0).round() / 100.0,
-        price: (hist_price * 100.0).round() / 100.0,
-    })
-}
+use ocean_loss_estimator_rs::utils::process_single_block;
 
 async fn fetch_full_ocean_report_rust() -> Result<()> {
     println!("--- Parallel OCEAN Audit ---");
