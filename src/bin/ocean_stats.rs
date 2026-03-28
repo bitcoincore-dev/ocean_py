@@ -2,23 +2,6 @@ use std::env;
 
 use anyhow::Result;
 use ocean_loss_estimator_rs::utils::fetch_from_mirror;
-use serde::Deserialize; // Retain for PoolDetails and Block
-use serde_json::Value;
-
-#[allow(dead_code)]
-#[derive(Debug, Deserialize)]
-struct PoolDetails {
-    #[serde(flatten)]
-    data: Value,
-}
-
-#[allow(dead_code)]
-#[derive(Debug, Deserialize)]
-struct Block {
-    height: u64,
-    #[serde(flatten)]
-    data: Value,
-}
 
 async fn fetch_ocean_data_rust() -> Result<()> {
     let base_path = "/api/v1/mining";
@@ -50,12 +33,7 @@ async fn fetch_ocean_data_rust() -> Result<()> {
                     title
                 );
                 if data.is_array() {
-                    // Print first 2 items if it's a list
-                    if let Some(arr) = data.as_array() {
-                        let preview: Vec<&Value> = arr.iter().take(2).collect();
-                        println!("{}", serde_json::to_string_pretty(&preview)?);
-                        println!("... ({} total items returned)", arr.len());
-                    }
+                    println!("{}", serde_json::to_string_pretty(&data)?);
                 } else {
                     println!("{}", serde_json::to_string_pretty(&data)?);
                 }
