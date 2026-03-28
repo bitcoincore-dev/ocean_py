@@ -14,6 +14,7 @@ use std::collections::HashMap;
 use anyhow::{Context, Result, anyhow};
 use reqwest;
 
+
 const MIRRORS: &[&str] = &["https://mempool.space", "https://mempool.sweetsats.io"];
 
 pub mod models {
@@ -393,7 +394,7 @@ pub async fn fetch_total_loss_ocean_report_rust() -> Result<()> {
     println!("{:->40}", "");
     println!("TOTAL BLOCKS: {}", processed_data.len());
     println!(
-        "TOTAL LOSS:   ${:.2}",
+        "TOTAL CUMULATIVE LOSS: ${:.2}",
         (total_loss_usd * 100.0).round() / 100.0
     );
 
@@ -423,6 +424,92 @@ pub mod utils {
         MIRRORS,
         models::{CoinbaseInfo, HistoricalPriceData, PriceData, Transaction},
     };
+
+    pub async fn fetch_block_transactions_rust(block_hash: &str) -> Result<CoinbaseInfo> {
+        let path = format!("/api/block/{}/txs", block_hash);
+        let txs_value = fetch_from_mirror(&path, 0, 10).await?;
+
+        let transactions: Vec<Transaction> = serde_json::from_value(txs_value)?;
+
+        if transactions.is_empty() {
+            return Err(anyhow!("No transactions found for block {}", block_hash));
+        }
+
+        // The first transaction is typically the coinbase transaction
+        let coinbase_tx = &transactions[0];
+
+        let miner_name = coinbase_tx
+            .vin
+            .get(0)
+            .and_then(|vin| vin.script_sig_asm.as_ref())
+            .and_then(|script_sig_asm_str| {
+                let re = match Regex::new(r"OP_PUSHBYTES_\d+ ([0-9a-fA-F]+)") {
+                    Ok(r) => r,
+                    Err(_) => return None,
+                };
+                for cap in re.captures_iter(script_sig_asm_str) {
+                    let hex_data = &cap[1];
+                    if let Ok(bytes) = hex::decode(hex_data) {
+                        let decoded_string = String::from_utf8_lossy(&bytes);
+
+                        // Heuristic: try to find common miner patterns in the decoded string
+                        if decoded_string.contains("Ocean") {
+                            return Some("Ocean Mining".to_string());
+                        }
+                        if decoded_string.contains("AntPool") {
+                            return Some("AntPool".to_string());
+                        }
+                        if decoded_string.contains("Peak Mining") {
+                            return Some("Peak Mining".to_string());
+                        }
+                        if decoded_string.contains("F2Pool") {
+                            return Some("F2Pool".to_string());
+                        }
+                    }
+                }
+                None
+            });
+
+        // Extract OP_RETURN data
+        let mut op_return_data: Vec<String> = Vec::new();
+        let mut miner_name_from_op_return: Option<String> = None;
+
+        for vout in &coinbase_tx.vout {
+            if vout.scriptpubkey_type == "nulldata" && vout.scriptpubkey_asm.contains("OP_RETURN") {
+                op_return_data.push(vout.scriptpubkey_asm.clone());
+
+                let re = match Regex::new(r"OP_PUSHBYTES_\d+ ([0-9a-fA-F]+)") {
+                    Ok(r) => r,
+                    Err(e) => return Err(anyhow!("Failed to create regex for OP_RETURN: {}", e)),
+                };
+                for cap in re.captures_iter(&vout.scriptpubkey_asm) {
+                    let hex_data = &cap[1];
+                    if let Ok(bytes) = hex::decode(hex_data) {
+                        let decoded_string = String::from_utf8_lossy(&bytes);
+
+                        if decoded_string.contains("Ocean") {
+                            miner_name_from_op_return = Some("Ocean Mining".to_string());
+                            break;
+                        }
+                        if decoded_string.contains("Peak Mining") {
+                            miner_name_from_op_return = Some("Peak Mining".to_string());
+                            break;
+                        }
+                    }
+                }
+            }
+        }
+
+        // Prioritize miner name from OP_RETURN if found, otherwise use scriptSig one
+        let final_miner_name = miner_name_from_op_return.or(miner_name);
+
+        Ok(CoinbaseInfo {
+            miner_name: final_miner_name,
+            op_return_data,
+        })
+    }
+
+
     pub async fn fetch_full_historical_prices_rust() -> Result<HashMap<i64, f64>> {
         let api_url = "https://mempool.space/api/v1/historical-price?currency=USD&timestamp=0";
         let output_file = "prices.json";
@@ -432,7 +519,7 @@ pub mod utils {
             api_url
         );
 
-        let response = Client::new()
+        let mut response = Client::new()
             .get(api_url)
             .send()
             .await?
@@ -443,6 +530,9 @@ pub mod utils {
             eprintln!("No historical price data received.");
             std::process::exit(1);
         }
+
+        // Sort prices by timestamp before saving
+        response.prices.sort_by_key(|p| p.time);
 
         let mut file = tokio::fs::File::create(output_file).await?;
         file.write_all(serde_json::to_string_pretty(&response)?.as_bytes())
@@ -496,108 +586,6 @@ pub mod utils {
             "Failed to fetch from all mirrors for path: {}",
             path
         ))
-    }
-
-    pub async fn fetch_block_transactions_rust(block_hash: &str) -> Result<CoinbaseInfo> {
-        let path = format!("/api/block/{}/txs", block_hash);
-        let txs_value = fetch_from_mirror(&path, 0, 10).await?;
-
-        let transactions: Vec<Transaction> = serde_json::from_value(txs_value)?;
-
-        if transactions.is_empty() {
-            return Err(anyhow!("No transactions found for block {}", block_hash));
-        }
-
-        // The first transaction is typically the coinbase transaction
-        let coinbase_tx = &transactions[0];
-
-        let miner_name = coinbase_tx
-            .vin
-            .get(0)
-            .and_then(|vin| vin.script_sig_asm.as_ref())
-            .and_then(|script_sig_asm_str| {
-                println!("DEBUG: script_sig_asm: {}", script_sig_asm_str);
-                let re = match Regex::new(r"OP_PUSHBYTES_\d+ ([0-9a-fA-F]+)") {
-                    Ok(r) => r,
-                    Err(_) => return None,
-                };
-                for cap in re.captures_iter(script_sig_asm_str) {
-                    let hex_data = &cap[1];
-                    println!("DEBUG: Extracted scriptSig hex_data: {}", hex_data);
-                    if let Ok(bytes) = hex::decode(hex_data) {
-                        let decoded_string = String::from_utf8_lossy(&bytes);
-                        println!(
-                            "DEBUG: Decoded scriptSig string (lossy): {}",
-                            decoded_string
-                        );
-
-                        // Heuristic: try to find common miner patterns in the decoded string
-                        if decoded_string.contains("Ocean") {
-                            return Some("Ocean Mining".to_string());
-                        }
-                        if decoded_string.contains("AntPool") {
-                            return Some("AntPool".to_string());
-                        }
-                        if decoded_string.contains("Peak Mining") {
-                            return Some("Peak Mining".to_string());
-                        }
-                        if decoded_string.contains("F2Pool") {
-                            return Some("F2Pool".to_string());
-                        }
-                    }
-                }
-                None
-            });
-
-        // Extract OP_RETURN data
-        let mut op_return_data: Vec<String> = Vec::new();
-        let mut miner_name_from_op_return: Option<String> = None; // New variable
-
-        for vout in &coinbase_tx.vout {
-            if vout.scriptpubkey_type == "nulldata" && vout.scriptpubkey_asm.contains("OP_RETURN") {
-                op_return_data.push(vout.scriptpubkey_asm.clone());
-                println!(
-                    "DEBUG: OP_RETURN scriptpubkey_asm: {}",
-                    vout.scriptpubkey_asm
-                );
-
-                // Try to extract miner name from OP_RETURN data
-                let re = match Regex::new(r"OP_PUSHBYTES_\d+ ([0-9a-fA-F]+)") {
-                    Ok(r) => r,
-                    Err(e) => return Err(anyhow!("Failed to create regex for OP_RETURN: {}", e)),
-                };
-                for cap in re.captures_iter(&vout.scriptpubkey_asm) {
-                    let hex_data = &cap[1];
-                    println!("DEBUG: Extracted OP_RETURN hex_data: {}", hex_data);
-                    if let Ok(bytes) = hex::decode(hex_data) {
-                        let decoded_string = String::from_utf8_lossy(&bytes);
-                        println!(
-                            "DEBUG: Decoded OP_RETURN string (lossy): {}",
-                            decoded_string
-                        );
-
-                        if decoded_string.contains("Ocean") {
-                            miner_name_from_op_return = Some("Ocean Mining".to_string());
-                            break; // Found it, no need to check further in this vout
-                        }
-                        if decoded_string.contains("Peak Mining") {
-                            miner_name_from_op_return = Some("Peak Mining".to_string());
-                            break;
-                        }
-                        // Add other OP_RETURN specific miner heuristics here if
-                        // needed
-                    }
-                }
-            }
-        }
-
-        // Prioritize miner name from OP_RETURN if found, otherwise use scriptSig one
-        let final_miner_name = miner_name_from_op_return.or(miner_name);
-
-        Ok(CoinbaseInfo {
-            miner_name: final_miner_name,
-            op_return_data,
-        })
     }
 
     pub async fn fetch_and_save_full_historical_prices() -> Result<()> {
@@ -1064,12 +1052,10 @@ Full dataset saved to: {}",
 
 #[cfg(test)]
 mod tests {
-    use crate::utils::fetch_block_transactions_rust;
+    use crate::utils::{fetch_block_transactions_rust, fetch_from_mirror, get_pool_stats_rust, fetch_full_historical_prices_rust};
     use crate::models::{CoinbaseInfo};
     use anyhow::{Context, Result};
-    // use crate::utils::fetch_from_mirror; // No direct usage in current tests.
-    // use serde_json::Value; // No direct usage in current tests.
-
+    use serde_json::Value;
 
     #[tokio::test]
     async fn test_fetch_block_transactions_miner_detection() -> Result<()> {
@@ -1089,11 +1075,6 @@ mod tests {
 
     #[tokio::test]
     async fn test_fetch_from_mirror_success() -> Result<()> {
-        // This test implicitly relies on fetch_from_mirror, so its import might still be needed in the outer scope, or inside this test function.
-        // For now, I'll rely on the parent module's import.
-        use crate::utils::fetch_from_mirror;
-        use serde_json::Value;
-
         // Use a known stable endpoint that returns a simple value
         let path = "/api/v1/blocks/tip/height";
         let response: Value = fetch_from_mirror(path, 0, 10).await?;
@@ -1104,6 +1085,24 @@ mod tests {
         let block_height = response.as_u64().context("Response is not a u64")?;
         assert!(block_height > 0, "Block height should be greater than 0");
 
+        Ok(())
+    }
+
+    #[tokio::test]
+    async fn test_get_pool_stats_rust() -> Result<()> {
+        let block_count = get_pool_stats_rust().await?;
+        dbg!(&block_count);
+        assert!(block_count > 0, "Block count should be greater than 0");
+        Ok(())
+    }
+
+    #[tokio::test]
+    async fn test_fetch_full_historical_prices_rust() -> Result<()> {
+        let price_lookup = fetch_full_historical_prices_rust().await?;
+        dbg!(&price_lookup);
+        assert!(!price_lookup.is_empty(), "Price lookup map should not be empty");
+        // Optionally, assert for a specific timestamp/price if a stable one is known
+        // For example: assert!(price_lookup.contains_key(&1672531200), "Should contain price for 2023-01-01");
         Ok(())
     }
 }
