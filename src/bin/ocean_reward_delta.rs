@@ -1,6 +1,6 @@
 use reqwest;
 use serde::Deserialize;
-use anyhow::{Result, Context};
+use anyhow::Result;
 
 #[derive(Debug, Deserialize)]
 struct CurrentPrice {
@@ -34,7 +34,7 @@ async fn get_ocean_reward_delta_rust() -> Result<()> {
     let price_url = "https://mempool.space/api/v1/prices";
 
     // 1. Fetch Current BTC Price (USD)
-    let price_res = reqwest::get(&price_url).await?.json::<CurrentPrice>().await?;
+    let price_res = reqwest::get(price_url).await?.json::<CurrentPrice>().await?;
     let btc_usd = price_res.usd;
 
     // 2. Get Aggregate Pool Health
@@ -44,7 +44,7 @@ async fn get_ocean_reward_delta_rust() -> Result<()> {
     // 3. Get Individual Block Data
     let block_res = reqwest::get(&blocks_url).await?.json::<Vec<Block>>().await?;
 
-    println!("--- OCEAN Pool Metrics (BTC Price: ${:,.2}) ---", btc_usd);
+    println!("--- OCEAN Pool Metrics (BTC Price: ${:.2}) ---", btc_usd);
     println!("Aggregate Pool Health: {}%", avg_health);
     println!("
 {:->90}", "");

@@ -1,7 +1,8 @@
 use reqwest;
 use serde::{Deserialize, Serialize};
-use anyhow::{Result, Context};
+use anyhow::Result;
 use tokio::time::{sleep, Duration};
+use tokio::io::AsyncWriteExt; // Re-added this import
 use indicatif::{ProgressBar, ProgressStyle};
 use std::sync::Arc;
 use dashmap::DashMap;
@@ -111,7 +112,7 @@ async fn fetch_full_ocean_report_rust() -> Result<()> {
 
     // Processing with Historical Prices
     let price_cache: Arc<DashMap<i64, f64>> = Arc::new(DashMap::new());
-    let mut join_set = tokio::task::JoinSet::new();
+    let mut join_set: tokio::task::JoinSet<Result<ProcessedBlockOutput, anyhow::Error>> = tokio::task::JoinSet::new();
     let mut processed_data: Vec<ProcessedBlockOutput> = Vec::new();
     let mut total_loss_usd = 0.0;
 
@@ -186,9 +187,11 @@ async fn fetch_full_ocean_report_rust() -> Result<()> {
     println!("TOTAL BLOCKS: {}", processed_data.len());
     println!("TOTAL LOSS:   ${:.2}", (total_loss_usd * 100.0).round() / 100.0);
 
+    // Save to file
     let output_file = "ocean_historical_report.json";
     let json_string = serde_json::to_string_pretty(&processed_data)?;
-    tokio::fs::File::create(output_file).await?.write_all(json_string.as_bytes()).await?;
+    let mut file = tokio::fs::File::create(output_file).await?;
+    file.write_all(json_string.as_bytes()).await?;
 
     Ok(())
 }

@@ -35,8 +35,7 @@ async fn fetch_ocean_data_rust() -> Result<()> {
     for (title, url) in endpoints.into_iter() {
         match reqwest::get(&url).await {
             Ok(response) => {
-                response.raise_for_status().context(format!("HTTP error for {}", title))?;
-                let data: Value = response.json().await?;
+                let data: Value = response.error_for_status().context(format!("HTTP error for {}", title))?.json().await?;
 
                 println!("
 [+] {}:", title);

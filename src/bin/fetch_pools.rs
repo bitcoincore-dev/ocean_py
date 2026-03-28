@@ -21,7 +21,7 @@ async fn fetch_and_save_pool_data() -> Result<()> {
 
     println!("--- Fetching Pool Data (1Y) ---"); // Python script had 3Y, but URL is 1Y
     
-    let mut response_data: Vec<Pool> = Vec::new();
+    let response_data: Vec<Pool>;
 
     // Attempt to fetch from primary_url
     match reqwest::get(primary_url).await {
@@ -32,16 +32,14 @@ async fn fetch_and_save_pool_data() -> Result<()> {
             } else {
                 println!("[-] {} returned {}. Trying failover URL...", primary_url, response.status());
                 let failover_response = reqwest::get(failover_url).await?;
-                failover_response.raise_for_status();
-                response_data = failover_response.json::<Vec<Pool>>().await?;
+                response_data = failover_response.error_for_status().context(format!("HTTP error for failover URL {}", failover_url))?.json::<Vec<Pool>>().await?;
                 println!("[+] Successfully fetched from {}.", failover_url);
             }
         },
         Err(e) => {
             println!("[-] Error fetching from {}: {}. Trying failover URL...", primary_url, e);
             let failover_response = reqwest::get(failover_url).await?;
-            failover_response.raise_for_status();
-            response_data = failover_response.json::<Vec<Pool>>().await?;
+            response_data = failover_response.error_for_status().context(format!("HTTP error for failover URL {}", failover_url))?.json::<Vec<Pool>>().await?;
             println!("[+] Successfully fetched from {}.", failover_url);
         }
     }

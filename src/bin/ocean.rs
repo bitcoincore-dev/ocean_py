@@ -1,6 +1,7 @@
-use anyhow::{Result, Context};
+use anyhow::Result;
 use std::env;
 use tokio::io::AsyncWriteExt;
+use num_cpus; // Add this import
 
 async fn setup_ocean_rust() -> Result<()> {
     // 1. Environment Variables & Constants
@@ -10,7 +11,7 @@ async fn setup_ocean_rust() -> Result<()> {
 
     // 2. BIP-64MOD Logic (File Creation)
     println!("Applying BIP-64MOD protocol extensions...");
-    let bip64_content = """/* BIP-64MOD + GCC Integration Header */
+    let bip64_content = r#"/* BIP-64MOD + GCC Integration Header */
 #define BIP64_MOD_ENABLED 1
 #define OCEAN_TIDES_SUPPORT 1
 #define MAX_METADATA_PEERS 128
@@ -20,12 +21,12 @@ typedef struct {
     uint32_t version_mod;
     uint64_t session_id;
 } BIP64ModContext;
-""";
+"#;
     tokio::fs::File::create("bip64mod_config.h").await?.write_all(bip64_content.as_bytes()).await?;
 
     // 3. OCEAN Node Policy Flags (Append to bitcoin.conf)
     println!("Generating bitcoin.conf recommended flags for OCEAN...");
-    let conf_content = format!("""
+    let conf_content = r#"
 # OCEAN recommended node policy
 blockmaxsize=3985000
 blockmaxweight=3985000
@@ -34,7 +35,7 @@ permitbaremultisig=0
 datacarriersize=42
 # BIP-64MOD specific relay settings
 bip64mod=1
-""");
+"#;
 
     let mut file = tokio::fs::OpenOptions::new()
         .create(true)
