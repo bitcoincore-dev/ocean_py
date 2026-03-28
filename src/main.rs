@@ -377,7 +377,7 @@ async fn main() -> Result<()> {
     let args = Args::parse();
 
     let price_lookup_map: HashMap<i64, f64>;
-    let output_file = "prices.json";
+    let output_file = "prices.rs.json";
 
     if args.update {
         if args.verbose {

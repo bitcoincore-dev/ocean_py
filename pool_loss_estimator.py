@@ -41,7 +41,7 @@ def fetch_mempool_pools(time_period='1y', limit=None):
 
 def fetch_full_historical_prices(args):
     api_url = "https://mempool.space/api/v1/historical-price?currency=USD&timestamp=0"
-    output_file = "prices.json"
+    output_file = "prices.py.json"
 
     if args.verbose:
         print(f"--- Starting Full Historical BTC Price Fetch from {api_url} ---")
