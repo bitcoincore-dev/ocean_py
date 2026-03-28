@@ -1,14 +1,6 @@
 use anyhow::Result;
-use ocean_loss_estimator_rs::{models::Block, utils::fetch_from_mirror};
-use serde::Deserialize;
+use ocean_loss_estimator_rs::{models::{Block, PoolData}, utils::fetch_from_mirror};
 use serde_json::Value;
-
-#[derive(Debug, Deserialize)]
-struct PoolData {
-    #[serde(rename = "avgBlockHealth")]
-    avg_block_health: Option<f64>,
-    // Add other fields from pool API if needed
-}
 
 async fn get_ocean_health_rust() -> Result<()> {
     let slug = "ocean";
