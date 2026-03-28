@@ -2,6 +2,13 @@ extern crate hex;
 
 // Reusable functions and structs for the ocean_py project.
 
+use std::sync::Arc;
+use dashmap::DashMap;
+use indicatif::{ProgressBar, ProgressStyle};
+use tokio::io::AsyncWriteExt;
+use tokio::time::{Duration, sleep};
+use serde::{Deserialize, Serialize};
+
 const MIRRORS: &[&str] = &["https://mempool.space", "https://mempool.sweetsats.io"];
 
 pub mod models {
@@ -127,6 +134,271 @@ pub mod models {
         pub loss_usd: f64,
         pub price: f64,
     }
+}
+
+// structs for ocean_total_loss_ocean_report_rust
+#[allow(dead_code)]
+#[derive(Debug, Deserialize, Serialize, Clone)]
+pub struct PriceDataTotalLoss {
+    #[serde(rename = "USD")]
+    pub usd: Option<f64>,
+}
+
+#[derive(Debug, Serialize, Clone)]
+pub struct ProcessedBlockOutputTotalLoss {
+    pub height: u64,
+    pub match_rate: f64,
+    pub loss_usd: f64,
+}
+
+pub async fn get_pool_stats_rust_total_loss() -> Result<u64> {
+    let data = utils::fetch_from_mirror("/api/v1/mining/pool/ocean", 0, 10).await?;
+    let block_count = data
+        .get("pool_stats")
+        .and_then(|ps| ps.get("blockCount"))
+        .and_then(|bc| bc.as_u64())
+        .unwrap_or(832);
+    Ok(block_count)
+}
+
+pub async fn fetch_concurrent_ocean_report_rust() -> Result<()> {
+    println!("--- Parallel OCEAN Audit ---");
+
+    let total_expected_blocks = utils::get_pool_stats_rust().await?;
+    let mut all_blocks: Vec<models::Block> = Vec::new();
+    let mut last_height: Option<u64> = None;
+
+    // Stage 1: Fast Header Crawl (Sequential)
+    let pb_fetch = ProgressBar::new(total_expected_blocks);
+    pb_fetch.set_style(ProgressStyle::default_bar()
+        .template("{spinner:.green} [{elapsed_precise}] [{bar:40.cyan/blue}] {pos}/{len} ({eta}) {msg}").unwrap()
+        .progress_chars("#>- "));
+    pb_fetch.set_message("Fetching Headers");
+
+    while pb_fetch.position() < total_expected_blocks {
+        let path = match last_height {
+            Some(h) => format!("/api/v1/mining/pool/ocean/blocks/{}", h),
+            None => "/api/v1/mining/pool/ocean/blocks".to_string(),
+        };
+
+        let batch: Vec<models::Block> = serde_json::from_value(utils::fetch_from_mirror(&path, 0, 10).await?)?;
+
+        if batch.is_empty() {
+            break;
+        }
+        all_blocks.extend(batch.into_iter());
+        last_height = Some(all_blocks.last().unwrap().height);
+        pb_fetch.set_position(all_blocks.len() as u64);
+        sleep(Duration::from_millis(100)).await;
+    }
+    pb_fetch.finish_with_message("Headers fetched.");
+
+    // Stage 2: Parallel Analysis
+    let price_cache: Arc<DashMap<i64, f64>> = Arc::new(DashMap::new());
+    let mut join_set = tokio::task::JoinSet::new();
+    let mut processed_data: Vec<models::ProcessedBlockOutput> = Vec::new();
+    let mut total_loss_usd = 0.0;
+
+    println!(
+        "Analyzing {} blocks using {} mirrors...",
+        all_blocks.len(),
+        MIRRORS.len()
+    );
+
+    let pb_analyze = ProgressBar::new(all_blocks.len() as u64);
+    pb_analyze.set_style(ProgressStyle::default_bar()
+        .template("{spinner:.green} [{elapsed_precise}] [{bar:40.cyan/blue}] {pos}/{len} ({eta}) {msg}").unwrap()
+        .progress_chars("#>- "));
+    pb_analyze.set_message("Pricing & Loss");
+
+    for (i, block) in all_blocks.into_iter().enumerate() {
+        let cache_clone = price_cache.clone();
+        join_set.spawn(async move { utils::process_single_block(block, i, cache_clone).await });
+    }
+
+    while let Some(res) = join_set.join_next().await {
+        match res? {
+            Ok(output) => {
+                processed_data.push(output.clone());
+                total_loss_usd += output.loss_usd;
+            }
+            Err(e) => eprintln!("Error processing block: {}", e),
+        }
+        pb_analyze.inc(1);
+    }
+    pb_analyze.finish_with_message("Analysis complete.");
+
+    // Final Output
+    processed_data.sort_by_key(|b| std::cmp::Reverse(b.height)); // Sort descending by height
+    println!("{:->40}", "");
+    println!("TOTAL BLOCKS: {}", processed_data.len());
+    println!(
+        "TOTAL LOSS:   ${:.2}",
+        (total_loss_usd * 100.0).round() / 100.0
+    );
+
+    let output_file = "ocean_historical_report.json";
+    let json_string = serde_json::to_string_pretty(&processed_data)?;
+    tokio::fs::File::create(output_file)
+        .await?
+        .write_all(json_string.as_bytes())
+        .await?;
+    println!("Historical report saved to: {}", output_file);
+
+    // Also write pools-3y.json
+    let pools_3y_data = utils::fetch_from_mirror("/api/v1/mining/pools/3y", 0, 10).await?;
+    let pools_3y_output_file = "pools-3y.json";
+    let mut file = tokio::fs::File::create(pools_3y_output_file).await?;
+    file.write_all(serde_json::to_string_pretty(&pools_3y_data)?.as_bytes())
+        .await?;
+    println!("Reference file {} updated.", pools_3y_output_file);
+
+    Ok(())
+}
+
+pub async fn fetch_total_loss_ocean_report_rust() -> Result<()> {
+    let slug = "ocean";
+    let mut all_blocks: Vec<models::Block> = Vec::new();
+    let mut last_height: Option<u64> = None;
+
+    let total_expected_blocks = get_pool_stats_rust_total_loss().await?;
+
+    println!("--- OCEAN History Audit ---");
+    println!("Total Blocks Expected: {}", total_expected_blocks);
+
+    // Initialize Progress Bar for crawling blocks
+    let pb_crawl = ProgressBar::new(total_expected_blocks);
+    pb_crawl.set_style(ProgressStyle::default_bar()
+        .template("{spinner:.green} [{elapsed_precise}] [{bar:40.cyan/blue}] {pos}/{len} ({eta}) {msg}").unwrap()
+        .progress_chars("#>- "));
+    pb_crawl.set_message("Crawling Blocks");
+
+    while pb_crawl.position() < total_expected_blocks {
+        let path = match last_height {
+            Some(h) => format!("/api/v1/mining/pool/{}/blocks/{}", slug, h),
+            None => format!("/api/v1/mining/pool/{}/blocks", slug),
+        };
+
+        let batch_val = utils::fetch_from_mirror(&path, 0, 10).await?;
+        let batch: Vec<models::Block> = serde_json::from_value(batch_val)?;
+        if batch.is_empty() {
+            pb_crawl.set_message("Done: Reached the end of the block chain.");
+            break;
+        }
+
+        all_blocks.extend(batch.into_iter());
+        last_height = Some(all_blocks.last().unwrap().height);
+
+        pb_crawl.set_position(all_blocks.len() as u64);
+        sleep(Duration::from_millis(300)).await; // Python uses 0.3s sleep
+    }
+    pb_crawl.finish_with_message("Block crawling complete.");
+
+    // Processing with Historical Prices
+    let price_cache: Arc<DashMap<i64, f64>> = Arc::new(DashMap::new());
+    let mut join_set: tokio::task::JoinSet<Result<ProcessedBlockOutputTotalLoss, anyhow::Error>> =
+        tokio::task::JoinSet::new();
+    let processed_data: Vec<ProcessedBlockOutputTotalLoss> = Vec::new();
+    let mut total_loss_usd = 0.0;
+
+    println!(
+        "
+{:<10} | {:<10} | {:<10}",
+        "Height", "Match Rate", "Loss (USD)"
+    );
+    println!("{:->40}", "");
+
+    let pb_process = ProgressBar::new(all_blocks.len() as u64);
+    pb_process.set_style(ProgressStyle::default_bar()
+        .template("{spinner:.green} [{elapsed_precise}] [{bar:40.cyan/blue}] {pos}/{len} ({eta}) {msg}").unwrap()
+        .progress_chars("#>- "));
+    pb_process.set_message("Calculating Loss (USD)");
+
+    for (_i, block) in all_blocks.into_iter().enumerate() {
+        let cache_clone = price_cache.clone();
+        join_set.spawn(async move {
+            let timestamp = block.timestamp as i64;
+            let extras = block.extras.unwrap_or(models::BlockExtras {
+                match_rate: Some(0.0),
+                reward: Some(0),
+                expected_fees: Some(0),
+            });
+
+            let match_rate = extras.match_rate.unwrap_or(100.0);
+            let actual_reward = extras.reward.unwrap_or(0);
+
+            let expected_reward = if match_rate > 0.0 && match_rate < 100.0 {
+                ((actual_reward as f64 * 100.0) / match_rate) as u64
+            } else {
+                actual_reward
+            };
+            let loss_sats = expected_reward.saturating_sub(actual_reward);
+
+            #[allow(unused_assignments)]
+            let mut hist_price = 0.0;
+            if let Some(price) = cache_clone.get(&timestamp) {
+                hist_price = *price;
+            } else {
+                // Fetch price if not in cache
+                let price_path = format!(
+                    "/api/v1/historical-price?timestamp={}&currency=USD",
+                    timestamp
+                );
+                if let Ok(price_data_val) = utils::fetch_from_mirror(&price_path, 0, 5).await {
+                    if let Some(usd_price) = price_data_val.get("usd").and_then(|u| u.as_f64()) {
+                        hist_price = usd_price;
+                        cache_clone.insert(timestamp, usd_price);
+                    } else {
+                        // Python uses a default of 74000.0 if price_data is None/empty, so we do
+                        // too
+                        hist_price = 74000.0;
+                    }
+                } else {
+                    // Handle fetch_with_failover error for price
+                    hist_price = 74000.0;
+                }
+            }
+
+            let loss_usd = (loss_sats as f64 / 100_000_000.0) * hist_price;
+
+            Ok(ProcessedBlockOutputTotalLoss {
+                height: block.height,
+                match_rate: (match_rate * 100.0).round() / 100.0, /* Python rounds to 2 decimal
+                                                                   * places */
+                loss_usd: (loss_usd * 100.0).round() / 100.0,
+            })
+        });
+    }
+
+    while let Some(res) = join_set.join_next().await {
+        match res? {
+            Ok(output) => {
+                println!(
+                    "{:<10} | {:<10.2} | {:<10.2}",
+                    output.height, output.match_rate, output.loss_usd
+                );
+                total_loss_usd += output.loss_usd;
+            }
+            Err(e) => eprintln!("Error processing block: {}", e),
+        }
+        pb_process.inc(1);
+    }
+    pb_process.finish_with_message("Loss calculation complete.");
+
+    println!("{:->40}", "");
+    println!("TOTAL BLOCKS: {}", processed_data.len());
+    println!(
+        "TOTAL LOSS:   ${:.2}",
+        (total_loss_usd * 100.0).round() / 100.0
+    );
+
+    // Save to file
+    let output_file = "ocean_historical_report.json";
+    let json_string = serde_json::to_string_pretty(&processed_data)?;
+    let mut file = tokio::fs::File::create(output_file).await?;
+    file.write_all(json_string.as_bytes()).await?;
+
+    Ok(())
 }
 
 pub mod utils {
@@ -405,13 +677,14 @@ pub mod utils {
     }
 }
 
+// Existing functions from the original lib.rs that are not part of the `utils` module
 use anyhow::{Context, Result};
-use reqwest;
-use serde::{Deserialize, Serialize};
-use tokio::io::AsyncWriteExt;
+// use reqwest; // Already imported above
+// use serde::{Deserialize, Serialize}; // Already imported above
+// use tokio::io::AsyncWriteExt; // Already imported above
 
 #[derive(Debug, Deserialize, Clone)]
-pub struct BlockExtras {
+pub struct BlockExtrasLib { // Renamed to avoid conflict with models::BlockExtras
     #[serde(rename = "matchRate")]
     pub match_rate: Option<f64>,
     pub reward: Option<u64>,
@@ -420,15 +693,15 @@ pub struct BlockExtras {
 }
 
 #[derive(Debug, Deserialize, Clone)]
-pub struct Block {
+pub struct BlockLib { // Renamed to avoid conflict with models::Block
     pub height: u64,
     pub id: String,
-    pub extras: Option<BlockExtras>,
+    pub extras: Option<BlockExtrasLib>,
 }
 
-pub async fn fetch_blocks_sample(num_blocks: usize) -> Result<Vec<Block>> {
+pub async fn fetch_blocks_sample(num_blocks: usize) -> Result<Vec<BlockLib>> {
     let url = "https://mempool.space/api/v1/mining/pool/ocean/blocks";
-    let response = reqwest::get(url).await?.json::<Vec<Block>>().await?;
+    let response = reqwest::get(url).await?.json::<Vec<BlockLib>>().await?;
     Ok(response.into_iter().take(num_blocks).collect())
 }
 
@@ -444,7 +717,7 @@ pub struct Pool {
 pub async fn fetch_and_save_pool_data() -> Result<()> {
     // Primary URL (from Python script, seems to be sweetsats.io first, then
     // mempool.space as fallback)
-    let primary_url = "https://mempool.space/api/v1/mining/pools/1y"; // Corrected to mempool.space for consistency with actual usage, Python\'s var name was misleading
+    let primary_url = "https://mempool.space/api/v1/mining/pools/1y"; // Corrected to mempool.space for consistency with actual usage, Python's var name was misleading
     let failover_url = "https://mempool.sweetsats.io/api/v1/mining/pools/1y"; // Actually mempool.space is fallback in Python, will use this as a reference if primary fails.
 
     let output_file = "pools-1y.json";
