@@ -608,9 +608,9 @@ pub mod utils {
         let historical_data = HistoricalPriceData {
             prices: price_lookup
                 .into_iter()
-                .map(|(time, usd)| PriceData {
-                    time,
-                    usd: Some(usd),
+                .map(|p| PriceData {
+                    time: p.0,
+                    usd: Some(p.1),
                 })
                 .collect(),
         };
