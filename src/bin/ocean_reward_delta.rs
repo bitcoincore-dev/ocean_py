@@ -3,14 +3,7 @@ use ocean_loss_estimator_rs::{
     models::{Block, BlockExtras, PoolData},
     utils::fetch_from_mirror,
 };
-use serde::Deserialize; // Still needed for CurrentPrice
 use serde_json::Value;
-
-#[derive(Debug, Deserialize)]
-struct CurrentPrice {
-    #[serde(rename = "USD")]
-    usd: f64,
-}
 
 async fn get_ocean_reward_delta_rust() -> Result<()> {
     let slug = "ocean";
@@ -20,8 +13,7 @@ async fn get_ocean_reward_delta_rust() -> Result<()> {
 
     // 1. Fetch Current BTC Price (USD)
     let price_data: Value = fetch_from_mirror(&price_path, 0, 10).await?;
-    let price_res: CurrentPrice = serde_json::from_value(price_data)?;
-    let btc_usd = price_res.usd;
+    let btc_usd = price_data.get("USD").and_then(|u| u.as_f64()).unwrap_or_default();
 
     // 2. Get Aggregate Pool Health
     let pool_data: Value = fetch_from_mirror(&pool_path, 0, 10).await?;
