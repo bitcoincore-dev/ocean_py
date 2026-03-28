@@ -13,6 +13,7 @@ chrono = { version = "0.4.37", features = ["serde"] }
 anyhow = "1.0.82"
 dashmap = "5.5.0"
 indicatif = "0.17.8"
+num_cpus = "1.16.0"
 
 [[bin]]
 name = "check_api_stability"
@@ -49,3 +50,7 @@ path = "src/bin/ocean_total_loss.rs"
 [[bin]]
 name = "ocean_total"
 path = "src/bin/ocean_total.rs"
+
+[[bin]]
+name = "ocean"
+path = "src/bin/ocean.rs"
