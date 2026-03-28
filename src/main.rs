@@ -106,7 +106,6 @@ async fn fetch_mempool_pools(time_period: &str, limit: Option<usize>, args: &Arg
 
 async fn fetch_full_historical_prices(args: &Args) -> Result<HashMap<i64, f64>> {
     let api_url = "https://mempool.space/api/v1/historical-price?currency=USD&timestamp=0";
-    let output_file = "prices.json";
 
     if args.verbose {
         println!("--- Starting Full Historical BTC Price Fetch from {} ---", api_url);
@@ -117,13 +116,6 @@ async fn fetch_full_historical_prices(args: &Args) -> Result<HashMap<i64, f64>> 
     if response.prices.is_empty() {
         eprintln!("No historical price data received.");
         std::process::exit(1);
-    }
-
-    let mut file = std::fs::File::create(output_file)?;
-    serde_json::to_writer_pretty(&mut file, &response)?;
-
-    if args.verbose {
-        println!("Full historical prices saved to: {}", output_file);
     }
 
     let price_lookup: HashMap<i64, f64> = response.prices.into_iter().map(|p| (p.time, p.usd)).collect();
@@ -385,29 +377,46 @@ async fn main() -> Result<()> {
     let args = Args::parse();
 
     let price_lookup_map: HashMap<i64, f64>;
+    let output_file = "prices.json";
 
     if args.update {
+        if args.verbose {
+            println!("DEBUG: --update flag is set. Forcing price data fetch.");
+        }
         price_lookup_map = fetch_full_historical_prices(&args).await?;
+        let historical_data = HistoricalPriceData { prices: price_lookup_map.iter().map(|(&time, &usd)| PriceData { time, usd }).collect() };
+        let mut file = std::fs::File::create(output_file)?;
+        serde_json::to_writer_pretty(&mut file, &historical_data)?;
+        if args.verbose {
+            println!("Full historical prices saved to: {}. Loaded {} entries.", output_file, price_lookup_map.len());
+        }
     } else {
-        match std::fs::File::open("prices.json") {
+        match std::fs::File::open(output_file) {
             Ok(file) => {
                 let reader = std::io::BufReader::new(file);
                 let historical_data: HistoricalPriceData = serde_json::from_reader(reader)?;
                 price_lookup_map = historical_data.prices.into_iter().map(|p| (p.time, p.usd)).collect();
                 if args.verbose {
-                    println!("Loaded {} historical prices from prices.json.", price_lookup_map.len());
+                    println!("DEBUG: Price data loaded from existing prices.json ({} entries).", price_lookup_map.len());
                 }
             },
             Err(e) if e.kind() == std::io::ErrorKind::NotFound => {
+                if args.verbose {
+                    println!("DEBUG: prices.json not found. Attempting to fetch full historical prices.");
+                }
                 println!("prices.json not found. Attempting to fetch full historical prices...");
                 price_lookup_map = fetch_full_historical_prices(&args).await?;
+                let historical_data = HistoricalPriceData { prices: price_lookup_map.iter().map(|(&time, &usd)| PriceData { time, usd }).collect() };
+                let mut file = std::fs::File::create(output_file)?;
+                serde_json::to_writer_pretty(&mut file, &historical_data)?;
                 if args.verbose {
-                    println!("Loaded {} historical prices from prices.json (after fetch).", price_lookup_map.len());
+                    println!("Full historical prices saved to: {}. Loaded {} entries.", output_file, price_lookup_map.len());
                 }
             },
             Err(e) => return Err(anyhow::anyhow!("Error opening prices.json: {}", e)),
         }
     }
+
 
     let other_pool_slugs: Vec<String> = if let Some(pools_str) = args.other_pools.as_ref() {
         pools_str.split(',').map(|s| s.trim().to_string()).filter(|s| !s.is_empty()).collect()
