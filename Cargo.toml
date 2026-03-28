@@ -19,3 +19,7 @@ path = "src/bin/check_api_stability.rs"
 [[bin]]
 name = "fetch_pools"
 path = "src/bin/fetch_pools.rs"
+
+[[bin]]
+name = "fetch_prices"
+path = "src/bin/fetch_prices.rs"
