@@ -63,7 +63,7 @@ async fn fetch_full_historical_prices_rust() -> Result<HashMap<i64, f64>> {
     }
 
     let mut file = tokio::fs::File::create(output_file).await?;
-    serde_json::to_writer_pretty(&mut file, &response)?;
+    file.write_all(serde_json::to_string_pretty(&response)?.as_bytes()).await?;
 
     println!("Full historical prices saved to: {}", output_file);
 
@@ -78,21 +78,22 @@ async fn fetch_all_ocean_blocks_rust(depth_limit: usize) -> Result<()> {
     let mut all_blocks: Vec<Block> = Vec::new();
     let mut last_height: Option<u64> = None;
 
-    let price_lookup_map: HashMap<i64, f64> = match tokio::fs::File::open("prices.json").await {
-        Ok(file) => {
-            let reader = tokio::io::BufReader::new(file);
-            let historical_data: HistoricalPriceData = serde_json::from_reader(reader.into_std().await?)?;
+    let price_file_name = "prices.json".to_string(); // Define as String
+    let price_lookup_map: HashMap<i64, f64> = match tokio::fs::File::open(&price_file_name).await {
+        Ok(_file) => {
+            let content = tokio::fs::read_to_string(&price_file_name).await?;
+            let historical_data: HistoricalPriceData = serde_json::from_str(&content)?;
             let price_map: HashMap<i64, f64> = historical_data.prices.into_iter().map(|p| (p.time, p.usd)).collect();
-            println!("Loaded {} historical prices from prices.json", price_map.len());
+            println!("Loaded {} historical prices from {}", price_map.len(), price_file_name);
             price_map
         },
         Err(e) if e.kind() == std::io::ErrorKind::NotFound => {
-            println!("prices.json not found. Attempting to fetch full historical prices...");
+            println!("{} not found. Attempting to fetch full historical prices...", price_file_name);
             let price_map = fetch_full_historical_prices_rust().await?;
-            println!("Loaded {} historical prices from prices.json (after fetch)", price_map.len());
+            println!("Loaded {} historical prices from {} (after fetch)", price_map.len(), price_file_name);
             price_map
         },
-        Err(e) => return Err(anyhow::anyhow!("Error opening prices.json: {}", e)),
+        Err(e) => return Err(anyhow::anyhow!("Error opening {}: {}", price_file_name, e)),
     };
 
     let mut sorted_timestamps: Vec<i64> = price_lookup_map.keys().copied().collect();
@@ -100,15 +101,14 @@ async fn fetch_all_ocean_blocks_rust(depth_limit: usize) -> Result<()> {
 
     println!("--- Starting Full History Crawl for OCEAN ---");
 
-    while true {
+    loop {
         let url = match last_height {
             Some(h) => format!("{}/{}", base_blocks_url, h),
             None => base_blocks_url.clone(),
         };
 
         let response = reqwest::get(&url).await?;
-        response.raise_for_status().context(format!("HTTP error fetching blocks from {}", url))?;
-        let batch: Vec<Block> = response.json().await?;
+        let batch: Vec<Block> = response.error_for_status().context(format!("HTTP error fetching blocks from {}", url))?.json::<Vec<Block>>().await?;
 
         if batch.is_empty() {
             break;
@@ -130,10 +130,9 @@ async fn fetch_all_ocean_blocks_rust(depth_limit: usize) -> Result<()> {
 {:<10} | {:<8} | {:<12} | {:<10}", "Height", "Health", "Loss(丰)", "Loss($)");
     println!("{:->50}", "");
 
-    for b in all_blocks {
-        let extras = b.extras.unwrap_or(BlockExtras { match_rate: Some(0.0), reward: Some(0) });
-        let match_rate = extras.match_rate.unwrap_or(0.0).round();
-        let actual_reward = extras.reward.unwrap_or(0);
+    for b in &all_blocks {
+        let match_rate = b.extras.as_ref().and_then(|e| e.match_rate).unwrap_or(0.0).round();
+        let actual_reward = b.extras.as_ref().and_then(|e| e.reward).unwrap_or(0);
 
         let expected_reward = if match_rate > 0.0 && match_rate < 100.0 {
             ((actual_reward as f64 * 100.0) / match_rate) as u64
