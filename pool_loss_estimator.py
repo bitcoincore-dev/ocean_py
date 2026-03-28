@@ -315,7 +315,7 @@ def print_summary_table(summary_results):
     print("-" * 53)
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Estimate cumulative loss for mining pools using Ocean's rules.")
+    parser = argparse.ArgumentParser(description="Estimate cumulative loss for mining pools using Ocean's rules. Note: '丰' is the Unicode symbol for Satoshis.")
     parser.add_argument(
         "--ocean-slug",
         type=str,
