@@ -59,9 +59,8 @@ async fn fetch_full_ocean_report_rust() -> Result<()> {
             None => format!("/api/v1/mining/pool/{}/blocks", slug),
         };
 
-        let (batch_val) = fetch_from_mirror(&path, 0, 10).await?;
-        let batch: Vec<Block> = serde_json::from_value(batch_val)?;
-        if batch.is_empty() {
+        let batch_val = fetch_from_mirror(&path, 0, 10).await?;
+        let batch: Vec<Block> = serde_json::from_value(batch_val)?;        if batch.is_empty() {
             pb_crawl.set_message("Done: Reached the end of the block chain.");
             break;
         }
