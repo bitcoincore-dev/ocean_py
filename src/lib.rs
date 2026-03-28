@@ -131,7 +131,6 @@ pub mod utils {
     use crate::models::{HistoricalPriceData, Transaction, CoinbaseInfo};
     use crate::MIRRORS;
     use reqwest::Client;
-    use serde_json::Value;
     use tokio::time::Duration;
     use regex::Regex;
 
