@@ -1,5 +1,5 @@
 use anyhow::Result;
-use serde::Serialize;
+//use serde::Serialize;
 use tokio::time::{sleep, Duration};
 use tokio::io::AsyncWriteExt; // Add this import
 use std::sync::Arc;
@@ -18,13 +18,7 @@ use ocean_loss_estimator_rs::utils::fetch_from_mirror;
 
 
 
-#[derive(Debug, Serialize, Clone)]
-struct ProcessedBlockOutput {
-    height: u64,
-    match_rate: f64,
-    loss_usd: f64,
-    price: f64,
-}
+use ocean_loss_estimator_rs::models::ProcessedBlockOutput;
 
 
 async fn get_pool_stats_rust() -> Result<u64> {

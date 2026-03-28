@@ -122,6 +122,14 @@ pub mod models {
         pub miner_name: Option<String>,
         pub op_return_data: Vec<String>,
     }
+
+    #[derive(Debug, Serialize, Clone)]
+    pub struct ProcessedBlockOutput {
+        pub height: u64,
+        pub match_rate: f64,
+        pub loss_usd: f64,
+        pub price: f64,
+    }
 }
 
 pub mod utils {
