@@ -72,6 +72,7 @@ async fn fetch_full_historical_prices_rust() -> Result<HashMap<i64, f64>> {
 }
 
 async fn fetch_all_ocean_blocks_rust(depth_limit: usize) -> Result<()> {
+    #[allow(unused_assignments)] // Suppress warning for best_diff
     let slug = "ocean";
     let base_blocks_url = format!("https://mempool.space/api/v1/mining/pool/{}/blocks", slug);
 
