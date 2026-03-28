@@ -227,8 +227,7 @@ def compare_pool_losses(ocean_slug, other_pool_slugs, depth, args):
 
     # Calculate Ocean's total loss for reference
     ocean_total_loss_usd = sum(item['loss_usd'] for item in ocean_processed_data)
-    if args.verbose:
-        print(f"TOTAL CUMULATIVE LOSS for {ocean_slug.upper()}: ${ocean_total_loss_usd:,.2f}")
+    print(f"TOTAL CUMULATIVE LOSS for {ocean_slug.upper()}: ${ocean_total_loss_usd:,.2f}")
 
     summary_results = [] # Initialize list to store summary results
 
@@ -296,6 +295,7 @@ def compare_pool_losses(ocean_slug, other_pool_slugs, depth, args):
                     print(f"{ocean_block['height']:<8} | {ocean_block_timestamp:<10} | {ocean_block['loss_usd']:<10.2f} | {ocean_actual_usd:<12.2f} | {closest_other_block['height']:<8} | {closest_other_block.get('timestamp', 0):<10} | {other_pool_actual_usd:<12.2f} | {other_pool_estimated_loss_usd:<12.2f}")
 
         print("-" * 103)
+        print(f"TOTAL ESTIMATED CUMULATIVE LOSS for {other_pool_slug.upper()}: ${estimated_other_pool_loss_usd:,.2f} ({comparisons_made} blocks compared)")
         # Append to summary_results instead of printing directly
         summary_results.append({
             "pool_slug": other_pool_slug.upper(),
