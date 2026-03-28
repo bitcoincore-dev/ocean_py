@@ -1,6 +1,6 @@
 use clap::Parser;
 use reqwest;
-use serde::{Deserialize, Serialize};
+
 use anyhow::{Result, Context};
 use tokio::time::{sleep, Duration};
 use tokio::io::AsyncWriteExt;
@@ -14,62 +14,9 @@ struct Args {
     depth: usize,
 }
 
-#[derive(Debug, Deserialize, Serialize, Clone)]
-struct PriceData {
-    time: i64,
-    #[serde(rename = "USD")]
-    usd: f64,
-}
+use ocean_loss_estimator_rs::models::{Block, HistoricalPriceData, ProcessedBlockData};
+use ocean_loss_estimator_rs::utils::fetch_full_historical_prices_rust;
 
-#[derive(Debug, Deserialize, Serialize, Clone)]
-struct HistoricalPriceData {
-    prices: Vec<PriceData>,
-}
-
-#[derive(Debug, Deserialize, Serialize, Clone)]
-struct BlockExtras {
-    #[serde(rename = "matchRate")]
-    match_rate: Option<f64>,
-    reward: Option<u64>,
-}
-
-#[derive(Debug, Deserialize, Serialize, Clone)]
-struct Block {
-    height: u64,
-    timestamp: u64,
-    extras: Option<BlockExtras>,
-}
-
-#[derive(Debug, Serialize, Clone)]
-struct ProcessedBlockData {
-    height: u64,
-    health: f64,
-    loss_sats: u64,
-    loss_usd: f64,
-    btc_usd: f64,
-}
-
-async fn fetch_full_historical_prices_rust() -> Result<HashMap<i64, f64>> {
-    let api_url = "https://mempool.space/api/v1/historical-price?currency=USD&timestamp=0";
-    let output_file = "prices.json";
-
-    println!("--- Starting Full Historical BTC Price Fetch from {} ---", api_url);
-
-    let response = reqwest::get(api_url).await?.json::<HistoricalPriceData>().await?;
-
-    if response.prices.is_empty() {
-        eprintln!("No historical price data received.");
-        std::process::exit(1);
-    }
-
-    let mut file = tokio::fs::File::create(output_file).await?;
-    file.write_all(serde_json::to_string_pretty(&response)?.as_bytes()).await?;
-
-    println!("Full historical prices saved to: {}", output_file);
-
-    let price_lookup: HashMap<i64, f64> = response.prices.into_iter().map(|p| (p.time, p.usd)).collect();
-    Ok(price_lookup)
-}
 
 async fn fetch_all_ocean_blocks_rust(depth_limit: usize) -> Result<()> {
     #[allow(unused_assignments)] // Suppress warning for best_diff
@@ -171,7 +118,7 @@ async fn fetch_all_ocean_blocks_rust(depth_limit: usize) -> Result<()> {
                     if let Some(&next_ts) = sorted_timestamps.get(insert_idx) {
                         let diff = (price_timestamp - next_ts).abs();
                         if diff < best_diff {
-                            best_diff = diff;
+                            //best_diff = diff;
                             best_ts = Some(next_ts);
                         }
                     }

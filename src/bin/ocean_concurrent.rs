@@ -1,5 +1,3 @@
-use reqwest;
-use serde::{Deserialize, Serialize};
 use anyhow::Result;
 use tokio::time::{sleep, Duration};
 use tokio::io::AsyncWriteExt; // Add this import
@@ -7,75 +5,8 @@ use std::sync::Arc;
 use dashmap::DashMap;
 use indicatif::{ProgressBar, ProgressStyle};
 
-const MIRRORS: &[&str] = &[
-    "https://mempool.space",
-    "https://mempool.sweetsats.io"
-];
-
-#[derive(Debug, Deserialize, Serialize, Clone)]
-struct BlockExtras {
-    #[serde(rename = "matchRate")]
-    match_rate: Option<f64>,
-    reward: Option<u64>,
-    #[serde(rename = "expectedFees")]
-    expected_fees: Option<u64>,
-}
-
-#[derive(Debug, Deserialize, Serialize, Clone)]
-struct Block {
-    height: u64,
-    id: String,
-    timestamp: u64,
-    extras: Option<BlockExtras>,
-}
-
-#[allow(dead_code)]
-#[derive(Debug, Deserialize, Serialize, Clone)]
-struct PriceData {
-    time: i64,
-    #[serde(rename = "USD")]
-    usd: f64,
-}
-
-#[allow(dead_code)]
-#[derive(Debug, Deserialize, Serialize, Clone)]
-struct HistoricalPriceData {
-    prices: Vec<PriceData>,
-}
-
-#[derive(Debug, Serialize, Clone)]
-struct ProcessedBlockOutput {
-    height: u64,
-    match_rate: f64,
-    loss_usd: f64,
-    price: f64,
-}
-
-async fn fetch_from_mirror(path: &str, mirror_index: usize) -> Result<serde_json::Value> {
-    let mirrors_rotated = {
-        let len = MIRRORS.len();
-        let start = mirror_index % len;
-        let mut rotated = Vec::with_capacity(len);
-        for i in 0..len {
-            rotated.push(MIRRORS[(start + i) % len]);
-        }
-        rotated
-    };
-
-    for base_url in mirrors_rotated {
-        let url = format!("{}{}", base_url, path);
-        match reqwest::get(&url).await {
-            Ok(response) => {
-                if response.status().is_success() {
-                    return Ok(response.json().await?);
-                }
-            },
-            Err(_) => {},
-        }
-    }
-    Err(anyhow::anyhow!("Failed to fetch from all mirrors for path: {}", path))
-}
-
+use ocean_loss_estimator_rs::models::{Block, BlockExtras, HistoricalPriceData, PriceData};
+use ocean_loss_estimator_rs::utils::fetch_from_mirror;
 async fn get_pool_stats_rust() -> Result<u64> {
     let response = fetch_from_mirror("/api/v1/mining/pool/ocean", 0).await?;
     let block_count = response.get("pool_stats")

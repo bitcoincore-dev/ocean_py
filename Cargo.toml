@@ -3,6 +3,11 @@ name = "ocean_loss_estimator_rs"
 version = "0.1.0"
 edition = "2021"
 default-run = "ocean_loss_estimator_rs"
+
+[lib]
+name = "ocean_loss_estimator_rs"
+path = "src/lib.rs"
+
 [dependencies]
 clap = { version = "4.5.4", features = ["derive"] }
 reqwest = { version = "0.12.4", features = ["json"] }
