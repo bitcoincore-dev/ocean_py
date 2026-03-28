@@ -200,18 +200,20 @@ pub mod utils {
         // The first transaction is typically the coinbase transaction
         let coinbase_tx = &transactions[0];
 
-        // Extract miner name from scriptSig (if available)
         let miner_name = coinbase_tx.vin.get(0)
             .and_then(|vin| vin.script_sig_asm.as_ref())
-            .and_then(|script_sig_asm| {
+            .and_then(|script_sig_asm_str| {
+                println!("DEBUG: script_sig_asm: {}", script_sig_asm_str);
                 let re = match Regex::new(r"OP_PUSHBYTES_\d+ ([0-9a-fA-F]+)") {
                     Ok(r) => r,
                     Err(_) => return None,
                 };
-                for cap in re.captures_iter(script_sig_asm) {
+                for cap in re.captures_iter(script_sig_asm_str) {
                     let hex_data = &cap[1];
+                    println!("DEBUG: Extracted scriptSig hex_data: {}", hex_data);
                     if let Ok(bytes) = hex::decode(hex_data) {
                         let decoded_string = String::from_utf8_lossy(&bytes);
+                        println!("DEBUG: Decoded scriptSig string (lossy): {}", decoded_string);
 
                         // Heuristic: try to find common miner patterns in the decoded string
                         if decoded_string.contains("Ocean") {
@@ -239,6 +241,7 @@ pub mod utils {
         for vout in &coinbase_tx.vout {
             if vout.scriptpubkey_type == "nulldata" && vout.scriptpubkey_asm.contains("OP_RETURN") {
                 op_return_data.push(vout.scriptpubkey_asm.clone());
+                println!("DEBUG: OP_RETURN scriptpubkey_asm: {}", vout.scriptpubkey_asm);
 
                 // Try to extract miner name from OP_RETURN data
                 let re = match Regex::new(r"OP_PUSHBYTES_\d+ ([0-9a-fA-F]+)") {
@@ -247,8 +250,10 @@ pub mod utils {
                 };
                 for cap in re.captures_iter(&vout.scriptpubkey_asm) {
                     let hex_data = &cap[1];
+                    println!("DEBUG: Extracted OP_RETURN hex_data: {}", hex_data);
                     if let Ok(bytes) = hex::decode(hex_data) {
                         let decoded_string = String::from_utf8_lossy(&bytes);
+                        println!("DEBUG: Decoded OP_RETURN string (lossy): {}", decoded_string);
 
                         if decoded_string.contains("Ocean") {
                             miner_name_from_op_return = Some("Ocean Mining".to_string());

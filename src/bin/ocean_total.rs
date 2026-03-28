@@ -146,19 +146,17 @@ async fn fetch_all_ocean_blocks_rust(depth_limit: usize) -> Result<()> {
                      processed_block.height, processed_block.health, processed_block.loss_sats, processed_block.loss_usd);
         }
 
-        // Fetch and display coinbase info for the first 5 blocks
-        if i < 5 {
-            match fetch_block_transactions_rust(&b.id).await {
-                Ok(coinbase_info) => {
-                    println!("    Block {}: Miner: {}", b.height, coinbase_info.miner_name.unwrap_or_else(|| "Unknown Miner".to_string()));
-                    if !coinbase_info.op_return_data.is_empty() {
-                        for op_ret in coinbase_info.op_return_data {
-                            println!("        OP_RETURN: {}", op_ret);
-                        }
+        // Fetch and display coinbase info
+        match fetch_block_transactions_rust(&b.id).await {
+            Ok(coinbase_info) => {
+                println!("    Block {}: Miner: {}", b.height, coinbase_info.miner_name.unwrap_or_else(|| "Unknown Miner".to_string()));
+                if !coinbase_info.op_return_data.is_empty() {
+                    for op_ret in coinbase_info.op_return_data {
+                        println!("        OP_RETURN: {}", op_ret);
                     }
-                },
-                Err(e) => eprintln!("    Error fetching coinbase info for block {}: {}", b.height, e),
-            }
+                }
+            },
+            Err(e) => eprintln!("    Error fetching coinbase info for block {}: {}", b.height, e),
         }
     }
 
