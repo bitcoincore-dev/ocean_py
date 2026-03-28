@@ -142,6 +142,7 @@ def analyze_pool_loss(pool_slug, depth=None):
             loss_sats = expected_reward - actual_reward
 
             timestamp = b.get('timestamp')
+            # print(f"DEBUG: Raw timestamp for block {b.get('height')}: {timestamp}") # Debug print for raw timestamp
             btc_usd = 0
             if timestamp:
                 closest_timestamp = None
@@ -229,8 +230,8 @@ def compare_pool_losses(ocean_slug, other_pool_slugs, depth):
                         closest_other_block = other_block
                     # Optimization: if current other_block_timestamp is already much larger than
                     # ocean_block_timestamp, and we are iterating in sorted order, we can break.
-                    if other_block_timestamp > ocean_block_timestamp + 3600: # 1 hour tolerance
-                         break
+                    # if other_block_timestamp > ocean_block_timestamp + 3600: # 1 hour tolerance
+                    #      break
 
                 if closest_other_block:
                     # Estimate loss for the other pool's block
