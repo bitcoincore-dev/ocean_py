@@ -15,7 +15,7 @@ struct Pool {
 async fn fetch_and_save_pool_data() -> Result<()> {
     // Primary URL (from Python script, seems to be sweetsats.io first, then mempool.space as fallback)
     let primary_url = "https://mempool.space/api/v1/mining/pools/1y"; // Corrected to mempool.space for consistency with actual usage, Python's var name was misleading
-    let failover_url = "https://mempool.space/api/v1/mining/pools/1y"; // Actually mempool.space is fallback in Python, will use this as a reference if primary fails.
+    let failover_url = "https://mempool.sweetsats.io/api/v1/mining/pools/1y"; // Actually mempool.space is fallback in Python, will use this as a reference if primary fails.
 
     let output_file = "pools-1y.json";
 
