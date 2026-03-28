@@ -216,9 +216,9 @@ def compare_pool_losses(ocean_slug, other_pool_slugs, depth):
         TIME_DIFFERENCE_THRESHOLD = 3600 # 1 hour in seconds, adjust as needed
 
         print(f"\nEstimating loss for {other_pool_slug.upper()}...")
-        print(f"{'OCEAN':^49} | {'OTHER':^48}") # New header line
+        print(f"{'OCEAN':^49} | {'OTHER':^51}") # New header line
         print(f"{'Height':<8} | {'TS':<10} | {'Loss($)':<10} | {'Actual ($)':<12} | {'Height':<8} | {'TS':<10} | {'Actual ($)':<12} | {'Est. Loss($)':<12}")
-        print("-" * 90)
+        print("-" * 103)
 
         for ocean_block in ocean_processed_data:
             if ocean_block['loss_sats'] > 0 and ocean_block['expected_reward'] > 0:
@@ -260,7 +260,7 @@ def compare_pool_losses(ocean_slug, other_pool_slugs, depth):
                     
                     print(f"{ocean_block['height']:<8} | {ocean_block_timestamp:<10} | {ocean_block['loss_usd']:<10.2f} | {ocean_actual_usd:<12.2f} | {closest_other_block['height']:<8} | {closest_other_block.get('timestamp', 0):<10} | {other_pool_actual_usd:<12.2f} | {other_pool_estimated_loss_usd:<12.2f}")
 
-        print("-" * 90)
+        print("-" * 103)
         print(f"TOTAL ESTIMATED CUMULATIVE LOSS for {other_pool_slug.upper()} (based on {ocean_slug.upper()} rules): ${estimated_other_pool_loss_usd:,.2f} ({comparisons_made} blocks compared)")
 
     # No return value needed, just prints results
