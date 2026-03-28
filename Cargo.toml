@@ -8,20 +8,6 @@ default-run = "ocean_loss_estimator_rs"
 name = "ocean_loss_estimator_rs"
 path = "src/lib.rs"
 
-[dependencies]
-clap = { version = "4.5.4", features = ["derive"] }
-reqwest = { version = "0.12.4", features = ["json"] }
-tokio = { version = "1.37.0", features = ["full"] }
-serde = { version = "1.0.198", features = ["derive"] }
-serde_json = "1.0.116"
-chrono = { version = "0.4.37", features = ["serde"] }
-anyhow = "1.0.82"
-dashmap = "5.5.0"
-indicatif = "0.17.8"
-num_cpus = "1.16.0"
-hex = "0.4.3"
-regex = "1.10.4"
-
 [[bin]]
 name = "check_api_stability"
 path = "src/bin/check_api_stability.rs"
@@ -61,3 +47,17 @@ path = "src/bin/ocean_total.rs"
 [[bin]]
 name = "ocean"
 path = "src/bin/ocean.rs"
+
+[dependencies]
+anyhow = "1.0.82"
+chrono = { version = "0.4.37", features = ["serde"] }
+clap = { version = "4.5.4", features = ["derive"] }
+dashmap = "5.5.0"
+hex = "0.4.3"
+indicatif = "0.17.8"
+num_cpus = "1.16.0"
+regex = "1.10.4"
+reqwest = { version = "0.12.4", features = ["json"] }
+serde = { version = "1.0.198", features = ["derive"] }
+serde_json = "1.0.116"
+tokio = { version = "1.37.0", features = ["full"] }

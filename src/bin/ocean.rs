@@ -1,7 +1,8 @@
-use anyhow::Result;
 use std::env;
-use tokio::io::AsyncWriteExt;
-use num_cpus; // Add this import
+
+use anyhow::Result;
+use num_cpus;
+use tokio::io::AsyncWriteExt; // Add this import
 
 async fn setup_ocean_rust() -> Result<()> {
     // 1. Environment Variables & Constants
@@ -22,7 +23,10 @@ typedef struct {
     uint64_t session_id;
 } BIP64ModContext;
 "#;
-    tokio::fs::File::create("bip64mod_config.h").await?.write_all(bip64_content.as_bytes()).await?;
+    tokio::fs::File::create("bip64mod_config.h")
+        .await?
+        .write_all(bip64_content.as_bytes())
+        .await?;
 
     // 3. OCEAN Node Policy Flags (Append to bitcoin.conf)
     println!("Generating bitcoin.conf recommended flags for OCEAN...");
@@ -45,18 +49,27 @@ bip64mod=1
     file.write_all(conf_content.as_bytes()).await?;
 
     // Placeholder for external setup script
-    println!("
---- IMPORTANT: External setup script needed for dependencies and C compilation ---");
-    println!("Please run the companion script 'setup_ocean_deps.sh' to install system dependencies and compile BIP-64MOD.");
+    println!(
+        "
+--- IMPORTANT: External setup script needed for dependencies and C compilation ---"
+    );
+    println!(
+        "Please run the companion script 'setup_ocean_deps.sh' to install system dependencies and compile BIP-64MOD."
+    );
 
     // 4. Output Summary
     let build_threads = num_cpus::get(); // Using num_cpus crate
     println!("{:->55}", "");
     println!("Setup Complete.");
-    println!("Pool: {}", env::var("POOL_URL").unwrap_or_else(|_| "N/A".to_string()));
-    println!("Username: {}.{}", 
-             env::var("USER_ADDRESS").unwrap_or_else(|_| "N/A".to_string()),
-             env::var("WORKER_NAME").unwrap_or_else(|_| "N/A".to_string()));
+    println!(
+        "Pool: {}",
+        env::var("POOL_URL").unwrap_or_else(|_| "N/A".to_string())
+    );
+    println!(
+        "Username: {}.{}",
+        env::var("USER_ADDRESS").unwrap_or_else(|_| "N/A".to_string()),
+        env::var("WORKER_NAME").unwrap_or_else(|_| "N/A".to_string())
+    );
     println!("Threads: {}", build_threads);
     println!("BIP-64MOD context has been preserved in bip64mod_config.h");
     println!("{:->55}", "");

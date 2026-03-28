@@ -1,16 +1,15 @@
-use anyhow::Result;
-use serde::{Deserialize, Serialize};
-use tokio::time::{sleep, Duration};
-use tokio::io::AsyncWriteExt; // Re-added this import
-use indicatif::{ProgressBar, ProgressStyle};
 use std::sync::Arc;
+
+use anyhow::Result;
 use dashmap::DashMap;
-
-use ocean_loss_estimator_rs::models::{Block, BlockExtras};
-use ocean_loss_estimator_rs::utils::fetch_from_mirror;
-
-
-
+use indicatif::{ProgressBar, ProgressStyle};
+use ocean_loss_estimator_rs::{
+    models::{Block, BlockExtras},
+    utils::fetch_from_mirror,
+};
+use serde::{Deserialize, Serialize};
+use tokio::io::AsyncWriteExt; // Re-added this import
+use tokio::time::{Duration, sleep};
 
 #[allow(dead_code)]
 #[derive(Debug, Deserialize, Serialize, Clone)]
@@ -26,13 +25,13 @@ struct ProcessedBlockOutput {
     loss_usd: f64,
 }
 
-
 async fn get_pool_stats_rust() -> Result<u64> {
     let data = fetch_from_mirror("/api/v1/mining/pool/ocean", 0, 10).await?;
-    let block_count = data.get("pool_stats")
-                          .and_then(|ps| ps.get("blockCount"))
-                          .and_then(|bc| bc.as_u64())
-                          .unwrap_or(832);
+    let block_count = data
+        .get("pool_stats")
+        .and_then(|ps| ps.get("blockCount"))
+        .and_then(|bc| bc.as_u64())
+        .unwrap_or(832);
     Ok(block_count)
 }
 
@@ -60,7 +59,8 @@ async fn fetch_full_ocean_report_rust() -> Result<()> {
         };
 
         let batch_val = fetch_from_mirror(&path, 0, 10).await?;
-        let batch: Vec<Block> = serde_json::from_value(batch_val)?;        if batch.is_empty() {
+        let batch: Vec<Block> = serde_json::from_value(batch_val)?;
+        if batch.is_empty() {
             pb_crawl.set_message("Done: Reached the end of the block chain.");
             break;
         }
@@ -75,12 +75,16 @@ async fn fetch_full_ocean_report_rust() -> Result<()> {
 
     // Processing with Historical Prices
     let price_cache: Arc<DashMap<i64, f64>> = Arc::new(DashMap::new());
-    let mut join_set: tokio::task::JoinSet<Result<ProcessedBlockOutput, anyhow::Error>> = tokio::task::JoinSet::new();
+    let mut join_set: tokio::task::JoinSet<Result<ProcessedBlockOutput, anyhow::Error>> =
+        tokio::task::JoinSet::new();
     let processed_data: Vec<ProcessedBlockOutput> = Vec::new();
     let mut total_loss_usd = 0.0;
 
-    println!("
-{:<10} | {:<10} | {:<10}", "Height", "Match Rate", "Loss (USD)");
+    println!(
+        "
+{:<10} | {:<10} | {:<10}",
+        "Height", "Match Rate", "Loss (USD)"
+    );
     println!("{:->40}", "");
 
     let pb_process = ProgressBar::new(all_blocks.len() as u64);
@@ -93,7 +97,11 @@ async fn fetch_full_ocean_report_rust() -> Result<()> {
         let cache_clone = price_cache.clone();
         join_set.spawn(async move {
             let timestamp = block.timestamp as i64;
-            let extras = block.extras.unwrap_or(BlockExtras { match_rate: Some(0.0), reward: Some(0), expected_fees: Some(0) });
+            let extras = block.extras.unwrap_or(BlockExtras {
+                match_rate: Some(0.0),
+                reward: Some(0),
+                expected_fees: Some(0),
+            });
 
             let match_rate = extras.match_rate.unwrap_or(100.0);
             let actual_reward = extras.reward.unwrap_or(0);
@@ -111,16 +119,21 @@ async fn fetch_full_ocean_report_rust() -> Result<()> {
                 hist_price = *price;
             } else {
                 // Fetch price if not in cache
-                let price_path = format!("/api/v1/historical-price?timestamp={}&currency=USD", timestamp);
+                let price_path = format!(
+                    "/api/v1/historical-price?timestamp={}&currency=USD",
+                    timestamp
+                );
                 if let Ok(price_data_val) = fetch_from_mirror(&price_path, 0, 5).await {
                     if let Some(usd_price) = price_data_val.get("usd").and_then(|u| u.as_f64()) {
                         hist_price = usd_price;
                         cache_clone.insert(timestamp, usd_price);
                     } else {
-                         // Python uses a default of 74000.0 if price_data is None/empty, so we do too
+                        // Python uses a default of 74000.0 if price_data is None/empty, so we do
+                        // too
                         hist_price = 74000.0;
                     }
-                } else { // Handle fetch_with_failover error for price
+                } else {
+                    // Handle fetch_with_failover error for price
                     hist_price = 74000.0;
                 }
             }
@@ -129,7 +142,8 @@ async fn fetch_full_ocean_report_rust() -> Result<()> {
 
             Ok(ProcessedBlockOutput {
                 height: block.height,
-                match_rate: (match_rate * 100.0).round() / 100.0, // Python rounds to 2 decimal places
+                match_rate: (match_rate * 100.0).round() / 100.0, /* Python rounds to 2 decimal
+                                                                   * places */
                 loss_usd: (loss_usd * 100.0).round() / 100.0,
             })
         });
@@ -138,9 +152,12 @@ async fn fetch_full_ocean_report_rust() -> Result<()> {
     while let Some(res) = join_set.join_next().await {
         match res? {
             Ok(output) => {
-                println!("{:<10} | {:<10.2} | {:<10.2}", output.height, output.match_rate, output.loss_usd);
+                println!(
+                    "{:<10} | {:<10.2} | {:<10.2}",
+                    output.height, output.match_rate, output.loss_usd
+                );
                 total_loss_usd += output.loss_usd;
-            },
+            }
             Err(e) => eprintln!("Error processing block: {}", e),
         }
         pb_process.inc(1);
@@ -149,7 +166,10 @@ async fn fetch_full_ocean_report_rust() -> Result<()> {
 
     println!("{:->40}", "");
     println!("TOTAL BLOCKS: {}", processed_data.len());
-    println!("TOTAL LOSS:   ${:.2}", (total_loss_usd * 100.0).round() / 100.0);
+    println!(
+        "TOTAL LOSS:   ${:.2}",
+        (total_loss_usd * 100.0).round() / 100.0
+    );
 
     // Save to file
     let output_file = "ocean_historical_report.json";

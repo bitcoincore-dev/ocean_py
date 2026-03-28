@@ -2,10 +2,7 @@ extern crate hex;
 
 // Reusable functions and structs for the ocean_py project.
 
-const MIRRORS: &[&str] = &[
-    "https://mempool.space",
-    "https://mempool.sweetsats.io"
-];
+const MIRRORS: &[&str] = &["https://mempool.space", "https://mempool.sweetsats.io"];
 
 pub mod models {
     use serde::{Deserialize, Serialize};
@@ -133,22 +130,33 @@ pub mod models {
 }
 
 pub mod utils {
-    use anyhow::{Result, anyhow};
     use std::collections::HashMap;
-    use tokio::io::AsyncWriteExt;
-    use crate::models::{HistoricalPriceData, Transaction, CoinbaseInfo, PriceData};
-    use crate::MIRRORS;
-    use reqwest::Client;
-    use tokio::time::Duration;
+
+    use anyhow::{Result, anyhow};
     use regex::Regex;
+    use reqwest::Client;
+    use tokio::{io::AsyncWriteExt, time::Duration};
+
+    use crate::{
+        MIRRORS,
+        models::{CoinbaseInfo, HistoricalPriceData, PriceData, Transaction},
+    };
 
     pub async fn fetch_full_historical_prices_rust() -> Result<HashMap<i64, f64>> {
         let api_url = "https://mempool.space/api/v1/historical-price?currency=USD&timestamp=0";
         let output_file = "prices.json";
 
-        println!("--- Starting Full Historical BTC Price Fetch from {} ---", api_url);
+        println!(
+            "--- Starting Full Historical BTC Price Fetch from {} ---",
+            api_url
+        );
 
-        let response = Client::new().get(api_url).send().await?.json::<HistoricalPriceData>().await?;
+        let response = Client::new()
+            .get(api_url)
+            .send()
+            .await?
+            .json::<HistoricalPriceData>()
+            .await?;
 
         if response.prices.is_empty() {
             eprintln!("No historical price data received.");
@@ -156,16 +164,27 @@ pub mod utils {
         }
 
         let mut file = tokio::fs::File::create(output_file).await?;
-        file.write_all(serde_json::to_string_pretty(&response)?.as_bytes()).await?;
+        file.write_all(serde_json::to_string_pretty(&response)?.as_bytes())
+            .await?;
 
         println!("Full historical prices saved to: {}", output_file);
 
-        let price_lookup: HashMap<i64, f64> = response.prices.into_iter().filter_map(|p| p.usd.map(|usd_val| (p.time, usd_val))).collect();
+        let price_lookup: HashMap<i64, f64> = response
+            .prices
+            .into_iter()
+            .filter_map(|p| p.usd.map(|usd_val| (p.time, usd_val)))
+            .collect();
         Ok(price_lookup)
     }
 
-    pub async fn fetch_from_mirror(path: &str, mirror_index: usize, timeout_secs: u64) -> Result<serde_json::Value> {
-        let client = Client::builder().timeout(Duration::from_secs(timeout_secs)).build()?;
+    pub async fn fetch_from_mirror(
+        path: &str,
+        mirror_index: usize,
+        timeout_secs: u64,
+    ) -> Result<serde_json::Value> {
+        let client = Client::builder()
+            .timeout(Duration::from_secs(timeout_secs))
+            .build()?;
 
         let mirrors_rotated = {
             let len = MIRRORS.len();
@@ -184,14 +203,18 @@ pub mod utils {
                     if response.status().is_success() {
                         return Ok(response.json().await?);
                     }
-                    if response.status().as_u16() == 429 { // Too many requests
+                    if response.status().as_u16() == 429 {
+                        // Too many requests
                         continue;
                     }
-                },
-                Err(_) => {},
+                }
+                Err(_) => {}
             }
         }
-        Err(anyhow!("Failed to fetch from all mirrors for path: {}", path))
+        Err(anyhow!(
+            "Failed to fetch from all mirrors for path: {}",
+            path
+        ))
     }
 
     pub async fn fetch_block_transactions_rust(block_hash: &str) -> Result<CoinbaseInfo> {
@@ -207,7 +230,9 @@ pub mod utils {
         // The first transaction is typically the coinbase transaction
         let coinbase_tx = &transactions[0];
 
-        let miner_name = coinbase_tx.vin.get(0)
+        let miner_name = coinbase_tx
+            .vin
+            .get(0)
             .and_then(|vin| vin.script_sig_asm.as_ref())
             .and_then(|script_sig_asm_str| {
                 println!("DEBUG: script_sig_asm: {}", script_sig_asm_str);
@@ -220,7 +245,10 @@ pub mod utils {
                     println!("DEBUG: Extracted scriptSig hex_data: {}", hex_data);
                     if let Ok(bytes) = hex::decode(hex_data) {
                         let decoded_string = String::from_utf8_lossy(&bytes);
-                        println!("DEBUG: Decoded scriptSig string (lossy): {}", decoded_string);
+                        println!(
+                            "DEBUG: Decoded scriptSig string (lossy): {}",
+                            decoded_string
+                        );
 
                         // Heuristic: try to find common miner patterns in the decoded string
                         if decoded_string.contains("Ocean") {
@@ -235,7 +263,6 @@ pub mod utils {
                         if decoded_string.contains("F2Pool") {
                             return Some("F2Pool".to_string());
                         }
-
                     }
                 }
                 None
@@ -248,7 +275,10 @@ pub mod utils {
         for vout in &coinbase_tx.vout {
             if vout.scriptpubkey_type == "nulldata" && vout.scriptpubkey_asm.contains("OP_RETURN") {
                 op_return_data.push(vout.scriptpubkey_asm.clone());
-                println!("DEBUG: OP_RETURN scriptpubkey_asm: {}", vout.scriptpubkey_asm);
+                println!(
+                    "DEBUG: OP_RETURN scriptpubkey_asm: {}",
+                    vout.scriptpubkey_asm
+                );
 
                 // Try to extract miner name from OP_RETURN data
                 let re = match Regex::new(r"OP_PUSHBYTES_\d+ ([0-9a-fA-F]+)") {
@@ -260,7 +290,10 @@ pub mod utils {
                     println!("DEBUG: Extracted OP_RETURN hex_data: {}", hex_data);
                     if let Ok(bytes) = hex::decode(hex_data) {
                         let decoded_string = String::from_utf8_lossy(&bytes);
-                        println!("DEBUG: Decoded OP_RETURN string (lossy): {}", decoded_string);
+                        println!(
+                            "DEBUG: Decoded OP_RETURN string (lossy): {}",
+                            decoded_string
+                        );
 
                         if decoded_string.contains("Ocean") {
                             miner_name_from_op_return = Some("Ocean Mining".to_string());
@@ -270,7 +303,8 @@ pub mod utils {
                             miner_name_from_op_return = Some("Peak Mining".to_string());
                             break;
                         }
-                        // Add other OP_RETURN specific miner heuristics here if needed
+                        // Add other OP_RETURN specific miner heuristics here if
+                        // needed
                     }
                 }
             }
@@ -287,25 +321,34 @@ pub mod utils {
 
     pub async fn fetch_and_save_full_historical_prices() -> Result<()> {
         let output_file = "prices.json";
-    
+
         let price_lookup: HashMap<i64, f64> = fetch_full_historical_prices_rust().await?;
-    
-        let historical_data = HistoricalPriceData { 
-            prices: price_lookup.into_iter().map(|(time, usd)| PriceData { time, usd: Some(usd) }).collect()
+
+        let historical_data = HistoricalPriceData {
+            prices: price_lookup
+                .into_iter()
+                .map(|(time, usd)| PriceData {
+                    time,
+                    usd: Some(usd),
+                })
+                .collect(),
         };
-    
+
         let json_string = serde_json::to_string_pretty(&historical_data)?;
-        tokio::fs::File::create(output_file).await?.write_all(json_string.as_bytes()).await?;
-    
+        tokio::fs::File::create(output_file)
+            .await?
+            .write_all(json_string.as_bytes())
+            .await?;
+
         println!("Full historical prices saved to: {}", output_file);
-    
+
         Ok(())
     }
 }
 
-use anyhow::{Result, Context};
-use serde::{Deserialize, Serialize};
+use anyhow::{Context, Result};
 use reqwest;
+use serde::{Deserialize, Serialize};
 use tokio::io::AsyncWriteExt;
 
 #[derive(Debug, Deserialize, Clone)]
@@ -340,14 +383,15 @@ pub struct Pool {
 }
 
 pub async fn fetch_and_save_pool_data() -> Result<()> {
-    // Primary URL (from Python script, seems to be sweetsats.io first, then mempool.space as fallback)
+    // Primary URL (from Python script, seems to be sweetsats.io first, then
+    // mempool.space as fallback)
     let primary_url = "https://mempool.space/api/v1/mining/pools/1y"; // Corrected to mempool.space for consistency with actual usage, Python\'s var name was misleading
     let failover_url = "https://mempool.sweetsats.io/api/v1/mining/pools/1y"; // Actually mempool.space is fallback in Python, will use this as a reference if primary fails.
 
     let output_file = "pools-1y.json";
 
     println!("--- Fetching Pool Data (1Y) ---"); // Python script had 3Y, but URL is 1Y
-    
+
     let response_data: Vec<Pool>;
 
     // Attempt to fetch from primary_url
@@ -357,25 +401,47 @@ pub async fn fetch_and_save_pool_data() -> Result<()> {
                 response_data = response.json::<Vec<Pool>>().await?;
                 println!("[+] Successfully fetched from {}.", primary_url);
             } else {
-                println!("[-] {} returned {}. Trying failover URL...", primary_url, response.status());
+                println!(
+                    "[-] {} returned {}. Trying failover URL...",
+                    primary_url,
+                    response.status()
+                );
                 let failover_response = reqwest::get(failover_url).await?;
-                response_data = failover_response.error_for_status().context(format!("HTTP error for failover URL {}", failover_url))?.json::<Vec<Pool>>().await?;
+                response_data = failover_response
+                    .error_for_status()
+                    .context(format!("HTTP error for failover URL {}", failover_url))?
+                    .json::<Vec<Pool>>()
+                    .await?;
                 println!("[+] Successfully fetched from {}.", failover_url);
             }
-        },
+        }
         Err(e) => {
-            println!("[-] Error fetching from {}: {}. Trying failover URL...", primary_url, e);
+            println!(
+                "[-] Error fetching from {}: {}. Trying failover URL...",
+                primary_url, e
+            );
             let failover_response = reqwest::get(failover_url).await?;
-            response_data = failover_response.error_for_status().context(format!("HTTP error for failover URL {}", failover_url))?.json::<Vec<Pool>>().await?;
+            response_data = failover_response
+                .error_for_status()
+                .context(format!("HTTP error for failover URL {}", failover_url))?
+                .json::<Vec<Pool>>()
+                .await?;
             println!("[+] Successfully fetched from {}.", failover_url);
         }
     }
 
     // Write to JSON file
     let json_string = serde_json::to_string_pretty(&response_data)?;
-    tokio::fs::File::create(output_file).await?.write_all(json_string.as_bytes()).await?;
+    tokio::fs::File::create(output_file)
+        .await?
+        .write_all(json_string.as_bytes())
+        .await?;
 
-    println!("[+] Successfully wrote {} pool entries to {}", response_data.len(), output_file);
+    println!(
+        "[+] Successfully wrote {} pool entries to {}",
+        response_data.len(),
+        output_file
+    );
 
     Ok(())
 }

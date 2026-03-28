@@ -1,7 +1,6 @@
 use anyhow::Result;
+use ocean_loss_estimator_rs::{models::Block, utils::fetch_from_mirror};
 use serde::Deserialize;
-use ocean_loss_estimator_rs::models::Block;
-use ocean_loss_estimator_rs::utils::fetch_from_mirror;
 use serde_json::Value;
 
 #[derive(Debug, Deserialize)]
@@ -27,13 +26,20 @@ async fn get_ocean_health_rust() -> Result<()> {
 
     println!("--- OCEAN Pool Health Metrics ---");
     println!("Aggregate Pool Health (avgBlockHealth): {}%", avg_health);
-    println!("
---- Recent Block Health (matchRate) ---");
+    println!(
+        "
+--- Recent Block Health (matchRate) ---"
+    );
 
-    // Python shows up to 10000 blocks, we'll stick to a reasonable default or fetch all if not too many
+    // Python shows up to 10000 blocks, we'll stick to a reasonable default or fetch
+    // all if not too many
     for b in blocks_res.iter().take(10000) {
         let height = b.height;
-        let match_rate = b.extras.as_ref().and_then(|e| e.match_rate).unwrap_or_default();
+        let match_rate = b
+            .extras
+            .as_ref()
+            .and_then(|e| e.match_rate)
+            .unwrap_or_default();
         println!("Block Height: {} | Health: {}%", height, match_rate);
     }
 
