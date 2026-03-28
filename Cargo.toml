@@ -33,3 +33,7 @@ path = "src/bin/ocean_concurrent.rs"
 [[bin]]
 name = "ocean_health"
 path = "src/bin/ocean_health.rs"
+
+[[bin]]
+name = "ocean_reward_delta"
+path = "src/bin/ocean_reward_delta.rs"
