@@ -53,7 +53,7 @@ pub mod models {
 }
 
 pub mod utils {
-    use anyhow::{Result, anyhow};
+    use anyhow::Result;
     use std::collections::HashMap;
     use tokio::io::AsyncWriteExt;
     use crate::models::HistoricalPriceData;
