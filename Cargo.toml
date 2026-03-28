@@ -15,3 +15,7 @@ anyhow = "1.0.82"
 [[bin]]
 name = "check_api_stability"
 path = "src/bin/check_api_stability.rs"
+
+[[bin]]
+name = "fetch_pools"
+path = "src/bin/fetch_pools.rs"
