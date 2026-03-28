@@ -162,7 +162,8 @@ def analyze_pool_loss(pool_slug, depth=None):
                 "expected_reward": expected_reward, # Add expected_reward for loss quotient
                 "loss_sats": loss_sats,
                 "loss_usd": round(loss_usd, 2),
-                "btc_usd": btc_usd
+                "btc_usd": btc_usd,
+                "timestamp": timestamp # Add timestamp to processed_data
             })
 
         return processed_data
