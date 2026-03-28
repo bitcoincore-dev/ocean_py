@@ -44,6 +44,12 @@ pub mod models {
         pub loss_usd: f64,
         pub btc_usd: f64,
     }
+
+    #[derive(Debug, Deserialize)]
+    pub struct PoolData {
+        #[serde(rename = "avgBlockHealth")]
+        pub avg_block_health: Option<f64>,
+    }
 }
 
 pub mod utils {
