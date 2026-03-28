@@ -1,6 +1,6 @@
 use anyhow::{Result, Context};
 use tokio::time::{sleep, Duration};
-use ocean_loss_estimator_rs::{Block, BlockExtras, fetch_blocks_sample};
+use ocean_loss_estimator_rs::fetch_blocks_sample;
 #[tokio::main]
 async fn main() -> Result<()> {
     println!("--- Checking API Stability for Ocean Mining Pool Blocks ---");

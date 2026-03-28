@@ -128,7 +128,7 @@ pub mod utils {
     use anyhow::{Result, anyhow};
     use std::collections::HashMap;
     use tokio::io::AsyncWriteExt;
-    use crate::models::{HistoricalPriceData, Transaction, CoinbaseInfo};
+    use crate::models::{HistoricalPriceData, Transaction, CoinbaseInfo, PriceData};
     use crate::MIRRORS;
     use reqwest::Client;
     use tokio::time::Duration;
@@ -276,11 +276,27 @@ pub mod utils {
             op_return_data,
         })
     }
+
+    pub async fn fetch_and_save_full_historical_prices() -> Result<()> {
+        let output_file = "prices.json";
+    
+        let price_lookup: HashMap<i64, f64> = fetch_full_historical_prices_rust().await?;
+    
+        let historical_data = HistoricalPriceData { 
+            prices: price_lookup.into_iter().map(|(time, usd)| PriceData { time, usd: Some(usd) }).collect()
+        };
+    
+        let json_string = serde_json::to_string_pretty(&historical_data)?;
+        tokio::fs::File::create(output_file).await?.write_all(json_string.as_bytes()).await?;
+    
+        println!("Full historical prices saved to: {}", output_file);
+    
+        Ok(())
+    }
 }
 
 use anyhow::{Result, Context};
 use serde::{Deserialize, Serialize};
-use serde_json::Value;
 use reqwest;
 use tokio::io::AsyncWriteExt;
 
