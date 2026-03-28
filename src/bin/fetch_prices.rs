@@ -11,7 +11,7 @@ async fn fetch_and_save_full_historical_prices() -> Result<()> {
     let price_lookup: HashMap<i64, f64> = fetch_full_historical_prices_rust().await?;
 
     let historical_data = HistoricalPriceData { 
-        prices: price_lookup.into_iter().map(|(time, usd)| PriceData { time, usd }).collect()
+        prices: price_lookup.into_iter().map(|(time, usd)| PriceData { time, usd: Some(usd) }).collect()
     };
 
     let json_string = serde_json::to_string_pretty(&historical_data)?;

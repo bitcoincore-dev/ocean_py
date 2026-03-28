@@ -31,7 +31,7 @@ async fn fetch_all_ocean_blocks_rust(depth_limit: usize) -> Result<()> {
         Ok(_file) => {
             let content = tokio::fs::read_to_string(&price_file_name).await?;
             let historical_data: HistoricalPriceData = serde_json::from_str(&content)?;
-            let price_map: HashMap<i64, f64> = historical_data.prices.into_iter().map(|p| (p.time, p.usd)).collect();
+            let price_map: HashMap<i64, f64> = historical_data.prices.into_iter().filter_map(|p| p.usd.map(|usd_val| (p.time, usd_val))).collect();
             println!("Loaded {} historical prices from {}", price_map.len(), price_file_name);
             price_map
         },

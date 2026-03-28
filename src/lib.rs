@@ -12,7 +12,7 @@ pub mod models {
     pub struct PriceData {
         pub time: i64,
         #[serde(rename = "USD")]
-        pub usd: f64,
+        pub usd: Option<f64>,
     }
 
     #[derive(Debug, Deserialize, Serialize, Clone)]
@@ -53,7 +53,7 @@ pub mod models {
 }
 
 pub mod utils {
-    use anyhow::Result;
+    use anyhow::{Result, anyhow};
     use std::collections::HashMap;
     use tokio::io::AsyncWriteExt;
     use crate::models::HistoricalPriceData;
@@ -79,7 +79,7 @@ pub mod utils {
 
         println!("Full historical prices saved to: {}", output_file);
 
-        let price_lookup: HashMap<i64, f64> = response.prices.into_iter().map(|p| (p.time, p.usd)).collect();
+        let price_lookup: HashMap<i64, f64> = response.prices.into_iter().filter_map(|p| p.usd.map(|usd_val| (p.time, usd_val))).collect();
         Ok(price_lookup)
     }
 
