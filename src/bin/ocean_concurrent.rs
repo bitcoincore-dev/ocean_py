@@ -14,15 +14,7 @@ use ocean_loss_estimator_rs::{
     utils::fetch_from_mirror,
 };
 
-async fn get_pool_stats_rust() -> Result<u64> {
-    let response = fetch_from_mirror("/api/v1/mining/pool/ocean", 0, 10).await?;
-    let block_count = response
-        .get("pool_stats")
-        .and_then(|ps| ps.get("blockCount"))
-        .and_then(|bc| bc.as_u64())
-        .unwrap_or(832);
-    Ok(block_count)
-}
+use ocean_loss_estimator_rs::utils::get_pool_stats_rust;
 
 async fn process_single_block(
     block: Block,

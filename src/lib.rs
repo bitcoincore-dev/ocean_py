@@ -344,6 +344,16 @@ pub mod utils {
 
         Ok(())
     }
+
+    pub async fn get_pool_stats_rust() -> Result<u64> {
+        let response = crate::utils::fetch_from_mirror("/api/v1/mining/pool/ocean", 0, 10).await?;
+        let block_count = response
+            .get("pool_stats")
+            .and_then(|ps| ps.get("blockCount"))
+            .and_then(|bc| bc.as_u64())
+            .unwrap_or(832);
+        Ok(block_count)
+    }
 }
 
 use anyhow::{Context, Result};
