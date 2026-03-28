@@ -5,6 +5,33 @@ import sys
 import time
 import json
 
+def fetch_mempool_pools(time_period='1y'):
+    api_url = f"https://mempool.space/api/v1/mining/pools/{time_period}"
+    print(f"--- Fetching active pools from {api_url} ---")
+    try:
+        response = requests.get(api_url, timeout=15)
+        response.raise_for_status()
+        pools_data = response.json()
+        print(f"DEBUG: Type of pools_data: {type(pools_data)}")
+        print(f"DEBUG: Content of pools_data (first 200 chars): {str(pools_data)[:200]}")
+
+        if not isinstance(pools_data, dict) or 'pools' not in pools_data:
+            print("Error: Expected a dictionary with a 'pools' key from mempool.space API, but received a different structure.")
+            return []
+        
+        # Now, pools_data should be the list of pools inside the 'pools' key
+        pools_list = pools_data['pools']
+        if not isinstance(pools_list, list):
+            print("Error: Expected a list under the 'pools' key, but received a different type.")
+            return []
+
+        pool_slugs = [pool.get('slug') for pool in pools_list if pool.get('slug')]
+        print(f"Fetched {len(pool_slugs)} pools from mempool.space.")
+        return pool_slugs
+    except requests.exceptions.RequestException as e:
+        print(f"Error fetching pools from mempool.space: {e}")
+        return []
+
 def fetch_full_historical_prices():
     api_url = "https://mempool.space/api/v1/historical-price?currency=USD&timestamp=0"
     output_file = "prices.json"
@@ -219,10 +246,15 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
 
-    if not args.other_pools:
-        print("Error: --other-pools argument is required.")
-        sys.exit(1)
-    
-    other_pool_slugs = [slug.strip() for slug in args.other_pools.split(',') if slug.strip()]
+    if args.other_pools:
+        other_pool_slugs = [slug.strip() for slug in args.other_pools.split(',') if slug.strip()]
+    else:
+        print("No --other-pools specified. Attempting to fetch active pools from mempool.space...")
+        other_pool_slugs = fetch_mempool_pools()
+        if not other_pool_slugs:
+            print("Error: Could not fetch any pools from mempool.space. Please specify --other-pools manually.")
+            sys.exit(1)
+        else:
+            print(f"Using fetched pools: {', '.join(other_pool_slugs)}")
 
     compare_pool_losses(ocean_slug=args.ocean_slug, other_pool_slugs=other_pool_slugs, depth=args.depth)
