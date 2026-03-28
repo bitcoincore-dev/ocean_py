@@ -248,9 +248,9 @@ def compare_pool_losses(ocean_slug, other_pool_slugs, depth, args):
         comparisons_made = 0
         TIME_DIFFERENCE_THRESHOLD = 3600 # 1 hour in seconds, adjust as needed
 
-        print(f"{'OCEAN':^49} | {f'{other_pool_slug.upper()}':^51}") # New header line
-        print(f"{'Height':<8} | {'Time(UTC)':<10} | {'Loss($)':<10} | {'Reward($)':<12} | {'Height':<8} | {'Time(UTC)':<10} | {'Reward($)':<12} | {'Est. Loss($)':<12}")
-        print("-" * 103)
+        print(f"{'OCEAN':^47} | {f'{other_pool_slug.upper()}':^47}") # New header line
+        print(f"{'Height':<8} | {'Time(UTC)':<10} | {'Loss($)':<10} | {'Reward($)':<10} | {'Height':<8} | {'Time(UTC)':<10} | {'Reward($)':<10} | {'Est. Loss($)':<10}")
+        print("-" * 97)
 
         for ocean_block in ocean_processed_data:
             if ocean_block['loss_sats'] > 0 and ocean_block['expected_reward'] > 0:
@@ -290,7 +290,7 @@ def compare_pool_losses(ocean_slug, other_pool_slugs, depth, args):
                     ocean_actual_usd = (ocean_block['actual_reward'] / 100_000_000) * ocean_block['btc_usd']
                     other_pool_actual_usd = (closest_other_block['actual_reward'] / 100_000_000) * closest_other_block['btc_usd']
                     
-                    print(f"{ocean_block['height']:<8} | {ocean_block_timestamp:<10} | {ocean_block['loss_usd']:<10.2f} | {ocean_actual_usd:<12.2f} | {closest_other_block['height']:<8} | {closest_other_block.get('timestamp', 0):<10} | {other_pool_actual_usd:<12.2f} | {other_pool_estimated_loss_usd:<12.2f}")
+                    print(f"{ocean_block['height']:<8} | {ocean_block_timestamp:<10} | {ocean_block['loss_usd']:<10.2f} | {ocean_actual_usd:<10.2f} | {closest_other_block['height']:<8} | {closest_other_block.get('timestamp', 0):<10} | {other_pool_actual_usd:<10.2f} | {other_pool_estimated_loss_usd:<10.2f}")
 
         print("-" * 103)
         print(f"TOTAL ESTIMATED CUMULATIVE LOSS for {other_pool_slug.upper()}: ${estimated_other_pool_loss_usd:,.2f} ({comparisons_made} blocks compared)")
