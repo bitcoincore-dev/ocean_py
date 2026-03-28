@@ -210,7 +210,7 @@ def compare_pool_losses(ocean_slug, other_pool_slugs, depth):
         TIME_DIFFERENCE_THRESHOLD = 3600 # 1 hour in seconds, adjust as needed
 
         print(f"\nEstimating loss for {other_pool_slug.upper()} based on {ocean_slug.upper()} rules...")
-        print(f"\n{'Ocean Height':<12} | {'Ocean TS':<10} | {'Ocean Loss($)':<14} | {'Other Height':<12} | {'Other TS':<10} | {'Est. Loss($)':<14}")
+        print(f"\n{'Ocean Height':<12} | {'Ocean TS':<10} | {'Ocean Loss($)':<14} | {'Ocean Actual ($)':<16} | {'Other Height':<12} | {'Other TS':<10} | {'Other Pool Actual ($)':<22} | {'Est. Loss($)':<14}")
         print("-" * 90)
 
         for ocean_block in ocean_processed_data:
@@ -248,7 +248,10 @@ def compare_pool_losses(ocean_slug, other_pool_slugs, depth):
                     other_pool_estimated_loss_usd = (other_pool_estimated_loss_sats / 100_000_000) * closest_other_block['btc_usd']
                     estimated_other_pool_loss_usd += other_pool_estimated_loss_usd
                     comparisons_made += 1
-                    print(f"{ocean_block['height']:<12} | {ocean_block_timestamp:<10} | {ocean_block['loss_usd']:<14.2f} | {closest_other_block['height']:<12} | {closest_other_block.get('timestamp', 0):<10} | {other_pool_estimated_loss_usd:<14.2f}")
+                    ocean_actual_usd = (ocean_block['actual_reward'] / 100_000_000) * ocean_block['btc_usd']
+                    other_pool_actual_usd = (closest_other_block['actual_reward'] / 100_000_000) * closest_other_block['btc_usd']
+                    
+                    print(f"{ocean_block['height']:<12} | {ocean_block_timestamp:<10} | {ocean_block['loss_usd']:<14.2f} | {ocean_actual_usd:<12.2f} | {closest_other_block['height']:<12} | {closest_other_block.get('timestamp', 0):<10} | {other_pool_actual_usd:<22.2f} | {other_pool_estimated_loss_usd:<14.2f}")
 
         print("-" * 90)
         print(f"TOTAL ESTIMATED CUMULATIVE LOSS for {other_pool_slug.upper()} (based on {ocean_slug.upper()} rules): ${estimated_other_pool_loss_usd:,.2f} ({comparisons_made} blocks compared)")
