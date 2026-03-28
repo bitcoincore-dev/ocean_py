@@ -141,10 +141,11 @@ async fn fetch_all_ocean_blocks_rust(depth_limit: usize) -> Result<()> {
         };
         let loss_sats = expected_reward.saturating_sub(actual_reward);
 
-        let timestamp = b.timestamp as i64;
+        let _timestamp = b.timestamp as i64;
 
         let btc_usd = {
             let price_timestamp = b.timestamp as i64;
+            #[allow(unused_assignments)]
             let mut closest_price: Option<f64> = None;
 
             match sorted_timestamps.binary_search(&price_timestamp) {
@@ -153,6 +154,7 @@ async fn fetch_all_ocean_blocks_rust(depth_limit: usize) -> Result<()> {
                                                      .and_then(|&ts| price_lookup_map.get(&ts).copied());
                 }
                 Err(insert_idx) => {
+                    #[allow(unused_assignments)]
                     let mut best_diff = i64::MAX;
                     let mut best_ts: Option<i64> = None;
 

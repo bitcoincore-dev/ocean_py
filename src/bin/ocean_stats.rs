@@ -4,18 +4,17 @@ use anyhow::{Result, Context};
 use serde_json::Value;
 use std::env;
 
-// Structs for partial deserialization if needed, otherwise use Value for flexibility
+#[allow(dead_code)]
 #[derive(Debug, Deserialize)]
 struct PoolDetails {
-    // Assuming some fields, but using Value for the rest
     #[serde(flatten)]
     data: Value,
 }
 
+#[allow(dead_code)]
 #[derive(Debug, Deserialize)]
 struct Block {
     height: u64,
-    // We'll just take the height for display, rest can be Value if not used
     #[serde(flatten)]
     data: Value,
 }
