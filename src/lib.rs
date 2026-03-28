@@ -53,13 +53,13 @@ pub mod models {
 }
 
 pub mod utils {
-    use anyhow::{Result, anyhow};
+    use anyhow::Result;
     use std::collections::HashMap;
     use tokio::io::AsyncWriteExt;
     use crate::models::HistoricalPriceData;
     use crate::MIRRORS;
     use reqwest::Client;
-    use serde_json::Value;
+
     use tokio::time::Duration;
 
     pub async fn fetch_full_historical_prices_rust() -> Result<HashMap<i64, f64>> {

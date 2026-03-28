@@ -5,7 +5,7 @@ use tokio::io::AsyncWriteExt; // Re-added this import
 use indicatif::{ProgressBar, ProgressStyle};
 use std::sync::Arc;
 use dashmap::DashMap;
-use serde_json::Value;
+
 use ocean_loss_estimator_rs::models::{Block, BlockExtras};
 use ocean_loss_estimator_rs::utils::fetch_from_mirror;
 
