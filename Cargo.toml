@@ -11,6 +11,8 @@ serde = { version = "1.0.198", features = ["derive"] }
 serde_json = "1.0.116"
 chrono = { version = "0.4.37", features = ["serde"] }
 anyhow = "1.0.82"
+dashmap = "5.5.0"
+indicatif = "0.17.8"
 
 [[bin]]
 name = "check_api_stability"
@@ -23,3 +25,7 @@ path = "src/bin/fetch_pools.rs"
 [[bin]]
 name = "fetch_prices"
 path = "src/bin/fetch_prices.rs"
+
+[[bin]]
+name = "ocean_concurrent"
+path = "src/bin/ocean_concurrent.rs"
