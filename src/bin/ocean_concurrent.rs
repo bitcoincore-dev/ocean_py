@@ -1,12 +1,32 @@
 use anyhow::Result;
+use serde::Serialize;
 use tokio::time::{sleep, Duration};
 use tokio::io::AsyncWriteExt; // Add this import
 use std::sync::Arc;
 use dashmap::DashMap;
 use indicatif::{ProgressBar, ProgressStyle};
 
-use ocean_loss_estimator_rs::models::{Block, BlockExtras, HistoricalPriceData, PriceData};
+const MIRRORS: &[&str] = &[
+    "https://mempool.space",
+    "https://mempool.sweetsats.io"
+];
+
+use ocean_loss_estimator_rs::models::{Block, BlockExtras};
 use ocean_loss_estimator_rs::utils::fetch_from_mirror;
+
+
+
+
+
+#[derive(Debug, Serialize, Clone)]
+struct ProcessedBlockOutput {
+    height: u64,
+    match_rate: f64,
+    loss_usd: f64,
+    price: f64,
+}
+
+
 async fn get_pool_stats_rust() -> Result<u64> {
     let response = fetch_from_mirror("/api/v1/mining/pool/ocean", 0).await?;
     let block_count = response.get("pool_stats")
