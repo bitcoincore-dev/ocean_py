@@ -22,7 +22,7 @@ struct Args {
     #[clap(long)]
     verbose: bool,
 
-    /// Force an update of prices.rs.json from mempool.space, regardless of whether it exists.
+    /// Force an update of prices.json from mempool.space, regardless of whether it exists.
     #[clap(long)]
     update: bool,
 }
@@ -377,7 +377,7 @@ async fn main() -> Result<()> {
     let args = Args::parse();
 
     let price_lookup_map: HashMap<i64, f64>;
-    let output_file = "prices.rs.json";
+    let output_file = "prices.json";
 
     if args.update {
         if args.verbose {
