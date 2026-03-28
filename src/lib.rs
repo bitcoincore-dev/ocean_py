@@ -400,8 +400,11 @@ pub async fn fetch_total_loss_ocean_report_rust() -> Result<()> {
     // Save to file
     let output_file = "ocean_historical_report.json";
     let json_string = serde_json::to_string_pretty(&processed_data)?;
-    let mut file = tokio::fs::File::create(output_file).await?;
-    file.write_all(json_string.as_bytes()).await?;
+    tokio::fs::File::create(output_file)
+        .await?
+        .write_all(json_string.as_bytes())
+        .await?;
+    println!("Historical report saved to: {}", output_file);
 
     Ok(())
 }
