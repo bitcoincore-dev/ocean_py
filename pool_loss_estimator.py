@@ -234,7 +234,7 @@ def compare_pool_losses(ocean_slug, other_pool_slugs, depth, args):
         if other_pool_slug == ocean_slug:
             print(f"\nSkipping loss estimation for {ocean_slug.upper()} as it is the reference pool.")
             continue
-        print(f"\nAnalyzing {other_pool_slug.upper()} (limited to {actual_ocean_depth} blocks)...")
+        print(f"\nAnalyzing {other_pool_slug.upper()} (limited to {actual_ocean_depth} blocks)...\n")
         # Use the actual_ocean_depth for other pools
         other_pool_processed_data = analyze_pool_loss(other_pool_slug, actual_ocean_depth, args)
         if other_pool_processed_data is None:
