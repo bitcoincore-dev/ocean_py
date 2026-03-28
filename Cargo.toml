@@ -29,3 +29,7 @@ path = "src/bin/fetch_prices.rs"
 [[bin]]
 name = "ocean_concurrent"
 path = "src/bin/ocean_concurrent.rs"
+
+[[bin]]
+name = "ocean_health"
+path = "src/bin/ocean_health.rs"
