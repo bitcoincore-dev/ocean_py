@@ -14,8 +14,8 @@ struct Args {
     depth: usize,
 }
 
-use ocean_loss_estimator_rs::models::{Block, HistoricalPriceData, ProcessedBlockData};
-use ocean_loss_estimator_rs::utils::fetch_full_historical_prices_rust;
+use ocean_loss_estimator_rs::models::{Block, HistoricalPriceData, ProcessedBlockData, CoinbaseInfo};
+use ocean_loss_estimator_rs::utils::{fetch_full_historical_prices_rust, fetch_block_transactions_rust};
 
 
 async fn fetch_all_ocean_blocks_rust(depth_limit: usize) -> Result<()> {
@@ -78,7 +78,7 @@ async fn fetch_all_ocean_blocks_rust(depth_limit: usize) -> Result<()> {
 {:<10} | {:<8} | {:<12} | {:<10}", "Height", "Health", "Loss(丰)", "Loss($)");
     println!("{:->50}", "");
 
-    for b in &all_blocks {
+    for (i, b) in all_blocks.iter().enumerate() {
         let match_rate = b.extras.as_ref().and_then(|e| e.match_rate).unwrap_or(0.0).round();
         let actual_reward = b.extras.as_ref().and_then(|e| e.reward).unwrap_or(0);
 
@@ -144,6 +144,21 @@ async fn fetch_all_ocean_blocks_rust(depth_limit: usize) -> Result<()> {
         if processed_data.len() <= depth_limit {
             println!("{:<10} | {:>6.2}% | {:<12} | ${:>8.2}",
                      processed_block.height, processed_block.health, processed_block.loss_sats, processed_block.loss_usd);
+        }
+
+        // Fetch and display coinbase info for the first 5 blocks
+        if i < 5 {
+            match fetch_block_transactions_rust(&b.id).await {
+                Ok(coinbase_info) => {
+                    println!("    Block {}: Miner: {}", b.height, coinbase_info.miner_name.unwrap_or_else(|| "Unknown Miner".to_string()));
+                    if !coinbase_info.op_return_data.is_empty() {
+                        for op_ret in coinbase_info.op_return_data {
+                            println!("        OP_RETURN: {}", op_ret);
+                        }
+                    }
+                },
+                Err(e) => eprintln!("    Error fetching coinbase info for block {}: {}", b.height, e),
+            }
         }
     }
 

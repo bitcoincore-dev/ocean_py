@@ -1,3 +1,5 @@
+extern crate hex;
+
 // Reusable functions and structs for the ocean_py project.
 
 const MIRRORS: &[&str] = &[
@@ -7,6 +9,7 @@ const MIRRORS: &[&str] = &[
 
 pub mod models {
     use serde::{Deserialize, Serialize};
+    use serde_json::Value;
 
     #[derive(Debug, Deserialize, Serialize, Clone)]
     pub struct PriceData {
@@ -45,22 +48,93 @@ pub mod models {
         pub btc_usd: f64,
     }
 
-    #[derive(Debug, Deserialize)]
+    #[derive(Debug, Deserialize, Serialize, Clone)]
     pub struct PoolData {
         #[serde(rename = "avgBlockHealth")]
         pub avg_block_health: Option<f64>,
     }
+
+    #[derive(Debug, Deserialize, Serialize, Clone)]
+    pub struct Vout {
+        pub value: u64,
+        pub scriptpubkey_asm: String,
+        pub scriptpubkey_type: String,
+    }
+
+    #[derive(Debug, Deserialize, Serialize, Clone)]
+    pub struct Vin {
+        #[serde(rename = "scriptSig")]
+        pub script_sig: Option<String>,
+        #[serde(rename = "scriptSig_asm")]
+        pub script_sig_asm: Option<String>,
+        pub sequence: u32,
+        pub witness: Option<Vec<String>>,
+        // Other fields can be added if needed, but for coinbase, scriptSig is key
+    }
+
+    #[derive(Debug, Deserialize, Serialize, Clone)]
+    pub struct Transaction {
+        pub txid: String,
+        pub version: u32,
+        pub locktime: u32,
+        pub vin: Vec<Vin>,
+        pub vout: Vec<Vout>,
+        pub size: u32,
+        pub weight: u32,
+        pub fee: u64,
+        pub status: Option<Value>, // Using Value as status can be complex
+    }
+
+    #[derive(Debug, Deserialize, Serialize, Clone)]
+    pub struct BlockDetails {
+        pub id: String,
+        pub height: u64,
+        pub timestamp: u64,
+        pub tx_count: u32,
+        pub size: u32,
+        pub weight: u32,
+        pub version: u32,
+        pub merkle_root: String,
+        pub nonce: u32,
+        pub bits: u32,
+        pub difficulty: f64,
+        pub parent: String,
+        pub previousblockhash: String,
+        pub nextblockhash: Option<String>,
+        pub coinbase_alpha: String,
+        pub witness_commitment: Option<String>,
+        pub median_fee: Option<u64>,
+        pub fee_range: Option<Vec<u64>>,
+        pub reward: Option<u64>,
+        pub avg_fee_rate: Option<f64>,
+        pub avg_tx_size: Option<f64>,
+
+        // Additional fields from the mempool.space /block/:hash endpoint
+        pub utxo_set_change: Option<i64>,
+        pub utxo_set_size: Option<u64>,
+        pub total_fee: Option<u64>,
+        pub n_outputs: Option<u64>,
+        pub total_output: Option<u64>,
+    }
+
+    #[derive(Debug, Serialize, Clone)]
+    pub struct CoinbaseInfo {
+        pub miner_name: Option<String>,
+        pub op_return_data: Vec<String>,
+    }
 }
 
 pub mod utils {
-    use anyhow::Result;
+    use anyhow::{Result, anyhow};
     use std::collections::HashMap;
     use tokio::io::AsyncWriteExt;
-    use crate::models::HistoricalPriceData;
+    use crate::models::{HistoricalPriceData, Transaction, CoinbaseInfo};
     use crate::MIRRORS;
     use reqwest::Client;
-
+    use serde_json::Value;
     use tokio::time::Duration;
+    use regex::Regex;
+    use anyhow::Context;
 
     pub async fn fetch_full_historical_prices_rust() -> Result<HashMap<i64, f64>> {
         let api_url = "https://mempool.space/api/v1/historical-price?currency=USD&timestamp=0";
@@ -111,6 +185,92 @@ pub mod utils {
                 Err(_) => {},
             }
         }
-        Err(anyhow::anyhow!("Failed to fetch from all mirrors for path: {}", path))
+        Err(anyhow!("Failed to fetch from all mirrors for path: {}", path))
+    }
+
+    pub async fn fetch_block_transactions_rust(block_hash: &str) -> Result<CoinbaseInfo> {
+        let path = format!("/api/block/{}/txs", block_hash);
+        let txs_value = fetch_from_mirror(&path, 0, 10).await?;
+
+        let transactions: Vec<Transaction> = serde_json::from_value(txs_value)?;
+
+        if transactions.is_empty() {
+            return Err(anyhow!("No transactions found for block {}", block_hash));
+        }
+
+        // The first transaction is typically the coinbase transaction
+        let coinbase_tx = &transactions[0];
+
+        // Extract miner name from scriptSig (if available)
+        let miner_name = coinbase_tx.vin.get(0)
+            .and_then(|vin| vin.script_sig_asm.as_ref())
+            .and_then(|script_sig_asm| {
+                let re = match Regex::new(r"OP_PUSHBYTES_\d+ ([0-9a-fA-F]+)") {
+                    Ok(r) => r,
+                    Err(_) => return None,
+                };
+                for cap in re.captures_iter(script_sig_asm) {
+                    let hex_data = &cap[1];
+                    if let Ok(bytes) = hex::decode(hex_data) {
+                        let decoded_string = String::from_utf8_lossy(&bytes);
+
+                        // Heuristic: try to find common miner patterns in the decoded string
+                        if decoded_string.contains("Ocean") {
+                            return Some("Ocean Mining".to_string());
+                        }
+                        if decoded_string.contains("AntPool") {
+                            return Some("AntPool".to_string());
+                        }
+                        if decoded_string.contains("Peak Mining") {
+                            return Some("Peak Mining".to_string());
+                        }
+                        if decoded_string.contains("F2Pool") {
+                            return Some("F2Pool".to_string());
+                        }
+
+                    }
+                }
+                None
+            });
+
+        // Extract OP_RETURN data
+        let mut op_return_data: Vec<String> = Vec::new();
+        let mut miner_name_from_op_return: Option<String> = None; // New variable
+
+        for vout in &coinbase_tx.vout {
+            if vout.scriptpubkey_type == "nulldata" && vout.scriptpubkey_asm.contains("OP_RETURN") {
+                op_return_data.push(vout.scriptpubkey_asm.clone());
+
+                // Try to extract miner name from OP_RETURN data
+                let re = match Regex::new(r"OP_PUSHBYTES_\d+ ([0-9a-fA-F]+)") {
+                    Ok(r) => r,
+                    Err(_) => return None,
+                };
+                for cap in re.captures_iter(&vout.scriptpubkey_asm) {
+                    let hex_data = &cap[1];
+                    if let Ok(bytes) = hex::decode(hex_data) {
+                        let decoded_string = String::from_utf8_lossy(&bytes);
+
+                        if decoded_string.contains("Ocean") {
+                            miner_name_from_op_return = Some("Ocean Mining".to_string());
+                            break; // Found it, no need to check further in this vout
+                        }
+                        if decoded_string.contains("Peak Mining") {
+                            miner_name_from_op_return = Some("Peak Mining".to_string());
+                            break;
+                        }
+                        // Add other OP_RETURN specific miner heuristics here if needed
+                    }
+                }
+            }
+        }
+
+        // Prioritize miner name from OP_RETURN if found, otherwise use scriptSig one
+        let final_miner_name = miner_name_from_op_return.or(miner_name);
+
+        Ok(CoinbaseInfo {
+            miner_name: final_miner_name,
+            op_return_data,
+        })
     }
 }
