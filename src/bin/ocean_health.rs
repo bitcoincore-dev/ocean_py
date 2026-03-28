@@ -1,6 +1,8 @@
-use reqwest;
-use serde::Deserialize;
 use anyhow::Result;
+use serde::Deserialize;
+use ocean_loss_estimator_rs::models::Block;
+use ocean_loss_estimator_rs::utils::fetch_from_mirror;
+use serde_json::Value;
 
 #[derive(Debug, Deserialize)]
 struct PoolData {
@@ -9,21 +11,19 @@ struct PoolData {
     // Add other fields from pool API if needed
 }
 
-use ocean_loss_estimator_rs::models::{Block, BlockExtras};
-
-
-
 async fn get_ocean_health_rust() -> Result<()> {
     let slug = "ocean";
-    let pool_url = format!("https://mempool.space/api/v1/mining/pool/{}", slug);
-    let blocks_url = format!("https://mempool.space/api/v1/mining/pool/{}/blocks", slug);
+    let pool_path = format!("/api/v1/mining/pool/{}", slug);
+    let blocks_path = format!("/api/v1/mining/pool/{}/blocks", slug);
 
     // 1. Get Aggregate Pool Health
-    let pool_res = reqwest::get(&pool_url).await?.json::<PoolData>().await?;
+    let pool_data: Value = fetch_from_mirror(&pool_path, 0).await?;
+    let pool_res: PoolData = serde_json::from_value(pool_data)?;
     let avg_health = pool_res.avg_block_health.unwrap_or_default();
 
     // 2. Get Individual Block Health (Match Rate)
-    let blocks_res = reqwest::get(&blocks_url).await?.json::<Vec<Block>>().await?;
+    let blocks_data: Value = fetch_from_mirror(&blocks_path, 0).await?;
+    let blocks_res: Vec<Block> = serde_json::from_value(blocks_data)?;
 
     println!("--- OCEAN Pool Health Metrics ---");
     println!("Aggregate Pool Health (avgBlockHealth): {}%", avg_health);
