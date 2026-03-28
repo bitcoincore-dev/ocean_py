@@ -39,11 +39,12 @@ def fetch_mempool_pools(time_period='1y', limit=None):
         print(f"Error fetching pools from mempool.space: {e}")
         return []
 
-def fetch_full_historical_prices():
+def fetch_full_historical_prices(args):
     api_url = "https://mempool.space/api/v1/historical-price?currency=USD&timestamp=0"
     output_file = "prices.json"
 
-    print(f"--- Starting Full Historical BTC Price Fetch from {api_url} ---")
+    if args.verbose:
+        print(f"--- Starting Full Historical BTC Price Fetch from {api_url} ---")
 
     try:
         response = requests.get(api_url, timeout=30)
@@ -57,7 +58,8 @@ def fetch_full_historical_prices():
 
         with open(output_file, "w") as f:
             json.dump(historical_data, f, indent=4)
-        print(f"Full historical prices saved to: {output_file}")
+        if args.verbose:
+            print(f"Full historical prices saved to: {output_file}")
 
     except requests.exceptions.Timeout:
         print("Error: The request timed out.")
@@ -72,7 +74,7 @@ def fetch_full_historical_prices():
         print(f"An unexpected error occurred: {e}")
         sys.exit(1)
 
-def analyze_pool_loss(pool_slug, depth=None):
+def analyze_pool_loss(pool_slug, depth, args):
     base_blocks_url = f"https://mempool.space/api/v1/mining/pool/{pool_slug}/blocks"
 
     all_blocks = []
@@ -80,21 +82,30 @@ def analyze_pool_loss(pool_slug, depth=None):
 
     try:
         # Load historical prices from prices.json
-        try:
+        if args.update:
+            fetch_full_historical_prices(args)
+            # After forcing update, load the new prices
             with open("prices.json", "r") as f:
                 historical_data = json.load(f)
             price_lookup = {item['time']: item['USD'] for item in historical_data.get('prices', [])}
             sorted_timestamps = sorted(price_lookup.keys())
-            print(f"Loaded {len(price_lookup)} historical prices from prices.json for {pool_slug}")
-        except FileNotFoundError:
-            print(f"prices.json not found for {pool_slug}. Attempting to fetch full historical prices...")
-            fetch_full_historical_prices() # Call the new function to fetch prices
-            # After fetching, try loading again
-            with open("prices.json", "r") as f:
-                historical_data = json.load(f)
-            price_lookup = {item['time']: item['USD'] for item in historical_data.get('prices', [])}
-            sorted_timestamps = sorted(price_lookup.keys())
-            print(f"Loaded {len(price_lookup)} historical prices from prices.json (after fetch) for {pool_slug}")
+            print(f"Loaded {len(price_lookup)} historical prices from updated prices.json for {pool_slug}")
+        else:
+            try:
+                with open("prices.json", "r") as f:
+                    historical_data = json.load(f)
+                price_lookup = {item['time']: item['USD'] for item in historical_data.get('prices', [])}
+                sorted_timestamps = sorted(price_lookup.keys())
+                print(f"Loaded {len(price_lookup)} historical prices from prices.json for {pool_slug}")
+            except FileNotFoundError:
+                print(f"prices.json not found for {pool_slug}. Attempting to fetch full historical prices...")
+                fetch_full_historical_prices(args) # Call the new function to fetch prices
+                # After fetching, try loading again
+                with open("prices.json", "r") as f:
+                    historical_data = json.load(f)
+                price_lookup = {item['time']: item['USD'] for item in historical_data.get('prices', [])}
+                sorted_timestamps = sorted(price_lookup.keys())
+                print(f"Loaded {len(price_lookup)} historical prices from prices.json (after fetch) for {pool_slug}")
 
         print(f"--- Starting Full History Crawl for {pool_slug.upper()} ---")
 
@@ -177,33 +188,48 @@ def analyze_pool_loss(pool_slug, depth=None):
         print(f"Error analyzing pool {pool_slug}: {e}")
         return None # Return None to indicate failure, let main handle sys.exit
 
-def compare_pool_losses(ocean_slug, other_pool_slugs, depth):
+def print_ocean_health_table(ocean_slug, ocean_processed_data):
+    print(f"\n--- OCEAN Health Report for {ocean_slug.upper()} ---")
+    print(f"{'Height':<8} | {'TS':<10} | {'Exp. Reward (Sats)':<18} | {'Act. Reward (Sats)':<18} | {'Match Rate (%)':<15} | {'Loss (Sats)':<12} | {'Loss (USD)':<12} | {'BTC/USD':<10}")
+    print("-" * 125) # Adjust length as needed
+
+    for block in ocean_processed_data:
+        print(f"{block['height']:<8} | {block.get('timestamp', 0):<10} | {block['expected_reward']:<18} | {block['actual_reward']:<18} | {block['health']:<15.2f} | {block['loss_sats']:<12} | {block['loss_usd']:<12.2f} | {block['btc_usd']:<10.2f}")
+    print("-" * 125)
+
+def compare_pool_losses(ocean_slug, other_pool_slugs, depth, args):
     if args.verbose:
         print(f"\n--- Comparing Losses: {ocean_slug.upper()} vs. {', '.join(p.upper() for p in other_pool_slugs)} ---")
 
     # 1. Analyze Ocean's actual losses
     if args.verbose:
         print(f"\nAnalyzing {ocean_slug.upper()}...")
-    ocean_processed_data = analyze_pool_loss(ocean_slug, depth)
+    ocean_processed_data = analyze_pool_loss(ocean_slug, depth, args)
     if ocean_processed_data is None:
         print(f"Failed to retrieve data for {ocean_slug.upper()}. Exiting.")
         sys.exit(1)
 
+    # Print Ocean's health table if verbose
+    if args.verbose:
+        print_ocean_health_table(ocean_slug, ocean_processed_data)
+
     # Determine the actual number of blocks fetched for Ocean
     actual_ocean_depth = len(ocean_processed_data)
-    print(f"Ocean analyzed {actual_ocean_depth} blocks.")
+    if args.verbose:
+        print(f"Ocean analyzed {actual_ocean_depth} blocks.")
 
     # Pre-sort Ocean data by timestamp for efficient searching later
     ocean_data_by_timestamp = sorted(ocean_processed_data, key=lambda x: x.get('timestamp', 0))
 
     # Calculate Ocean's total loss for reference
     ocean_total_loss_usd = sum(item['loss_usd'] for item in ocean_processed_data)
-    print(f"TOTAL CUMULATIVE LOSS for {ocean_slug.upper()}: ${ocean_total_loss_usd:,.2f}")
+    if args.verbose:
+        print(f"TOTAL CUMULATIVE LOSS for {ocean_slug.upper()}: ${ocean_total_loss_usd:,.2f}")
 
     for other_pool_slug in other_pool_slugs:
         print(f"\nAnalyzing {other_pool_slug.upper()} (limited to {actual_ocean_depth} blocks)...")
         # Use the actual_ocean_depth for other pools
-        other_pool_processed_data = analyze_pool_loss(other_pool_slug, actual_ocean_depth)
+        other_pool_processed_data = analyze_pool_loss(other_pool_slug, actual_ocean_depth, args)
         if other_pool_processed_data is None:
             print(f"Failed to retrieve data for {other_pool_slug.upper()}. Skipping.")
             continue
@@ -288,6 +314,11 @@ if __name__ == "__main__":
         action="store_true",
         help="Enable verbose output for debugging and detailed progress."
     )
+    parser.add_argument(
+        "--update",
+        action="store_true",
+        help="Force an update of prices.json from mempool.space, regardless of whether it exists."
+    )
     args = parser.parse_args()
 
     if args.other_pools:
@@ -303,4 +334,4 @@ if __name__ == "__main__":
             if args.verbose:
                 print(f"Using fetched pools: {', '.join(other_pool_slugs)}")
 
-    compare_pool_losses(ocean_slug=args.ocean_slug, other_pool_slugs=other_pool_slugs, depth=args.depth)
+    compare_pool_losses(ocean_slug=args.ocean_slug, other_pool_slugs=other_pool_slugs, depth=args.depth, args=args)
