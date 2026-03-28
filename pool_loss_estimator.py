@@ -194,7 +194,7 @@ def analyze_pool_loss(pool_slug, depth, args):
 
 def print_ocean_health_table(ocean_slug, ocean_processed_data):
     print(f"\n--- OCEAN Health Report for {ocean_slug.upper()} ---")
-    print(f"{'Height':<8} | {'TS':<10} | {'Exp. Reward':<11} | {'Act. Reward':<11} | {'Health (%)':<10} | {'Loss (Sats)':<11} | {'Loss (USD)':<12} | {'BTC/USD':<10}")
+    print(f"{'Height':<8} | {'TS':<10} | {'Exp. Reward':<11} | {'Reward ($)':<11} | {'Health (%)':<10} | {'Loss (Sats)':<11} | {'Loss (USD)':<12} | {'BTC/USD':<10}")
     print("-" * 104)
 
     for block in ocean_processed_data:
@@ -247,7 +247,7 @@ def compare_pool_losses(ocean_slug, other_pool_slugs, depth, args):
 
         print(f"\nEstimating loss for {other_pool_slug.upper()}...")
         print(f"{'OCEAN':^49} | {'OTHER':^51}") # New header line
-        print(f"{'Height':<8} | {'TS':<10} | {'Loss($)':<10} | {'Actual ($)':<12} | {'Height':<8} | {'TS':<10} | {'Actual ($)':<12} | {'Est. Loss($)':<12}")
+        print(f"{'Height':<8} | {'TS':<10} | {'Loss($)':<10} | {'Reward ($)':<12} | {'Height':<8} | {'TS':<10} | {'Reward ($)':<12} | {'Est. Loss($)':<12}")
         print("-" * 103)
 
         for ocean_block in ocean_processed_data:
