@@ -178,10 +178,12 @@ def analyze_pool_loss(pool_slug, depth=None):
         return None # Return None to indicate failure, let main handle sys.exit
 
 def compare_pool_losses(ocean_slug, other_pool_slugs, depth):
-    print(f"\n--- Comparing Losses: {ocean_slug.upper()} vs. {', '.join(p.upper() for p in other_pool_slugs)} ---")
+    if args.verbose:
+        print(f"\n--- Comparing Losses: {ocean_slug.upper()} vs. {', '.join(p.upper() for p in other_pool_slugs)} ---")
 
     # 1. Analyze Ocean's actual losses
-    print(f"\nAnalyzing {ocean_slug.upper()}...")
+    if args.verbose:
+        print(f"\nAnalyzing {ocean_slug.upper()}...")
     ocean_processed_data = analyze_pool_loss(ocean_slug, depth)
     if ocean_processed_data is None:
         print(f"Failed to retrieve data for {ocean_slug.upper()}. Exiting.")
