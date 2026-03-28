@@ -27,6 +27,7 @@ struct Block {
     extras: Option<BlockExtras>,
 }
 
+#[allow(dead_code)]
 #[derive(Debug, Deserialize, Serialize, Clone)]
 struct PriceData {
     #[serde(rename = "USD")]
@@ -113,7 +114,7 @@ async fn fetch_full_ocean_report_rust() -> Result<()> {
     // Processing with Historical Prices
     let price_cache: Arc<DashMap<i64, f64>> = Arc::new(DashMap::new());
     let mut join_set: tokio::task::JoinSet<Result<ProcessedBlockOutput, anyhow::Error>> = tokio::task::JoinSet::new();
-    let mut processed_data: Vec<ProcessedBlockOutput> = Vec::new();
+    let processed_data: Vec<ProcessedBlockOutput> = Vec::new();
     let mut total_loss_usd = 0.0;
 
     println!("
@@ -126,7 +127,7 @@ async fn fetch_full_ocean_report_rust() -> Result<()> {
         .progress_chars("#>- "));
     pb_process.set_message("Calculating Loss (USD)");
 
-    for (i, block) in all_blocks.into_iter().enumerate() {
+    for (_i, block) in all_blocks.into_iter().enumerate() {
         let cache_clone = price_cache.clone();
         join_set.spawn(async move {
             let timestamp = block.timestamp as i64;
@@ -142,6 +143,7 @@ async fn fetch_full_ocean_report_rust() -> Result<()> {
             };
             let loss_sats = expected_reward.saturating_sub(actual_reward);
 
+            #[allow(unused_assignments)]
             let mut hist_price = 0.0;
             if let Some(price) = cache_clone.get(&timestamp) {
                 hist_price = *price;

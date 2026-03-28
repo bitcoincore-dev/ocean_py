@@ -29,6 +29,7 @@ struct Block {
     extras: Option<BlockExtras>,
 }
 
+#[allow(dead_code)]
 #[derive(Debug, Deserialize, Serialize, Clone)]
 struct PriceData {
     time: i64,
@@ -36,6 +37,7 @@ struct PriceData {
     usd: f64,
 }
 
+#[allow(dead_code)]
 #[derive(Debug, Deserialize, Serialize, Clone)]
 struct HistoricalPriceData {
     prices: Vec<PriceData>,
