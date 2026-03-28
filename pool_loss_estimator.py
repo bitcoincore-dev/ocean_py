@@ -5,7 +5,7 @@ import sys
 import time
 import json
 
-def fetch_mempool_pools(time_period='1y'):
+def fetch_mempool_pools(time_period='1y', limit=None):
     api_url = f"https://mempool.space/api/v1/mining/pools/{time_period}"
     print(f"--- Fetching active pools from {api_url} ---")
     try:
@@ -26,6 +26,9 @@ def fetch_mempool_pools(time_period='1y'):
             return []
 
         pool_slugs = [pool.get('slug') for pool in pools_list if pool.get('slug')]
+        if limit and len(pool_slugs) > limit:
+            print(f"Limiting fetched pools to {limit}.")
+            pool_slugs = pool_slugs[:limit]
         print(f"Fetched {len(pool_slugs)} pools from mempool.space.")
         return pool_slugs
     except requests.exceptions.RequestException as e:
@@ -167,6 +170,10 @@ def compare_pool_losses(ocean_slug, other_pool_slugs, depth):
         print(f"Failed to retrieve data for {ocean_slug.upper()}. Exiting.")
         sys.exit(1)
 
+    # Determine the actual number of blocks fetched for Ocean
+    actual_ocean_depth = len(ocean_processed_data)
+    print(f"Ocean analyzed {actual_ocean_depth} blocks.")
+
     # Pre-sort Ocean data by timestamp for efficient searching later
     ocean_data_by_timestamp = sorted(ocean_processed_data, key=lambda x: x.get('timestamp', 0))
 
@@ -175,8 +182,9 @@ def compare_pool_losses(ocean_slug, other_pool_slugs, depth):
     print(f"TOTAL CUMULATIVE LOSS for {ocean_slug.upper()}: ${ocean_total_loss_usd:,.2f}")
 
     for other_pool_slug in other_pool_slugs:
-        print(f"\nAnalyzing {other_pool_slug.upper()}...")
-        other_pool_processed_data = analyze_pool_loss(other_pool_slug, depth)
+        print(f"\nAnalyzing {other_pool_slug.upper()} (limited to {actual_ocean_depth} blocks)...")
+        # Use the actual_ocean_depth for other pools
+        other_pool_processed_data = analyze_pool_loss(other_pool_slug, actual_ocean_depth)
         if other_pool_processed_data is None:
             print(f"Failed to retrieve data for {other_pool_slug.upper()}. Skipping.")
             continue
@@ -250,7 +258,7 @@ if __name__ == "__main__":
         other_pool_slugs = [slug.strip() for slug in args.other_pools.split(',') if slug.strip()]
     else:
         print("No --other-pools specified. Attempting to fetch active pools from mempool.space...")
-        other_pool_slugs = fetch_mempool_pools()
+        other_pool_slugs = fetch_mempool_pools(limit=args.depth)
         if not other_pool_slugs:
             print("Error: Could not fetch any pools from mempool.space. Please specify --other-pools manually.")
             sys.exit(1)
