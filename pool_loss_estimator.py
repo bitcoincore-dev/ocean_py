@@ -89,29 +89,29 @@ def analyze_pool_loss(pool_slug, depth, args):
         if args.update:
             fetch_full_historical_prices(args)
             # After forcing update, load the new prices
-            with open("prices.json", "r") as f:
+            with open("prices.py.json", "r") as f:
                 historical_data = json.load(f)
             price_lookup = {item['time']: item['USD'] for item in historical_data.get('prices', [])}
             sorted_timestamps = sorted(price_lookup.keys())
-            print(f"Loaded {len(price_lookup)} historical prices from updated prices.json for {pool_slug}")
+            print(f"Loaded {len(price_lookup)} historical prices from updated prices.py.json for {pool_slug}")
         else:
             try:
-                with open("prices.json", "r") as f:
+                with open("prices.py.json", "r") as f:
                     historical_data = json.load(f)
                 price_lookup = {item['time']: item['USD'] for item in historical_data.get('prices', [])}
                 sorted_timestamps = sorted(price_lookup.keys())
                 if args.verbose:
-                    print(f"Loaded {len(price_lookup)} historical prices from prices.json for {pool_slug}")
+                    print(f"Loaded {len(price_lookup)} historical prices from prices.py.json for {pool_slug}")
             except FileNotFoundError:
-                print(f"prices.json not found for {pool_slug}. Attempting to fetch full historical prices...")
+                print(f"prices.py.json not found for {pool_slug}. Attempting to fetch full historical prices...")
                 fetch_full_historical_prices(args) # Call the new function to fetch prices
                 # After fetching, try loading again
-                with open("prices.json", "r") as f:
+                with open("prices.py.json", "r") as f:
                     historical_data = json.load(f)
                 price_lookup = {item['time']: item['USD'] for item in historical_data.get('prices', [])}
                 sorted_timestamps = sorted(price_lookup.keys())
                 if args.verbose:
-                    print(f"Loaded {len(price_lookup)} historical prices from prices.json (after fetch) for {pool_slug}")
+                    print(f"Loaded {len(price_lookup)} historical prices from prices.py.json (after fetch) for {pool_slug}")
 
         if args.verbose:
             print(f"--- Starting Full History Crawl for {pool_slug.upper()} ---")
@@ -343,7 +343,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--update",
         action="store_true",
-        help="Force an update of prices.json from mempool.space, regardless of whether it exists."
+        help="Force an update of prices.py.json from mempool.space, regardless of whether it exists."
     )
     args = parser.parse_args()
 
