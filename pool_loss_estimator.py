@@ -249,7 +249,7 @@ def compare_pool_losses(ocean_slug, other_pool_slugs, depth, args):
         TIME_DIFFERENCE_THRESHOLD = 3600 # 1 hour in seconds, adjust as needed
 
         print(f"\nEstimating loss for {other_pool_slug.upper()}...")
-        print(f"{'OCEAN':^49} | {'OTHER':^51}") # New header line
+        print(f"{'OCEAN':^49} | {f'{other_pool_slug.upper()}':^51}") # New header line
         print(f"{'Height':<8} | {'Time(UTC)':<10} | {'Loss($)':<10} | {'Reward($)':<12} | {'Height':<8} | {'Time(UTC)':<10} | {'Reward($)':<12} | {'Est. Loss($)':<12}")
         print("-" * 103)
 
